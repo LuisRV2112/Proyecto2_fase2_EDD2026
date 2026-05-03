@@ -16,8 +16,8 @@ import javafx.scene.layout.*;
 import java.util.List;
 
 /**
- * Panel de transferencias entre sucursales.
- * Muestra la ruta Dijkstra, el ETA y el estado de las colas en tiempo real.
+ * Transferencias entre sucursales.
+ * Ruta Dijkstra, ETA y colas en tiempo real.
  */
 public class TransferView {
 
@@ -49,7 +49,7 @@ public class TransferView {
         box.setPadding(new Insets(16));
         box.setStyle("-fx-background-color:#181825;");
 
-        Label title = new Label("🚚 Nueva Transferencia");
+        Label title = new Label(" Nueva Transferencia");
         title.setStyle("-fx-text-fill:#cdd6f4; -fx-font-size:15px; -fx-font-weight:bold;");
 
         cbFrom = combo(); cbTo = combo();
@@ -58,13 +58,13 @@ public class TransferView {
         styleCombo(cbCriterion);
         tfBarcode = field("Código de barra del producto");
 
-        Button btnRefresh = btn("🔄 Actualizar sucursales", "#89b4fa");
+        Button btnRefresh = btn(" Actualizar sucursales", "#89b4fa");
         btnRefresh.setOnAction(e -> refreshCombos());
 
-        Button btnPreview = btn("👁 Ver Ruta", "#cba6f7");
+        Button btnPreview = btn(" Ver Ruta", "#cba6f7");
         btnPreview.setOnAction(e -> previewRoute());
 
-        Button btnSend = btn("🚀 Iniciar Transferencia", "#a6e3a1");
+        Button btnSend = btn(" Iniciar Transferencia", "#a6e3a1");
         btnSend.setStyle("-fx-background-color:#a6e3a1; -fx-text-fill:#1e1e2e; " +
                          "-fx-font-weight:bold; -fx-font-size:13px;");
         btnSend.setOnAction(e -> initiateTransfer());
@@ -101,8 +101,8 @@ public class TransferView {
         box.setPadding(new Insets(12));
         box.setStyle("-fx-background-color:#1e1e2e;");
 
-        // Tabla de transferencias
-        Label tTitle = new Label("📋 Historial de Transferencias");
+        
+        Label tTitle = new Label(" Historial de Transferencias");
         tTitle.setStyle("-fx-text-fill:#cdd6f4; -fx-font-size:13px; -fx-font-weight:bold;");
 
         tableTransfers = new TableView<>();
@@ -119,8 +119,8 @@ public class TransferView {
         tableTransfers.getColumns().addAll(cOrig, cDest, cProd, cETA, cPhase);
         tableTransfers.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
 
-        // Colas en tiempo real
-        Label qTitle = new Label("📦 Estado de Colas (tiempo real)");
+        
+        Label qTitle = new Label(" Estado de Colas (tiempo real)");
         qTitle.setStyle("-fx-text-fill:#cdd6f4; -fx-font-size:13px; -fx-font-weight:bold;");
 
         queuePanel = new VBox(6);
@@ -130,8 +130,8 @@ public class TransferView {
         qScroll.setStyle("-fx-background-color:#181825;");
         VBox.setVgrow(qScroll, Priority.ALWAYS);
 
-        // Log de eventos
-        Label lTitle = new Label("📜 Log de simulación");
+        // Log
+        Label lTitle = new Label(" Log de simulación");
         lTitle.setStyle("-fx-text-fill:#cdd6f4; -fx-font-size:13px; -fx-font-weight:bold;");
         taLog = new TextArea();
         taLog.setEditable(false);
@@ -150,11 +150,11 @@ public class TransferView {
         Transfer.Criterion criterion = criterion();
         List<String> route = manager.getGraph().dijkstra(from, to, criterion);
         if (route.isEmpty()) {
-            taRoute.setText("❌ No existe ruta entre " + from + " y " + to);
+            taRoute.setText(" No existe ruta entre " + from + " y " + to);
             lblETA.setText("ETA: —"); lblCost.setText("Costo: —"); return;
         }
         double[] costs = manager.getGraph().routeCost(route);
-        StringBuilder sb = new StringBuilder("🗺 Ruta óptima:\n");
+        StringBuilder sb = new StringBuilder(" Ruta óptima:\n");
         for (int i = 0; i < route.size(); i++) {
             Branch b = manager.getBranch(route.get(i));
             String name = b != null ? b.getName() : route.get(i);
@@ -212,13 +212,13 @@ public class TransferView {
 
             VBox branchBox = new VBox(4);
             branchBox.setStyle("-fx-background-color:#313244; -fx-padding:6; -fx-background-radius:6;");
-            Label bLabel = new Label("🏪 " + branchName);
+            Label bLabel = new Label(" " + branchName);
             bLabel.setStyle("-fx-text-fill:#cdd6f4; -fx-font-weight:bold;");
 
             HBox queues = new HBox(8,
-                queueVBox("📥 Ingreso",  bq.ingreso.size()),
-                queueVBox("🔄 Traspaso", bq.traspaso.size()),
-                queueVBox("📤 Salida",   bq.salida.size())
+                queueVBox(" Ingreso",  bq.ingreso.size()),
+                queueVBox(" Traspaso", bq.traspaso.size()),
+                queueVBox(" Salida",   bq.salida.size())
             );
             branchBox.getChildren().addAll(bLabel, queues);
             queuePanel.getChildren().add(branchBox);

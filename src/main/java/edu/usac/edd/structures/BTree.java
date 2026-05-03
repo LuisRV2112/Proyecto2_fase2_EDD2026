@@ -4,10 +4,10 @@ import edu.usac.edd.model.Product;
 import java.util.function.Consumer;
 
 /**
- * Árbol B de orden T=3.
- * Clave: fecha de caducidad "YYYY-MM-DD" (comparación lexicográfica).
- * Big-O: búsqueda/inserción/eliminación O(T·log_T n).
- *        Rango: O(T·log_T n + k).
+ * B-Tree, T=3, por fecha de caducidad.
+
+ * Big-O: busca/ins/elim O(T·log_T n).
+ * Rango: O(T·log_T n + k).
  */
 public class BTree {
 

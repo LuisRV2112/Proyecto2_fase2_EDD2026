@@ -3,13 +3,9 @@ package edu.usac.edd.structures;
 import edu.usac.edd.model.Product;
 
 /**
- * Cola FIFO implementada desde cero.
- * Usada para simular las 3 etapas de despacho en cada sucursal:
- *   - Cola de ingreso
- *   - Cola de preparación de traspaso
- *   - Cola de salida
+ * Queue FIFO para simulación de despacho.
  *
- * Big-O: enqueue O(1), dequeue O(1), peek O(1).
+ * Big-O: enqueue/dequeue/peek O(1).
  */
 public class Queue {
 
@@ -27,7 +23,7 @@ public class Queue {
     public Queue(String label) { this.label = label; }
     public Queue()             { this("Cola"); }
 
-    /** Enqueue al final — O(1) */
+    /** Enqueue O(1). */
     public void enqueue(Product p) {
         Node n = new Node(p);
         if (tail != null) tail.next = n;
@@ -36,7 +32,7 @@ public class Queue {
         size++;
     }
 
-    /** Dequeue del frente — O(1) */
+    /** Dequeue O(1). */
     public Product dequeue() {
         if (head == null) return null;
         Product p = head.data;
@@ -46,7 +42,7 @@ public class Queue {
         return p;
     }
 
-    /** Peek sin extraer — O(1) */
+    /** Peek O(1). */
     public Product peek() {
         return head != null ? head.data : null;
     }
@@ -56,7 +52,7 @@ public class Queue {
     public String  getLabel(){ return label; }
     public Node    getHead() { return head; }
 
-    /** Elimina un producto específico por barcode — O(n) */
+    /** Elimina por barcode O(n). */
     public boolean remove(String barcode) {
         Node prev = null, cur = head;
         while (cur != null) {

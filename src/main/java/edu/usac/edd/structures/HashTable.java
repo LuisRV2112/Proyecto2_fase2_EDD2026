@@ -4,9 +4,9 @@ import edu.usac.edd.model.Product;
 import java.util.function.Consumer;
 
 /**
- * Tabla Hash con encadenamiento (chaining).
- * Clave: código de barra (barcode) — único por producto.
- * Función hash: djb2.
+ * HashTable con encadenamiento.
+ * Clave: barcode (único).
+ * Hash: djb2.
  *
  * Big-O:
  *   Inserción : O(1) amortizado
@@ -33,7 +33,7 @@ public class HashTable {
         this.table    = new Entry[capacity];
     }
 
-    /** djb2 hash sobre el barcode */
+    /** Hash djb2. */
     private int hash(String key) {
         long h = 5381;
         for (char c : key.toCharArray())
@@ -41,7 +41,7 @@ public class HashTable {
         return (int)(Math.abs(h) % capacity);
     }
 
-    /** Inserción — O(1) amortizado. Retorna false si ya existe. */
+    /** Insercion O(1). Retorna false si ya existe. */
     public boolean insert(Product p) {
         int idx = hash(p.getBarcode());
         Entry cur = table[idx];
@@ -56,7 +56,7 @@ public class HashTable {
         return true;
     }
 
-    /** Búsqueda por barcode — O(1) promedio */
+    /** Busqueda O(1) promedio. */
     public Product search(String barcode) {
         int idx = hash(barcode);
         Entry cur = table[idx];
@@ -67,7 +67,7 @@ public class HashTable {
         return null;
     }
 
-    /** Eliminación — O(1) promedio */
+    /** Eliminacion O(1) promedio. */
     public boolean remove(String barcode) {
         int idx = hash(barcode);
         Entry prev = null, cur = table[idx];
@@ -83,7 +83,7 @@ public class HashTable {
         return false;
     }
 
-    /** Iteración sobre todos los elementos */
+    /** Iteracion. */
     public void forEach(Consumer<Product> action) {
         for (int i = 0; i < capacity; i++) {
             Entry cur = table[i];
@@ -99,7 +99,7 @@ public class HashTable {
     public double loadFactor() { return (double) count / capacity; }
     public int    capacity()   { return capacity; }
 
-    /** Devuelve el número de colisiones en el bucket idx */
+    /** Longitud de cadena en bucket idx. */
     public int chainLength(int idx) {
         int len = 0;
         Entry cur = table[idx];
@@ -109,10 +109,7 @@ public class HashTable {
 
     public Entry[] getTable() { return table; }
 
-    /**
-     * Genera una representación DOT del estado actual de la tabla hash.
-     * Muestra solo los buckets ocupados con sus cadenas de colisión.
-     */
+    /** Genera DOT de la tabla hash. */
     public String toDot() {
         StringBuilder sb = new StringBuilder();
         sb.append("digraph HashTable {\n");
@@ -120,13 +117,13 @@ public class HashTable {
         sb.append("  node [shape=record, style=filled];\n");
         sb.append("  rankdir=LR;\n");
 
-        // Recopilar buckets ocupados
+        
         for (int i = 0; i < capacity; i++) {
             if (table[i] == null) continue;
-            // Nodo bucket
+            
             sb.append("  bucket").append(i)
               .append(" [label=\"[").append(i).append("]\", fillcolor=lightblue, shape=box];\n");
-            // Cadena
+            
             Entry cur = table[i];
             int pos = 0;
             String prev = "bucket" + i;

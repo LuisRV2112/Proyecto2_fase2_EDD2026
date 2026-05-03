@@ -17,10 +17,8 @@ import javafx.scene.text.Font;
 import java.util.List;
 
 /**
- * Panel de medición de rendimiento.
- * Compara: Lista no ordenada vs Lista ordenada vs AVL vs Hash.
- * N=20 consultas, M=5 repeticiones → promedio.
- * Muestra tabla + gráfica de barras.
+ * Benchmark de rendimiento.
+
  */
 public class BenchmarkView {
 
@@ -55,7 +53,7 @@ public class BenchmarkView {
         btnRefresh.setStyle("-fx-background-color:#89b4fa; -fx-text-fill:#1e1e2e;");
         btnRefresh.setOnAction(e -> refreshCombo());
 
-        Button btnRun = new Button("⚡ Ejecutar Benchmark");
+        Button btnRun = new Button(" Ejecutar Benchmark");
         btnRun.setStyle("-fx-background-color:#a6e3a1; -fx-text-fill:#1e1e2e; " +
                         "-fx-font-weight:bold; -fx-font-size:13px;");
         btnRun.setOnAction(e -> runBenchmark());
@@ -66,19 +64,19 @@ public class BenchmarkView {
         HBox toolbar = new HBox(10, lbr, cbBranch, btnRefresh, btnRun, lblStatus);
         toolbar.setAlignment(javafx.geometry.Pos.CENTER_LEFT);
 
-        // Resultados texto
+        
         taResults = new TextArea();
         taResults.setEditable(false);
         taResults.setPrefHeight(280);
         taResults.setStyle("-fx-control-inner-background:#181825; -fx-text-fill:#89dceb; " +
                            "-fx-font-family:monospace; -fx-font-size:12px;");
 
-        // Gráfica de barras
+        
         chartCanvas = new Canvas(800, 200);
         gc = chartCanvas.getGraphicsContext2D();
         clearChart();
 
-        // Big-O info
+        
         TitledPane bigO = buildBigOPane();
 
         SplitPane split = new SplitPane();
@@ -106,7 +104,7 @@ public class BenchmarkView {
             alert("La sucursal no tiene productos."); return;
         }
 
-        // Tomar una muestra: primer producto
+        
         List<Product> all = cat.allProducts();
         Product sample = all.get(0);
         String sampleName    = sample.getName();
@@ -158,9 +156,9 @@ public class BenchmarkView {
         sb.append("Total productos en catálogo: ").append(cat.size()).append("\n");
 
         taResults.setText(sb.toString());
-        lblStatus.setText("Benchmark completado ✓  |  Productos: " + cat.size());
+        lblStatus.setText("Benchmark completado   |  Productos: " + cat.size());
 
-        // Actualizar gráfica
+        
         avgResults = new double[]{ dUL, dAVL, dH };
         labels     = new String[]{ "Lista", "AVL", "Hash" };
         drawChart();
@@ -211,17 +209,17 @@ public class BenchmarkView {
             gc.fillRect(x, y, barW, h);
             gc.setStroke(Color.web("#cdd6f4")); gc.strokeRect(x, y, barW, h);
 
-            // Etiqueta valor
+            
             gc.setFill(Color.web("#cdd6f4")); gc.setFont(Font.font(10));
             gc.fillText(String.format("%.4f µs", avgResults[i]), x, y - 4);
 
-            // Etiqueta estructura
+            
             gc.setFill(Color.web("#a6adc8")); gc.setFont(Font.font(11));
             gc.fillText(labels[i], x + barW/2 - labels[i].length()*3,
                         chartY + chartH + 15);
         }
 
-        // Eje
+        
         gc.setStroke(Color.web("#45475a")); gc.setLineWidth(1);
         gc.strokeLine(startX - 10, chartY + chartH, startX + 320, chartY + chartH);
 
@@ -251,7 +249,7 @@ public class BenchmarkView {
         ta.setPrefHeight(120);
         ta.setStyle("-fx-control-inner-background:#181825; -fx-text-fill:#fab387; " +
                     "-fx-font-family:monospace; -fx-font-size:10px;");
-        TitledPane pane = new TitledPane("📊 Complejidades Big-O", ta);
+        TitledPane pane = new TitledPane(" Complejidades Big-O", ta);
         pane.setCollapsible(false);
         pane.setStyle("-fx-text-fill:#cdd6f4;");
         return pane;

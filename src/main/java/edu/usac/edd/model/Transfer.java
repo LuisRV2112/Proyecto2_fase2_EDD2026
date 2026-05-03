@@ -3,7 +3,7 @@ package edu.usac.edd.model;
 import java.util.List;
 
 /**
- * Representa una transferencia de producto entre sucursales.
+ * Transferencia de producto entre sucursales.
  * Contiene la ruta completa y el ETA calculado.
  */
 public class Transfer {

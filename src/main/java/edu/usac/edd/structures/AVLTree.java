@@ -4,9 +4,9 @@ import edu.usac.edd.model.Product;
 import java.util.function.Consumer;
 
 /**
- * Árbol AVL ordenado por NOMBRE de producto.
- * Big-O: búsqueda/inserción/eliminación O(log n).
- *        Recorrido in-order O(n).
+ * AVL por nombre de producto.
+ * Big-O: busca/ins/elim O(log n).
+ * In-order O(n).
  */
 public class AVLTree {
 
@@ -19,14 +19,14 @@ public class AVLTree {
 
     private Node root;
 
-    // ── Utilidades ────────────────────────────────────────────────────────
+    // Utilidades
     private int height(Node n)        { return n == null ? 0 : n.height; }
     private int bf(Node n)            { return n == null ? 0 : height(n.left) - height(n.right); }
     private void updateHeight(Node n) {
         if (n != null) n.height = 1 + Math.max(height(n.left), height(n.right));
     }
 
-    // ── Rotaciones ────────────────────────────────────────────────────────
+    // Rotaciones
     private Node rotRight(Node y) {
         Node x = y.left, T2 = x.right;
         x.right = y; y.left = T2;
@@ -49,7 +49,7 @@ public class AVLTree {
         return n;
     }
 
-    // ── Inserción O(log n) ────────────────────────────────────────────────
+    
     public boolean insert(Product p) {
         int before = size(root);
         root = insert(root, p);
@@ -60,11 +60,11 @@ public class AVLTree {
         int cmp = p.getName().compareToIgnoreCase(n.data.getName());
         if      (cmp < 0) n.left  = insert(n.left,  p);
         else if (cmp > 0) n.right = insert(n.right, p);
-        else return n; // duplicado de nombre ignorado
+        else return n; // duplicado
         return rebalance(n);
     }
 
-    // ── Eliminación O(log n) ──────────────────────────────────────────────
+    // Eliminación O(log n)
     public boolean remove(String name, String barcode) {
         int before = size(root);
         root = remove(root, name, barcode);
@@ -90,7 +90,7 @@ public class AVLTree {
         return n;
     }
 
-    // ── Búsqueda O(log n) ─────────────────────────────────────────────────
+    // Búsqueda O(log n)
     public Product search(String name) {
         Node cur = root;
         while (cur != null) {
@@ -102,7 +102,7 @@ public class AVLTree {
         return null;
     }
 
-    // ── In-order O(n) ─────────────────────────────────────────────────────
+    // In-order O(n)
     public void inOrder(Consumer<Product> action) { inOrder(root, action); }
     private void inOrder(Node n, Consumer<Product> action) {
         if (n == null) return;
@@ -111,7 +111,7 @@ public class AVLTree {
         inOrder(n.right, action);
     }
 
-    // ── DOT export ────────────────────────────────────────────────────────
+    // Export DOT
     public String toDot() {
         StringBuilder sb = new StringBuilder();
         sb.append("digraph AVL {\n");

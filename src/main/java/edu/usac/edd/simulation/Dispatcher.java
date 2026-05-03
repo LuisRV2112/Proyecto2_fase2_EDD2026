@@ -80,7 +80,7 @@ public class Dispatcher {
                     p.setBranchId(branchId);
                     manager.addProduct(branchId, p.copy());
                     transfer.setPhase(Transfer.Phase.DELIVERED);
-                    logEvent(branchId, p.getBarcode(), "✅ Entregado en destino");
+                    logEvent(branchId, p.getBarcode(), " Entregado en destino");
                     notifyGUI();
                     break;
                 }

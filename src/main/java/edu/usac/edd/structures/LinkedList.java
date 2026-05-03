@@ -5,8 +5,8 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 /**
- * Lista enlazada simple NO ordenada.
- * Big-O: inserción O(1), búsqueda O(n), eliminación O(n).
+ * Lista enlazada simple no ordenada.
+ * Big-O: ins O(1), busca O(n), elim O(n).
  */
 public class LinkedList {
 
@@ -19,7 +19,7 @@ public class LinkedList {
     private Node head;
     private int  size;
 
-    // ── Inserción al frente O(1) ──────────────────────────────────────────
+    
     public void insert(Product p) {
         Node n = new Node(p);
         n.next = head;
@@ -27,7 +27,7 @@ public class LinkedList {
         size++;
     }
 
-    // ── Eliminación por barcode O(n) ──────────────────────────────────────
+    // Eliminación O(n)
     public boolean remove(String barcode) {
         Node prev = null, cur = head;
         while (cur != null) {
@@ -42,7 +42,7 @@ public class LinkedList {
         return false;
     }
 
-    // ── Búsqueda por barcode O(n) ─────────────────────────────────────────
+    // Búsqueda por barcode O(n)
     public Product searchByBarcode(String barcode) {
         Node cur = head;
         while (cur != null) {
@@ -52,7 +52,7 @@ public class LinkedList {
         return null;
     }
 
-    // ── Búsqueda por nombre O(n) ──────────────────────────────────────────
+    // Búsqueda por nombre O(n)
     public Product searchByName(String name) {
         Node cur = head;
         while (cur != null) {
@@ -62,13 +62,13 @@ public class LinkedList {
         return null;
     }
 
-    // ── Iteración ─────────────────────────────────────────────────────────
+    // Iteración
     public void forEach(Consumer<Product> action) {
         Node cur = head;
         while (cur != null) { action.accept(cur.data); cur = cur.next; }
     }
 
-    /** Devuelve todos los que cumplen predicado */
+    /** Filtra por predicado. */
     public LinkedList filter(Predicate<Product> pred) {
         LinkedList result = new LinkedList();
         Node cur = head;
@@ -83,7 +83,7 @@ public class LinkedList {
     public boolean isEmpty(){ return head == null; }
     public Node    getHead(){ return head; }
 
-    /** Actualiza el producto con igual barcode */
+    /** Actualiza por barcode. */
     public boolean update(Product updated) {
         Node cur = head;
         while (cur != null) {

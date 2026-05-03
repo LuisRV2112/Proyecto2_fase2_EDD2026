@@ -29,7 +29,7 @@ public class Branch {
         this.y = 100;
     }
 
-    // ── Getters ────────────────────────────────────────────────────────────
+    
     public String getId()          { return id; }
     public String getName()        { return name; }
     public String getLocation()    { return location; }
@@ -39,7 +39,7 @@ public class Branch {
     public double getX()           { return x; }
     public double getY()           { return y; }
 
-    // ── Setters ────────────────────────────────────────────────────────────
+    
     public void setName(String name)              { this.name = name; }
     public void setLocation(String location)      { this.location = location; }
     public void setTimeIngreso(int t)             { this.timeIngreso = t; }

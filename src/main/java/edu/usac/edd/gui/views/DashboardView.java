@@ -11,7 +11,7 @@ import javafx.stage.FileChooser;
 import java.io.File;
 
 /**
- * Panel de inicio: estadísticas globales y carga de CSV.
+ * Dashboard: estadísticas y carga CSV.
  */
 public class DashboardView {
 
@@ -34,18 +34,18 @@ public class DashboardView {
         root.setPadding(new Insets(20));
         root.setStyle("-fx-background-color:#1e1e2e;");
 
-        // Stat cards
+        
         lblBranchCount   = new Label("0");
         lblProductCount  = new Label("0");
         lblTransferCount = new Label("0");
         HBox stats = new HBox(16,
-            statCard("🏪 Sucursales",     lblBranchCount),
-            statCard("📦 Productos",      lblProductCount),
-            statCard("🚚 Transferencias", lblTransferCount)
+            statCard(" Sucursales",     lblBranchCount),
+            statCard(" Productos",      lblProductCount),
+            statCard(" Transferencias", lblTransferCount)
         );
         stats.setAlignment(Pos.CENTER);
 
-        // CSV loader panel
+        
         TitledPane csvPane = buildCSVPane();
 
         // Log
@@ -53,7 +53,7 @@ public class DashboardView {
         logArea.setEditable(false);
         logArea.setStyle("-fx-control-inner-background:#181825; -fx-text-fill:#a6e3a1; -fx-font-family:monospace;");
         logArea.setPrefHeight(200);
-        TitledPane logPane = new TitledPane("📋 Log del sistema", logArea);
+        TitledPane logPane = new TitledPane(" Log del sistema", logArea);
         logPane.setCollapsible(false);
         logPane.setStyle("-fx-text-fill:#cdd6f4;");
 
@@ -90,7 +90,7 @@ public class DashboardView {
         Button btnLoadB = actionBtn("Cargar Sucursales", "#89b4fa");
         Button btnLoadC = actionBtn("Cargar Conexiones", "#89b4fa");
         Button btnLoadP = actionBtn("Cargar Productos",  "#89b4fa");
-        Button btnAll   = actionBtn("⚡ Cargar Todo",    "#a6e3a1");
+        Button btnAll   = actionBtn(" Cargar Todo",    "#a6e3a1");
         btnAll.setStyle("-fx-background-color:#a6e3a1; -fx-text-fill:#1e1e2e; -fx-font-weight:bold; -fx-font-size:13px;");
 
         btnLoadB.setOnAction(e -> { if (!tfBranch.getText().isEmpty()) { log("Sucursales: " + csvLoader.loadBranches(tfBranch.getText()).message()); refreshStats(); notifyLoaded(); }});
@@ -108,7 +108,7 @@ public class DashboardView {
         grid.addRow(2, lbl("Productos:"),  tfProd,   btnP, btnLoadP);
         grid.add(btnAll, 1, 3);
 
-        TitledPane pane = new TitledPane("📁 Carga de Archivos CSV", grid);
+        TitledPane pane = new TitledPane(" Carga de Archivos CSV", grid);
         pane.setCollapsible(false);
         pane.setStyle("-fx-text-fill:#cdd6f4;");
         return pane;

@@ -12,7 +12,7 @@ import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
 /**
- * Punto de entrada principal de la aplicación JavaFX.
+ * Entrada principal de la app JavaFX.
  */
 public class MainApp extends Application {
 
@@ -41,16 +41,16 @@ public class MainApp extends Application {
         BenchmarkView benchView = new BenchmarkView(manager);
 
         tabPane.getTabs().addAll(
-            tab("🏠 Dashboard",        dashView.build()),
-            tab("🏪 Sucursales",        branchView.build()),
-            tab("📦 Productos",         prodView.build()),
-            tab("🚚 Transferencias",    transView.build()),
-            tab("🗺 Red de Sucursales", graphView.build()),
-            tab("🌳 Árboles",           treeView.build()),
-            tab("⚡ Rendimiento",       benchView.build())
+            tab(" Dashboard",        dashView.build()),
+            tab(" Sucursales",        branchView.build()),
+            tab(" Productos",         prodView.build()),
+            tab(" Transferencias",    transView.build()),
+            tab(" Red de Sucursales", graphView.build()),
+            tab(" Árboles",           treeView.build()),
+            tab(" Rendimiento",       benchView.build())
         );
 
-        // Vincular dispatcher con actualizaciones de UI
+        // Actualiza UI desde dispatcher
         manager.getDispatcher().setOnUpdate(() ->
             Platform.runLater(() -> {
                 transView.refreshQueues();
@@ -59,7 +59,7 @@ public class MainApp extends Application {
             })
         );
 
-        // Al cargar CSV actualizar BranchView, GraphView y TransferView
+        // Refresca vistas al cargar CSV
         dashView.setOnDataLoaded(() -> {
             branchView.refresh();
             graphView.layoutNodes();
@@ -75,7 +75,7 @@ public class MainApp extends Application {
             if (css != null) scene.getStylesheets().add(css.toExternalForm());
         } catch (Exception ignored) {}
 
-        primaryStage.setTitle("🛒 Gestión de Catálogo de Supermercado — Fase 2 | EDD 2026");
+        primaryStage.setTitle(" Gestión de Catálogo de Supermercado — Fase 2 | EDD 2026");
         primaryStage.setScene(scene);
         primaryStage.setMinWidth(900);
         primaryStage.setMinHeight(600);

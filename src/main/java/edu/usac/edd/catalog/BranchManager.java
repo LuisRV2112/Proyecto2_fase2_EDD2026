@@ -10,17 +10,17 @@ import edu.usac.edd.structures.Queue;
 import java.util.*;
 
 /**
- * Coordinador central del sistema.
+ * Coordinador central.
  * Gestiona todas las sucursales, el grafo y las transferencias.
  */
-public class BranchManager {
+public class BranchManager extends Catalog {
 
     private final BranchGraph         graph       = new BranchGraph();
     private final Map<String, Catalog> catalogs   = new LinkedHashMap<>();
     private final Dispatcher           dispatcher  = new Dispatcher(this);
     private final List<Transfer>       transfers   = new ArrayList<>();
 
-    // ── Gestión de sucursales ─────────────────────────────────────────────
+    // Gestión de sucursales
     public void addBranch(Branch b) {
         graph.addBranch(b);
         catalogs.put(b.getId(), new Catalog(b.getId()));

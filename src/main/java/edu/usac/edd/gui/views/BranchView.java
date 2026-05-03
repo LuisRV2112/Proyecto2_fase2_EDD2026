@@ -12,7 +12,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.*;
 
 /**
- * Panel para crear, editar y eliminar sucursales, y gestionar conexiones del grafo.
+ * CRUD de sucursales y conexiones.
  */
 public class BranchView {
 
@@ -36,14 +36,14 @@ public class BranchView {
         VBox root = new VBox(0);
         root.setStyle("-fx-background-color:#1e1e2e;");
 
-        // Panel superior: tabla + formulario sucursal
+        
         SplitPane topSplit = new SplitPane();
         topSplit.setDividerPositions(0.55);
         topSplit.setStyle("-fx-background-color:#1e1e2e;");
         topSplit.getItems().addAll(buildTable(), buildForm());
         topSplit.setPrefHeight(340);
 
-        // Panel inferior: gestión de conexiones
+        
         TitledPane connPane = buildConnectionPanel();
         connPane.setStyle("-fx-text-fill:#cdd6f4;");
 
@@ -74,11 +74,11 @@ public class BranchView {
             if (sel != null) fillForm(sel);
         });
 
-        Button btnRefresh = btn("🔄 Refrescar", "#89b4fa");
+        Button btnRefresh = btn(" Refrescar", "#89b4fa");
         btnRefresh.setOnAction(e -> refresh());
 
         HBox header = new HBox(8,
-            new Label("  🏪 Sucursales registradas") {{
+            new Label("   Sucursales registradas") {{
                 setStyle("-fx-text-fill:#cdd6f4; -fx-font-size:14px; -fx-padding:8 0 0 8;");
             }},
             btnRefresh
@@ -137,12 +137,12 @@ public class BranchView {
         content.setPadding(new Insets(10));
         content.setStyle("-fx-background-color:#181825;");
 
-        // Formulario para agregar conexión
+        
         VBox formConn = new VBox(8);
         formConn.setMinWidth(300);
         formConn.setStyle("-fx-background-color:#1e1e2e; -fx-padding:10; -fx-background-radius:6;");
 
-        Label lTitle = new Label("🔗 Nueva Conexión");
+        Label lTitle = new Label(" Nueva Conexión");
         lTitle.setStyle("-fx-text-fill:#cdd6f4; -fx-font-weight:bold; -fx-font-size:13px;");
 
         cbFrom = new ComboBox<>(); styleCombo(cbFrom);
@@ -163,7 +163,7 @@ public class BranchView {
         btnDelConn.setMaxWidth(Double.MAX_VALUE);
         btnDelConn.setOnAction(e -> onDeleteConnection());
 
-        Button btnRefreshConn = btn("🔄 Refrescar", "#89b4fa");
+        Button btnRefreshConn = btn(" Refrescar", "#89b4fa");
         btnRefreshConn.setMaxWidth(Double.MAX_VALUE);
         btnRefreshConn.setOnAction(e -> refreshConnections());
 
@@ -176,7 +176,7 @@ public class BranchView {
             btnAddConn, btnDelConn, btnRefreshConn
         );
 
-        // Tabla de conexiones existentes
+        
         edgeTable = new TableView<>();
         edgeTable.setStyle("-fx-background-color:#1e1e2e;");
         edgeData  = FXCollections.observableArrayList(manager.getGraph().getEdges());
@@ -193,7 +193,7 @@ public class BranchView {
         edgeTable.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
 
         VBox tableBox = new VBox(6);
-        Label lEdges = new Label("📋 Conexiones registradas (" + edgeData.size() + ")");
+        Label lEdges = new Label(" Conexiones registradas (" + edgeData.size() + ")");
         lEdges.setStyle("-fx-text-fill:#cdd6f4; -fx-font-size:12px;");
         tableBox.getChildren().addAll(lEdges, edgeTable);
         VBox.setVgrow(edgeTable, Priority.ALWAYS);
@@ -201,7 +201,7 @@ public class BranchView {
 
         content.getChildren().addAll(formConn, tableBox);
 
-        TitledPane pane = new TitledPane("🔗 Red de Conexiones entre Sucursales", content);
+        TitledPane pane = new TitledPane(" Red de Conexiones entre Sucursales", content);
         pane.setCollapsible(true);
         pane.setExpanded(true);
         pane.setPrefHeight(280);

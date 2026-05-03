@@ -27,9 +27,9 @@ import java.util.Map;
 import java.util.Random;
 
 /**
- * Vista del grafo de sucursales dibujado en Canvas.
- * Nodos arrastrables, aristas etiquetadas con tiempo y costo.
- * Muestra la ruta calculada por Dijkstra resaltada en color.
+ * Grafo de sucursales en Canvas.
+ * Nodos arrastrables, aristas con tiempo/costo.
+ * Ruta Dijkstra resaltada.
  */
 public class GraphView {
 
@@ -40,7 +40,7 @@ public class GraphView {
     private TextArea        taInfo;
     private Label           lblStats;
 
-    // Para drag de nodos
+    // Drag de nodos
     private Branch  dragging;
     private double  dragOffX, dragOffY;
 
@@ -61,7 +61,7 @@ public class GraphView {
         canvas = new Canvas(800, 560);
         gc     = canvas.getGraphicsContext2D();
 
-        // Posicionar nodos en círculo inicialmente
+        // Layout circular
         layoutNodes();
         draw();
 
@@ -94,7 +94,7 @@ public class GraphView {
         lblStats.setStyle("-fx-text-fill:#a6adc8; -fx-font-size:11px;");
         updateStats();
 
-        Label lRoute = new Label("🗺 Ruta seleccionada:");
+        Label lRoute = new Label(" Ruta seleccionada:");
         lRoute.setStyle("-fx-text-fill:#cdd6f4; -fx-font-weight:bold;");
 
         taInfo = new TextArea("Usa el panel de Transferencias\npara ver rutas resaltadas.");
@@ -104,19 +104,19 @@ public class GraphView {
                         "-fx-font-family:monospace; -fx-font-size:11px;");
         VBox.setVgrow(taInfo, Priority.ALWAYS);
 
-        Button btnRefresh = new Button("🔄 Redibujar");
+        Button btnRefresh = new Button(" Redibujar");
         btnRefresh.setStyle("-fx-background-color:#89b4fa; -fx-text-fill:#1e1e2e;");
         btnRefresh.setOnAction(e -> { layoutNodes(); draw(); updateStats(); });
 
-        Button btnDot = new Button("💾 Exportar DOT");
+        Button btnDot = new Button(" Exportar DOT");
         btnDot.setStyle("-fx-background-color:#cba6f7; -fx-text-fill:#1e1e2e; -fx-font-weight:bold;");
         btnDot.setOnAction(e -> exportDot());
 
-        Button btnPng = new Button("🖼 Exportar PNG");
+        Button btnPng = new Button(" Exportar PNG");
         btnPng.setStyle("-fx-background-color:#f38ba8; -fx-text-fill:#1e1e2e; -fx-font-weight:bold;");
         btnPng.setOnAction(e -> exportImage("png"));
 
-        Button btnJpg = new Button("🖼 Exportar JPG");
+        Button btnJpg = new Button(" Exportar JPG");
         btnJpg.setStyle("-fx-background-color:#fab387; -fx-text-fill:#1e1e2e; -fx-font-weight:bold;");
         btnJpg.setOnAction(e -> exportImage("jpg"));
 
@@ -130,7 +130,7 @@ public class GraphView {
     }
 
     private HBox buildToolbar() {
-        Label title = new Label("🗺 Red de Sucursales");
+        Label title = new Label(" Red de Sucursales");
         title.setStyle("-fx-text-fill:#cdd6f4; -fx-font-size:14px; -fx-font-weight:bold;");
 
         Label legend1 = new Label("● Sucursal");
@@ -168,7 +168,7 @@ public class GraphView {
         gc.setFill(Color.web("#181825"));
         gc.fillRect(0, 0, canvas.getWidth(), canvas.getHeight());
 
-        // Aristas
+        
         for (BranchGraph.Edge e : manager.getGraph().getEdges()) {
             Branch from = manager.getBranch(e.fromId);
             Branch to   = manager.getBranch(e.toId);
@@ -180,10 +180,10 @@ public class GraphView {
             gc.setLineWidth(onRoute ? 3 : 1.5);
             gc.strokeLine(from.getX(), from.getY(), to.getX(), to.getY());
 
-            // Flecha
+            
             drawArrow(from.getX(), from.getY(), to.getX(), to.getY(), onRoute);
 
-            // Etiqueta peso
+            
             double mx = (from.getX() + to.getX()) / 2;
             double my = (from.getY() + to.getY()) / 2;
             gc.setFill(Color.web("#a6adc8"));
@@ -191,7 +191,7 @@ public class GraphView {
             gc.fillText(String.format("t=%.0fs c=%.0f", e.time, e.cost), mx + 4, my - 4);
         }
 
-        // Nodos
+        
         for (Branch b : manager.getAllBranches()) {
             boolean isActive = isInTransit(b.getId());
             boolean onRoute  = highlightedRoute != null &&
@@ -271,9 +271,9 @@ public class GraphView {
             Files.createDirectories(Path.of("output"));
             Files.writeString(Path.of("output/graph.dot"), dot);
             boolean graphvizOk = tryGraphviz("output/graph.dot", "output/graph.png");
-            String msg = "✅ DOT guardado: output/graph.dot";
-            if (graphvizOk) msg += "\n✅ PNG generado: output/graph.png (Graphviz)";
-            else msg += "\n💡 Graphviz no disponible.\nConvertir manualmente:\n  dot -Tpng output/graph.dot -o output/graph.png";
+            String msg = " DOT guardado: output/graph.dot";
+            if (graphvizOk) msg += "\n PNG generado: output/graph.png (Graphviz)";
+            else msg += "\n Graphviz no disponible.\nConvertir manualmente:\n  dot -Tpng output/graph.dot -o output/graph.png";
             new Alert(Alert.AlertType.INFORMATION, msg, ButtonType.OK).showAndWait();
         } catch (Exception ex) {
             new Alert(Alert.AlertType.ERROR, ex.getMessage(), ButtonType.OK).showAndWait();
@@ -290,7 +290,7 @@ public class GraphView {
             boolean ok = ImageIO.write(SwingFXUtils.fromFXImage(img, null),
                     "jpg".equals(format) ? "jpg" : "png", new File(filename));
             if (ok) new Alert(Alert.AlertType.INFORMATION,
-                    "✅ Imagen guardada: " + filename, ButtonType.OK).showAndWait();
+                    " Imagen guardada: " + filename, ButtonType.OK).showAndWait();
             else new Alert(Alert.AlertType.ERROR, "No se pudo guardar la imagen.", ButtonType.OK).showAndWait();
         } catch (IOException ex) {
             new Alert(Alert.AlertType.ERROR, ex.getMessage(), ButtonType.OK).showAndWait();

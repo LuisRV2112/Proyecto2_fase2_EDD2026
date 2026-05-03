@@ -34,7 +34,7 @@ public class CSVLoader {
         this.errorLogPath = errorLogPath;
     }
 
-    // ── Sucursales ────────────────────────────────────────────────────────
+    // Sucursales
     // "ID","Nombre","Ubicación","t_ingreso","t_traspaso","t_despacho"
     public LoadResult loadBranches(String filepath) {
         LoadResult r = new LoadResult();

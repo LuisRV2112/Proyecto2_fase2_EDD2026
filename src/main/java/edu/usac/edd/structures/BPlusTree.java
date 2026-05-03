@@ -4,9 +4,9 @@ import edu.usac.edd.model.Product;
 import java.util.function.Consumer;
 
 /**
- * Árbol B+ de orden ORDER=4. Clave: categoría.
- * Hojas enlazadas para recorrido eficiente por categoría.
- * Big-O: búsqueda/inserción O(log n). Recorrido por categoría O(log n + k).
+ * B+Tree, orden 4, por categoría.
+ * Hojas enlazadas para recorrido secuencial.
+ * Big-O: busca/ins O(log n), cat O(log n + k).
  */
 public class BPlusTree {
 
@@ -88,7 +88,7 @@ public class BPlusTree {
             leaf.keys[i+1] = key; leaf.records[i+1] = p; leaf.n++;
             return null;
         }
-        // Split
+        
         String[] tk = new String[ORDER]; Product[] tr = new Product[ORDER];
         int total = 0; boolean placed = false;
         for (int k = 0; k < leaf.n; k++) {
@@ -117,7 +117,7 @@ public class BPlusTree {
             nd.keys[i+1] = key; nd.children[i+2] = rightChild; nd.n++;
             return null;
         }
-        // Split internal
+        
         String[] tk = new String[ORDER]; Object[] tc = new Object[ORDER+1];
         tc[0] = nd.children[0];
         int total = 0; boolean placed = false;
@@ -165,7 +165,7 @@ public class BPlusTree {
         return false;
     }
 
-    // ── DOT export ────────────────────────────────────────────────────────
+    // Export DOT
     public String toDot() {
         StringBuilder sb = new StringBuilder("digraph BPlusTree {\n  rankdir=TB;\n");
         sb.append("  node [shape=record];\n");

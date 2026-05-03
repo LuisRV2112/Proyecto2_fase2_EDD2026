@@ -29,7 +29,7 @@ public class ProductView {
         VBox root = new VBox(0);
         root.setStyle("-fx-background-color:#1e1e2e;");
 
-        // Selector de sucursal (top bar)
+        
         HBox topBar = buildTopBar();
         SplitPane split = new SplitPane();
         split.setDividerPositions(0.60);
@@ -51,17 +51,17 @@ public class ProductView {
         Button btnRefresh = btn("Refrescar", "#89b4fa");
         btnRefresh.setOnAction(e -> { refreshBranchCombo(); refreshTable(); });
 
-        // Búsquedas rápidas
+        
         tfSearchName    = miniField("Buscar por nombre");
         tfSearchBarcode = miniField("Buscar por código");
         tfSearchCat     = miniField("Buscar por categoría");
         tfFrom = miniField("Desde (YYYY-MM-DD)");
         tfTo   = miniField("Hasta (YYYY-MM-DD)");
 
-        Button btnByName = btn("🔍 Nombre",    "#cba6f7");
-        Button btnByCode = btn("🔍 Código",    "#89dceb");
-        Button btnByCat  = btn("🔍 Categoría", "#fab387");
-        Button btnRange  = btn("🔍 Rango",     "#a6e3a1");
+        Button btnByName = btn(" Nombre",    "#cba6f7");
+        Button btnByCode = btn(" Código",    "#89dceb");
+        Button btnByCat  = btn(" Categoría", "#fab387");
+        Button btnRange  = btn(" Rango",     "#a6e3a1");
 
         btnByName.setOnAction(e -> searchByName());
         btnByCode.setOnAction(e -> searchByBarcode());
@@ -101,7 +101,7 @@ public class ProductView {
         );
         table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
 
-        // Selección rellena formulario
+        
         table.getSelectionModel().selectedItemProperty()
              .addListener((o, old, sel) -> { if (sel != null) fillForm(sel); });
 
@@ -120,7 +120,7 @@ public class ProductView {
         side.setPadding(new Insets(12));
         side.setStyle("-fx-background-color:#181825;");
 
-        Label title = new Label("📦 Datos del Producto");
+        Label title = new Label(" Datos del Producto");
         title.setStyle("-fx-text-fill:#cdd6f4; -fx-font-size:14px; -fx-font-weight:bold;");
 
         tfName     = field("Nombre");
@@ -165,7 +165,7 @@ public class ProductView {
             Product p = fromForm();
             if (!manager.addProduct(branchId, p))
                 alert("No se pudo agregar (barcode duplicado o sucursal inexistente).");
-            else { refreshTable(); clearForm(); status("Producto agregado ✓"); }
+            else { refreshTable(); clearForm(); status("Producto agregado "); }
         } catch (Exception ex) { alert("Error: " + ex.getMessage()); }
     }
 
@@ -174,7 +174,7 @@ public class ProductView {
         Product sel = table.getSelectionModel().getSelectedItem();
         if (branchId == null || sel == null) { alert("Selecciona sucursal y producto."); return; }
         if (manager.removeProduct(branchId, sel.getBarcode())) {
-            refreshTable(); status("Producto eliminado ✓");
+            refreshTable(); status("Producto eliminado ");
         } else alert("No se encontró el producto.");
     }
 
@@ -182,7 +182,7 @@ public class ProductView {
         String branchId = selectedBranch();
         if (branchId == null) { alert("Selecciona una sucursal."); return; }
         if (manager.undoLastOperation(branchId)) {
-            refreshTable(); status("Operación deshecha ✓");
+            refreshTable(); status("Operación deshecha ");
         } else alert("No hay operaciones para deshacer.");
     }
 

@@ -3,9 +3,9 @@ package edu.usac.edd.structures;
 import edu.usac.edd.model.Product;
 
 /**
- * Pila LIFO implementada desde cero.
- * Usada para rollback de operaciones y control de cambios.
- * Big-O: push O(1), pop O(1), peek O(1).
+ * Stack LIFO para rollback.
+
+ * Big-O: push/pop/peek O(1).
  */
 public class Stack {
 
@@ -13,7 +13,7 @@ public class Stack {
     public static class Entry {
         public enum Op { INSERT, DELETE, UPDATE }
         public final Op      operation;
-        public final Product snapshot;   // copia del producto antes del cambio
+        public final Product snapshot;   // snapshot
         public final String  branchId;
 
         public Entry(Op op, Product snapshot, String branchId) {
@@ -31,21 +31,21 @@ public class Stack {
 
     private Node top;
     private int  size;
-    private final int maxSize;  // límite para no crecer indefinidamente
+    private final int maxSize;  // limite
 
     public Stack(int maxSize) { this.maxSize = maxSize; }
     public Stack()            { this(200); }
 
-    /** Push — O(1) */
+    /** Push O(1). */
     public void push(Entry entry) {
-        if (size >= maxSize) removeBottom(); // descarta el más antiguo
+        if (size >= maxSize) removeBottom(); // descarta antiguo
         Node n = new Node(entry);
         n.next = top;
         top    = n;
         size++;
     }
 
-    /** Pop — O(1) */
+    /** Pop O(1). */
     public Entry pop() {
         if (top == null) return null;
         Entry e = top.data;
@@ -54,7 +54,7 @@ public class Stack {
         return e;
     }
 
-    /** Peek sin extraer — O(1) */
+    /** Peek O(1). */
     public Entry peek() {
         return top != null ? top.data : null;
     }
@@ -62,7 +62,7 @@ public class Stack {
     public boolean isEmpty() { return top == null; }
     public int     size()    { return size; }
 
-    /** Elimina el nodo del fondo (más antiguo) — O(n) */
+    /** Elimina fondo O(n). */
     private void removeBottom() {
         if (top == null) return;
         if (top.next == null) { top = null; size--; return; }

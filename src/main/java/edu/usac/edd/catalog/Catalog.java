@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.function.Consumer;
 
 /**
- * Catálogo de una sucursal.
- * Coordina AVL + Hash + BTree + BPlusTree + LinkedList de forma coherente.
- * Inserción atomizada con rollback.
+ * Catálogo por sucursal.
+ * Coordina AVL + Hash + BTree + BPlusTree + LinkedList.
+ * Inserción con rollback.
  */
 public class Catalog {
 

@@ -7,15 +7,15 @@ import java.util.function.Consumer;
 
 /**
  * Grafo ponderado de sucursales.
- * Nodos = Branch, Aristas = conexiones con peso en TIEMPO y COSTO.
- * Implementado desde cero con lista de adyacencia usando arreglos dinámicos.
+ * Nodos=sucursales, aristas=conexiones con tiempo y costo.
+ * Implementado con lista de adyacencia.
  *
- * Dijkstra implementado desde cero (sin PriorityQueue de Java).
- * Big-O Dijkstra: O((V + E) · log V) con heap manual.
+ * Dijkstra con MinHeap manual.
+ * Big-O Dijkstra: O((V+E) log V).
  */
 public class BranchGraph {
 
-    // ── Arista ────────────────────────────────────────────────────────────
+    // Arista
     public static class Edge {
         public final String fromId;
         public final String toId;
@@ -33,7 +33,7 @@ public class BranchGraph {
         }
     }
 
-    // ── Nodo interno de adyacencia ────────────────────────────────────────
+    // Nodo de adyacencia
     private static class AdjNode {
         String toId;
         double weight;  // time o cost según criterio activo
@@ -44,12 +44,12 @@ public class BranchGraph {
         }
     }
 
-    // ── Almacenamiento ────────────────────────────────────────────────────
+    // Almacenamiento
     private final Map<String, Branch>   branches  = new LinkedHashMap<>();
     private final Map<String, AdjNode>  adjList   = new LinkedHashMap<>();
     private final List<Edge>            edges     = new ArrayList<>();
 
-    // ── Gestión de sucursales ─────────────────────────────────────────────
+    // Gestión de sucursales
     public void addBranch(Branch b) {
         branches.put(b.getId(), b);
         adjList.put(b.getId(), null);
@@ -60,7 +60,7 @@ public class BranchGraph {
     public boolean containsBranch(String id)       { return branches.containsKey(id); }
     public void removeBranch(String id)            { branches.remove(id); adjList.remove(id); }
 
-    // ── Gestión de aristas ────────────────────────────────────────────────
+    // Gestión de aristas
     public void addEdge(String fromId, String toId,
                         double time, double cost, boolean bidirectional) {
         if (!branches.containsKey(fromId) || !branches.containsKey(toId)) return;
@@ -77,7 +77,7 @@ public class BranchGraph {
 
     public List<Edge> getEdges() { return edges; }
 
-    /** Elimina una arista del grafo (y su inversa si es bidireccional) */
+    /** Elimina arista (y su inversa si es bidireccional). */
     public void removeEdge(String fromId, String toId, boolean bidirectional) {
         edges.removeIf(e -> e.fromId.equals(fromId) && e.toId.equals(toId));
         removeAdj(fromId, toId);
@@ -100,7 +100,7 @@ public class BranchGraph {
         }
     }
 
-    // ── Vecinos ───────────────────────────────────────────────────────────
+    // Vecinos
     public List<AdjNode> neighbors(String id) {
         List<AdjNode> list = new ArrayList<>();
         AdjNode cur = adjList.get(id);
@@ -108,9 +108,7 @@ public class BranchGraph {
         return list;
     }
 
-    // ══════════════════════════════════════════════════════════════════════
-    // DIJKSTRA desde cero — MinHeap manual
-    // ══════════════════════════════════════════════════════════════════════
+    // Dijkstra con MinHeap manual
 
     /** Entrada del heap */
     private static class HeapEntry {
@@ -157,11 +155,9 @@ public class BranchGraph {
         }
     }
 
-    /**
-     * Dijkstra — calcula la ruta óptima de originId a destId.
+    /** Dijkstra: ruta optima de originId a destId.
      * @param criterion TIME o COST
-     * @return lista de IDs de sucursales en orden (incluye origen y destino)
-     *         o lista vacía si no hay ruta.
+     * @return IDs en orden (origen a destino), vacia si no hay ruta.
      */
     public List<String> dijkstra(String originId, String destId,
                                   Transfer.Criterion criterion) {
@@ -208,9 +204,8 @@ public class BranchGraph {
         return path;
     }
 
-    /**
-     * Calcula el total de tiempo y costo de una ruta.
-     * @return double[]{totalTime, totalCost}
+    /** Costo total de ruta.
+     * @return [tiempo, costo]
      */
     public double[] routeCost(List<String> path) {
         double totalTime = 0, totalCost = 0;

@@ -27,8 +27,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 /**
- * Visualizador gráfico de AVL, B-tree, B+ tree y HashTable para cada sucursal.
- * Canvas dinámico con zoom (scroll y botones), exporta .dot y .png.
+ * Visualizador de AVL, B-tree, B+ tree y HashTable.
+ * Canvas con zoom, exporta .dot y .png.
  */
 public class TreeView_ {
 
@@ -75,13 +75,13 @@ public class TreeView_ {
         cbTree.setStyle("-fx-background-color:#313244; -fx-text-fill:#cdd6f4;");
         cbTree.setOnAction(e -> refresh());
 
-        Button btnRefresh = toolBtn("🔄 Refrescar", "#89b4fa");
+        Button btnRefresh = toolBtn(" Refrescar", "#89b4fa");
         btnRefresh.setOnAction(e -> { refreshBranchCombo(); refresh(); });
 
         // Zoom controls
-        Button btnZoomIn  = toolBtn("🔍+", "#a6e3a1");
-        Button btnZoomOut = toolBtn("🔍-", "#f9e2af");
-        Button btnZoomRst = toolBtn("↺ Reset", "#cba6f7");
+        Button btnZoomIn  = toolBtn("+", "#a6e3a1");
+        Button btnZoomOut = toolBtn("-", "#f9e2af");
+        Button btnZoomRst = toolBtn(" Reset", "#cba6f7");
 
         lblZoom = new Label("100%");
         lblZoom.setStyle("-fx-text-fill:#a6adc8; -fx-font-size:11px; -fx-min-width:40px;");
@@ -91,16 +91,16 @@ public class TreeView_ {
         btnZoomRst.setOnAction(e -> applyZoom(1.0));
 
         // Export buttons
-        Button btnExportDot = toolBtn("💾 DOT", "#cba6f7");
+        Button btnExportDot = toolBtn(" DOT", "#cba6f7");
         btnExportDot.setOnAction(e -> exportDot());
 
-        Button btnExportPng = toolBtn("🖼 PNG", "#f38ba8");
+        Button btnExportPng = toolBtn(" PNG", "#f38ba8");
         btnExportPng.setOnAction(e -> exportImage("png"));
 
-        Button btnExportJpg = toolBtn("🖼 JPG", "#fab387");
+        Button btnExportJpg = toolBtn(" JPG", "#fab387");
         btnExportJpg.setOnAction(e -> exportImage("jpg"));
 
-        Button btnExportAll = toolBtn("📦 Exportar Todo", "#a6e3a1");
+        Button btnExportAll = toolBtn(" Exportar Todo", "#a6e3a1");
         btnExportAll.setOnAction(e -> exportAll());
 
         lblInfo = new Label("");
@@ -128,7 +128,7 @@ public class TreeView_ {
         split.setDividerPositions(0.68);
         split.setStyle("-fx-background-color:#1e1e2e;");
 
-        // Canvas zoom wrapper
+        
         canvas = new Canvas(BASE_W, BASE_H);
         gc     = canvas.getGraphicsContext2D();
         clearCanvas();
@@ -153,17 +153,17 @@ public class TreeView_ {
         });
 
         // Hint label
-        Label hint = new Label("💡 Ctrl+Scroll para zoom  |  Arrastra para navegar");
+        Label hint = new Label(" Ctrl+Scroll para zoom  |  Arrastra para navegar");
         hint.setStyle("-fx-text-fill:#585b70; -fx-font-size:10px; -fx-padding:2 0 0 4;");
 
         VBox canvasBox = new VBox(0, canvasScroll, hint);
         VBox.setVgrow(canvasScroll, Priority.ALWAYS);
 
-        // DOT panel
+        
         VBox dotPanel = new VBox(8);
         dotPanel.setPadding(new Insets(10));
         dotPanel.setStyle("-fx-background-color:#181825;");
-        Label dotLabel = new Label("📄 Archivo DOT generado:");
+        Label dotLabel = new Label(" Archivo DOT generado:");
         dotLabel.setStyle("-fx-text-fill:#cdd6f4; -fx-font-weight:bold;");
         taDot = new TextArea();
         taDot.setEditable(false);
@@ -450,7 +450,7 @@ public class TreeView_ {
 
         try {
             Files.createDirectories(Path.of("output"));
-            StringBuilder report = new StringBuilder("📦 Exportación completa:\n\n");
+            StringBuilder report = new StringBuilder(" Exportación completa:\n\n");
 
             // --- DOT files ---
             String[][] exports = {
@@ -462,7 +462,7 @@ public class TreeView_ {
             };
             for (String[] pair : exports) {
                 Files.writeString(Path.of(pair[0]), pair[1]);
-                report.append("✅ ").append(pair[0]).append("\n");
+                report.append(" ").append(pair[0]).append("\n");
             }
 
             // --- PNG via canvas snapshot (each tree drawn, then snapshot) ---
@@ -477,7 +477,7 @@ public class TreeView_ {
                 refresh();
                 String pngFile = "output/" + t[1] + ".png";
                 saveCanvasAsImage(pngFile, "png");
-                report.append("🖼 ").append(pngFile).append("\n");
+                report.append(" ").append(pngFile).append("\n");
             }
 
             // Grafo PNG
@@ -485,15 +485,15 @@ public class TreeView_ {
             refresh();
 
             // Graphviz hint
-            report.append("\n💡 Para generar imágenes con Graphviz:\n");
+            report.append("\n Para generar imágenes con Graphviz:\n");
             report.append("dot -Tpng output/graph.dot -o output/graph.png\n");
             report.append("Para todos:\n");
             report.append("for f in output/*.dot; do dot -Tpng \"$f\" -o \"${f%.dot}.png\"; done\n");
 
             // Try Graphviz for graph.dot automatically
             boolean graphvizOk = tryGraphviz("output/graph.dot", "output/graph.png");
-            if (graphvizOk) report.append("\n✅ Graphviz generó output/graph.png automáticamente");
-            else            report.append("\n⚠️ Graphviz no disponible — instálalo para auto-generar imágenes .dot");
+            if (graphvizOk) report.append("\n Graphviz generó output/graph.png automáticamente");
+            else            report.append("\n Graphviz no disponible — instálalo para auto-generar imágenes .dot");
 
             new Alert(Alert.AlertType.INFORMATION, report.toString(), ButtonType.OK).showAndWait();
         } catch (IOException ex) { alert(ex.getMessage()); }
@@ -513,7 +513,7 @@ public class TreeView_ {
     }
 
     private void info(String msg) {
-        lblInfo.setText("✅ " + msg);
+        lblInfo.setText(" " + msg);
     }
     private void alert(String msg) {
         new Alert(Alert.AlertType.WARNING, msg, ButtonType.OK).showAndWait();
