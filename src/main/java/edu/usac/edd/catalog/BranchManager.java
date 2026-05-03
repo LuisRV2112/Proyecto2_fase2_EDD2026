@@ -13,7 +13,7 @@ import java.util.*;
  * Coordinador central.
  * Gestiona todas las sucursales, el grafo y las transferencias.
  */
-public class BranchManager extends Catalog {
+public class BranchManager {
 
     private final BranchGraph         graph       = new BranchGraph();
     private final Map<String, Catalog> catalogs   = new LinkedHashMap<>();
