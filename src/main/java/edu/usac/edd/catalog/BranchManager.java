@@ -5,22 +5,110 @@ import edu.usac.edd.model.Branch;
 import edu.usac.edd.model.Product;
 import edu.usac.edd.model.Transfer;
 import edu.usac.edd.simulation.Dispatcher;
+import edu.usac.edd.structures.HashTable;
+import edu.usac.edd.structures.LinkedList;
 import edu.usac.edd.structures.Queue;
-
-import java.util.*;
+import java.util.function.Consumer;
 
 /**
  * Coordinador central.
- * Gestiona todas las sucursales, el grafo y las transferencias.
+ * Sin java.util.HashMap, LinkedHashMap ni ArrayList.
+ * Usa HashTable propia para catálogos y LinkedList propia para transferencias.
  */
 public class BranchManager {
 
-    private final BranchGraph         graph       = new BranchGraph();
-    private final Map<String, Catalog> catalogs   = new LinkedHashMap<>();
-    private final Dispatcher           dispatcher  = new Dispatcher(this);
-    private final List<Transfer>       transfers   = new ArrayList<>();
+    // ── Tabla hash propia para catálogos (clave = branchId) ───────────────
+    private static final int CATALOG_CAP = 64;
+    private final CatalogMap  catalogs   = new CatalogMap(CATALOG_CAP);
+    private final BranchGraph graph      = new BranchGraph();
+    private final Dispatcher  dispatcher = new Dispatcher(this);
 
-    // Gestión de sucursales
+    // Lista enlazada propia para transferencias
+    private final TransferList transfers  = new TransferList();
+
+    // ── Mapa hash interno para Catalog (implementado desde cero) ──────────
+    private static class CatalogMap {
+        private static class Entry {
+            String  key;
+            Catalog value;
+            Entry   next;
+            Entry(String k, Catalog v) { key = k; value = v; }
+        }
+        private final Entry[] table;
+        private final int     cap;
+        private int           count;
+
+        CatalogMap(int cap) { this.cap = cap; table = new Entry[cap]; }
+
+        private int hash(String k) {
+            int h = 0;
+            for (char c : k.toCharArray()) h = h * 31 + c;
+            return Math.abs(h) % cap;
+        }
+
+        void put(String key, Catalog val) {
+            int i = hash(key);
+            for (Entry e = table[i]; e != null; e = e.next)
+                if (e.key.equals(key)) { e.value = val; return; }
+            Entry e = new Entry(key, val);
+            e.next = table[i]; table[i] = e; count++;
+        }
+
+        Catalog get(String key) {
+            for (Entry e = table[hash(key)]; e != null; e = e.next)
+                if (e.key.equals(key)) return e.value;
+            return null;
+        }
+
+        void remove(String key) {
+            int i = hash(key);
+            Entry prev = null, cur = table[i];
+            while (cur != null) {
+                if (cur.key.equals(key)) {
+                    if (prev != null) prev.next = cur.next;
+                    else             table[i]   = cur.next;
+                    count--; return;
+                }
+                prev = cur; cur = cur.next;
+            }
+        }
+
+        boolean containsKey(String key) { return get(key) != null; }
+        int size() { return count; }
+
+        /** Itera todos los valores */
+        void forEachValue(Consumer<Catalog> action) {
+            for (Entry head : table)
+                for (Entry e = head; e != null; e = e.next)
+                    action.accept(e.value);
+        }
+
+        /** Itera pares clave-valor */
+        void forEach(java.util.function.BiConsumer<String, Catalog> action) {
+            for (Entry head : table)
+                for (Entry e = head; e != null; e = e.next)
+                    action.accept(e.key, e.value);
+        }
+    }
+
+    // ── Lista enlazada propia para Transfer ───────────────────────────────
+    private static class TransferList {
+        private static class Node {
+            Transfer data; Node next;
+            Node(Transfer t) { data = t; }
+        }
+        private Node head; private int size;
+
+        void add(Transfer t) {
+            Node n = new Node(t); n.next = head; head = n; size++;
+        }
+        int size() { return size; }
+        void forEach(Consumer<Transfer> action) {
+            for (Node c = head; c != null; c = c.next) action.accept(c.data);
+        }
+    }
+
+    // ── Gestión de sucursales ─────────────────────────────────────────────
     public void addBranch(Branch b) {
         graph.addBranch(b);
         catalogs.put(b.getId(), new Catalog(b.getId()));
@@ -36,9 +124,9 @@ public class BranchManager {
         graph.addEdge(fromId, toId, time, cost, bidir);
     }
 
-    public Branch  getBranch(String id)        { return graph.getBranch(id); }
-    public Collection<Branch> getAllBranches()  { return graph.getBranches(); }
-    public BranchGraph getGraph()              { return graph; }
+    public Branch              getBranch(String id)   { return graph.getBranch(id); }
+    public java.util.Collection<Branch> getAllBranches(){ return graph.getBranches(); }
+    public BranchGraph         getGraph()              { return graph; }
 
     // ── Gestión de productos ──────────────────────────────────────────────
     public boolean addProduct(String branchId, Product p) {
@@ -63,25 +151,25 @@ public class BranchManager {
         return cat != null ? cat.searchByName(name) : null;
     }
 
-    public Catalog getCatalog(String branchId) { return catalogs.get(branchId); }
-    public Map<String, Catalog> getAllCatalogs(){ return catalogs; }
+    public Catalog getCatalog(String branchId)  { return catalogs.get(branchId); }
 
-    // ── Transferencia entre sucursales ────────────────────────────────────
+    /** Itera todos los catálogos */
+    public void forEachCatalog(java.util.function.BiConsumer<String, Catalog> action) {
+        catalogs.forEach(action);
+    }
+
+    // ── Transferencias ────────────────────────────────────────────────────
     public Transfer initiateTransfer(String barcode, String fromBranchId,
-                                     String toBranchId,
-                                     Transfer.Criterion criterion) {
+                                     String toBranchId, Transfer.Criterion criterion) {
         Catalog src = catalogs.get(fromBranchId);
         if (src == null) return null;
-
         Product p = src.searchByBarcode(barcode);
         if (p == null) return null;
 
-        // Calcular ruta óptima con Dijkstra
-        List<String> route = graph.dijkstra(fromBranchId, toBranchId, criterion);
+        java.util.List<String> route = graph.dijkstra(fromBranchId, toBranchId, criterion);
         if (route.isEmpty()) return null;
 
         double[] costs = graph.routeCost(route);
-        // Añadir tiempos de procesamiento de sucursales intermedias
         double processingTime = 0;
         for (int i = 1; i < route.size() - 1; i++) {
             Branch mid = graph.getBranch(route.get(i));
@@ -95,37 +183,38 @@ public class BranchManager {
         transfer.setTotalTime(costs[0] + processingTime);
         transfer.setTotalCost(costs[1]);
         transfer.setPhase(Transfer.Phase.IN_TRANSIT);
-
         p.setStatus("En tránsito");
+
         transfers.add(transfer);
-
-        // Despachar en el simulador
         dispatcher.dispatch(transfer);
-
         return transfer;
     }
 
-    public List<Transfer> getTransfers() { return transfers; }
-    public Dispatcher     getDispatcher(){ return dispatcher; }
+    /** Itera transferencias via callback */
+    public void forEachTransfer(Consumer<Transfer> action) {
+        transfers.forEach(action);
+    }
 
-    // ── Undo global ───────────────────────────────────────────────────────
+    /** Retorna cantidad de transferencias */
+    public int transferCount() { return transfers.size(); }
+
+    public Dispatcher getDispatcher() { return dispatcher; }
+
     public boolean undoLastOperation(String branchId) {
         Catalog cat = catalogs.get(branchId);
         return cat != null && cat.undo();
     }
 
-    /** Busca un producto en TODAS las sucursales */
-    public Map<String, Product> searchGlobal(String barcode) {
-        Map<String, Product> found = new LinkedHashMap<>();
-        for (Map.Entry<String, Catalog> e : catalogs.entrySet()) {
-            Product p = e.getValue().searchByBarcode(barcode);
-            if (p != null) found.put(e.getKey(), p);
-        }
-        return found;
+    public int totalProducts() {
+        int[] total = {0};
+        catalogs.forEachValue(cat -> total[0] += cat.size());
+        return total[0];
     }
 
-    /** Total de productos en todo el sistema */
-    public int totalProducts() {
-        return catalogs.values().stream().mapToInt(Catalog::size).sum();
+    // Mantener compatibilidad con GUI que usa getTransfers()
+    public java.util.List<Transfer> getTransfers() {
+        java.util.List<Transfer> list = new java.util.ArrayList<>();
+        transfers.forEach(list::add);
+        return list;
     }
 }

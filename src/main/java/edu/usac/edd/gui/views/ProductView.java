@@ -11,8 +11,6 @@ import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 
-import java.util.List;
-
 public class ProductView {
 
     private final BranchManager   manager;
@@ -209,9 +207,10 @@ public class ProductView {
         String branchId = selectedBranch(); if (branchId == null) return;
         String cat_ = tfSearchCat.getText().trim(); if (cat_.isEmpty()) return;
         Catalog cat = manager.getCatalog(branchId); if (cat == null) return;
-        List<Product> results = cat.searchByCategory(cat_);
-        data.setAll(results);
-        status("Categoría '" + cat_ + "': " + results.size() + " productos");
+        data.clear();
+        cat.searchByCategory(cat_, p -> data.add(p));
+        status("Categoría '" + cat_ + "': " + data.size() + " productos");
+        return;
     }
 
     private void searchByRange() {
@@ -219,9 +218,10 @@ public class ProductView {
         String from = tfFrom.getText().trim(), to = tfTo.getText().trim();
         if (from.isEmpty() || to.isEmpty()) { alert("Ingresa ambas fechas."); return; }
         Catalog cat = manager.getCatalog(branchId); if (cat == null) return;
-        List<Product> results = cat.searchByExpiryRange(from, to);
-        data.setAll(results);
-        status("Rango [" + from + " → " + to + "]: " + results.size() + " productos");
+        data.clear();
+        cat.searchByExpiryRange(from, to, p -> data.add(p));
+        status("Rango [" + from + " → " + to + "]: " + data.size() + " productos");
+        return;
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────
@@ -246,7 +246,8 @@ public class ProductView {
         if (branchId == null) { data.clear(); return; }
         Catalog cat = manager.getCatalog(branchId);
         if (cat == null) { data.clear(); return; }
-        data.setAll(cat.allProducts());
+        data.clear();
+        cat.allProducts(p -> data.add(p));
         status(branchId + ": " + cat.size() + " productos");
     }
 

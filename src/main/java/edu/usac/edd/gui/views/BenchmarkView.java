@@ -14,7 +14,6 @@ import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 
-import java.util.List;
 
 /**
  * Benchmark de rendimiento.
@@ -104,9 +103,11 @@ public class BenchmarkView {
             alert("La sucursal no tiene productos."); return;
         }
 
-        
-        List<Product> all = cat.allProducts();
-        Product sample = all.get(0);
+
+        Product[] holder = {null};
+        cat.allProducts(p -> { if (holder[0] == null) holder[0] = p; });
+        if (holder[0] == null) { alert("La sucursal no tiene productos."); return; }
+        Product sample = holder[0];
         String sampleName    = sample.getName();
         String sampleBarcode = sample.getBarcode();
         String notExist      = "___NO_EXISTE___";

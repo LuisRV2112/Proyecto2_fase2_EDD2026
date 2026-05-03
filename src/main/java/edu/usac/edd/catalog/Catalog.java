@@ -2,14 +2,12 @@ package edu.usac.edd.catalog;
 
 import edu.usac.edd.model.Product;
 import edu.usac.edd.structures.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.function.Consumer;
 
 /**
  * Catálogo por sucursal.
- * Coordina AVL + Hash + BTree + BPlusTree + LinkedList.
- * Inserción con rollback.
+ * Coordina AVL + Hash + BTree + BPlusTree + LinkedList propia.
+ * Sin uso de java.util.ArrayList ni java.util.List.
  */
 public class Catalog {
 
@@ -25,7 +23,7 @@ public class Catalog {
 
     // ── Inserción atomizada con rollback ──────────────────────────────────
     public boolean addProduct(Product p) {
-        if (hashTable.search(p.getBarcode()) != null) return false; // duplicado
+        if (hashTable.search(p.getBarcode()) != null) return false;
 
         unsortedList.insert(p);
         if (!avlTree.insert(p)) {
@@ -60,7 +58,7 @@ public class Catalog {
         return true;
     }
 
-    // ── Undo (rollback de la última operación) ────────────────────────────
+    // ── Undo (rollback) ───────────────────────────────────────────────────
     public boolean undo() {
         Stack.Entry entry = undoStack.pop();
         if (entry == null) return false;
@@ -75,29 +73,25 @@ public class Catalog {
     public Product searchByName(String name)       { return avlTree.search(name); }
     public Product searchByBarcode(String barcode) { return hashTable.search(barcode); }
 
-    public List<Product> searchByCategory(String category) {
-        List<Product> result = new ArrayList<>();
-        bPlusTree.searchByCategory(category, result::add);
-        return result;
+    /** Retorna resultados via callback — sin ArrayList */
+    public void searchByCategory(String category, Consumer<Product> action) {
+        bPlusTree.searchByCategory(category, action);
     }
 
-    public List<Product> searchByExpiryRange(String from, String to) {
-        List<Product> result = new ArrayList<>();
-        bTree.rangeSearch(from, to, result::add);
-        return result;
+    /** Retorna resultados via callback — sin ArrayList */
+    public void searchByExpiryRange(String from, String to, Consumer<Product> action) {
+        bTree.rangeSearch(from, to, action);
     }
 
-    // ── Listado ordenado por nombre (AVL in-order) ────────────────────────
+    /** Itera todos los productos via callback — sin ArrayList */
+    public void allProducts(Consumer<Product> action) {
+        unsortedList.forEach(action);
+    }
+
+    // Listado ordenado (AVL in-order)
     public void listByName(Consumer<Product> action) { avlTree.inOrder(action); }
 
-    // ── Todos los productos ───────────────────────────────────────────────
-    public List<Product> allProducts() {
-        List<Product> list = new ArrayList<>();
-        unsortedList.forEach(list::add);
-        return list;
-    }
-
-    // ── Acceso a estructuras para benchmark y visualización ───────────────
+    // ── Acceso a estructuras ──────────────────────────────────────────────
     public LinkedList getUnsortedList() { return unsortedList; }
     public AVLTree    getAVL()          { return avlTree; }
     public HashTable  getHash()         { return hashTable; }
@@ -105,7 +99,7 @@ public class Catalog {
     public BPlusTree  getBPlusTree()    { return bPlusTree; }
     public Stack      getUndoStack()    { return undoStack; }
 
-    public int  size()        { return hashTable.size(); }
-    public boolean isEmpty()  { return hashTable.isEmpty(); }
-    public String getBranchId(){ return branchId; }
+    public int     size()      { return hashTable.size(); }
+    public boolean isEmpty()   { return hashTable.isEmpty(); }
+    public String  getBranchId(){ return branchId; }
 }

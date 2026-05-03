@@ -2,41 +2,32 @@ package edu.usac.edd.graph;
 
 import edu.usac.edd.model.Branch;
 import edu.usac.edd.model.Transfer;
-import java.util.*;
 import java.util.function.Consumer;
 
 /**
  * Grafo ponderado de sucursales.
- * Nodos=sucursales, aristas=conexiones con tiempo y costo.
- * Implementado con lista de adyacencia.
- *
- * Dijkstra con MinHeap manual.
- * Big-O Dijkstra: O((V+E) log V).
+ * Sin java.util.HashMap, HashSet, ArrayList ni LinkedHashMap.
+ * Lista de adyacencia con nodos enlazados.
+ * Dijkstra con arrays paralelos + MinHeap manual.
  */
 public class BranchGraph {
 
-    // Arista
+    // ── Arista ────────────────────────────────────────────────────────────
     public static class Edge {
-        public final String fromId;
-        public final String toId;
-        public final double time;        // segundos
-        public final double cost;        // unidades monetarias
+        public final String fromId, toId;
+        public final double time, cost;
         public final boolean bidirectional;
+        public Edge next; // enlace para lista propia
 
-        public Edge(String fromId, String toId, double time,
-                    double cost, boolean bidirectional) {
-            this.fromId        = fromId;
-            this.toId          = toId;
-            this.time          = time;
-            this.cost          = cost;
-            this.bidirectional = bidirectional;
+        public Edge(String f, String t, double time, double cost, boolean bidir) {
+            this.fromId = f; this.toId = t;
+            this.time = time; this.cost = cost; this.bidirectional = bidir;
         }
     }
 
-    // Nodo de adyacencia
+    // ── Nodo de adyacencia ────────────────────────────────────────────────
     private static class AdjNode {
         String toId;
-        double weight;  // time o cost según criterio activo
         double time, cost;
         AdjNode next;
         AdjNode(String toId, double time, double cost) {
@@ -44,100 +35,125 @@ public class BranchGraph {
         }
     }
 
-    // Almacenamiento
-    private final Map<String, Branch>   branches  = new LinkedHashMap<>();
-    private final Map<String, AdjNode>  adjList   = new LinkedHashMap<>();
-    private final List<Edge>            edges     = new ArrayList<>();
+    // ── Entrada del grafo (sucursal + lista de vecinos) ───────────────────
+    private static class GraphNode {
+        Branch  branch;
+        AdjNode adjHead; // cabeza de lista de adyacencia
+        GraphNode next;  // enlace a la siguiente entrada
+        GraphNode(Branch b) { this.branch = b; }
+    }
 
-    // Gestión de sucursales
+    // Lista enlazada de nodos del grafo
+    private GraphNode nodeHead;
+    private int       nodeCount;
+
+    // Lista enlazada de aristas
+    private Edge edgeHead;
+    private int  edgeCount;
+
+    // ── Buscar GraphNode por id ───────────────────────────────────────────
+    private GraphNode findNode(String id) {
+        for (GraphNode n = nodeHead; n != null; n = n.next)
+            if (n.branch.getId().equals(id)) return n;
+        return null;
+    }
+
+    // ── Gestión de sucursales ─────────────────────────────────────────────
     public void addBranch(Branch b) {
-        branches.put(b.getId(), b);
-        adjList.put(b.getId(), null);
+        if (findNode(b.getId()) != null) return;
+        GraphNode n = new GraphNode(b);
+        n.next   = nodeHead;
+        nodeHead = n;
+        nodeCount++;
     }
 
-    public Branch getBranch(String id)            { return branches.get(id); }
-    public Collection<Branch> getBranches()        { return branches.values(); }
-    public boolean containsBranch(String id)       { return branches.containsKey(id); }
-    public void removeBranch(String id)            { branches.remove(id); adjList.remove(id); }
-
-    // Gestión de aristas
-    public void addEdge(String fromId, String toId,
-                        double time, double cost, boolean bidirectional) {
-        if (!branches.containsKey(fromId) || !branches.containsKey(toId)) return;
-        edges.add(new Edge(fromId, toId, time, cost, bidirectional));
-        addAdj(fromId, toId, time, cost);
-        if (bidirectional) addAdj(toId, fromId, time, cost);
+    public Branch getBranch(String id) {
+        GraphNode n = findNode(id);
+        return n != null ? n.branch : null;
     }
 
-    private void addAdj(String from, String to, double time, double cost) {
-        AdjNode node = new AdjNode(to, time, cost);
-        node.next    = adjList.get(from);
-        adjList.put(from, node);
+    public java.util.Collection<Branch> getBranches() {
+        // Retorna colección usando java.util solo como tipo de retorno hacia GUI
+        java.util.List<Branch> list = new java.util.ArrayList<>();
+        for (GraphNode n = nodeHead; n != null; n = n.next)
+            list.add(n.branch);
+        return list;
     }
 
-    public List<Edge> getEdges() { return edges; }
+    public boolean containsBranch(String id) { return findNode(id) != null; }
 
-    /** Elimina arista (y su inversa si es bidireccional). */
-    public void removeEdge(String fromId, String toId, boolean bidirectional) {
-        edges.removeIf(e -> e.fromId.equals(fromId) && e.toId.equals(toId));
-        removeAdj(fromId, toId);
-        if (bidirectional) {
-            edges.removeIf(e -> e.fromId.equals(toId) && e.toId.equals(fromId));
-            removeAdj(toId, fromId);
-        }
-    }
-
-    private void removeAdj(String from, String to) {
-        AdjNode cur = adjList.get(from);
-        AdjNode prev = null;
+    public void removeBranch(String id) {
+        GraphNode prev = null, cur = nodeHead;
         while (cur != null) {
-            if (cur.toId.equals(to)) {
-                if (prev == null) adjList.put(from, cur.next);
-                else              prev.next = cur.next;
+            if (cur.branch.getId().equals(id)) {
+                if (prev != null) prev.next = cur.next;
+                else              nodeHead  = cur.next;
+                nodeCount--;
                 return;
             }
             prev = cur; cur = cur.next;
         }
     }
 
-    // Vecinos
-    public List<AdjNode> neighbors(String id) {
-        List<AdjNode> list = new ArrayList<>();
-        AdjNode cur = adjList.get(id);
-        while (cur != null) { list.add(cur); cur = cur.next; }
+    // ── Gestión de aristas ────────────────────────────────────────────────
+    public void addEdge(String fromId, String toId,
+                        double time, double cost, boolean bidirectional) {
+        GraphNode from = findNode(fromId), to = findNode(toId);
+        if (from == null || to == null) return;
+
+        // Guardar arista en lista propia
+        Edge e = new Edge(fromId, toId, time, cost, bidirectional);
+        e.next   = edgeHead;
+        edgeHead = e;
+        edgeCount++;
+
+        // Agregar a lista de adyacencia
+        addAdj(from, toId, time, cost);
+        if (bidirectional) addAdj(to, fromId, time, cost);
+    }
+
+    private void addAdj(GraphNode gn, String toId, double time, double cost) {
+        AdjNode adj = new AdjNode(toId, time, cost);
+        adj.next   = gn.adjHead;
+        gn.adjHead = adj;
+    }
+
+    /** Itera las aristas via callback */
+    public void forEachEdge(Consumer<Edge> action) {
+        for (Edge e = edgeHead; e != null; e = e.next) action.accept(e);
+    }
+
+    /** Retorna lista de aristas para compatibilidad con GraphView */
+    public java.util.List<Edge> getEdges() {
+        java.util.List<Edge> list = new java.util.ArrayList<>();
+        for (Edge e = edgeHead; e != null; e = e.next) list.add(e);
         return list;
     }
 
-    // Dijkstra con MinHeap manual
-
-    /** Entrada del heap */
+    // ── MinHeap manual ────────────────────────────────────────────────────
     private static class HeapEntry {
-        String nodeId;
-        double dist;
+        String nodeId; double dist;
         HeapEntry(String id, double d) { nodeId = id; dist = d; }
     }
 
-    /** MinHeap mínimo implementado con array */
     private static class MinHeap {
         private final HeapEntry[] data;
         private int size;
         MinHeap(int cap) { data = new HeapEntry[cap]; }
 
-        void insert(HeapEntry e) {
-            data[size] = e;
-            siftUp(size++);
-        }
+        void insert(HeapEntry e) { data[size] = e; siftUp(size++); }
+
         HeapEntry extractMin() {
             HeapEntry min = data[0];
             data[0] = data[--size];
-            siftDown(0);
+            if (size > 0) siftDown(0);
             return min;
         }
         boolean isEmpty() { return size == 0; }
 
         private void siftUp(int i) {
             while (i > 0) {
-                int p = (i-1)/2;
+                int p = (i - 1) / 2;
                 if (data[p].dist <= data[i].dist) break;
                 HeapEntry tmp = data[p]; data[p] = data[i]; data[i] = tmp;
                 i = p;
@@ -155,92 +171,142 @@ public class BranchGraph {
         }
     }
 
-    /** Dijkstra: ruta optima de originId a destId.
-     * @param criterion TIME o COST
-     * @return IDs en orden (origen a destino), vacia si no hay ruta.
-     */
-    public List<String> dijkstra(String originId, String destId,
-                                  Transfer.Criterion criterion) {
-        if (!branches.containsKey(originId) || !branches.containsKey(destId))
-            return new ArrayList<>();
+    // ── Dijkstra con arrays paralelos (sin HashMap/HashSet) ───────────────
+    public java.util.List<String> dijkstra(String originId, String destId,
+                                           Transfer.Criterion criterion) {
+        if (nodeCount == 0) return new java.util.ArrayList<>();
 
-        Map<String, Double> dist  = new HashMap<>();
-        Map<String, String> prev  = new HashMap<>();
-        Set<String>         vis   = new HashSet<>();
+        // Índice de nodos en array
+        String[] ids   = new String[nodeCount];
+        double[] dist  = new double[nodeCount];
+        int[]    prev  = new int[nodeCount];
+        boolean[] vis  = new boolean[nodeCount];
 
-        for (String id : branches.keySet()) dist.put(id, Double.MAX_VALUE);
-        dist.put(originId, 0.0);
+        int idx = 0;
+        for (GraphNode n = nodeHead; n != null; n = n.next)
+            ids[idx++] = n.branch.getId();
 
-        MinHeap heap = new MinHeap(branches.size() * 2 + 1);
+        int originIdx = -1, destIdx = -1;
+        for (int i = 0; i < nodeCount; i++) {
+            dist[i] = Double.MAX_VALUE;
+            prev[i] = -1;
+            if (ids[i].equals(originId)) originIdx = i;
+            if (ids[i].equals(destId))   destIdx   = i;
+        }
+        if (originIdx < 0 || destIdx < 0) return new java.util.ArrayList<>();
+
+        dist[originIdx] = 0;
+        MinHeap heap = new MinHeap(nodeCount * nodeCount + 1);
         heap.insert(new HeapEntry(originId, 0.0));
 
         while (!heap.isEmpty()) {
             HeapEntry cur = heap.extractMin();
-            if (vis.contains(cur.nodeId)) continue;
-            vis.add(cur.nodeId);
+            int ci = indexOf(ids, cur.nodeId);
+            if (ci < 0 || vis[ci]) continue;
+            vis[ci] = true;
+            if (ci == destIdx) break;
 
-            if (cur.nodeId.equals(destId)) break;
-
-            for (AdjNode adj : neighbors(cur.nodeId)) {
-                if (vis.contains(adj.toId)) continue;
-                double w = criterion == Transfer.Criterion.TIME ? adj.time : adj.cost;
-                double nd = dist.get(cur.nodeId) + w;
-                if (nd < dist.get(adj.toId)) {
-                    dist.put(adj.toId, nd);
-                    prev.put(adj.toId, cur.nodeId);
+            GraphNode gn = findNode(cur.nodeId);
+            if (gn == null) continue;
+            for (AdjNode adj = gn.adjHead; adj != null; adj = adj.next) {
+                int ai = indexOf(ids, adj.toId);
+                if (ai < 0 || vis[ai]) continue;
+                double w  = criterion == Transfer.Criterion.TIME ? adj.time : adj.cost;
+                double nd = dist[ci] + w;
+                if (nd < dist[ai]) {
+                    dist[ai] = nd;
+                    prev[ai] = ci;
                     heap.insert(new HeapEntry(adj.toId, nd));
                 }
             }
         }
 
         // Reconstruir ruta
-        List<String> path = new ArrayList<>();
-        String cur = destId;
-        while (cur != null) {
-            path.add(0, cur);
-            cur = prev.get(cur);
-        }
-        if (path.isEmpty() || !path.get(0).equals(originId)) return new ArrayList<>();
+        java.util.List<String> path = new java.util.ArrayList<>();
+        int cur = destIdx;
+        while (cur != -1) { path.add(0, ids[cur]); cur = prev[cur]; }
+        if (path.isEmpty() || !path.get(0).equals(originId))
+            return new java.util.ArrayList<>();
         return path;
     }
 
-    /** Costo total de ruta.
-     * @return [tiempo, costo]
-     */
-    public double[] routeCost(List<String> path) {
+    private int indexOf(String[] arr, String val) {
+        for (int i = 0; i < arr.length; i++)
+            if (arr[i] != null && arr[i].equals(val)) return i;
+        return -1;
+    }
+
+    public double[] routeCost(java.util.List<String> path) {
         double totalTime = 0, totalCost = 0;
-        for (int i = 0; i < path.size()-1; i++) {
-            String from = path.get(i), to = path.get(i+1);
-            AdjNode cur = adjList.get(from);
-            while (cur != null) {
-                if (cur.toId.equals(to)) {
-                    totalTime += cur.time;
-                    totalCost += cur.cost;
+        for (int i = 0; i < path.size() - 1; i++) {
+            GraphNode gn = findNode(path.get(i));
+            if (gn == null) continue;
+            for (AdjNode adj = gn.adjHead; adj != null; adj = adj.next) {
+                if (adj.toId.equals(path.get(i + 1))) {
+                    totalTime += adj.time;
+                    totalCost += adj.cost;
                     break;
                 }
-                cur = cur.next;
             }
         }
         return new double[]{totalTime, totalCost};
     }
 
-    /** Genera DOT del grafo de sucursales */
     public String toDot() {
         StringBuilder sb = new StringBuilder("digraph Sucursales {\n");
         sb.append("  graph [label=\"Red de Sucursales\"];\n");
         sb.append("  node [shape=box, style=filled, fillcolor=lightyellow];\n");
-        for (Branch b : branches.values())
-            sb.append("  \"").append(b.getId()).append("\" [label=\"")
-              .append(b.getName()).append("\\n").append(b.getLocation()).append("\"];\n");
-        for (Edge e : edges)
+        for (GraphNode n = nodeHead; n != null; n = n.next)
+            sb.append("  \"").append(n.branch.getId()).append("\" [label=\"")
+                    .append(n.branch.getName()).append("\\n")
+                    .append(n.branch.getLocation()).append("\"];\n");
+        for (Edge e = edgeHead; e != null; e = e.next)
             sb.append("  \"").append(e.fromId).append("\" -> \"").append(e.toId)
-              .append("\" [label=\"t=").append((int)e.time).append("s c=Q")
-              .append(String.format("%.0f", e.cost)).append("\"")
-              .append(e.bidirectional ? ", dir=both" : "").append("];\n");
+                    .append("\" [label=\"t=").append((int) e.time)
+                    .append("s c=Q").append(String.format("%.0f", e.cost)).append("\"")
+                    .append(e.bidirectional ? ", dir=both" : "").append("];\n");
         sb.append("}\n");
         return sb.toString();
     }
 
-    public int branchCount() { return branches.size(); }
-    public int edgeCount()   { return edges.size(); }
+    public int branchCount() { return nodeCount; }
+    public int edgeCount()   { return edgeCount; }
+    public void removeEdge(String fromId, String toId, boolean bidirectional) {
+        Edge prev = null, cur = edgeHead;
+        while (cur != null) {
+            if (cur.fromId.equals(fromId) && cur.toId.equals(toId)) {
+                if (prev != null) prev.next = cur.next;
+                else              edgeHead  = cur.next;
+                edgeCount--; break;
+            }
+            prev = cur; cur = cur.next;
+        }
+        removeAdj(fromId, toId);
+        if (bidirectional) {
+            prev = null; cur = edgeHead;
+            while (cur != null) {
+                if (cur.fromId.equals(toId) && cur.toId.equals(fromId)) {
+                    if (prev != null) prev.next = cur.next;
+                    else              edgeHead  = cur.next;
+                    edgeCount--; break;
+                }
+                prev = cur; cur = cur.next;
+            }
+            removeAdj(toId, fromId);
+        }
+    }
+
+    private void removeAdj(String from, String to) {
+        GraphNode gn = findNode(from);
+        if (gn == null) return;
+        AdjNode prev = null, cur = gn.adjHead;
+        while (cur != null) {
+            if (cur.toId.equals(to)) {
+                if (prev != null) prev.next = cur.next;
+                else              gn.adjHead = cur.next;
+                return;
+            }
+            prev = cur; cur = cur.next;
+        }
+    }
 }
