@@ -1,0 +1,7 @@
+"ID","Nombre","Ubicación","t_ingreso","t_traspaso","t_despacho"
+"S01","Central","Ciudad de Guatemala","5","8","10"
+"S02","Norte","Quetzaltenango","6","10","12"
+"S03","Sur","Escuintla","4","7","9"
+"S04","Este","Chiquimula","7","12","15"
+"S05","Oeste","Huehuetenango","5","9","11"
+"S06","Costa","Retalhuleu","6","8","10"

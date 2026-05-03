@@ -1,0 +1,27 @@
+digraph Sucursales {
+  graph [label="Red de Sucursales"];
+  node [shape=box, style=filled, fillcolor=lightyellow];
+  "S01" [label="Central\nCiudad de Guatemala"];
+  "S02" [label="Norte\nQuetzaltenango"];
+  "S03" [label="Sur\nEscuintla"];
+  "S04" [label="Este\nChiquimula"];
+  "S05" [label="Oeste\nHuehuetenango"];
+  "S06" [label="Costa\nRetalhuleu"];
+  "S01" -> "S02" [label="t=120s c=Q50"];
+  "S02" -> "S01" [label="t=120s c=Q50"];
+  "S01" -> "S03" [label="t=90s c=Q35"];
+  "S03" -> "S01" [label="t=90s c=Q35"];
+  "S01" -> "S04" [label="t=150s c=Q65"];
+  "S04" -> "S01" [label="t=150s c=Q65"];
+  "S02" -> "S05" [label="t=100s c=Q40"];
+  "S05" -> "S02" [label="t=100s c=Q40"];
+  "S02" -> "S06" [label="t=110s c=Q45"];
+  "S06" -> "S02" [label="t=110s c=Q45"];
+  "S03" -> "S06" [label="t=80s c=Q30"];
+  "S06" -> "S03" [label="t=80s c=Q30"];
+  "S04" -> "S05" [label="t=130s c=Q55"];
+  "S05" -> "S06" [label="t=95s c=Q38"];
+  "S06" -> "S05" [label="t=95s c=Q38"];
+  "S01" -> "S05" [label="t=200s c=Q80"];
+  "S05" -> "S01" [label="t=200s c=Q80"];
+}

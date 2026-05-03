@@ -1,0 +1,3 @@
+digraph AVL {
+  node [shape=ellipse, style=filled, fillcolor=lightblue];
+}
