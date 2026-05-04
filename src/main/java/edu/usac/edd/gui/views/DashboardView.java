@@ -10,9 +10,6 @@ import javafx.scene.layout.*;
 import javafx.stage.FileChooser;
 import java.io.File;
 
-/**
- * Dashboard: estadísticas y carga CSV.
- */
 public class DashboardView {
 
     private final BranchManager manager;
@@ -26,7 +23,7 @@ public class DashboardView {
         this.csvLoader = csvLoader;
     }
 
-    /** Callback que se invoca luego de cualquier carga CSV exitosa */
+
     public void setOnDataLoaded(Runnable r) { this.onDataLoaded = r; }
 
     public Node build() {
@@ -48,7 +45,6 @@ public class DashboardView {
         
         TitledPane csvPane = buildCSVPane();
 
-        // Log
         logArea = new TextArea("Sistema iniciado.\n");
         logArea.setEditable(false);
         logArea.setStyle("-fx-control-inner-background:#181825; -fx-text-fill:#a6e3a1; -fx-font-family:monospace;");

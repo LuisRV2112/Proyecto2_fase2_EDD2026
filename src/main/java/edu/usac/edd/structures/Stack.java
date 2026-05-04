@@ -2,18 +2,13 @@ package edu.usac.edd.structures;
 
 import edu.usac.edd.model.Product;
 
-/**
- * Stack LIFO para rollback.
 
- * Big-O: push/pop/peek O(1).
- */
 public class Stack {
 
-    /** Entrada de la pila: operación + producto snapshot */
     public static class Entry {
         public enum Op { INSERT, DELETE, UPDATE }
         public final Op      operation;
-        public final Product snapshot;   // snapshot
+        public final Product snapshot;
         public final String  branchId;
 
         public Entry(Op op, Product snapshot, String branchId) {
@@ -31,21 +26,19 @@ public class Stack {
 
     private Node top;
     private int  size;
-    private final int maxSize;  // limite
+    private final int maxSize;
 
     public Stack(int maxSize) { this.maxSize = maxSize; }
     public Stack()            { this(200); }
 
-    /** Push O(1). */
     public void push(Entry entry) {
-        if (size >= maxSize) removeBottom(); // descarta antiguo
+        if (size >= maxSize) removeBottom();
         Node n = new Node(entry);
         n.next = top;
         top    = n;
         size++;
     }
 
-    /** Pop O(1). */
     public Entry pop() {
         if (top == null) return null;
         Entry e = top.data;
@@ -54,7 +47,6 @@ public class Stack {
         return e;
     }
 
-    /** Peek O(1). */
     public Entry peek() {
         return top != null ? top.data : null;
     }
@@ -62,7 +54,6 @@ public class Stack {
     public boolean isEmpty() { return top == null; }
     public int     size()    { return size; }
 
-    /** Elimina fondo O(n). */
     private void removeBottom() {
         if (top == null) return;
         if (top.next == null) { top = null; size--; return; }

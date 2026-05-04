@@ -3,11 +3,7 @@ package edu.usac.edd.structures;
 import edu.usac.edd.model.Product;
 import java.util.function.Consumer;
 
-/**
- * AVL por nombre de producto.
- * Big-O: busca/ins/elim O(log n).
- * In-order O(n).
- */
+
 public class AVLTree {
 
     public static class Node {
@@ -111,7 +107,6 @@ public class AVLTree {
         inOrder(n.right, action);
     }
 
-    // Export DOT
     public String toDot() {
         StringBuilder sb = new StringBuilder();
         sb.append("digraph AVL {\n");

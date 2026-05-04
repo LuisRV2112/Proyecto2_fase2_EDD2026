@@ -20,10 +20,10 @@ public class BranchView {
     private TableView<Branch>            table;
     private ObservableList<Branch>       data;
 
-    // Campos del formulario sucursal
+    //  formulario sucursal
     private TextField tfId, tfName, tfLocation, tfIngreso, tfTraspaso, tfDespacho;
 
-    // Campos del formulario conexión
+    // formulario conexión
     private ComboBox<String> cbFrom, cbTo;
     private TextField tfTime, tfCost;
     private CheckBox  cbBidir;
@@ -52,7 +52,6 @@ public class BranchView {
         return root;
     }
 
-    // ── Tabla de sucursales ───────────────────────────────────────────────
     @SuppressWarnings("unchecked")
     private Node buildTable() {
         table = new TableView<>();
@@ -92,7 +91,6 @@ public class BranchView {
         return box;
     }
 
-    // ── Formulario sucursal ───────────────────────────────────────────────
     private Node buildForm() {
         VBox form = new VBox(10);
         form.setPadding(new Insets(16));
@@ -130,7 +128,6 @@ public class BranchView {
         return form;
     }
 
-    // ── Panel de conexiones ───────────────────────────────────────────────
     @SuppressWarnings("unchecked")
     private TitledPane buildConnectionPanel() {
         HBox content = new HBox(16);
@@ -208,7 +205,6 @@ public class BranchView {
         return pane;
     }
 
-    // ── Acciones sucursal ────────────────────────────────────────────────
     private void onAdd() {
         try {
             Branch b = fromForm();
@@ -255,7 +251,6 @@ public class BranchView {
         });
     }
 
-    // ── Acciones conexiones ──────────────────────────────────────────────
     private void onAddConnection() {
         String from = cbFrom.getValue();
         String to   = cbTo.getValue();
@@ -341,7 +336,6 @@ public class BranchView {
         refreshConnections();
     }
 
-    // ── Helpers ───────────────────────────────────────────────────────────
     private TextField field(String prompt) {
         TextField tf = new TextField();
         tf.setPromptText(prompt);

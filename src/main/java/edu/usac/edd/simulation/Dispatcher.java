@@ -7,11 +7,6 @@ import edu.usac.edd.model.Transfer;
 import edu.usac.edd.structures.Queue;
 import java.util.function.Consumer;
 
-/**
- * Simulador de despacho entre sucursales.
- * Sin ConcurrentHashMap ni ArrayList.
- * Usa tabla hash propia (thread-safe con synchronized) y LinkedList propia para el log.
- */
 public class Dispatcher {
 
     public static class BranchQueues {
@@ -22,7 +17,6 @@ public class Dispatcher {
         BranchQueues(String id) { this.branchId = id; }
     }
 
-    // ── Tabla hash propia para BranchQueues (thread-safe) ─────────────────
     private static class QueueMap {
         private static class Entry {
             String       key;
@@ -62,7 +56,6 @@ public class Dispatcher {
         }
     }
 
-    // ── Lista enlazada propia para el log de eventos ───────────────────────
     private static class EventList {
         private static class Node {
             SimulationEvent data; Node next;
@@ -163,19 +156,17 @@ public class Dispatcher {
             try { onUpdate.run(); } catch (Exception ignored) {}
     }
 
-    /** Retorna copia del log — java.util.List solo como buffer de retorno hacia GUI */
     public java.util.List<SimulationEvent> getLog() {
         java.util.List<SimulationEvent> copy = new java.util.ArrayList<>();
         log.forEach(copy::add);
         return copy;
     }
 
-    /** Itera colas sin exponer Map de Java */
+
     public void forEachQueue(java.util.function.BiConsumer<String, BranchQueues> action) {
         queues.forEach(action);
     }
 
-    /** Compatibilidad con GUI que usa getAllQueues() */
     public java.util.Map<String, BranchQueues> getAllQueues() {
         java.util.Map<String, BranchQueues> map = new java.util.LinkedHashMap<>();
         queues.forEach(map::put);

@@ -37,7 +37,6 @@ public class ProductView {
         return root;
     }
 
-    // ── Top bar: selector sucursal + búsquedas ────────────────────────────
     private HBox buildTopBar() {
         Label lbl = new Label("Sucursal:");
         lbl.setStyle("-fx-text-fill:#cdd6f4;");
@@ -80,7 +79,6 @@ public class ProductView {
         return bar;
     }
 
-    // ── Tabla de productos ────────────────────────────────────────────────
     private Node buildTablePanel() {
         table = new TableView<>();
         table.setStyle("-fx-background-color:#1e1e2e;");
@@ -112,7 +110,6 @@ public class ProductView {
         return box;
     }
 
-    // ── Panel lateral: formulario + acciones ──────────────────────────────
     private Node buildSidePanel() {
         VBox side = new VBox(8);
         side.setPadding(new Insets(12));
@@ -155,7 +152,6 @@ public class ProductView {
         return side;
     }
 
-    // ── Acciones ──────────────────────────────────────────────────────────
     private void onAdd() {
         String branchId = selectedBranch();
         if (branchId == null) { alert("Selecciona una sucursal."); return; }
@@ -184,7 +180,6 @@ public class ProductView {
         } else alert("No hay operaciones para deshacer.");
     }
 
-    // ── Búsquedas ─────────────────────────────────────────────────────────
     private void searchByName() {
         String branchId = selectedBranch(); if (branchId == null) return;
         String name = tfSearchName.getText().trim(); if (name.isEmpty()) return;
@@ -224,7 +219,6 @@ public class ProductView {
         return;
     }
 
-    // ── Helpers ───────────────────────────────────────────────────────────
     private String selectedBranch() {
         return cbBranch.getValue();
     }

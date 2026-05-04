@@ -4,20 +4,13 @@ import edu.usac.edd.model.Branch;
 import edu.usac.edd.model.Transfer;
 import java.util.function.Consumer;
 
-/**
- * Grafo ponderado de sucursales.
- * Sin java.util.HashMap, HashSet, ArrayList ni LinkedHashMap.
- * Lista de adyacencia con nodos enlazados.
- * Dijkstra con arrays paralelos + MinHeap manual.
- */
 public class BranchGraph {
 
-    // ── Arista ────────────────────────────────────────────────────────────
     public static class Edge {
         public final String fromId, toId;
         public final double time, cost;
         public final boolean bidirectional;
-        public Edge next; // enlace para lista propia
+        public Edge next;
 
         public Edge(String f, String t, double time, double cost, boolean bidir) {
             this.fromId = f; this.toId = t;
@@ -25,7 +18,6 @@ public class BranchGraph {
         }
     }
 
-    // ── Nodo de adyacencia ────────────────────────────────────────────────
     private static class AdjNode {
         String toId;
         double time, cost;
@@ -35,30 +27,25 @@ public class BranchGraph {
         }
     }
 
-    // ── Entrada del grafo (sucursal + lista de vecinos) ───────────────────
     private static class GraphNode {
         Branch  branch;
-        AdjNode adjHead; // cabeza de lista de adyacencia
-        GraphNode next;  // enlace a la siguiente entrada
+        AdjNode adjHead;
+        GraphNode next;
         GraphNode(Branch b) { this.branch = b; }
     }
 
-    // Lista enlazada de nodos del grafo
     private GraphNode nodeHead;
     private int       nodeCount;
 
-    // Lista enlazada de aristas
     private Edge edgeHead;
     private int  edgeCount;
 
-    // ── Buscar GraphNode por id ───────────────────────────────────────────
     private GraphNode findNode(String id) {
         for (GraphNode n = nodeHead; n != null; n = n.next)
             if (n.branch.getId().equals(id)) return n;
         return null;
     }
 
-    // ── Gestión de sucursales ─────────────────────────────────────────────
     public void addBranch(Branch b) {
         if (findNode(b.getId()) != null) return;
         GraphNode n = new GraphNode(b);
@@ -73,7 +60,6 @@ public class BranchGraph {
     }
 
     public java.util.Collection<Branch> getBranches() {
-        // Retorna colección usando java.util solo como tipo de retorno hacia GUI
         java.util.List<Branch> list = new java.util.ArrayList<>();
         for (GraphNode n = nodeHead; n != null; n = n.next)
             list.add(n.branch);
@@ -95,19 +81,17 @@ public class BranchGraph {
         }
     }
 
-    // ── Gestión de aristas ────────────────────────────────────────────────
+    // parte de las aristas
     public void addEdge(String fromId, String toId,
                         double time, double cost, boolean bidirectional) {
         GraphNode from = findNode(fromId), to = findNode(toId);
         if (from == null || to == null) return;
 
-        // Guardar arista en lista propia
         Edge e = new Edge(fromId, toId, time, cost, bidirectional);
         e.next   = edgeHead;
         edgeHead = e;
         edgeCount++;
 
-        // Agregar a lista de adyacencia
         addAdj(from, toId, time, cost);
         if (bidirectional) addAdj(to, fromId, time, cost);
     }
@@ -118,19 +102,16 @@ public class BranchGraph {
         gn.adjHead = adj;
     }
 
-    /** Itera las aristas via callback */
     public void forEachEdge(Consumer<Edge> action) {
         for (Edge e = edgeHead; e != null; e = e.next) action.accept(e);
     }
 
-    /** Retorna lista de aristas para compatibilidad con GraphView */
     public java.util.List<Edge> getEdges() {
         java.util.List<Edge> list = new java.util.ArrayList<>();
         for (Edge e = edgeHead; e != null; e = e.next) list.add(e);
         return list;
     }
 
-    // ── MinHeap manual ────────────────────────────────────────────────────
     private static class HeapEntry {
         String nodeId; double dist;
         HeapEntry(String id, double d) { nodeId = id; dist = d; }
@@ -171,12 +152,12 @@ public class BranchGraph {
         }
     }
 
-    // ── Dijkstra con arrays paralelos (sin HashMap/HashSet) ───────────────
+    //  Dijkstra con arrays paralelos
     public java.util.List<String> dijkstra(String originId, String destId,
                                            Transfer.Criterion criterion) {
         if (nodeCount == 0) return new java.util.ArrayList<>();
 
-        // Índice de nodos en array
+
         String[] ids   = new String[nodeCount];
         double[] dist  = new double[nodeCount];
         int[]    prev  = new int[nodeCount];

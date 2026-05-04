@@ -13,12 +13,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
-
-
-/**
- * Benchmark de rendimiento.
-
- */
+// tenemos el Benchmarkj
 public class BenchmarkView {
 
     private static final int N = 20, M = 5;
@@ -30,7 +25,6 @@ public class BenchmarkView {
     private GraphicsContext  gc;
     private Label            lblStatus;
 
-    // Resultados para la gráfica
     private double[] avgResults;
     private String[] labels;
 
@@ -41,7 +35,6 @@ public class BenchmarkView {
         root.setPadding(new Insets(16));
         root.setStyle("-fx-background-color:#1e1e2e;");
 
-        // Toolbar
         Label lbr = new Label("Sucursal:");
         lbr.setStyle("-fx-text-fill:#cdd6f4;");
         cbBranch = new ComboBox<>();
@@ -94,7 +87,6 @@ public class BenchmarkView {
         return root;
     }
 
-    // ── Benchmark ─────────────────────────────────────────────────────────
     private void runBenchmark() {
         String branchId = cbBranch.getValue();
         if (branchId == null) { alert("Selecciona una sucursal."); return; }
@@ -119,7 +111,6 @@ public class BenchmarkView {
           .append(" repeticiones = ").append(N*M).append(" mediciones\n");
         sb.append("═══════════════════════════════════════════════════════\n\n");
 
-        // ── Búsqueda exitosa ─────────────────────────────────────────────
         sb.append("[ BÚSQUEDA EXITOSA — nombre: \"").append(sampleName).append("\" ]\n");
         double dUL  = bench(() -> cat.getUnsortedList().searchByName(sampleName));
         double dAVL = bench(() -> cat.getAVL().search(sampleName));
@@ -129,7 +120,6 @@ public class BenchmarkView {
         printRow(sb, "Tabla Hash",        dH,   "O(1) prom.");
         sb.append("\n");
 
-        // ── Búsqueda fallida ─────────────────────────────────────────────
         sb.append("[ BÚSQUEDA FALLIDA — nombre: \"").append(notExist).append("\" ]\n");
         double fUL  = bench(() -> cat.getUnsortedList().searchByName(notExist));
         double fAVL = bench(() -> cat.getAVL().search(notExist));
@@ -139,7 +129,7 @@ public class BenchmarkView {
         printRow(sb, "Tabla Hash",        fH,   "O(1) prom.");
         sb.append("\n");
 
-        // ── Inserción ────────────────────────────────────────────────────
+
         Product tmp = new Product("_Temp","_TMPBC"+System.nanoTime(),"Test",
                                   "2026-12-31","Test",1.0,1);
         double iUL  = benchOnce(() -> { cat.getUnsortedList().insert(tmp);
@@ -186,7 +176,6 @@ public class BenchmarkView {
                 struct, micros, micros / 1000.0, bigO));
     }
 
-    // ── Gráfica de barras ─────────────────────────────────────────────────
     private void drawChart() {
         if (avgResults == null) return;
         gc.setFill(Color.web("#181825"));
@@ -235,7 +224,7 @@ public class BenchmarkView {
         gc.fillText("Ejecuta el benchmark para ver la gráfica", 60, 100);
     }
 
-    // ── Big-O panel ───────────────────────────────────────────────────────
+    // Big-O
     private TitledPane buildBigOPane() {
         String info =
             "Lista no ordenada : Búsqueda O(n), Inserción O(1), Eliminación O(n)\n" +

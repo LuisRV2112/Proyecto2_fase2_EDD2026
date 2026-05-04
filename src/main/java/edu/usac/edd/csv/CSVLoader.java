@@ -9,12 +9,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.function.BiConsumer;
 
 /**
- * Cargador robusto de los 3 tipos de CSV:
- *   1. sucursales.csv
- *   2. conexiones.csv
- *   3. productos.csv
- *
- * Valida, loggea errores en errors.log, nunca detiene la carga por línea mala.
+ * Valida el CSV, loggea errores en errors.log, nunca va a detener la carga por línea mala.
  */
 public class CSVLoader {
 
@@ -34,8 +29,7 @@ public class CSVLoader {
         this.errorLogPath = errorLogPath;
     }
 
-    // Sucursales
-    // "ID","Nombre","Ubicación","t_ingreso","t_traspaso","t_despacho"
+    //CSBV Sucursales
     public LoadResult loadBranches(String filepath) {
         LoadResult r = new LoadResult();
         processCSV(filepath, (fields, lineNum) -> {
@@ -59,8 +53,7 @@ public class CSVLoader {
         return r;
     }
 
-    // ── Conexiones ────────────────────────────────────────────────────────
-    // "OrigenID","DestinoID","Tiempo","Costo"
+    // CSV Conexiones
     public LoadResult loadConnections(String filepath) {
         LoadResult r = new LoadResult();
         processCSV(filepath, (fields, lineNum) -> {
@@ -84,8 +77,7 @@ public class CSVLoader {
         return r;
     }
 
-    // ── Productos ─────────────────────────────────────────────────────────
-    // "SucursalID","Nombre","CodigoBarra","Categoria","FechaCaducidad","Marca","Precio","Stock"
+    // CSV Productos
     public LoadResult loadProducts(String filepath) {
         LoadResult r = new LoadResult();
         processCSV(filepath, (fields, lineNum) -> {
@@ -124,7 +116,6 @@ public class CSVLoader {
         return r;
     }
 
-    // ── Motor de procesamiento ────────────────────────────────────────────
     private void processCSV(String filepath, BiConsumer<String[], Integer> handler) {
         File f = new File(filepath);
         if (!f.exists() || !f.canRead()) {
@@ -148,8 +139,6 @@ public class CSVLoader {
             log("Error leyendo " + filepath + ": " + e.getMessage());
         }
     }
-
-    /** Parser CSV que respeta comillas dobles */
     private String[] parseLine(String line) {
         java.util.List<String> fields = new java.util.ArrayList<>();
         StringBuilder cur = new StringBuilder();

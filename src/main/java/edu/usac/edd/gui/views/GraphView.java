@@ -26,11 +26,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-/**
- * Grafo de sucursales en Canvas.
- * Nodos arrastrables, aristas con tiempo/costo.
- * Ruta Dijkstra resaltada.
- */
 public class GraphView {
 
     private final BranchManager manager;
@@ -40,7 +35,6 @@ public class GraphView {
     private TextArea        taInfo;
     private Label           lblStats;
 
-    // Drag de nodos
     private Branch  dragging;
     private double  dragOffX, dragOffY;
 
@@ -50,7 +44,6 @@ public class GraphView {
         VBox root = new VBox(0);
         root.setStyle("-fx-background-color:#1e1e2e;");
 
-        // Toolbar
         HBox toolbar = buildToolbar();
 
         // Canvas + info split
@@ -61,7 +54,6 @@ public class GraphView {
         canvas = new Canvas(800, 560);
         gc     = canvas.getGraphicsContext2D();
 
-        // Layout circular
         layoutNodes();
         draw();
 
@@ -85,7 +77,6 @@ public class GraphView {
         StackPane canvasPane = new StackPane(canvas);
         canvasPane.setStyle("-fx-background-color:#181825;");
 
-        // Info panel
         VBox infoPanel = new VBox(8);
         infoPanel.setPadding(new Insets(12));
         infoPanel.setStyle("-fx-background-color:#181825;");
@@ -149,7 +140,6 @@ public class GraphView {
         return bar;
     }
 
-    // ── Layout circular de nodos ──────────────────────────────────────────
     public void layoutNodes() {
         var branches = manager.getAllBranches();
         int total = branches.size();
@@ -163,7 +153,6 @@ public class GraphView {
         }
     }
 
-    // ── Dibujo principal ─────────────────────────────────────────────────
     public void draw() {
         gc.setFill(Color.web("#181825"));
         gc.fillRect(0, 0, canvas.getWidth(), canvas.getHeight());
@@ -207,7 +196,6 @@ public class GraphView {
             gc.setLineWidth(onRoute ? 2.5 : 1.5);
             gc.strokeOval(b.getX()-22, b.getY()-22, 44, 44);
 
-            // Etiqueta
             gc.setFill(Color.web("#1e1e2e"));
             gc.setFont(Font.font("Arial", 10));
             String label = b.getId();
@@ -223,7 +211,7 @@ public class GraphView {
 
     private void drawArrow(double x1, double y1, double x2, double y2, boolean highlight) {
         double angle = Math.atan2(y2-y1, x2-x1);
-        double d = 24; // radio del nodo
+        double d = 24;
         double ax = x2 - d * Math.cos(angle);
         double ay = y2 - d * Math.sin(angle);
         double size = 8;

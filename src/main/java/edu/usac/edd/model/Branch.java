@@ -1,10 +1,6 @@
 package edu.usac.edd.model;
 
-/**
- * Sucursal del supermercado.
- * Cada sucursal tiene su propio catálogo (estructuras independientes)
- * y tres colas de procesamiento de productos.
- */
+
 public class Branch {
     private final String id;
     private String name;
@@ -13,7 +9,6 @@ public class Branch {
     private int    timeTraspaso;   // segundos: preparar para reenvío
     private int    timeDespacho;   // segundos: intervalo entre despachos
 
-    // Coordenadas para dibujar en el canvas del grafo
     private double x;
     private double y;
 

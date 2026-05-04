@@ -10,23 +10,17 @@ import edu.usac.edd.structures.LinkedList;
 import edu.usac.edd.structures.Queue;
 import java.util.function.Consumer;
 
-/**
- * Coordinador central.
- * Sin java.util.HashMap, LinkedHashMap ni ArrayList.
- * Usa HashTable propia para catálogos y LinkedList propia para transferencias.
- */
 public class BranchManager {
 
-    // ── Tabla hash propia para catálogos (clave = branchId) ───────────────
+    // Tabla hash para catálogos
     private static final int CATALOG_CAP = 64;
     private final CatalogMap  catalogs   = new CatalogMap(CATALOG_CAP);
     private final BranchGraph graph      = new BranchGraph();
     private final Dispatcher  dispatcher = new Dispatcher(this);
 
-    // Lista enlazada propia para transferencias
     private final TransferList transfers  = new TransferList();
 
-    // ── Mapa hash interno para Catalog (implementado desde cero) ──────────
+    // maphash interno para Catalog
     private static class CatalogMap {
         private static class Entry {
             String  key;
@@ -76,14 +70,12 @@ public class BranchManager {
         boolean containsKey(String key) { return get(key) != null; }
         int size() { return count; }
 
-        /** Itera todos los valores */
         void forEachValue(Consumer<Catalog> action) {
             for (Entry head : table)
                 for (Entry e = head; e != null; e = e.next)
                     action.accept(e.value);
         }
 
-        /** Itera pares clave-valor */
         void forEach(java.util.function.BiConsumer<String, Catalog> action) {
             for (Entry head : table)
                 for (Entry e = head; e != null; e = e.next)
@@ -91,7 +83,7 @@ public class BranchManager {
         }
     }
 
-    // ── Lista enlazada propia para Transfer ───────────────────────────────
+    // Lista Enlzada transfer
     private static class TransferList {
         private static class Node {
             Transfer data; Node next;
@@ -108,7 +100,7 @@ public class BranchManager {
         }
     }
 
-    // ── Gestión de sucursales ─────────────────────────────────────────────
+    // Sucurlsales
     public void addBranch(Branch b) {
         graph.addBranch(b);
         catalogs.put(b.getId(), new Catalog(b.getId()));
@@ -128,7 +120,7 @@ public class BranchManager {
     public java.util.Collection<Branch> getAllBranches(){ return graph.getBranches(); }
     public BranchGraph         getGraph()              { return graph; }
 
-    // ── Gestión de productos ──────────────────────────────────────────────
+    // Gestión de productos
     public boolean addProduct(String branchId, Product p) {
         Catalog cat = catalogs.get(branchId);
         if (cat == null) return false;
@@ -153,12 +145,10 @@ public class BranchManager {
 
     public Catalog getCatalog(String branchId)  { return catalogs.get(branchId); }
 
-    /** Itera todos los catálogos */
     public void forEachCatalog(java.util.function.BiConsumer<String, Catalog> action) {
         catalogs.forEach(action);
     }
 
-    // ── Transferencias ────────────────────────────────────────────────────
     public Transfer initiateTransfer(String barcode, String fromBranchId,
                                      String toBranchId, Transfer.Criterion criterion) {
         Catalog src = catalogs.get(fromBranchId);
@@ -190,12 +180,11 @@ public class BranchManager {
         return transfer;
     }
 
-    /** Itera transferencias via callback */
+
     public void forEachTransfer(Consumer<Transfer> action) {
         transfers.forEach(action);
     }
 
-    /** Retorna cantidad de transferencias */
     public int transferCount() { return transfers.size(); }
 
     public Dispatcher getDispatcher() { return dispatcher; }
@@ -211,7 +200,6 @@ public class BranchManager {
         return total[0];
     }
 
-    // Mantener compatibilidad con GUI que usa getTransfers()
     public java.util.List<Transfer> getTransfers() {
         java.util.List<Transfer> list = new java.util.ArrayList<>();
         transfers.forEach(list::add);

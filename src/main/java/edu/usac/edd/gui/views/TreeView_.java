@@ -26,10 +26,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-/**
- * Visualizador de AVL, B-tree, B+ tree y HashTable.
- * Canvas con zoom, exporta .dot y .png.
- */
+
 public class TreeView_ {
 
     private final BranchManager manager;
@@ -45,7 +42,6 @@ public class TreeView_ {
     private static final double ZOOM_MAX = 4.0;
     private static final double ZOOM_STEP = 0.15;
 
-    // Canvas base size (virtual space before zoom)
     private static final double BASE_W = 1800;
     private static final double BASE_H = 1200;
 
@@ -58,7 +54,6 @@ public class TreeView_ {
         return root;
     }
 
-    // ── Toolbar ───────────────────────────────────────────────────────────
     private HBox buildToolbar() {
         Label lbr = new Label("Sucursal:");
         lbr.setStyle("-fx-text-fill:#cdd6f4;");
@@ -78,7 +73,7 @@ public class TreeView_ {
         Button btnRefresh = toolBtn(" Refrescar", "#89b4fa");
         btnRefresh.setOnAction(e -> { refreshBranchCombo(); refresh(); });
 
-        // Zoom controls
+        // Comtroles de zoom
         Button btnZoomIn  = toolBtn("+", "#a6e3a1");
         Button btnZoomOut = toolBtn("-", "#f9e2af");
         Button btnZoomRst = toolBtn(" Reset", "#cba6f7");
@@ -90,7 +85,7 @@ public class TreeView_ {
         btnZoomOut.setOnAction(e -> applyZoom(zoomLevel - ZOOM_STEP));
         btnZoomRst.setOnAction(e -> applyZoom(1.0));
 
-        // Export buttons
+        // Botones para exportar
         Button btnExportDot = toolBtn(" DOT", "#cba6f7");
         btnExportDot.setOnAction(e -> exportDot());
 
@@ -122,7 +117,6 @@ public class TreeView_ {
         return bar;
     }
 
-    // ── Content ───────────────────────────────────────────────────────────
     private Node buildContent() {
         SplitPane split = new SplitPane();
         split.setDividerPositions(0.68);
@@ -133,7 +127,6 @@ public class TreeView_ {
         gc     = canvas.getGraphicsContext2D();
         clearCanvas();
 
-        // Wrap in a StackPane so the canvas keeps its size while scroll pane clips
         StackPane canvasPane = new StackPane(canvas);
         canvasPane.setStyle("-fx-background-color:#181825;");
 
@@ -143,7 +136,7 @@ public class TreeView_ {
         canvasScroll.setFitToWidth(false);
         canvasScroll.setFitToHeight(false);
 
-        // Zoom with scroll wheel (Ctrl+scroll)
+        // Zoom con Ctrl+scroll, parece tener fallas
         canvasScroll.setOnScroll(e -> {
             if (e.isControlDown()) {
                 double delta = e.getDeltaY() > 0 ? ZOOM_STEP : -ZOOM_STEP;
@@ -152,7 +145,6 @@ public class TreeView_ {
             }
         });
 
-        // Hint label
         Label hint = new Label(" Ctrl+Scroll para zoom  |  Arrastra para navegar");
         hint.setStyle("-fx-text-fill:#585b70; -fx-font-size:10px; -fx-padding:2 0 0 4;");
 
@@ -177,7 +169,6 @@ public class TreeView_ {
         return split;
     }
 
-    // ── Zoom ──────────────────────────────────────────────────────────────
     private void applyZoom(double newZoom) {
         zoomLevel = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, newZoom));
         canvas.setScaleX(zoomLevel);
@@ -185,7 +176,6 @@ public class TreeView_ {
         lblZoom.setText(String.format("%.0f%%", zoomLevel * 100));
     }
 
-    // ── Dibujo ────────────────────────────────────────────────────────────
     private void refresh() {
         String branchId = cbBranch.getValue();
         if (branchId == null) return;
@@ -222,7 +212,6 @@ public class TreeView_ {
         gc.fillRect(0, 0, BASE_W, BASE_H);
     }
 
-    // ── AVL drawing ───────────────────────────────────────────────────────
     private void drawAVL(AVLTree.Node node, double x, double y, double spread, int depth) {
         if (node == null || depth > 16) return;
         double r = 26;
@@ -252,7 +241,6 @@ public class TreeView_ {
         gc.fillText("h=" + node.height, x - 9, y + r + 12);
     }
 
-    // ── B-Tree drawing ────────────────────────────────────────────────────
     private void drawBTree(BTree.BNode node, double x, double y, double w, int depth) {
         if (node == null || depth > 8) return;
         double h = 30, cellW = Math.min(90, w / Math.max(1, node.n));
@@ -280,7 +268,6 @@ public class TreeView_ {
         }
     }
 
-    // ── B+ Tree drawing ───────────────────────────────────────────────────
     private void drawBPlus(Object node, double x, double y, double w, int depth) {
         if (node == null || depth > 8) return;
         if (node instanceof BPlusTree.LeafNode leaf) {
@@ -323,14 +310,12 @@ public class TreeView_ {
         }
     }
 
-    // ── HashTable drawing ─────────────────────────────────────────────────
     private void drawHashTable(edu.usac.edd.structures.HashTable hash) {
         // Show only occupied buckets, up to 40 for readability
         int maxBuckets = 40;
         int cap = hash.capacity();
         edu.usac.edd.structures.HashTable.Entry[] table = hash.getTable();
 
-        // Collect occupied indices
         java.util.List<Integer> occupied = new java.util.ArrayList<>();
         for (int i = 0; i < cap && occupied.size() < maxBuckets; i++) {
             if (table[i] != null) occupied.add(i);
@@ -339,7 +324,6 @@ public class TreeView_ {
         double colW = 120, rowH = 36, x0 = 30, y0 = 30;
         int cols = Math.max(1, (int)((BASE_W - x0 * 2) / colW));
 
-        // Title
         gc.setFill(Color.web("#cdd6f4")); gc.setFont(Font.font(13));
         gc.fillText("Tabla Hash — " + hash.size() + " elementos, " +
                     occupied.size() + " buckets ocupados mostrados" +
@@ -352,7 +336,6 @@ public class TreeView_ {
             double bx = x0 + col * colW;
             double by = y0 + row * (rowH * 4 + 20);
 
-            // Bucket header
             gc.setFill(Color.web("#89b4fa")); gc.fillRect(bx, by, colW - 6, rowH);
             gc.setStroke(Color.web("#cdd6f4")); gc.strokeRect(bx, by, colW - 6, rowH);
             gc.setFill(Color.web("#1e1e2e")); gc.setFont(Font.font(9));
@@ -360,7 +343,6 @@ public class TreeView_ {
             int chainLen = hash.chainLength(bucketIdx);
             gc.fillText("n=" + chainLen, bx + 4, by + 28);
 
-            // Chain entries
             edu.usac.edd.structures.HashTable.Entry cur = table[bucketIdx];
             int pos = 0;
             while (cur != null && pos < 3) {
@@ -389,7 +371,6 @@ public class TreeView_ {
         }
     }
 
-    // ── Exportar DOT ──────────────────────────────────────────────────────
     private void exportDot() {
         String branchId = cbBranch.getValue();
         if (branchId == null) { alert("Selecciona una sucursal."); return; }
@@ -413,7 +394,7 @@ public class TreeView_ {
         } catch (IOException ex) { alert(ex.getMessage()); }
     }
 
-    // ── Exportar imagen (PNG o JPG) desde canvas ──────────────────────────
+    // Exportar imagen PNG o JPG desde canvas
     private void exportImage(String format) {
         String branchId = cbBranch.getValue();
         if (branchId == null) { alert("Selecciona una sucursal."); return; }
@@ -430,7 +411,6 @@ public class TreeView_ {
             Files.createDirectories(Path.of("output"));
             SnapshotParameters sp = new SnapshotParameters();
             sp.setFill(Color.web("#181825"));
-            // Take snapshot at full canvas size (zoom independent)
             sp.setTransform(new Scale(1, 1));
             WritableImage img = canvas.snapshot(sp, null);
             File out = new File(filename);
@@ -441,7 +421,6 @@ public class TreeView_ {
         } catch (IOException ex) { alert(ex.getMessage()); }
     }
 
-    // ── Exportar TODO (DOT + PNG de todos los árboles + hash + grafo) ─────
     private void exportAll() {
         String branchId = cbBranch.getValue();
         if (branchId == null) { alert("Selecciona una sucursal para exportar sus árboles."); return; }
@@ -452,7 +431,6 @@ public class TreeView_ {
             Files.createDirectories(Path.of("output"));
             StringBuilder report = new StringBuilder(" Exportación completa:\n\n");
 
-            // --- DOT files ---
             String[][] exports = {
                 { "output/avl_"   + branchId + ".dot", cat.getAVL().toDot()       },
                 { "output/btree_" + branchId + ".dot", cat.getBTree().toDot()      },
@@ -465,7 +443,6 @@ public class TreeView_ {
                 report.append(" ").append(pair[0]).append("\n");
             }
 
-            // --- PNG via canvas snapshot (each tree drawn, then snapshot) ---
             String[][] trees = {
                 {"AVL (por nombre)",       "avl_"   + branchId},
                 {"B-tree (por caducidad)", "btree_" + branchId},
@@ -480,17 +457,14 @@ public class TreeView_ {
                 report.append(" ").append(pngFile).append("\n");
             }
 
-            // Grafo PNG
             cbTree.setValue("AVL (por nombre)"); // restore
             refresh();
 
-            // Graphviz hint
             report.append("\n Para generar imágenes con Graphviz:\n");
             report.append("dot -Tpng output/graph.dot -o output/graph.png\n");
             report.append("Para todos:\n");
             report.append("for f in output/*.dot; do dot -Tpng \"$f\" -o \"${f%.dot}.png\"; done\n");
 
-            // Try Graphviz for graph.dot automatically
             boolean graphvizOk = tryGraphviz("output/graph.dot", "output/graph.png");
             if (graphvizOk) report.append("\n Graphviz generó output/graph.png automáticamente");
             else            report.append("\n Graphviz no disponible — instálalo para auto-generar imágenes .dot");
@@ -499,7 +473,6 @@ public class TreeView_ {
         } catch (IOException ex) { alert(ex.getMessage()); }
     }
 
-    /** Intenta ejecutar Graphviz (dot) para generar PNG desde un .dot file */
     private boolean tryGraphviz(String dotFile, String pngFile) {
         try {
             ProcessBuilder pb = new ProcessBuilder("dot", "-Tpng", dotFile, "-o", pngFile);

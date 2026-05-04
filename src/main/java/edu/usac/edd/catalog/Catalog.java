@@ -4,11 +4,6 @@ import edu.usac.edd.model.Product;
 import edu.usac.edd.structures.*;
 import java.util.function.Consumer;
 
-/**
- * Catálogo por sucursal.
- * Coordina AVL + Hash + BTree + BPlusTree + LinkedList propia.
- * Sin uso de java.util.ArrayList ni java.util.List.
- */
 public class Catalog {
 
     private final LinkedList unsortedList = new LinkedList();
@@ -21,7 +16,6 @@ public class Catalog {
 
     public Catalog(String branchId) { this.branchId = branchId; }
 
-    // ── Inserción atomizada con rollback ──────────────────────────────────
     public boolean addProduct(Product p) {
         if (hashTable.search(p.getBarcode()) != null) return false;
 
@@ -42,7 +36,6 @@ public class Catalog {
         return true;
     }
 
-    // ── Eliminación propagada ─────────────────────────────────────────────
     public boolean removeProduct(String barcode) {
         Product p = hashTable.search(barcode);
         if (p == null) return false;
@@ -58,7 +51,7 @@ public class Catalog {
         return true;
     }
 
-    // ── Undo (rollback) ───────────────────────────────────────────────────
+    // rollback
     public boolean undo() {
         Stack.Entry entry = undoStack.pop();
         if (entry == null) return false;
@@ -69,29 +62,25 @@ public class Catalog {
         return false;
     }
 
-    // ── Búsquedas ─────────────────────────────────────────────────────────
     public Product searchByName(String name)       { return avlTree.search(name); }
     public Product searchByBarcode(String barcode) { return hashTable.search(barcode); }
 
-    /** Retorna resultados via callback — sin ArrayList */
     public void searchByCategory(String category, Consumer<Product> action) {
         bPlusTree.searchByCategory(category, action);
     }
 
-    /** Retorna resultados via callback — sin ArrayList */
     public void searchByExpiryRange(String from, String to, Consumer<Product> action) {
         bTree.rangeSearch(from, to, action);
     }
 
-    /** Itera todos los productos via callback — sin ArrayList */
+
     public void allProducts(Consumer<Product> action) {
         unsortedList.forEach(action);
     }
 
-    // Listado ordenado (AVL in-order)
+
     public void listByName(Consumer<Product> action) { avlTree.inOrder(action); }
 
-    // ── Acceso a estructuras ──────────────────────────────────────────────
     public LinkedList getUnsortedList() { return unsortedList; }
     public AVLTree    getAVL()          { return avlTree; }
     public HashTable  getHash()         { return hashTable; }

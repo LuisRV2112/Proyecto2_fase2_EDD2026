@@ -3,16 +3,10 @@ package edu.usac.edd.structures;
 import edu.usac.edd.model.Product;
 import java.util.function.Consumer;
 
-/**
- * B+Tree, orden 4, por categoría.
- * Hojas enlazadas para recorrido secuencial.
- * Big-O: busca/ins O(log n), cat O(log n + k).
- */
 public class BPlusTree {
 
     public static final int ORDER = 4;
 
-    // ── Nodo hoja ─────────────────────────────────────────────────────────
     public static class LeafNode {
         public final boolean isLeaf = true;
         public String[]   keys    = new String[ORDER];
@@ -21,7 +15,6 @@ public class BPlusTree {
         public LeafNode   next    = null;
     }
 
-    // ── Nodo interno ──────────────────────────────────────────────────────
     public static class InternalNode {
         public final boolean isLeaf = false;
         public String[] keys     = new String[ORDER];
@@ -36,7 +29,6 @@ public class BPlusTree {
         return node instanceof LeafNode;
     }
 
-    // ── findLeaf ──────────────────────────────────────────────────────────
     private LeafNode findLeaf(String key) {
         if (root == null) return null;
         Object cur = root;
@@ -49,7 +41,6 @@ public class BPlusTree {
         return (LeafNode) cur;
     }
 
-    // ── Inserción ─────────────────────────────────────────────────────────
     public void insert(Product p) {
         if (root == null) {
             LeafNode leaf = new LeafNode();
@@ -68,7 +59,6 @@ public class BPlusTree {
         size++;
     }
 
-    /** Returns [promotedKey, newRightChild] or null if no split */
     private Object[] insertInto(Object node, String key, Product p) {
         if (isLeaf(node)) return insertLeaf((LeafNode) node, key, p);
         InternalNode nd = (InternalNode) node;
@@ -138,7 +128,7 @@ public class BPlusTree {
         return new Object[]{prom, right};
     }
 
-    // ── Búsqueda por categoría O(log n + k) ───────────────────────────────
+    // Búsqueda por categoría O(log n + k)
     public void searchByCategory(String category, Consumer<Product> action) {
         LeafNode leaf = findLeaf(category);
         while (leaf != null) {
@@ -150,7 +140,6 @@ public class BPlusTree {
         }
     }
 
-    // ── Eliminación simplificada ──────────────────────────────────────────
     public boolean remove(String category, String barcode) {
         LeafNode leaf = findLeaf(category);
         if (leaf == null) return false;
@@ -165,7 +154,6 @@ public class BPlusTree {
         return false;
     }
 
-    // Export DOT
     public String toDot() {
         StringBuilder sb = new StringBuilder("digraph BPlusTree {\n  rankdir=TB;\n");
         sb.append("  node [shape=record];\n");
@@ -205,7 +193,6 @@ public class BPlusTree {
     public boolean isEmpty() { return root == null; }
     public Object  getRoot() { return root; }
 
-    /** Iteración completa por hojas enlazadas O(n) */
     public void forEach(Consumer<Product> action) {
         if (root == null) return;
         Object cur = root;

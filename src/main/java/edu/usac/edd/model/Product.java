@@ -1,19 +1,15 @@
 package edu.usac.edd.model;
 
-/**
- * Entidad Producto.
-
- */
 public class Product {
     private final String name;
-    private final String barcode;       // clave única
+    private final String barcode;
     private final String category;
-    private final String expiryDate;    // fecha ISO
+    private final String expiryDate;
     private final String brand;
     private double price;
     private int    stock;
-    private String status;              // estado
-    private String branchId;            // sucursal
+    private String status;
+    private String branchId;
 
     public Product(String name, String barcode, String category,
                    String expiryDate, String brand, double price, int stock) {
@@ -28,7 +24,7 @@ public class Product {
         this.branchId   = "";
     }
 
-    /** Copia para rollback. */
+
     public Product copy() {
         Product p = new Product(name, barcode, category, expiryDate,
                                 brand, price, stock);

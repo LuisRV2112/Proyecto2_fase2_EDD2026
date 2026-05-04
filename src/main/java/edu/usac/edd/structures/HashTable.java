@@ -3,16 +3,6 @@ package edu.usac.edd.structures;
 import edu.usac.edd.model.Product;
 import java.util.function.Consumer;
 
-/**
- * HashTable con encadenamiento.
- * Clave: barcode (único).
- * Hash: djb2.
- *
- * Big-O:
- *   Inserción : O(1) amortizado
- *   Búsqueda  : O(1) promedio
- *   Eliminación: O(1) promedio
- */
 public class HashTable {
 
     private static final int DEFAULT_CAP = 2048;
@@ -33,7 +23,6 @@ public class HashTable {
         this.table    = new Entry[capacity];
     }
 
-    /** Hash djb2. */
     private int hash(String key) {
         long h = 5381;
         for (char c : key.toCharArray())
@@ -41,7 +30,6 @@ public class HashTable {
         return (int)(Math.abs(h) % capacity);
     }
 
-    /** Insercion O(1). Retorna false si ya existe. */
     public boolean insert(Product p) {
         int idx = hash(p.getBarcode());
         Entry cur = table[idx];
@@ -56,7 +44,6 @@ public class HashTable {
         return true;
     }
 
-    /** Busqueda O(1) promedio. */
     public Product search(String barcode) {
         int idx = hash(barcode);
         Entry cur = table[idx];
@@ -67,7 +54,6 @@ public class HashTable {
         return null;
     }
 
-    /** Eliminacion O(1) promedio. */
     public boolean remove(String barcode) {
         int idx = hash(barcode);
         Entry prev = null, cur = table[idx];
@@ -83,7 +69,6 @@ public class HashTable {
         return false;
     }
 
-    /** Iteracion. */
     public void forEach(Consumer<Product> action) {
         for (int i = 0; i < capacity; i++) {
             Entry cur = table[i];
@@ -99,7 +84,6 @@ public class HashTable {
     public double loadFactor() { return (double) count / capacity; }
     public int    capacity()   { return capacity; }
 
-    /** Longitud de cadena en bucket idx. */
     public int chainLength(int idx) {
         int len = 0;
         Entry cur = table[idx];
@@ -109,7 +93,6 @@ public class HashTable {
 
     public Entry[] getTable() { return table; }
 
-    /** Genera DOT de la tabla hash. */
     public String toDot() {
         StringBuilder sb = new StringBuilder();
         sb.append("digraph HashTable {\n");

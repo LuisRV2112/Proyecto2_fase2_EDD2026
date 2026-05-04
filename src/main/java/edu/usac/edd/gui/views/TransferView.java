@@ -15,10 +15,6 @@ import javafx.scene.layout.*;
 
 import java.util.List;
 
-/**
- * Transferencias entre sucursales.
- * Ruta Dijkstra, ETA y colas en tiempo real.
- */
 public class TransferView {
 
     private final BranchManager manager;
@@ -43,7 +39,7 @@ public class TransferView {
         return split;
     }
 
-    // ── Panel izquierdo: formulario de transferencia ──────────────────────
+    // Panel izquierdo formulario de transferencia
     private Node buildLeft() {
         VBox box = new VBox(10);
         box.setPadding(new Insets(16));
@@ -95,7 +91,7 @@ public class TransferView {
         return box;
     }
 
-    // ── Panel derecho: historial + colas en tiempo real ───────────────────
+    // Panel derecho historial + colas en tiempo real
     private Node buildRight() {
         VBox box = new VBox(10);
         box.setPadding(new Insets(12));
@@ -143,7 +139,6 @@ public class TransferView {
         return box;
     }
 
-    // ── Lógica ────────────────────────────────────────────────────────────
     private void previewRoute() {
         String from = cbFrom.getValue(), to = cbTo.getValue();
         if (from == null || to == null) { alert("Selecciona origen y destino."); return; }
@@ -184,7 +179,6 @@ public class TransferView {
         transferData.setAll(manager.getTransfers());
         log("▶ Transferencia iniciada: " + t);
 
-        // Programar actualizaciones periódicas de la UI
         manager.getDispatcher().setOnUpdate(() ->
             Platform.runLater(this::refreshQueues)
         );
@@ -238,7 +232,6 @@ public class TransferView {
         return box;
     }
 
-    // ── Helpers ───────────────────────────────────────────────────────────
     private void refreshCombos() {
         List<String> ids = manager.getAllBranches().stream()
                                   .map(Branch::getId).toList();

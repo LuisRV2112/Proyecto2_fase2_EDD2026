@@ -4,10 +4,6 @@ import edu.usac.edd.model.Product;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-/**
- * Lista enlazada simple no ordenada.
- * Big-O: ins O(1), busca O(n), elim O(n).
- */
 public class LinkedList {
 
     public static class Node {
@@ -27,7 +23,6 @@ public class LinkedList {
         size++;
     }
 
-    // Eliminación O(n)
     public boolean remove(String barcode) {
         Node prev = null, cur = head;
         while (cur != null) {
@@ -42,7 +37,6 @@ public class LinkedList {
         return false;
     }
 
-    // Búsqueda por barcode O(n)
     public Product searchByBarcode(String barcode) {
         Node cur = head;
         while (cur != null) {
@@ -52,7 +46,6 @@ public class LinkedList {
         return null;
     }
 
-    // Búsqueda por nombre O(n)
     public Product searchByName(String name) {
         Node cur = head;
         while (cur != null) {
@@ -62,13 +55,11 @@ public class LinkedList {
         return null;
     }
 
-    // Iteración
     public void forEach(Consumer<Product> action) {
         Node cur = head;
         while (cur != null) { action.accept(cur.data); cur = cur.next; }
     }
 
-    /** Filtra por predicado. */
     public LinkedList filter(Predicate<Product> pred) {
         LinkedList result = new LinkedList();
         Node cur = head;
@@ -83,7 +74,6 @@ public class LinkedList {
     public boolean isEmpty(){ return head == null; }
     public Node    getHead(){ return head; }
 
-    /** Actualiza por barcode. */
     public boolean update(Product updated) {
         Node cur = head;
         while (cur != null) {

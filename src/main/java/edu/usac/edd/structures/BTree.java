@@ -3,12 +3,6 @@ package edu.usac.edd.structures;
 import edu.usac.edd.model.Product;
 import java.util.function.Consumer;
 
-/**
- * B-Tree, T=3, por fecha de caducidad.
-
- * Big-O: busca/ins/elim O(T·log_T n).
- * Rango: O(T·log_T n + k).
- */
 public class BTree {
 
     private static final int T = 3;

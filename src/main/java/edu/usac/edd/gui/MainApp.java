@@ -11,9 +11,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
-/**
- * Entrada principal de la app JavaFX.
- */
+
 public class MainApp extends Application {
 
     private BranchManager manager;
@@ -50,7 +48,6 @@ public class MainApp extends Application {
             tab(" Rendimiento",       benchView.build())
         );
 
-        // Actualiza UI desde dispatcher
         manager.getDispatcher().setOnUpdate(() ->
             Platform.runLater(() -> {
                 transView.refreshQueues();
@@ -59,7 +56,6 @@ public class MainApp extends Application {
             })
         );
 
-        // Refresca vistas al cargar CSV
         dashView.setOnDataLoaded(() -> {
             branchView.refresh();
             graphView.layoutNodes();
