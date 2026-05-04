@@ -1,0 +1,2015 @@
+,
+"SucursalID","Nombre","CodigoBarra","Categoria","FechaCaducidad","Marca","Precio","Stock"
+"S096","Naranja AlimentosGT 738","5000002324201","Conservas","2027-11-23","GourmetGT",27.65,848
+"S031","Papas congeladas SuperSabor 313","5000000451658","Electronica","2027-07-24","MarcaGT",227.87,414
+"S188","Queso fresco AlimentosGT 751","5000006140241","Embutidos","2028-10-14","MarcaGT",349.11,723
+"S153","Miel de abeja GourmetGT 215","5000004310691","Conservas","2027-06-21","Delicias",42.44,999
+"S110","Chicles DelCampo 553","5000006295214","Electronica","2026-03-08","GourmetGT",409.42,868
+"S138","Aceite de oliva CampoVerde 298","5000006935386","Ropa","2025-12-06","NaturVida",80.86,729
+"S106","Bistec de res SuperSabor 407","5000006075012","Cereales","2027-12-20","AlimentosGT",168.71,439
+"S112","Lechuga CampoVerde 172","5000000133671","Electronica","2024-05-28","BuenSabor",86.6,930
+"S169","Jamón cocido FrescoMar 714","5000005748882","Snacks","2025-05-23","CampoVerde",300.72,904
+"S132","Barras de granola CampoVerde 951","5000006873410","Higiene","2028-11-17","BuenSabor",285.69,698
+"S085","Pimienta GourmetGT 182","5000005438097","Aceites","2025-08-17","Selecta",301.61,805
+"S185","Servilletas DelCampo 636","5000000905557","Lacteos","2025-12-06","Delicias",170.79,766
+"S072","Papa Tradición 289","5000004529103","Ropa","2028-04-12","FrescoMar",80.57,105
+"S161","Galletas GourmetGT 121","5000007167669","Cereales","2024-04-04","AguaPura",278.57,273
+"S105","Leche descremada AlimentosGT 401","5000006367282","Frutas","2027-02-01","ProteínaPro",76.76,361
+"S073","Algodón NutriPlus 439","5000000321014","Congelados","2028-12-09","DelCampo",395.51,184
+"S187","Jamón cocido VerdeFinca 622","5000000273649","Aceites","2027-04-23","Nutrimax",488.63,171
+"S196","Café FrescoMar 391","5000008356578","Hogar","2025-01-11","NutriPlus",360.17,197
+"S128","Blanqueador ProteínaPro 342","5000002150446","Carnes","2025-04-08","FrescoMar",267.98,602
+"S114","Algodón GourmetGT 412","5000005930663","Lacteos","2026-05-17","DelCampo",323.41,680
+"S101","Yogur natural VerdeFinca 979","5000000939949","Embutidos","2028-04-23","BuenSabor",108.9,850
+"S152","Miel de abeja CampoVerde 540","5000005412197","Snacks","2027-12-28","DelCampo",134.4,303
+"S056","Té helado SaborFino 940","5000002891942","Ropa","2025-08-04","FamiliaFeliz",416.33,161
+"S150","Helado vainilla MarcaGT 607","5000002014067","Ropa","2028-05-29","BuenSabor",53.8,542
+"S131","Arroz blanco NutriPlus 974","5000003253306","Limpieza","2027-01-24","SaborFino",179.17,79
+"S149","Frijol negro CampoVerde 178","5000006012782","Electronica","2027-03-03","FrescoMar",305.01,461
+"S180","Pizza familiar ProteínaPro 148","5000007354524","Verduras","2027-04-05","Tradición",236.57,642
+"S179","Zanahoria AguaPura 460","5000004159052","Verduras","2028-07-25","FamiliaFeliz",294.37,128
+"S052","Jugo de naranja ProteínaPro 131","5000006360081","Embutidos","2026-05-14","Selecta",260.97,977
+,,,,,,,,
+"S009","Arroz integral BuenSabor 732","5000005388353","Frutas","2024-04-22","Nutrimax",70.49,523
+"S034","Jabón de baño AguaPura 202","5000006967353","Electronica","2028-11-28","NutriPlus",490.46,761
+"S087","Croissant Nutrimax 801","5000001777845","Condimentos","2028-05-02","Nutrimax",25.17,28
+"S163","Brócoli NaturVida 865","5000006991892","Verduras","2024-08-24","SuperSabor",335.78,825
+"S130","Frijol negro Selecta 812","5000007009208","Snacks","2028-03-14","BuenSabor",47.04,662
+"S179","Piña DelCampo 901","5000007489956","Conservas","2026-02-14","NutriPlus",342.58,168
+"S176","Bolsas de basura FamiliaFeliz 268","5000009269181","Lacteos","2024-06-16","FrescoMar",473.02,590
+"S186","Hilo dental NutriPlus 790","5000001389404","Electronica","2024-07-22","FamiliaFeliz",36.67,300
+"S065","Queso fresco Delicias 138","5000006552312","Bebidas","2025-07-07","CampoVerde",212.06,866
+"S053","Cereal de maíz BuenSabor 528","5000004917513","Frutas","2028-08-07","CampoVerde",286.11,139
+"S051","Chicles SuperSabor 413","5000009137927","Hogar","2025-10-16","Tradición",128.86,658
+"S136","Chorizo Selecta 136","5000007603214","Panaderia","2024-09-05","CampoVerde",208.29,681
+"S005","Manzana MarcaGT 229","5000009246142","Snacks","2028-10-31","SuperSabor",275.42,129
+"S080","Leche descremada AlimentosGT 169","5000001593634","Ropa","2026-08-01","Selecta",175.8,265
+"S194","Arroz blanco Tradición 258","5000009353647","Condimentos","2024-12-26","Nutrimax",272.49,836
+"S165","Té helado VerdeFinca 723","5000002048999","Panaderia","2025-10-12","FamiliaFeliz",311.02,221
+"S055","Papa VerdeFinca 357","5000007953360","Frutas","2024-04-19","CampoVerde",403.68,224
+"S032","Mermelada fresa ProteínaPro 795","5000003788375","Hogar","2027-06-27","Nutrimax",293.12,100
+"S033","Leche entera AguaPura 582","5000005867694","Panaderia","2024-07-28","VerdeFinca",32.65,481
+"S051","Blanqueador MarcaGT 516","5000007769211","Verduras","2024-03-10","NaturVida",387.14,576
+"S143","Papel aluminio GourmetGT 174","5000008861082","Congelados","2025-10-28","NaturVida",262.67,866
+"S054","Detergente líquido Delicias 604","5000007396728","Limpieza","2026-09-25","GourmetGT",90.57,105
+"S126","Yogur natural NutriPlus 954","5000006351807","Verduras","2024-05-06","AguaPura",93.63,599
+"S047","Leche entera FamiliaFeliz 361","5000003211219","Snacks","2024-06-02","Tradición",175.32,767
+"S084","Quinoa NutriPlus 401","5000009245171","Lacteos","2028-06-21","FrescoMar",16.45,954
+"S071","Queso fresco GourmetGT 536","5000002502424","Congelados","2028-02-15","Tradición",347.98,201
+"S095","Croissant GourmetGT 557","5000003810702","Congelados","2028-12-02","DelCampo",278.6,922
+"S169","Refresco cola Selecta 358","5000001845725","Embutidos","2025-02-05","SaborFino",415.66,977
+"S065","Mix de nueces FamiliaFeliz 292","5000004306381","Electronica","2024-02-09","SuperSabor",104.0,481
+"S046","Shampoo Delicias 703","5000005460613","Panaderia","2027-02-15","GourmetGT",127.12,660
+"S148","Croissant BuenSabor 411","5000006330606","Embutidos","2028-10-03","DelCampo",101.52,573
+"S158","Papel higiénico VerdeFinca 223","5000003799765","Condimentos","2026-05-20","FamiliaFeliz",203.93,261
+"S103","Frijol negro GourmetGT 393","5000000208081","Embutidos","2028-08-24","NutriPlus",154.31,836
+"S189","Aceite vegetal AguaPura 497","5000008123115","Ropa","2025-10-29","DelCampo",17.78,384
+"S022","Pollo entero CampoVerde 751","5000001143142","Higiene","2024-01-25","ProteínaPro",161.09,344
+"S136","Crema espesa GourmetGT 453","5000003932180","Congelados","2028-03-29","FamiliaFeliz",444.87,372
+"S118","Blanqueador AguaPura 768","5000007078019","Conservas","2026-10-27","BuenSabor",414.93,127
+"S191","Manzana BuenSabor 202","5000005958846","Embutidos","2027-09-29","BuenSabor",498.84,158
+"S120","Sandía SaborFino 400","5000008228979","Higiene","2027-11-30","NutriPlus",163.3,40
+"S168","Mermelada fresa Delicias 883","5000004753581","Panaderia","2024-10-13","MarcaGT",395.64,183
+"S108","Caramelos FamiliaFeliz 892","5000000597361","Lacteos","2025-06-30","AguaPura",61.92,297
+"S101","Helado vainilla FamiliaFeliz 498","5000004021129","Embutidos","2025-07-01","AguaPura",232.6,917
+"S138","Pasta espagueti MarcaGT 691","5000001498698","Conservas","2024-06-27","NaturVida",260.48,139
+"S006","Pan blanco BioNatural 709","5000002267179","Condimentos","2025-08-20","ProteínaPro",291.41,855
+"S027","Leche descremada MarcaGT 865","5000009440999","Verduras","2027-07-04","FamiliaFeliz",73.8,943
+"S186","Filete de tilapia VerdeFinca 974","5000003124623","Aceites","2027-09-20","FrescoMar",82.54,698
+"S075","Lechuga FrescoMar 305","5000005773719","Ropa","2026-09-13","NutriPlus",21.77,204
+"S025","Tostadas GourmetGT 932","5000007826743","Panaderia","2028-02-25","Delicias",166.68,30
+"S082","Naranja DelCampo 953","5000008178683","Limpieza","2024-06-01","NaturVida",11.71,739
+"S165","Tomate VerdeFinca 954","5000003588852","Lacteos","2028-07-27","VerdeFinca",180.87,447
+"S001","Barcode Duplicado","5000002324201","Lacteos","2026-06-01","Marca",15.0,10
+"S192","Chorizo NutriPlus 962","5000002837456","Cereales","2025-09-11","Selecta",243.32,773
+"S061","Esponja de cocina NaturVida 341","5000007046533","Snacks","2028-10-19","MarcaGT",355.73,304
+"S094","Piña Nutrimax 152","5000004696710","Snacks","2027-10-13","Selecta",115.1,480
+"S015","Papaya AlimentosGT 302","5000005605574","Ropa","2026-01-17","DelCampo",454.92,86
+"S036","Pasta dental DelCampo 249","5000004782368","Conservas","2026-05-10","CampoVerde",453.43,543
+"S022","Refresco cola Tradición 653","5000004200966","Cereales","2028-03-08","BioNatural",120.0,114
+"S085","Yogur natural AlimentosGT 440","5000009169763","Carnes","2024-02-03","FrescoMar",160.32,24
+"S011","Mantequilla Selecta 234","5000008478236","Cereales","2026-03-14","Nutrimax",485.06,938
+"S103","Algodón FamiliaFeliz 379","5000001884196","Bebidas","2026-08-28","Delicias",249.83,142
+"S190","Chocolate VerdeFinca 210","5000003740047","Congelados","2024-10-08","ProteínaPro",48.99,716
+"S008","Sandía MarcaGT 346","5000000003044","Bebidas","2024-04-11","BioNatural",5.29,212
+"S098","Espinaca GourmetGT 494","5000004879855","Limpieza","2025-09-12","SuperSabor",123.32,860
+"S107","Zanahoria Selecta 454","5000002910797","Frutas","2026-01-26","AlimentosGT",80.99,350
+"S101","Quinoa FamiliaFeliz 575","5000001950119","Verduras","2026-11-23","CampoVerde",311.44,51
+"S001","Agua purificada Selecta 427","5000009659345","Lacteos","2025-04-12","BuenSabor",141.09,440
+"S156","Suavizante Tradición 265","5000009569708","Hogar","2025-05-27","AlimentosGT",38.91,843
+"S098","Arroz blanco Nutrimax 879","5000001691472","Electronica","2026-07-15","ProteínaPro",62.61,74
+"S139","Algodón CampoVerde 100","5000001613037","Verduras","2027-01-18","Tradición",328.67,153
+"S076","Pimienta DelCampo 250","5000002488127","Verduras","2027-02-09","NaturVida",232.43,28
+"S103","Crema hidratante SaborFino 980","5000008549025","Cereales","2027-12-05","BuenSabor",332.56,576
+"S122","Tomate FrescoMar 697","5000001861307","Frutas","2024-10-06","AlimentosGT",366.73,101
+"S168","Blanqueador SuperSabor 324","5000004931360","Higiene","2026-06-09","MarcaGT",102.67,204
+"S127","Café BioNatural 306","5000002786410","Lacteos","2026-04-27","Selecta",383.88,80
+"S065","Zanahoria AlimentosGT 858","5000004550199","Conservas","2026-08-11","AlimentosGT",481.15,790
+"S103","Pan blanco SaborFino 142","5000000116823","Lacteos","2024-12-06","Selecta",108.6,415
+"S086","Naranja FamiliaFeliz 186","5000001598411","Lacteos","2026-01-16","SuperSabor",251.52,83
+"S036","Detergente líquido FamiliaFeliz 207","5000006033718","Electronica","2027-04-13","BuenSabor",259.9,774
+"S095","Papaya BioNatural 119","5000003389853","Embutidos","2028-09-22","AlimentosGT",5.36,405
+"S080","Cebolla FamiliaFeliz 683","5000001557116","Higiene","2025-01-10","SuperSabor",450.92,549
+"S097","Miel de abeja SaborFino 199","5000007505127","Embutidos","2024-03-08","Selecta",71.43,89
+"S123","Chuleta de cerdo AlimentosGT 264","5000006378678","Limpieza","2026-11-03","BuenSabor",218.48,766
+"S138","Café Delicias 149","5000000524840","Frutas","2024-11-01","VerdeFinca",359.57,263
+"S151","Manzana NaturVida 315","5000008037289","Verduras","2027-01-26","Tradición",363.14,951
+"S081","Shampoo SuperSabor 619","5000009186105","Panaderia","2025-09-11","Nutrimax",224.36,264
+"S067","Pasta espagueti Tradición 157","5000000047772","Aceites","2026-03-20","Delicias",408.36,99
+"S095","Tostadas VerdeFinca 143","5000003731257","Snacks","2024-01-01","Tradición",72.9,950
+"S156","Refresco cola AguaPura 669","5000004484949","Limpieza","2024-08-18","Delicias",111.84,346
+"S110","Arroz blanco Tradición 146","5000005710072","Cereales","2027-01-20","Nutrimax",100.37,762
+"S063","Aceite vegetal AlimentosGT 909","5000006792331","Bebidas","2025-12-15","AlimentosGT",196.88,658
+"S135","Naranja DelCampo 665","5000009730277","Bebidas","2026-03-01","SuperSabor",387.52,286
+"S168","Bolsas de basura FrescoMar 127","5000005538290","Panaderia","2026-03-30","FamiliaFeliz",44.76,519
+"S070","Piña NaturVida 603","5000000361510","Limpieza","2026-07-31","SaborFino",223.15,200
+"S089","Lechuga AguaPura 563","5000003771999","Verduras","2024-05-01","CampoVerde",209.14,1
+"S151","Pan blanco Selecta 672","5000002754135","Lacteos","2028-05-21","AlimentosGT",37.49,902
+"S036","Brócoli VerdeFinca 300","5000006297550","Verduras","2027-05-24","SaborFino",422.88,104
+"S158","Pan integral GourmetGT 679","5000002901453","Electronica","2026-08-03","DelCampo",471.78,118
+"S131","Bistec de res GourmetGT 667","5000005915784","Condimentos","2026-06-20","SuperSabor",360.56,225
+"S198","Granola NaturVida 559","5000002806731","Congelados","2026-07-30","Selecta",226.37,830
+"S098","Brócoli BuenSabor 385","5000008036983","Cereales","2025-08-07","GourmetGT",421.93,599
+"S011","Banano AguaPura 869","5000005112096","Verduras","2024-12-10","CampoVerde",141.02,612
+"S080","Bistec de res SaborFino 345","5000001104328","Conservas","2027-03-05","AlimentosGT",157.28,368
+"S151","Pan blanco AlimentosGT 422","5000008532771","Bebidas","2027-10-14","MarcaGT",144.54,532
+"S132","Pasta espagueti MarcaGT 193","5000003470688","Lacteos","2028-06-16","GourmetGT",425.65,234
+"S121","Maní salado DelCampo 352","5000001425150","Higiene","2024-11-21","NaturVida",250.36,449
+"S200","Hilo dental CampoVerde 757","5000005566366","Electronica","2027-08-30","BioNatural",65.37,169
+"S085","Brócoli BioNatural 269","5000009205007","Panaderia","2025-07-01","DelCampo",474.16,791
+"S160","Zanahoria Tradición 321","5000007489964","Hogar","2026-11-25","MarcaGT",429.01,318
+"S125","Pechuga de pollo BuenSabor 151","5000008820209","Conservas","2027-01-26","ProteínaPro",261.0,653
+"S148","Margarina NaturVida 278","5000004866612","Verduras","2024-06-11","ProteínaPro",290.05,912
+"S028","Agua purificada SaborFino 217","5000002735886","Limpieza","2028-06-06","MarcaGT",94.98,563
+"S196","Barras de granola Tradición 264","5000001334262","Congelados","2027-04-04","FrescoMar",378.67,351
+"S186","Suavizante DelCampo 743","5000002623858","Carnes","2025-03-20","ProteínaPro",398.32,800
+"S036","Mermelada fresa SaborFino 143","5000000011500","Ropa","2027-12-13","DelCampo",391.72,795
+"S021","Sal de mesa DelCampo 425","5000006527059","Verduras","2024-02-24","BuenSabor",187.65,313
+"S177","Pan blanco Nutrimax 595","5000004216740","Bebidas","2028-09-06","DelCampo",289.03,220
+"S076","Papel aluminio Nutrimax 391","5000000863345","Higiene","2024-11-23","BuenSabor",438.57,253
+"S183","Detergente líquido NaturVida 707","5000006911454","Congelados","2027-02-28","GourmetGT",445.24,87
+"S114","Queso cheddar Selecta 360","5000009726467","Conservas","2027-03-23","VerdeFinca",202.41,256
+"S049","Caramelos SaborFino 790","5000008873497","Embutidos","2027-08-27","FamiliaFeliz",462.62,322
+"S180","Croissant GourmetGT 130","5000008900655","Panaderia","2025-10-28","Tradición",469.21,620
+"S002","Precio Invalido","5000099999001","Bebidas","2026-01-01","Marca",abc,10
+"S054","Crema hidratante SaborFino 850","5000003760996","Snacks","2024-07-28","Nutrimax",369.35,661
+"S178","Refresco cola AguaPura 143","5000009385957","Higiene","2024-06-06","FrescoMar",252.08,188
+"S102","Queso fresco CampoVerde 723","5000002525828","Conservas","2025-07-14","BuenSabor",253.22,50
+"S072","Atún en lata Tradición 715","5000001189543","Hogar","2028-07-11","VerdeFinca",462.66,560
+"S076","Aceite de oliva SuperSabor 925","5000003290857","Bebidas","2025-05-11","AguaPura",188.05,841
+"S134","Mermelada fresa AguaPura 367","5000000345230","Lacteos","2027-08-13","ProteínaPro",200.97,222
+"S083","Margarina MarcaGT 682","5000008213582","Aceites","2026-09-10","Tradición",302.32,353
+"S025","Chicles FamiliaFeliz 722","5000002656973","Conservas","2027-05-14","SuperSabor",172.76,554
+"S197","Pollo entero AlimentosGT 500","5000007300021","Limpieza","2024-09-11","Delicias",304.76,143
+"S126","Helado vainilla FamiliaFeliz 220","5000006814442","Carnes","2026-01-26","Delicias",64.2,51
+"S158","Mermelada fresa VerdeFinca 736","5000008571163","Embutidos","2025-02-24","Delicias",264.34,524
+"S176","Chuleta de cerdo AlimentosGT 382","5000006745803","Electronica","2024-09-07","AlimentosGT",58.34,237
+"S047","Espinaca FamiliaFeliz 381","5000004767523","Conservas","2025-03-17","NutriPlus",78.8,688
+"S162","Hilo dental BioNatural 903","5000008386922","Carnes","2025-06-30","SuperSabor",369.85,521
+"S170","Pan blanco AlimentosGT 278","5000002677998","Bebidas","2026-01-20","Tradición",125.31,802
+"S062","Galletas NaturVida 182","5000006831011","Hogar","2028-05-11","Tradición",454.51,826
+"S100","Papa Delicias 764","5000005787590","Aceites","2025-12-28","GourmetGT",192.48,236
+"S043","Quinoa AlimentosGT 157","5000007408142","Congelados","2024-03-21","NutriPlus",459.4,621
+"S112","Refresco cola FamiliaFeliz 432","5000005163203","Snacks","2028-10-17","Tradición",86.91,772
+"S102","Papa MarcaGT 931","5000000062396","Frutas","2027-03-18","NaturVida",496.63,880
+"S090","Galletas GourmetGT 683","5000002439476","Conservas","2028-04-14","FamiliaFeliz",71.77,175
+"S094","Caramelos Tradición 578","5000003111015","Cereales","2028-06-11","Selecta",34.43,217
+"S092","Mermelada fresa CampoVerde 475","5000006491324","Verduras","2027-01-03","Delicias",34.77,48
+"S072","Espinaca Nutrimax 102","5000009592233","Verduras","2026-01-14","GourmetGT",447.41,727
+"S153","Bolsas de basura BuenSabor 399","5000000042626","Electronica","2024-02-17","VerdeFinca",236.72,349
+"S043","Servilletas CampoVerde 438","5000004510481","Bebidas","2028-11-02","FamiliaFeliz",20.2,186
+"S197","Espinaca MarcaGT 826","5000005329726","Conservas","2024-04-14","FrescoMar",50.1,570
+"S110","Bistec de res ProteínaPro 678","5000002162116","Aceites","2027-08-05","SuperSabor",284.73,972
+"S128","Caramelos MarcaGT 128","5000006406759","Aceites","2024-02-27","SuperSabor",4.94,690
+"S037","Nuggets de pollo Tradición 472","5000003101258","Frutas","2027-05-06","SaborFino",457.91,750
+"S128","Croissant SuperSabor 249","5000001216840","Electronica","2024-12-01","GourmetGT",391.82,869
+"S005","Suavizante VerdeFinca 596","5000003526652","Ropa","2025-03-30","Nutrimax",127.65,363
+"S168","Queso fresco BioNatural 736","5000004129581","Cereales","2024-06-24","Delicias",396.29,946
+"S182","Cebolla ProteínaPro 294","5000008773995","Bebidas","2026-06-06","Delicias",111.82,272
+"S107","Pasta espagueti NutriPlus 785","5000006882834","Snacks","2026-06-05","DelCampo",22.56,467
+"S101","Bolsas de basura Tradición 309","5000000126326","Limpieza","2025-03-29","Selecta",246.63,796
+"S123","Mango FrescoMar 827","5000002203729","Verduras","2028-03-05","BuenSabor",215.38,132
+"S095","Zanahoria BuenSabor 499","5000006255235","Limpieza","2025-06-10","AguaPura",292.67,179
+"S090","Galletas Tradición 726","5000004618579","Ropa","2026-01-10","AguaPura",143.91,219
+"S189","Esponja de cocina FamiliaFeliz 191","5000001761222","Carnes","2027-03-09","DelCampo",316.48,66
+"S079","Mango AlimentosGT 553","5000006034720","Bebidas","2026-10-22","Tradición",334.67,576
+"S139","Helado vainilla SuperSabor 607","5000001934485","Lacteos","2028-11-29","Nutrimax",415.39,616
+"S104","Caramelos DelCampo 945","5000000161310","Congelados","2026-02-06","Selecta",366.72,927
+"S131","Crema espesa SaborFino 654","5000008630883","Ropa","2024-06-26","AlimentosGT",376.81,498
+"S196","Lentejas MarcaGT 295","5000000420190","Aceites","2026-09-27","FrescoMar",271.5,741
+"S049","Café Delicias 455","5000008572559","Congelados","2028-11-08","NaturVida",362.35,700
+"S014","Papel higiénico DelCampo 144","5000002272414","Hogar","2024-06-13","MarcaGT",401.49,928
+"S081","Hilo dental AlimentosGT 819","5000000625956","Embutidos","2024-03-29","Nutrimax",219.33,562
+"S157","Arroz blanco BuenSabor 679","5000004011437","Congelados","2024-04-10","BioNatural",87.45,485
+"S152","Chuleta de cerdo AguaPura 386","5000007940778","Hogar","2026-12-25","VerdeFinca",30.44,885
+"S002","Jabón de baño SaborFino 277","5000003166837","Lacteos","2024-12-05","AguaPura",270.31,5
+"S149","Aceite vegetal SaborFino 951","5000006262230","Condimentos","2026-07-23","SuperSabor",382.45,247
+"S118","Aceite de oliva ProteínaPro 852","5000005582108","Verduras","2025-08-07","AlimentosGT",88.18,144
+"S133","Pan integral SaborFino 607","5000001835889","Aceites","2027-12-05","NaturVida",109.09,893
+"S134","Papel higiénico NaturVida 453","5000002210578","Verduras","2027-02-03","FrescoMar",32.19,301
+"S152","Té helado BioNatural 364","5000001399412","Limpieza","2026-02-17","Tradición",316.37,243
+"S032","Servilletas NaturVida 719","5000009826972","Carnes","2027-05-31","BuenSabor",359.1,550
+"S112","Shampoo Tradición 863","5000004176717","Bebidas","2028-04-27","Delicias",237.79,117
+"S070","Leche descremada BioNatural 464","5000001801562","Electronica","2026-04-11","ProteínaPro",217.67,521
+"S035","Quinoa DelCampo 634","5000004388542","Congelados","2028-03-27","BuenSabor",215.62,817
+"S071","Jugo de naranja DelCampo 801","5000003377838","Verduras","2028-07-31","DelCampo",224.7,966
+"S128","Filete de tilapia ProteínaPro 467","5000009101794","Ropa","2027-06-21","BuenSabor",439.27,68
+"S027","Papas congeladas MarcaGT 573","5000007074338","Conservas","2025-06-09","SuperSabor",119.56,324
+"S068","Servilletas SuperSabor 771","5000000900904","Verduras","2024-03-10","BioNatural",424.58,785
+"S076","Jugo de naranja FrescoMar 890","5000001679440","Frutas","2028-06-10","AlimentosGT",167.8,253
+"S190","Harina de trigo BioNatural 248","5000004198298","Frutas","2025-02-25","Selecta",27.32,939
+"S113","Desodorante SuperSabor 479","5000002002217","Cereales","2028-06-25","Tradición",25.53,675
+"S048","Leche descremada NutriPlus 870","5000006005689","Electronica","2027-08-23","Selecta",471.19,370
+"S070","Cebolla DelCampo 172","5000003047240","Hogar","2025-09-02","ProteínaPro",410.64,656
+"S118","Maní salado AguaPura 438","5000003615268","Snacks","2025-11-26","DelCampo",133.88,80
+"S171","Refresco cola Tradición 554","5000007300643","Verduras","2027-03-05","NutriPlus",253.01,167
+"S033","Naranja FamiliaFeliz 430","5000008210063","Panaderia","2024-12-03","Nutrimax",436.63,736
+"S059","Helado vainilla CampoVerde 847","5000000865324","Electronica","2024-11-09","BuenSabor",9.51,809
+"S185","Helado vainilla ProteínaPro 478","5000002134375","Embutidos","2025-11-26","FamiliaFeliz",145.24,394
+"S163","Chocolate NaturVida 923","5000006100356","Embutidos","2025-12-05","NutriPlus",193.51,716
+"S173","Papel aluminio SuperSabor 761","5000009426144","Panaderia","2026-02-28","BioNatural",224.96,36
+"S147","Papaya ProteínaPro 262","5000008985235","Panaderia","2028-01-30","NaturVida",492.91,803
+"S115","Miel de abeja AlimentosGT 273","5000003456483","Ropa","2024-08-01","FamiliaFeliz",181.34,937
+"S142","Chorizo Tradición 330","5000000922984","Bebidas","2026-10-18","NaturVida",378.82,806
+"S104","Granola SaborFino 517","5000003370036","Bebidas","2028-04-29","DelCampo",152.02,51
+"S053","Chicles DelCampo 994","5000002715976","Condimentos","2028-11-30","GourmetGT",40.99,981
+"S015","Yogur natural FamiliaFeliz 353","5000000963917","Bebidas","2025-03-15","BioNatural",186.03,589
+"S199","Té helado VerdeFinca 827","5000007361765","Snacks","2025-08-12","MarcaGT",175.14,140
+"S073","Pollo entero Nutrimax 739","5000007102889","Lacteos","2024-11-21","BioNatural",54.29,445
+"S010","Chuleta de cerdo VerdeFinca 664","5000004489756","Snacks","2027-03-02","NaturVida",360.79,824
+"S057","Queso cheddar SuperSabor 961","5000007315411","Electronica","2026-08-04","GourmetGT",99.53,545
+"S031","Leche entera NaturVida 345","5000009757098","Aceites","2024-10-30","BioNatural",474.92,294
+"S062","Frijol negro Delicias 450","5000005160631","Bebidas","2024-10-16","AguaPura",77.36,165
+"S151","Barras de granola BioNatural 147","5000008949498","Aceites","2026-01-25","Nutrimax",37.12,980
+"S159","Pan integral BioNatural 378","5000002381495","Higiene","2027-09-01","BioNatural",281.73,831
+"S037","Margarina Delicias 162","5000004418286","Hogar","2024-05-03","VerdeFinca",204.77,894
+"S137","Chicles CampoVerde 239","5000002273944","Verduras","2024-10-20","VerdeFinca",178.63,202
+"S084","Té helado FrescoMar 854","5000004949942","Hogar","2028-03-16","Tradición",188.65,441
+"S161","Avena ProteínaPro 971","5000006067630","Lacteos","2024-09-18","SuperSabor",84.29,63
+"S001","Papel aluminio AguaPura 360","5000001259564","Frutas","2028-12-03","AguaPura",15.2,20
+"S014","Cebolla AlimentosGT 522","5000003906267","Embutidos","2025-07-19","FamiliaFeliz",133.73,909
+"S117","Pan integral CampoVerde 563","5000000436781","Limpieza","2026-12-02","AguaPura",205.07,286
+"S114","Naranja NaturVida 770","5000000560131","Congelados","2026-07-05","ProteínaPro",73.72,935
+"S006","Arroz integral BuenSabor 470","5000006791992","Frutas","2024-06-01","Tradición",234.26,24
+"S115","Lechuga MarcaGT 310","5000002546162","Panaderia","2025-11-08","GourmetGT",391.64,132
+"S161","Sal de mesa GourmetGT 582","5000001700834","Frutas","2026-08-24","SaborFino",264.62,699
+"S154","Mermelada fresa Nutrimax 298","5000002932845","Snacks","2027-06-29","VerdeFinca",293.83,785
+"S014","Helado vainilla SaborFino 377","5000005966760","Bebidas","2025-11-27","SuperSabor",319.09,78
+"S033","Papas congeladas NaturVida 866","5000009813527","Ropa","2028-01-31","VerdeFinca",187.78,9
+"S132","Cereal de maíz AlimentosGT 356","5000007024686","Hogar","2025-06-24","AlimentosGT",199.03,802
+"S052","Brócoli GourmetGT 899","5000001521071","Congelados","2028-08-19","AlimentosGT",113.2,570
+"S058","Pimienta VerdeFinca 561","5000002748701","Higiene","2024-02-13","CampoVerde",262.07,178
+"S200","Pan integral SaborFino 591","5000009426271","Panaderia","2028-07-14","NutriPlus",336.63,124
+"S107","Pimienta AlimentosGT 856","5000009086015","Verduras","2028-06-08","BioNatural",267.27,457
+"S054","Blanqueador NutriPlus 392","5000004739289","Ropa","2026-08-25","Delicias",260.34,463
+"S016","Chuleta de cerdo AlimentosGT 701","5000006735460","Congelados","2027-10-15","Delicias",293.6,538
+"S171","Mango AguaPura 202","5000003398994","Verduras","2026-09-20","GourmetGT",29.19,444
+"S096","Banano VerdeFinca 422","5000008747137","Frutas","2025-03-19","MarcaGT",254.0,2
+"S031","Esponja de cocina SaborFino 819","5000003976346","Bebidas","2024-12-20","DelCampo",139.34,136
+"S051","Mango NaturVida 853","5000006118629","Condimentos","2028-03-20","BuenSabor",333.32,946
+"S176","Espinaca NaturVida 820","5000003076508","Embutidos","2025-06-13","Selecta",345.5,559
+"S031","Pimienta BioNatural 916","5000003021914","Electronica","2026-10-18","Delicias",400.91,503
+"S022","Café SaborFino 629","5000001738043","Electronica","2028-10-28","NaturVida",35.96,133
+"S178","Tomate SaborFino 166","5000001585495","Lacteos","2028-05-26","FrescoMar",331.21,674
+"S117","Galletas AguaPura 469","5000001091011","Congelados","2028-02-01","BioNatural",282.38,255
+"S028","Bistec de res Delicias 601","5000008827212","Aceites","2025-01-05","CampoVerde",210.53,746
+"S047","Croissant VerdeFinca 455","5000009599902","Condimentos","2027-10-11","Tradición",81.73,176
+"S003","Mantequilla DelCampo 111","5000004343718","Lacteos","2026-11-13","Selecta",479.1,95
+"S042","Caramelos GourmetGT 103","5000008667020","Frutas","2028-04-28","Tradición",204.66,60
+"S133","Protector solar AguaPura 913","5000005856741","Condimentos","2027-08-26","Selecta",399.16,29
+"S027","Arroz blanco FrescoMar 384","5000003749275","Congelados","2024-02-17","SuperSabor",216.46,868
+"S141","Yogur natural SuperSabor 416","5000008723326","Electronica","2028-06-28","MarcaGT",112.79,477
+"S064","Aceite vegetal VerdeFinca 385","5000009688946","Ropa","2025-09-27","Tradición",82.19,885
+"S031","Agua purificada Delicias 316","5000000643410","Carnes","2026-09-02","FamiliaFeliz",93.95,54
+"S107","Papas fritas BuenSabor 909","5000005687183","Ropa","2027-10-06","GourmetGT",94.62,702
+"S157","Piña SaborFino 735","5000003294717","Conservas","2026-04-23","SuperSabor",252.78,459
+"S170","Granola DelCampo 731","5000001113768","Electronica","2024-06-27","BuenSabor",15.21,336
+"S132","Pimienta DelCampo 373","5000002928063","Carnes","2025-11-23","MarcaGT",54.76,651
+"S104","Protector solar GourmetGT 616","5000004767460","Electronica","2027-12-06","NutriPlus",68.64,887
+"S150","Aceite de oliva NutriPlus 621","5000005186368","Conservas","2026-03-21","FrescoMar",415.25,388
+"S107","Brócoli AlimentosGT 987","5000009179677","Snacks","2028-12-05","CampoVerde",164.65,206
+"S030","Crema espesa FrescoMar 495","5000001772698","Aceites","2025-01-13","AguaPura",125.96,290
+"S032","Papas fritas VerdeFinca 350","5000002531669","Ropa","2027-10-09","NaturVida",465.12,861
+"S021","Papel aluminio FamiliaFeliz 460","5000009717537","Frutas","2026-04-17","FrescoMar",285.58,869
+"S021","Papel aluminio BioNatural 488","5000001365042","Bebidas","2026-04-26","ProteínaPro",140.62,427
+"S002","Nuggets de pollo Nutrimax 499","5000000003101","Cereales","2028-03-26","SaborFino",482.15,897
+"S080","Mix de nueces Delicias 681","5000008173852","Higiene","2024-10-06","SaborFino",98.93,937
+"S169","Harina de trigo FrescoMar 941","5000002963958","Embutidos","2028-05-28","DelCampo",118.86,935
+"S009","Chicles BioNatural 244","5000006639234","Frutas","2027-12-19","NaturVida",277.27,239
+"S127","Café SuperSabor 509","5000002985844","Frutas","2026-07-13","Delicias",81.22,699
+"S182","Arroz integral GourmetGT 573","5000006574474","Limpieza","2024-11-29","Nutrimax",350.48,580
+"S172","Chorizo BuenSabor 801","5000006425933","Ropa","2026-12-20","BuenSabor",29.17,331
+"S032","Papel aluminio AguaPura 912","5000005306317","Electronica","2026-12-19","BuenSabor",40.73,471
+"S068","Leche entera Tradición 472","5000004263346","Carnes","2028-05-11","Nutrimax",319.35,831
+"S150","Croissant SaborFino 453","5000006531075","Embutidos","2026-04-10","Delicias",248.46,829
+"S003","Stock Invalido","5000099999002","Verduras","2026-01-01","Marca",10.0,xyz
+"S147","Atún en lata FrescoMar 445","5000000190616","Aceites","2025-06-26","Delicias",116.07,522
+"S124","Aceite de oliva SuperSabor 531","5000005949121","Condimentos","2026-04-02","Delicias",90.33,105
+"S105","Crema hidratante BuenSabor 160","5000008293786","Higiene","2027-10-29","AlimentosGT",91.54,861
+"S075","Mermelada fresa SuperSabor 272","5000006946575","Condimentos","2028-12-08","Tradición",458.78,616
+"S124","Caramelos Nutrimax 857","5000005975896","Verduras","2024-08-11","Tradición",444.45,287
+"S121","Film transparente FrescoMar 452","5000003688338","Panaderia","2028-12-10","SaborFino",450.81,170
+"S090","Cebolla ProteínaPro 852","5000008131201","Condimentos","2027-04-23","Tradición",68.2,521
+"S121","Café Delicias 840","5000001994785","Higiene","2024-10-18","ProteínaPro",424.48,390
+"S117","Chicles GourmetGT 855","5000005292856","Congelados","2028-09-20","NaturVida",99.0,942
+"S046","Helado vainilla Tradición 251","5000006748536","Higiene","2024-11-19","NaturVida",437.71,391
+"S012","Té helado FamiliaFeliz 214","5000009313395","Panaderia","2027-07-07","Nutrimax",131.09,994
+"S021","Piña SuperSabor 337","5000002751451","Congelados","2028-11-01","NutriPlus",361.59,175
+"S114","Papel higiénico Selecta 707","5000005646591","Hogar","2028-09-27","Nutrimax",332.1,363
+"S117","Refresco cola ProteínaPro 988","5000001064546","Verduras","2024-06-19","AlimentosGT",498.01,93
+"S004","Papel aluminio ProteínaPro 392","5000003593387","Carnes","2026-08-23","Nutrimax",224.52,186
+"S002","Papas congeladas CampoVerde 684","5000008775944","Aceites","2025-12-26","MarcaGT",414.79,36
+"S053","Barras de granola Delicias 264","5000004004034","Limpieza","2026-08-24","SaborFino",6.78,690
+"S169","Brócoli FrescoMar 312","5000000842636","Frutas","2028-06-05","Tradición",384.41,995
+"S050","Detergente líquido DelCampo 607","5000001861450","Bebidas","2025-09-21","AguaPura",177.71,398
+"S198","Shampoo VerdeFinca 415","5000003774365","Carnes","2027-09-25","BioNatural",388.27,211
+"S079","Pizza familiar SaborFino 266","5000003413394","Frutas","2024-02-10","DelCampo",104.98,446
+"S012","Arroz blanco NutriPlus 784","5000000738741","Electronica","2027-11-20","SuperSabor",55.3,173
+"S118","Manzana CampoVerde 623","5000006313883","Verduras","2027-04-29","MarcaGT",477.4,947
+"S034","Jugo de naranja GourmetGT 144","5000003874552","Verduras","2024-04-15","CampoVerde",122.14,218
+"S091","Filete de tilapia GourmetGT 687","5000000836363","Panaderia","2025-02-18","FamiliaFeliz",52.16,278
+"S175","Chicles FamiliaFeliz 322","5000000568761","Electronica","2026-04-11","BuenSabor",74.82,245
+"S085","Quinoa AguaPura 387","5000006304075","Electronica","2025-11-10","BioNatural",378.67,203
+"S132","Chuleta de cerdo FamiliaFeliz 926","5000001790344","Snacks","2028-09-28","SaborFino",73.52,601
+"S028","Papas congeladas Nutrimax 620","5000007056345","Congelados","2026-02-10","AguaPura",248.71,624
+"S186","Maní salado GourmetGT 354","5000006480100","Lacteos","2025-03-07","BuenSabor",48.79,532
+"S166","Detergente líquido FrescoMar 754","5000006613374","Frutas","2027-10-07","CampoVerde",393.51,197
+"S010","Blanqueador Delicias 357","5000001908455","Snacks","2028-10-21","GourmetGT",228.16,699
+"S167","Pasta espagueti SuperSabor 644","5000006110347","Bebidas","2027-07-23","Delicias",81.11,580
+"S175","Mix de nueces NaturVida 230","5000002509153","Carnes","2028-01-10","AlimentosGT",235.21,26
+"S032","Espinaca Tradición 140","5000008107003","Embutidos","2025-06-26","MarcaGT",280.22,293
+"S083","Papa DelCampo 505","5000000600720","Snacks","2026-09-18","VerdeFinca",224.94,813
+"S048","Miel de abeja BuenSabor 768","5000008454127","Higiene","2026-02-07","VerdeFinca",133.47,933
+"S195","Chicles Nutrimax 968","5000003881215","Congelados","2024-08-23","DelCampo",343.9,830
+"S163","Carne molida Selecta 963","5000009781041","Limpieza","2027-09-03","Nutrimax",489.64,440
+"S100","Esponja de cocina Delicias 963","5000006536530","Embutidos","2024-10-21","SuperSabor",469.16,625
+"S142","Papel higiénico SaborFino 474","5000005489890","Cereales","2025-03-01","BioNatural",348.84,434
+"S099","Film transparente CampoVerde 750","5000003061314","Electronica","2027-01-10","DelCampo",185.08,264
+"S152","Blanqueador SaborFino 660","5000007708327","Panaderia","2025-12-18","FrescoMar",158.88,701
+"S094","Pechuga de pollo ProteínaPro 445","5000004601873","Carnes","2024-09-06","NaturVida",428.45,805
+"S085","Pan blanco AlimentosGT 267","5000007752922","Limpieza","2024-01-06","VerdeFinca",2.84,253
+"S166","Suavizante Tradición 602","5000000414300","Snacks","2026-04-22","AlimentosGT",8.21,382
+"S162","Papel aluminio Selecta 905","5000006560790","Carnes","2024-09-03","ProteínaPro",261.32,604
+"S131","Crema hidratante MarcaGT 351","5000006567808","Embutidos","2026-07-27","Selecta",198.46,810
+"S032","Queso fresco AguaPura 313","5000008801208","Frutas","2026-01-10","Tradición",400.79,755
+"S165","Bistec de res DelCampo 304","5000002724825","Verduras","2026-07-25","Selecta",396.56,973
+"S025","Pan blanco NaturVida 761","5000009178045","Congelados","2025-09-09","VerdeFinca",405.69,815
+"S002","Manzana VerdeFinca 462","5000008836727","Carnes","2028-08-17","Delicias",462.18,884
+"S115","Avena Delicias 286","5000002346943","Ropa","2028-11-27","FamiliaFeliz",120.52,490
+"S012","Pasta dental AguaPura 529","5000005446428","Condimentos","2024-10-08","FamiliaFeliz",142.84,913
+"S023","Piña MarcaGT 293","5000000281276","Carnes","2024-12-18","SuperSabor",138.38,952
+"S090","Bistec de res GourmetGT 348","5000004470929","Ropa","2026-03-24","VerdeFinca",258.68,743
+"S033","Queso fresco GourmetGT 569","5000008509907","Condimentos","2026-01-22","DelCampo",358.93,956
+"S002","Nuggets de pollo VerdeFinca 294","5000004384292","Frutas","2024-08-07","SuperSabor",29.1,381
+"S121","Sal de mesa BuenSabor 983","5000001486660","Verduras","2027-08-02","CampoVerde",338.13,308
+"S077","Protector solar FrescoMar 684","5000004776148","Lacteos","2027-01-28","Nutrimax",483.78,523
+"S115","Nuggets de pollo Delicias 901","5000004613969","Carnes","2027-08-20","SaborFino",329.7,997
+"S044","Chuleta de cerdo Nutrimax 792","5000002228189","Carnes","2024-04-24","GourmetGT",403.13,658
+"S145","Shampoo Delicias 844","5000003463923","Aceites","2025-05-19","AguaPura",224.45,670
+"S128","Papel aluminio Delicias 683","5000005179994","Cereales","2028-02-23","SaborFino",101.46,658
+"S156","Croissant ProteínaPro 999","5000004404193","Lacteos","2028-06-05","NutriPlus",440.19,771
+"S069","Jugo de naranja FrescoMar 752","5000001807536","Embutidos","2026-09-18","SaborFino",258.38,359
+"S129","Suavizante SuperSabor 111","5000008577758","Carnes","2027-01-24","CampoVerde",176.24,839
+"S192","Nuggets de pollo BuenSabor 102","5000009844788","Bebidas","2026-01-11","GourmetGT",284.26,735
+"S176","Frijol negro FrescoMar 391","5000006866838","Embutidos","2025-06-04","NutriPlus",160.76,165
+"S187","Suavizante BioNatural 282","5000009514508","Cereales","2026-09-27","GourmetGT",234.32,331
+"S024","Film transparente SaborFino 685","5000002609213","Cereales","2024-07-22","SuperSabor",282.57,32
+"S034","Mix de nueces SuperSabor 220","5000008440515","Hogar","2027-08-29","NutriPlus",476.81,412
+"S141","Pasta espagueti SuperSabor 387","5000008384090","Carnes","2026-01-09","NutriPlus",433.4,254
+"S024","Bolsas de basura BioNatural 906","5000009128098","Panaderia","2024-02-26","SaborFino",51.12,997
+"S088","Blanqueador BuenSabor 118","5000003968223","Verduras","2027-09-30","Selecta",199.81,605
+"S163","Jugo de naranja SuperSabor 830","5000005094295","Hogar","2027-09-30","BuenSabor",380.63,758
+"S116","Leche descremada ProteínaPro 968","5000009728770","Limpieza","2027-09-26","Selecta",176.18,963
+"S095","Chocolate VerdeFinca 330","5000007699310","Ropa","2024-02-24","FamiliaFeliz",472.8,244
+"S118","Leche entera ProteínaPro 186","5000008543794","Hogar","2027-01-04","GourmetGT",99.83,644
+"S074","Pollo entero ProteínaPro 229","5000000917167","Higiene","2027-04-02","CampoVerde",418.14,24
+"S057","Hilo dental DelCampo 523","5000007650509","Panaderia","2026-06-07","Delicias",266.01,171
+"S044","Banano NaturVida 582","5000008541629","Aceites","2026-02-17","CampoVerde",27.95,338
+"S020","Croissant AguaPura 741","5000009213282","Carnes","2024-01-16","NutriPlus",357.68,59
+"S184","Servilletas BioNatural 535","5000003197557","Ropa","2025-11-08","NaturVida",241.23,381
+"S101","Sal de mesa BuenSabor 955","5000002186553","Bebidas","2025-06-14","Selecta",44.82,26
+"S084","Pan integral ProteínaPro 942","5000004799105","Lacteos","2026-08-14","NaturVida",475.99,463
+"S164","Pimienta AlimentosGT 780","5000007636054","Condimentos","2024-05-16","CampoVerde",494.32,894
+"S104","Filete de tilapia Selecta 107","5000006605554","Snacks","2026-12-13","NutriPlus",370.45,570
+"S059","Croissant ProteínaPro 888","5000008965410","Limpieza","2027-09-02","MarcaGT",166.48,382
+"S143","Aceite vegetal VerdeFinca 865","5000001424199","Higiene","2028-09-27","FamiliaFeliz",390.28,862
+"S120","Bolsas de basura ProteínaPro 224","5000002857066","Cereales","2026-03-31","ProteínaPro",347.05,672
+"S162","Queso fresco ProteínaPro 913","5000009343172","Bebidas","2027-01-06","SuperSabor",303.66,276
+"S082","Harina de trigo FamiliaFeliz 136","5000004497586","Snacks","2028-02-17","DelCampo",187.11,297
+"S051","Harina de trigo AlimentosGT 685","5000002163794","Limpieza","2028-03-26","BuenSabor",98.41,296
+"S042","Tostadas BioNatural 385","5000001307555","Snacks","2028-05-23","VerdeFinca",172.34,851
+"S070","Chuleta de cerdo BioNatural 585","5000007050502","Bebidas","2025-04-10","CampoVerde",203.98,889
+"S034","Algodón CampoVerde 366","5000006802761","Ropa","2025-07-21","Selecta",84.79,696
+"S014","Chocolate SaborFino 632","5000001622440","Cereales","2025-08-28","Selecta",155.74,353
+"S196","Papel higiénico VerdeFinca 178","5000004140472","Ropa","2028-10-17","BioNatural",273.29,522
+"S174","Suavizante ProteínaPro 660","5000002712359","Aceites","2025-06-19","VerdeFinca",28.42,342
+"S046","Sal de mesa DelCampo 149","5000000496769","Conservas","2024-10-26","FamiliaFeliz",421.2,408
+"S109","Desodorante DelCampo 765","5000007698145","Carnes","2027-05-03","FamiliaFeliz",301.52,195
+"S163","Atún en lata SuperSabor 574","5000005421645","Lacteos","2027-02-14","SuperSabor",456.73,734
+"S097","Carne molida GourmetGT 160","5000007801035","Carnes","2024-03-09","AlimentosGT",179.14,520
+"S061","Brócoli NaturVida 400","5000006855278","Verduras","2027-03-07","SaborFino",404.59,284
+"S001","Carne molida AguaPura 921","5000000303296","Congelados","2024-05-11","ProteínaPro",215.67,265
+"S055","Jabón de baño VerdeFinca 366","5000002874839","Congelados","2024-12-06","AlimentosGT",223.33,446
+"S098","Papas congeladas AguaPura 509","5000008113939","Verduras","2025-12-26","FrescoMar",467.17,582
+"S057","Brócoli MarcaGT 349","5000009553244","Conservas","2025-03-15","SaborFino",482.84,253
+"S015","Atún en lata NutriPlus 612","5000001213994","Congelados","2025-06-28","BuenSabor",309.36,242
+"S029","Barras de granola FrescoMar 493","5000006634152","Verduras","2025-05-03","DelCampo",168.42,433
+"S071","Brócoli GourmetGT 332","5000006024078","Electronica","2026-09-30","SaborFino",147.15,521
+"S024","Pasta dental NaturVida 786","5000000289286","Verduras","2027-07-31","NutriPlus",188.57,631
+"S182","Miel de abeja GourmetGT 422","5000000295923","Lacteos","2028-10-23","DelCampo",41.13,384
+"S170","Granola FrescoMar 882","5000007689131","Condimentos","2025-05-13","Delicias",224.52,728
+"S151","Pizza familiar Selecta 255","5000003203859","Conservas","2026-05-31","MarcaGT",85.37,39
+"S061","Leche descremada GourmetGT 862","5000005398059","Embutidos","2028-11-04","FamiliaFeliz",250.01,42
+"S058","Agua purificada NutriPlus 374","5000004267508","Snacks","2026-10-13","NutriPlus",62.29,568
+"S001","Piña SaborFino 743","5000008526411","Verduras","2024-09-25","GourmetGT",320.54,766
+"S048","Shampoo Selecta 492","5000007267162","Frutas","2026-01-02","MarcaGT",100.31,387
+"S078","Chocolate FamiliaFeliz 179","5000004969179","Bebidas","2025-01-31","NutriPlus",223.09,804
+"S028","Quinoa Delicias 248","5000004911768","Limpieza","2025-02-23","FrescoMar",334.22,661
+"S191","Lechuga NutriPlus 756","5000007730905","Carnes","2025-02-28","NutriPlus",180.23,822
+"S019","Sal de mesa MarcaGT 343","5000001417573","Verduras","2026-02-25","Delicias",480.27,725
+"S103","Aceite de oliva BuenSabor 926","5000002914229","Condimentos","2028-03-04","AguaPura",455.17,368
+"S170","Pechuga de pollo BuenSabor 587","5000006997368","Embutidos","2025-11-22","AlimentosGT",332.22,884
+"S059","Crema hidratante Delicias 182","5000008982014","Ropa","2028-04-09","SaborFino",362.95,136
+"S086","Agua purificada FrescoMar 602","5000007677856","Condimentos","2025-09-13","BuenSabor",393.45,864
+"S037","Papa Tradición 965","5000002764483","Panaderia","2027-05-04","AguaPura",446.01,154
+"S065","Pizza familiar NaturVida 252","5000000724624","Conservas","2024-12-08","BuenSabor",285.63,48
+"S021","Mango Delicias 499","5000004937165","Frutas","2024-08-18","AlimentosGT",407.51,525
+"S070","Papas congeladas Delicias 107","5000001140081","Verduras","2025-11-28","BioNatural",151.49,644
+"S190","Nuggets de pollo GourmetGT 563","5000008984427","Verduras","2027-11-30","MarcaGT",183.89,811
+"S035","Lechuga CampoVerde 534","5000001023210","Ropa","2025-11-08","FamiliaFeliz",370.6,221
+"S055","Sandía Tradición 236","5000007668124","Frutas","2028-11-22","GourmetGT",473.19,891
+"S135","Carne molida VerdeFinca 966","5000004954268","Limpieza","2024-08-08","GourmetGT",166.5,362
+"S147","Chuleta de cerdo ProteínaPro 249","5000002146260","Higiene","2026-01-04","CampoVerde",118.12,113
+"S027","Atún en lata FamiliaFeliz 777","5000004889288","Hogar","2028-02-28","AlimentosGT",212.46,417
+"S105","Margarina Nutrimax 208","5000000884601","Aceites","2028-10-24","BuenSabor",38.94,190
+"S139","Sandía SuperSabor 359","5000006434580","Condimentos","2025-10-31","AlimentosGT",327.08,913
+"S196","Galletas MarcaGT 535","5000001473605","Aceites","2027-05-19","BioNatural",44.04,358
+"S080","Frijol negro Selecta 445","5000009063217","Frutas","2024-09-15","SaborFino",195.63,305
+"S023","Galletas NutriPlus 893","5000005274830","Frutas","2028-08-21","Selecta",72.97,745
+"S177","Leche descremada Selecta 731","5000003273966","Verduras","2027-11-29","CampoVerde",85.96,333
+"S092","Chicles DelCampo 746","5000009279653","Frutas","2028-08-24","AguaPura",400.86,77
+"S194","Aceite de oliva SaborFino 130","5000005362532","Verduras","2027-07-08","BioNatural",104.17,927
+"S151","Brócoli CampoVerde 603","5000003555557","Bebidas","2028-10-12","Nutrimax",274.36,118
+"S018","Chorizo NaturVida 436","5000006725862","Embutidos","2026-07-18","SaborFino",106.04,843
+"S156","Chocolate BioNatural 925","5000007962661","Condimentos","2028-02-08","MarcaGT",64.85,71
+"S006","Protector solar FamiliaFeliz 588","5000007880254","Bebidas","2024-11-13","FrescoMar",173.83,841
+"S100","Pollo entero CampoVerde 321","5000005153269","Cereales","2026-01-13","Selecta",237.16,20
+"S102","Pollo entero SaborFino 530","5000001884801","Aceites","2026-08-13","ProteínaPro",93.36,777
+"S152","Queso cheddar AlimentosGT 872","5000002881462","Lacteos","2026-10-16","SuperSabor",36.92,600
+"S090","Tostadas Selecta 643","5000008657155","Embutidos","2024-12-30","NaturVida",398.87,284
+"S014","Brócoli Selecta 973","5000006691282","Carnes","2024-05-02","MarcaGT",310.86,662
+"S193","Chocolate Nutrimax 640","5000009057151","Cereales","2025-07-14","DelCampo",441.97,807
+"S196","Mantequilla BuenSabor 196","5000003695168","Panaderia","2028-10-10","Tradición",83.93,633
+"S045","Galletas DelCampo 680","5000004227484","Panaderia","2027-12-30","MarcaGT",291.57,936
+"S126","Chicles DelCampo 315","5000004451252","Embutidos","2024-05-22","FamiliaFeliz",146.38,185
+"S200","Carne molida Nutrimax 467","5000008130935","Frutas","2027-01-05","MarcaGT",135.26,989
+"S147","Protector solar FrescoMar 404","5000007950978","Embutidos","2028-11-03","FrescoMar",348.42,518
+"S194","Avena SuperSabor 635","5000002518792","Snacks","2026-09-08","ProteínaPro",224.39,636
+"S062","Sal de mesa ProteínaPro 858","5000005236404","Hogar","2028-01-11","Delicias",179.19,989
+"S103","Sal de mesa BuenSabor 669","5000001168297","Aceites","2027-02-09","GourmetGT",488.97,655
+"S081","Arroz integral GourmetGT 367","5000004858364","Ropa","2024-04-10","Delicias",300.87,984
+"S191","Chicles AlimentosGT 913","5000001476848","Cereales","2025-11-20","BioNatural",295.73,447
+"S125","Barras de granola NaturVida 302","5000003510805","Ropa","2028-10-30","VerdeFinca",254.54,531
+"S105","Leche entera NaturVida 523","5000004994712","Frutas","2028-06-11","DelCampo",353.69,499
+"S121","Pan blanco GourmetGT 765","5000004723917","Limpieza","2026-03-14","MarcaGT",438.36,1000
+"S041","Granola FamiliaFeliz 393","5000005572786","Electronica","2028-09-20","AlimentosGT",104.25,894
+"S145","Papa Tradición 282","5000007498249","Verduras","2024-12-06","AguaPura",6.22,4
+"S074","Helado vainilla VerdeFinca 481","5000007119721","Verduras","2027-08-10","BioNatural",217.25,156
+"S014","Pechuga de pollo Delicias 336","5000000095621","Verduras","2025-12-03","Nutrimax",193.59,374
+"S110","Pan integral FrescoMar 422","5000003054493","Limpieza","2026-02-14","ProteínaPro",439.27,507
+"S106","Blanqueador FamiliaFeliz 576","5000008785828","Aceites","2027-08-24","FrescoMar",15.93,289
+"S175","Desodorante FrescoMar 719","5000008429973","Hogar","2028-01-02","MarcaGT",267.23,424
+"S178","Yogur natural MarcaGT 566","5000008237353","Hogar","2027-05-08","VerdeFinca",221.27,793
+"S146","Aceite vegetal SuperSabor 654","5000002339311","Bebidas","2028-06-15","GourmetGT",101.0,638
+"S183","Lentejas CampoVerde 827","5000009336351","Bebidas","2027-09-02","Delicias",35.51,883
+"S187","Chicles SuperSabor 768","5000002757278","Verduras","2024-12-21","AlimentosGT",120.63,480
+"S005","Caramelos Delicias 291","5000005903291","Aceites","2027-11-24","Delicias",293.59,590
+"S165","Mango ProteínaPro 957","5000002690886","Carnes","2028-06-07","FrescoMar",334.88,730
+"S122","Desodorante Tradición 188","5000009757902","Snacks","2024-07-06","AguaPura",103.86,659
+"S019","Papas congeladas FamiliaFeliz 491","5000000488705","Embutidos","2024-12-12","CampoVerde",39.62,140
+"S003","Pan integral DelCampo 352","5000007847460","Carnes","2025-02-12","SaborFino",40.25,840
+"S147","Galletas BuenSabor 648","5000008539431","Aceites","2026-10-31","NaturVida",408.95,663
+"S009","Cereal de maíz Nutrimax 848","5000007809140","Cereales","2026-01-01","ProteínaPro",71.32,978
+"S053","Papas congeladas SaborFino 448","5000000438367","Bebidas","2025-10-02","MarcaGT",23.61,835
+"S143","Atún en lata SaborFino 152","5000007551933","Frutas","2028-04-03","NaturVida",6.43,738
+"S182","Caramelos Tradición 891","5000008676152","Ropa","2026-04-05","SaborFino",320.76,262
+"S046","Galletas NaturVida 367","5000000770614","Ropa","2024-08-18","FrescoMar",119.83,333
+"S195","Galletas GourmetGT 774","5000002817977","Limpieza","2025-02-21","Nutrimax",213.19,381
+"S137","Lechuga VerdeFinca 479","5000007228136","Carnes","2024-11-04","SaborFino",184.23,83
+"S154","Té helado CampoVerde 899","5000002787746","Panaderia","2028-12-16","ProteínaPro",50.44,593
+"S067","Detergente líquido BuenSabor 479","5000001681610","Conservas","2026-10-01","VerdeFinca",32.43,943
+"S018","Filete de tilapia NaturVida 368","5000003261116","Aceites","2025-04-29","FrescoMar",207.76,537
+"S100","Tostadas Delicias 254","5000005746900","Limpieza","2024-08-19","BuenSabor",216.08,306
+"S007","Croissant FrescoMar 455","5000008243627","Congelados","2024-06-13","ProteínaPro",496.46,839
+"S099","Pan blanco BioNatural 276","5000006269428","Verduras","2028-08-06","ProteínaPro",357.29,534
+"S166","Sal de mesa FrescoMar 129","5000007250437","Panaderia","2024-10-22","FrescoMar",268.06,507
+"SXXX","Sucursal No Existe","5000099999003","Carnes","2026-01-01","Marca",20.0,5
+"S100","Aceite de oliva BioNatural 976","5000004194191","Congelados","2026-04-15","SuperSabor",441.6,45
+"S193","Papel aluminio SuperSabor 858","5000006598096","Ropa","2025-12-12","AlimentosGT",307.77,530
+"S035","Pasta espagueti GourmetGT 327","5000007382035","Aceites","2025-08-09","Nutrimax",52.99,760
+"S190","Té helado FamiliaFeliz 384","5000003245298","Carnes","2028-04-25","BuenSabor",265.72,598
+"S120","Refresco cola CampoVerde 291","5000009419173","Ropa","2025-09-13","BuenSabor",203.87,856
+"S005","Mango AguaPura 272","5000003014770","Hogar","2028-02-10","MarcaGT",218.01,545
+"S036","Galletas Nutrimax 111","5000008843536","Hogar","2026-11-06","NutriPlus",14.28,56
+"S045","Papas congeladas CampoVerde 599","5000006679879","Embutidos","2028-02-08","CampoVerde",286.8,338
+"S071","Algodón MarcaGT 619","5000008398162","Condimentos","2025-04-24","SuperSabor",78.45,785
+"S085","Jamón cocido Tradición 852","5000007324432","Lacteos","2027-01-04","SuperSabor",100.2,877
+"S090","Avena AlimentosGT 660","5000002885235","Hogar","2024-04-27","Delicias",135.42,819
+"S107","Esponja de cocina NutriPlus 861","5000006746419","Verduras","2028-03-26","GourmetGT",122.31,989
+"S112","Helado vainilla Selecta 967","5000004010274","Aceites","2027-10-25","FrescoMar",41.89,75
+"S104","Filete de tilapia Delicias 220","5000004716117","Panaderia","2025-11-05","BuenSabor",91.59,958
+"S115","Bolsas de basura SaborFino 623","5000000617633","Congelados","2026-10-19","AlimentosGT",253.37,682
+"S086","Helado vainilla AguaPura 282","5000007109779","Carnes","2024-12-05","NaturVida",296.98,455
+"S087","Zanahoria BioNatural 532","5000004561438","Frutas","2024-11-03","BuenSabor",145.44,14
+"S026","Blanqueador Tradición 365","5000001294345","Ropa","2027-11-17","AlimentosGT",15.34,549
+"S024","Cebolla BioNatural 370","5000008076086","Congelados","2024-04-21","Selecta",93.52,562
+"S008","Croissant GourmetGT 946","5000007232054","Aceites","2025-05-24","BuenSabor",77.02,473
+"S019","Galletas ProteínaPro 189","5000008706914","Carnes","2026-03-28","GourmetGT",223.71,475
+"S067","Cereal de maíz ProteínaPro 752","5000003991624","Condimentos","2028-03-16","MarcaGT",178.56,453
+"S024","Bistec de res FamiliaFeliz 741","5000007425012","Frutas","2024-11-05","Delicias",301.22,248
+"S080","Leche entera BioNatural 689","5000000648636","Carnes","2026-02-01","AguaPura",92.29,426
+"S106","Crema hidratante VerdeFinca 427","5000004288170","Bebidas","2026-05-18","FamiliaFeliz",67.78,438
+"S099","Agua purificada VerdeFinca 764","5000004209439","Snacks","2028-08-06","FrescoMar",448.63,936
+"S164","Té helado FrescoMar 224","5000007645180","Aceites","2024-11-20","ProteínaPro",379.39,411
+"S110","Arroz blanco Tradición 572","5000009536173","Aceites","2026-04-07","NutriPlus",368.17,748
+"S071","Papel aluminio SaborFino 843","5000008558836","Verduras","2028-11-04","AguaPura",457.49,873
+"S130","Papel higiénico SuperSabor 551","5000004553552","Cereales","2027-07-18","FamiliaFeliz",280.09,256
+"S156","Tomate Tradición 542","5000001955988","Snacks","2026-07-11","NaturVida",251.75,160
+"S026","Pollo entero AlimentosGT 642","5000002919531","Cereales","2024-06-26","Nutrimax",423.98,162
+"S023","Protector solar NaturVida 116","5000002362964","Carnes","2026-04-19","SaborFino",394.0,736
+"S076","Esponja de cocina Delicias 242","5000001603986","Electronica","2027-07-02","VerdeFinca",384.71,195
+"S055","Manzana Tradición 690","5000000475568","Panaderia","2028-12-09","MarcaGT",450.49,212
+"S021","Atún en lata Tradición 382","5000007392755","Lacteos","2026-03-23","SaborFino",331.29,147
+"S108","Piña CampoVerde 937","5000004944857","Electronica","2025-12-26","SuperSabor",246.18,365
+"S013","Papas congeladas CampoVerde 873","5000001123816","Higiene","2025-08-27","BioNatural",466.48,544
+"S084","Granola Nutrimax 283","5000005062350","Panaderia","2026-04-04","Nutrimax",39.98,52
+"S139","Papaya SuperSabor 655","5000003751100","Electronica","2027-06-08","NutriPlus",470.85,991
+"S076","Helado vainilla ProteínaPro 556","5000003364240","Frutas","2024-04-02","SuperSabor",330.25,396
+"S181","Blanqueador BioNatural 794","5000004281206","Condimentos","2024-09-27","NaturVida",270.44,481
+"S140","Sandía BioNatural 663","5000002121744","Ropa","2025-10-19","DelCampo",338.98,10
+"S117","Mango AlimentosGT 874","5000000658272","Electronica","2025-12-20","DelCampo",400.21,908
+"S087","Jamón cocido SaborFino 660","5000002056959","Frutas","2028-01-01","Selecta",428.97,709
+"S105","Algodón SaborFino 808","5000008739199","Hogar","2026-02-06","DelCampo",365.9,513
+"S103","Té helado Nutrimax 878","5000006896380","Cereales","2025-07-08","ProteínaPro",357.91,967
+"S125","Chocolate Delicias 320","5000000324636","Embutidos","2027-08-15","SuperSabor",379.33,580
+"S113","Piña MarcaGT 811","5000002350419","Aceites","2027-10-30","VerdeFinca",448.46,860
+"S107","Papaya Selecta 985","5000005479781","Carnes","2028-08-06","CampoVerde",86.48,844
+"S060","Hilo dental BuenSabor 218","5000001237082","Cereales","2024-05-24","CampoVerde",421.91,777
+"S032","Pollo entero AguaPura 798","5000002979661","Frutas","2028-07-12","BioNatural",284.58,207
+"S009","Banano SuperSabor 378","5000006021578","Conservas","2024-05-31","GourmetGT",468.05,23
+"S096","Suavizante SuperSabor 531","5000005473196","Carnes","2025-01-27","SaborFino",372.92,280
+"S125","Detergente líquido SuperSabor 177","5000003281535","Higiene","2028-09-29","AguaPura",271.74,4
+"S160","Pan blanco MarcaGT 187","5000001290116","Condimentos","2025-04-06","VerdeFinca",89.9,513
+"S173","Pasta espagueti GourmetGT 781","5000006886565","Embutidos","2026-04-20","DelCampo",343.2,916
+"S108","Harina de trigo AlimentosGT 843","5000006307398","Condimentos","2024-01-30","SaborFino",255.74,986
+"S164","Pan integral Delicias 801","5000002278170","Cereales","2026-06-06","ProteínaPro",186.08,632
+"S012","Filete de tilapia FamiliaFeliz 611","5000007663435","Congelados","2024-02-21","NutriPlus",233.67,782
+"S038","Papa Selecta 902","5000004438413","Limpieza","2027-05-31","FrescoMar",88.09,549
+"S122","Cereal de maíz BioNatural 937","5000009504424","Limpieza","2026-10-23","NutriPlus",446.33,46
+"S012","Té helado Selecta 544","5000005717114","Aceites","2025-01-27","CampoVerde",362.34,76
+"S082","Chocolate ProteínaPro 241","5000003098621","Limpieza","2024-03-06","DelCampo",414.67,959
+"S041","Tostadas BuenSabor 234","5000007216768","Cereales","2024-08-15","NaturVida",220.05,965
+"S147","Desodorante SuperSabor 497","5000002555638","Aceites","2026-04-04","Delicias",391.83,861
+"S058","Chicles SaborFino 972","5000002677520","Higiene","2028-07-13","FrescoMar",224.68,534
+"S148","Film transparente Tradición 823","5000001078492","Embutidos","2025-11-24","GourmetGT",386.37,430
+"S076","Esponja de cocina SuperSabor 308","5000002734067","Ropa","2028-01-19","DelCampo",243.95,663
+"S051","Maní salado AlimentosGT 934","5000003293239","Aceites","2027-01-20","AguaPura",99.18,460
+"S129","Lechuga MarcaGT 174","5000009638343","Verduras","2026-02-02","Selecta",38.45,693
+"S190","Jugo de naranja FamiliaFeliz 994","5000009920089","Panaderia","2024-06-02","SaborFino",427.33,380
+"S125","Margarina SaborFino 473","5000008251159","Conservas","2024-04-30","MarcaGT",206.94,689
+"S068","Mermelada fresa BuenSabor 339","5000001068973","Limpieza","2028-08-28","AguaPura",349.3,716
+"S094","Margarina GourmetGT 349","5000001205888","Ropa","2027-12-22","SuperSabor",18.25,185
+"S063","Filete de tilapia SaborFino 451","5000002999056","Carnes","2025-09-25","NaturVida",427.3,642
+"S086","Yogur natural NaturVida 471","5000003016069","Bebidas","2027-02-20","Nutrimax",20.11,598
+"S085","Helado vainilla Selecta 544","5000009072216","Bebidas","2028-11-21","DelCampo",13.59,455
+"S003","Detergente líquido SuperSabor 373","5000000338190","Ropa","2024-04-02","VerdeFinca",186.22,535
+"S075","Esponja de cocina Nutrimax 336","5000002664454","Panaderia","2024-05-31","SuperSabor",431.25,688
+"S041","Aceite de oliva Nutrimax 372","5000008967386","Conservas","2027-06-17","NaturVida",191.73,330
+"S032","Jugo de naranja Delicias 866","5000005516967","Electronica","2026-03-14","SaborFino",100.64,630
+"S136","Pan integral BuenSabor 205","5000008450224","Lacteos","2026-12-16","Tradición",183.15,939
+"S200","Yogur natural Nutrimax 204","5000007762003","Carnes","2026-11-03","Tradición",364.43,176
+"S186","Pizza familiar Nutrimax 339","5000006157432","Panaderia","2027-04-08","NutriPlus",33.83,819
+"S129","Suavizante BuenSabor 345","5000004149215","Ropa","2024-07-12","DelCampo",8.85,430
+"S015","Pasta espagueti Nutrimax 845","5000005080959","Panaderia","2027-05-06","AguaPura",374.32,659
+"S120","Aceite vegetal AlimentosGT 820","5000000619582","Bebidas","2025-01-22","BioNatural",441.39,196
+"S164","Lechuga BioNatural 216","5000004079193","Congelados","2025-06-30","Selecta",300.13,809
+"S160","Servilletas ProteínaPro 431","5000002826964","Ropa","2026-11-02","BioNatural",176.23,309
+"S044","Naranja BuenSabor 895","5000002589134","Snacks","2024-10-31","Nutrimax",212.81,541
+"S159","Harina de trigo Delicias 865","5000000890911","Higiene","2025-03-27","SuperSabor",155.94,639
+"S079","Papaya ProteínaPro 321","5000003966752","Condimentos","2027-11-09","GourmetGT",186.63,753
+"S107","Croissant Nutrimax 160","5000004569815","Embutidos","2028-07-05","FamiliaFeliz",353.99,404
+"S004","Chorizo AlimentosGT 482","5000001352034","Congelados","2026-03-06","GourmetGT",198.25,303
+"S007","Jugo de naranja BuenSabor 939","5000001977631","Carnes","2026-06-03","VerdeFinca",127.95,267
+"S082","Papas congeladas FrescoMar 167","5000000132805","Cereales","2028-11-14","ProteínaPro",61.79,749
+"S149","Papel aluminio BioNatural 566","5000003574595","Lacteos","2026-03-02","Selecta",8.36,368
+"S154","Arroz integral MarcaGT 946","5000004832674","Cereales","2026-05-19","SaborFino",194.63,408
+"S001","Crema espesa AlimentosGT 348","5000002706853","Carnes","2025-11-01","Tradición",463.45,120
+"S198","Algodón NutriPlus 662","5000007839973","Cereales","2025-07-19","CampoVerde",36.6,359
+"S166","Jabón de baño BioNatural 370","5000005677688","Hogar","2026-05-10","CampoVerde",101.67,460
+"S169","Bistec de res BioNatural 772","5000000360173","Cereales","2025-05-19","DelCampo",234.45,975
+"S023","Pechuga de pollo FrescoMar 735","5000006722750","Higiene","2027-12-13","GourmetGT",162.31,950
+"S061","Esponja de cocina CampoVerde 829","5000005514782","Verduras","2028-07-30","NaturVida",334.05,679
+"S039","Papas congeladas MarcaGT 339","5000008609095","Congelados","2026-10-11","SaborFino",20.5,814
+"S023","Mango BioNatural 981","5000007463724","Verduras","2026-07-05","Selecta",118.11,920
+"S011","Algodón VerdeFinca 907","5000005840514","Lacteos","2028-04-21","AlimentosGT",239.72,117
+"S119","Naranja NaturVida 209","5000003306745","Conservas","2025-08-04","VerdeFinca",343.23,43
+"S068","Nuggets de pollo VerdeFinca 166","5000000315352","Conservas","2024-07-27","ProteínaPro",468.82,357
+"S190","Tostadas AguaPura 253","5000001617518","Limpieza","2026-11-05","AguaPura",411.44,842
+"S163","Jabón de baño FrescoMar 491","5000000077205","Bebidas","2028-12-01","BuenSabor",272.36,534
+"S129","Jamón cocido AlimentosGT 133","5000003758713","Verduras","2028-01-11","VerdeFinca",418.03,422
+"S017","Protector solar BuenSabor 957","5000000906083","Embutidos","2025-10-08","Selecta",31.72,254
+"S004","Arroz integral Delicias 446","5000002317907","Frutas","2024-09-15","ProteínaPro",92.29,694
+"S118","Lentejas VerdeFinca 571","5000002549740","Embutidos","2026-01-29","DelCampo",331.14,315
+"S033","Jabón de baño NutriPlus 572","5000002955434","Ropa","2028-10-05","CampoVerde",303.36,899
+"S151","Mermelada fresa FrescoMar 263","5000001032041","Cereales","2026-10-03","Selecta",365.74,717
+"S039","Banano NutriPlus 441","5000004455177","Snacks","2024-05-22","DelCampo",203.53,249
+"S133","Protector solar AlimentosGT 901","5000001360687","Panaderia","2026-09-09","FamiliaFeliz",133.85,813
+"S115","Mix de nueces AlimentosGT 501","5000000680630","Aceites","2027-06-05","CampoVerde",38.59,387
+"S010","Mix de nueces ProteínaPro 351","5000004012357","Condimentos","2025-10-22","NutriPlus",370.08,103
+"S199","Barras de granola VerdeFinca 624","5000008834698","Ropa","2026-06-06","Delicias",176.88,342
+"S133","Mermelada fresa ProteínaPro 498","5000009296896","Congelados","2024-09-12","AguaPura",266.2,26
+"S193","Pasta espagueti Delicias 760","5000000850939","Verduras","2026-08-30","BuenSabor",189.07,810
+"S089","Pan integral VerdeFinca 785","5000002005639","Carnes","2028-02-06","NaturVida",362.7,647
+"S015","Atún en lata SaborFino 774","5000006083207","Bebidas","2027-10-03","GourmetGT",304.45,335
+"S087","Manzana Delicias 212","5000008650383","Hogar","2028-12-01","VerdeFinca",10.17,293
+"S134","Leche descremada BuenSabor 844","5000007656751","Lacteos","2025-12-09","BuenSabor",146.24,903
+"S108","Chocolate ProteínaPro 681","5000002165486","Hogar","2025-05-08","Tradición",139.86,838
+"S030","Papaya SaborFino 304","5000007294221","Carnes","2027-05-30","SuperSabor",435.64,934
+"S009","Pan integral ProteínaPro 667","5000006234182","Cereales","2026-03-11","Delicias",172.08,501
+"S016","Aceite vegetal Delicias 420","5000008763740","Cereales","2026-05-08","MarcaGT",3.18,184
+"S075","Leche entera AlimentosGT 664","5000005633699","Ropa","2028-04-03","MarcaGT",91.61,150
+"S048","Desodorante GourmetGT 718","5000002857688","Carnes","2025-12-04","Selecta",8.57,793
+"S047","Protector solar SuperSabor 221","5000005321791","Cereales","2027-10-11","Tradición",447.04,233
+"S163","Carne molida BuenSabor 934","5000009550483","Lacteos","2025-02-06","BioNatural",113.05,410
+"S060","Cebolla VerdeFinca 401","5000009403077","Carnes","2028-03-12","ProteínaPro",289.33,72
+"S065","Refresco cola FrescoMar 915","5000008769697","Condimentos","2028-04-09","NutriPlus",369.68,124
+"S053","Harina de trigo FamiliaFeliz 668","5000009003805","Snacks","2025-04-27","MarcaGT",459.42,255
+"S071","Chicles CampoVerde 409","5000008632972","Condimentos","2026-10-07","Tradición",234.64,827
+"S146","Sal de mesa NutriPlus 509","5000005051715","Conservas","2028-11-13","SaborFino",271.84,654
+"S073","Helado vainilla Delicias 451","5000003091835","Ropa","2028-12-07","VerdeFinca",407.35,179
+"S193","Jabón de baño BioNatural 323","5000008276959","Snacks","2028-12-16","SuperSabor",151.87,61
+"S191","Nuggets de pollo NutriPlus 675","5000005016631","Panaderia","2027-02-09","AguaPura",498.65,3
+"S149","Jabón de baño Tradición 230","5000007737317","Bebidas","2025-11-28","Nutrimax",291.74,271
+"S196","Suavizante VerdeFinca 548","5000000389606","Hogar","2024-08-19","CampoVerde",74.84,707
+"S014","Jabón de baño NutriPlus 755","5000009463209","Verduras","2027-08-01","Tradición",86.02,726
+"S016","Aceite vegetal GourmetGT 297","5000007251868","Snacks","2025-08-10","SaborFino",444.18,20
+"S169","Tostadas Selecta 167","5000002878631","Carnes","2024-08-10","DelCampo",285.18,630
+"S022","Papel higiénico CampoVerde 589","5000002538817","Aceites","2028-02-03","SuperSabor",118.82,447
+"S011","Miel de abeja SaborFino 916","5000006205794","Bebidas","2026-03-22","ProteínaPro",352.57,86
+"S198","Harina de trigo VerdeFinca 710","5000005043796","Cereales","2024-01-07","FrescoMar",434.54,161
+"S083","Pechuga de pollo DelCampo 917","5000002847419","Ropa","2026-10-03","SuperSabor",481.13,90
+"S063","Aceite vegetal Nutrimax 127","5000000208816","Snacks","2026-05-04","FamiliaFeliz",123.97,876
+"S110","Pechuga de pollo NutriPlus 533","5000004619911","Congelados","2025-05-30","DelCampo",136.68,779
+"S117","Frijol negro DelCampo 369","5000009654222","Panaderia","2026-01-29","CampoVerde",156.99,711
+"S015","Brócoli BioNatural 750","5000004125463","Higiene","2028-11-12","GourmetGT",335.92,726
+"S021","Papel higiénico Nutrimax 503","5000000495797","Snacks","2027-01-13","Delicias",180.87,953
+"S124","Suavizante Tradición 352","5000005802278","Verduras","2024-10-19","AlimentosGT",107.12,545
+"S116","Suavizante Nutrimax 287","5000006713478","Frutas","2027-08-25","GourmetGT",388.03,842
+"S020","Café AlimentosGT 946","5000000375061","Panaderia","2028-08-21","Delicias",326.5,667
+"S165","Avena FamiliaFeliz 325","5000006007539","Cereales","2027-03-18","SaborFino",111.21,265
+"S185","Papaya AguaPura 985","5000003373575","Conservas","2028-09-15","Nutrimax",37.59,954
+"S174","Pizza familiar AlimentosGT 413","5000008949547","Cereales","2025-06-16","MarcaGT",498.59,425
+"S039","Leche descremada GourmetGT 940","5000009869469","Condimentos","2026-04-15","SuperSabor",442.8,867
+"S156","Papel higiénico BuenSabor 529","5000009480604","Higiene","2025-08-06","VerdeFinca",169.18,738
+"S045","Sal de mesa NaturVida 998","5000007615976","Panaderia","2025-05-27","AguaPura",281.35,611
+"S116","Croissant VerdeFinca 186","5000004660984","Frutas","2024-04-03","AguaPura",312.13,45
+"S061","Detergente líquido SuperSabor 864","5000002459612","Frutas","2027-11-25","MarcaGT",325.24,781
+"S129","Aceite vegetal Delicias 779","5000001722585","Cereales","2028-09-22","ProteínaPro",176.55,233
+"S079","Brócoli GourmetGT 727","5000004896562","Carnes","2028-09-13","Nutrimax",105.42,42
+"S069","Arroz integral DelCampo 245","5000004678619","Panaderia","2025-04-28","SaborFino",438.6,546
+"S181","Bistec de res VerdeFinca 876","5000005990647","Embutidos","2027-12-14","GourmetGT",67.13,495
+"S188","Yogur natural VerdeFinca 223","5000002544445","Congelados","2025-01-07","FrescoMar",223.96,295
+"S086","Arroz blanco AlimentosGT 211","5000002917749","Carnes","2028-07-29","GourmetGT",251.04,965
+"S103","Arroz blanco BuenSabor 645","5000001815035","Bebidas","2024-04-06","AguaPura",156.52,836
+"S100","Espinaca BioNatural 680","5000000740946","Frutas","2024-08-23","SaborFino",392.06,28
+"S178","Granola MarcaGT 556","5000004761586","Panaderia","2026-07-20","ProteínaPro",61.94,550
+"S076","Hilo dental AlimentosGT 702","5000006243788","Carnes","2028-01-26","ProteínaPro",206.07,732
+"S053","Jugo de naranja DelCampo 375","5000003593061","Congelados","2026-10-05","NutriPlus",411.13,49
+"S194","Atún en lata BioNatural 369","5000003027568","Panaderia","2028-04-26","SaborFino",16.59,131
+"S079","Crema espesa BuenSabor 684","5000006697841","Congelados","2027-05-08","DelCampo",197.93,909
+"S044","Margarina FrescoMar 439","5000006952326","Snacks","2024-05-19","VerdeFinca",417.0,99
+"S044","Mix de nueces SuperSabor 397","5000007389615","Hogar","2026-06-16","SaborFino",73.26,353
+"S055","Pollo entero SaborFino 776","5000007297984","Embutidos","2024-05-29","NaturVida",138.94,96
+"S001","Tomate Tradición 686","5000002171598","Verduras","2025-10-13","VerdeFinca",407.99,671
+"S028","Papa ProteínaPro 256","5000005149293","Congelados","2025-05-10","FrescoMar",48.08,724
+"S195","Detergente líquido Selecta 958","5000003534754","Condimentos","2026-10-11","AlimentosGT",25.5,371
+"S140","Banano GourmetGT 624","5000004836104","Panaderia","2027-10-16","MarcaGT",399.74,259
+"S109","Papel higiénico AguaPura 114","5000000641901","Higiene","2025-06-10","VerdeFinca",49.67,951
+"S163","Queso cheddar FrescoMar 185","5000001751247","Ropa","2025-12-15","AguaPura",291.2,385
+"S102","Caramelos AlimentosGT 108","5000007307943","Panaderia","2024-09-20","BioNatural",380.84,673
+"S060","Lechuga DelCampo 430","5000004337601","Aceites","2025-03-03","AguaPura",264.21,158
+"S108","Banano DelCampo 273","5000001269672","Panaderia","2028-06-12","Selecta",226.69,786
+"S143","Blanqueador FamiliaFeliz 816","5000004639678","Condimentos","2026-09-13","Tradición",217.39,590
+"S005","Refresco cola DelCampo 698","5000001130149","Embutidos","2025-07-06","VerdeFinca",227.96,787
+"S134","Papas fritas BioNatural 588","5000002797593","Ropa","2027-05-18","BioNatural",21.08,96
+"S037","Pasta espagueti Tradición 818","5000001670747","Condimentos","2025-01-08","NutriPlus",291.65,931
+"S067","Té helado DelCampo 805","5000003450526","Carnes","2026-02-19","DelCampo",315.77,648
+
+"S132","Pollo entero Nutrimax 661","5000004429709","Panaderia","2025-03-25","VerdeFinca",363.9,491
+"S129","Blanqueador AguaPura 171","5000000428283","Embutidos","2025-01-18","GourmetGT",389.19,901
+"S115","Sal de mesa FrescoMar 717","5000000612770","Carnes","2025-04-03","DelCampo",225.52,511
+"S064","Filete de tilapia Tradición 895","5000001780000","Electronica","2024-04-07","MarcaGT",427.98,943
+"S080","Mermelada fresa BuenSabor 336","5000009102589","Lacteos","2026-02-02","BuenSabor",148.94,793
+"S048","Crema hidratante SaborFino 972","5000009702826","Cereales","2028-12-05","NaturVida",259.98,785
+"S054","Crema espesa FamiliaFeliz 702","5000008738902","Ropa","2026-11-17","NaturVida",163.16,129
+"S181","Protector solar FrescoMar 933","5000001648634","Panaderia","2025-06-18","GourmetGT",286.92,169
+"S113","Pimienta BuenSabor 128","5000007304345","Bebidas","2026-04-29","FrescoMar",143.16,817
+"S137","Granola AguaPura 236","5000004950835","Ropa","2025-11-22","DelCampo",209.65,993
+"S078","Pan integral MarcaGT 562","5000001264847","Congelados","2026-01-05","NutriPlus",86.51,980
+"S184","Esponja de cocina BioNatural 612","5000008463297","Lacteos","2026-07-09","SaborFino",150.5,981
+"S114","Pimienta CampoVerde 230","5000001905684","Hogar","2026-11-12","GourmetGT",78.4,405
+"S136","Nuggets de pollo Delicias 470","5000008234706","Cereales","2026-11-10","MarcaGT",460.58,166
+"S136","Té helado Nutrimax 564","5000006606946","Cereales","2028-07-23","Selecta",30.52,901
+"S138","Servilletas FrescoMar 456","5000002871036","Higiene","2027-01-19","DelCampo",430.56,128
+"S071","Café Nutrimax 833","5000009020084","Verduras","2027-09-02","SaborFino",74.94,120
+"S148","Shampoo AlimentosGT 561","5000009372793","Bebidas","2024-03-22","NutriPlus",95.11,803
+"S022","Pan integral NaturVida 454","5000002400333","Cereales","2028-11-22","SuperSabor",2.6,788
+"S107","Bistec de res MarcaGT 106","5000009694173","Electronica","2027-07-11","GourmetGT",311.71,409
+"S160","Papas fritas NaturVida 475","5000003521765","Higiene","2027-01-28","Selecta",364.98,694
+"S099","Papaya Delicias 793","5000004473801","Condimentos","2025-06-03","SaborFino",458.35,563
+"S137","Yogur natural MarcaGT 479","5000004110173","Hogar","2028-09-21","Tradición",406.95,582
+"S183","Pasta dental FamiliaFeliz 664","5000006977600","Ropa","2024-09-18","Delicias",235.39,659
+"S086","Servilletas DelCampo 114","5000006195648","Hogar","2028-06-30","CampoVerde",79.64,207
+"S083","Avena AlimentosGT 177","5000005614684","Higiene","2028-12-18","MarcaGT",23.74,878
+"S050","Nuggets de pollo CampoVerde 101","5000006847519","Frutas","2027-11-10","Selecta",359.97,958
+"S091","Jamón cocido GourmetGT 402","5000008049956","Cereales","2028-08-28","Tradición",441.78,312
+"S171","Crema hidratante BioNatural 525","5000009751829","Hogar","2028-11-30","BioNatural",306.46,141
+"S116","Jabón de baño NutriPlus 379","5000005508791","Verduras","2026-06-09","Tradición",357.81,674
+"S190","Papaya FamiliaFeliz 233","5000006903515","Higiene","2025-12-22","FrescoMar",401.73,431
+"S198","Banano Selecta 479","5000002644832","Bebidas","2024-06-26","CampoVerde",219.54,377
+"S049","Papa AguaPura 404","5000005573523","Conservas","2025-09-06","FamiliaFeliz",386.6,332
+"S166","Algodón Nutrimax 203","5000002115044","Carnes","2028-07-24","Nutrimax",373.32,598
+"S043","Arroz blanco MarcaGT 486","5000002608225","Cereales","2028-10-05","Delicias",404.79,695
+"S013","Shampoo CampoVerde 969","5000001246994","Limpieza","2028-09-14","CampoVerde",431.27,590
+"S196","Papaya BuenSabor 213","5000002073809","Higiene","2027-10-22","FrescoMar",154.92,827
+"S087","Mix de nueces CampoVerde 677","5000004413791","Limpieza","2026-04-01","CampoVerde",113.45,889
+"S048","Chorizo SuperSabor 878","5000006349220","Bebidas","2025-07-22","CampoVerde",148.41,428
+"S178","Frijol negro MarcaGT 365","5000007058533","Frutas","2025-11-04","CampoVerde",41.84,99
+"S121","Pan blanco GourmetGT 320","5000005830425","Congelados","2028-12-29","Tradición",149.47,263
+"S101","Jamón cocido CampoVerde 549","5000001442451","Embutidos","2028-04-22","Delicias",141.02,937
+"S197","Detergente líquido Nutrimax 573","5000008165905","Bebidas","2028-01-28","FamiliaFeliz",160.94,776
+"S150","Pollo entero NaturVida 935","5000007304721","Aceites","2028-07-15","SaborFino",180.31,980
+"S152","Jamón cocido DelCampo 474","5000007319940","Higiene","2027-07-03","SaborFino",424.38,601
+"S155","Desodorante ProteínaPro 812","5000000944307","Aceites","2027-09-24","CampoVerde",287.9,369
+"S145","Croissant GourmetGT 936","5000004628520","Limpieza","2024-11-30","AguaPura",212.95,26
+"S063","Crema espesa GourmetGT 701","5000001459858","Higiene","2028-10-16","BuenSabor",417.61,508
+"S114","Pimienta VerdeFinca 649","5000001745847","Condimentos","2025-08-06","ProteínaPro",349.3,394
+"S045","Helado vainilla BuenSabor 174","5000002532754","Electronica","2027-10-29","Nutrimax",353.45,253
+"S044","Queso fresco BioNatural 908","5000002595385","Conservas","2025-03-10","VerdeFinca",69.04,558
+"S069","Caramelos Selecta 235","5000001087822","Congelados","2027-07-23","FamiliaFeliz",195.65,423
+"S119","Espinaca NaturVida 211","5000008017700","Frutas","2027-12-04","NaturVida",445.18,676
+"S197","Frijol negro Selecta 701","5000007766609","Carnes","2028-12-02","Selecta",316.02,753
+"S142","Aceite vegetal Nutrimax 195","5000003126560","Embutidos","2028-01-14","Nutrimax",460.16,551
+"S074","Barras de granola NutriPlus 624","5000009274722","Panaderia","2026-10-13","FamiliaFeliz",139.72,75
+"S144","Papaya BuenSabor 760","5000007477609","Conservas","2025-04-09","AguaPura",242.05,732
+"S174","Galletas CampoVerde 412","5000005627007","Verduras","2024-04-18","FamiliaFeliz",472.45,693
+"S084","Pasta dental AguaPura 727","5000006817923","Electronica","2026-11-10","NutriPlus",12.23,142
+"S200","Aceite de oliva SaborFino 846","5000004016561","Bebidas","2028-06-29","FrescoMar",58.55,738
+"S111","Papa AlimentosGT 613","5000001006223","Snacks","2028-02-03","SaborFino",66.13,214
+"S128","Crema hidratante ProteínaPro 259","5000008224470","Embutidos","2028-01-04","GourmetGT",5.54,157
+"S166","Miel de abeja MarcaGT 462","5000009115314","Electronica","2027-11-06","FrescoMar",43.45,442
+"S146","Lechuga Tradición 141","5000006693804","Bebidas","2026-09-21","Selecta",343.63,125
+"S095","Papas congeladas Delicias 994","5000000532623","Snacks","2025-09-29","FamiliaFeliz",418.0,814
+"S044","Té helado CampoVerde 609","5000009197581","Condimentos","2026-07-07","AguaPura",179.63,90
+"S170","Pasta espagueti BioNatural 740","5000009704616","Ropa","2026-07-16","FamiliaFeliz",318.08,310
+"S159","Papas congeladas MarcaGT 478","5000003958953","Cereales","2027-06-20","FamiliaFeliz",87.51,783
+"S063","Papaya AguaPura 991","5000004731341","Conservas","2028-01-02","ProteínaPro",224.57,556
+"S027","Leche descremada Tradición 127","5000008156754","Hogar","2026-11-27","VerdeFinca",217.97,480
+"S020","Chuleta de cerdo SuperSabor 379","5000005649550","Frutas","2026-07-08","Delicias",201.8,219
+"S091","Bolsas de basura BioNatural 661","5000009032533","Embutidos","2025-04-13","DelCampo",429.44,112
+"S078","Leche entera Nutrimax 124","5000004506859","Panaderia","2024-10-22","VerdeFinca",385.36,96
+"S040","Barras de granola FamiliaFeliz 328","5000004975828","Cereales","2025-07-14","DelCampo",24.65,914
+"S082","Piña SuperSabor 213","5000002520141","Panaderia","2024-05-04","GourmetGT",158.99,324
+"S082","Shampoo FrescoMar 141","5000003312142","Frutas","2027-07-17","BioNatural",474.19,589
+"S173","Naranja FrescoMar 499","5000003099920","Carnes","2026-03-19","Selecta",207.96,706
+"S023","Harina de trigo ProteínaPro 954","5000002365269","Frutas","2025-01-14","BuenSabor",115.61,511
+"S070","Atún en lata Delicias 396","5000008539924","Electronica","2028-11-30","SaborFino",11.07,91
+"S185","Café ProteínaPro 303","5000008470082","Frutas","2027-04-14","VerdeFinca",359.85,35
+"S051","Jabón de baño SaborFino 944","5000007306241","Aceites","2025-08-25","FamiliaFeliz",432.86,600
+"S173","Harina de trigo DelCampo 638","5000006513195","Aceites","2026-01-01","NutriPlus",484.29,188
+"S023","Papel aluminio Tradición 102","5000001234721","Electronica","2025-04-13","NutriPlus",381.93,583
+"S163","Jamón cocido NutriPlus 424","5000005765937","Congelados","2028-01-13","SuperSabor",434.18,725
+"S005","Manzana Delicias 368","5000008438587","Condimentos","2025-06-18","GourmetGT",27.76,752
+"S010","Jamón cocido ProteínaPro 909","5000008315172","Panaderia","2028-05-31","Tradición",274.32,632
+"S155","Arroz blanco AguaPura 137","5000003040866","Bebidas","2025-04-03","Nutrimax",485.34,746
+"S057","Té helado SaborFino 270","5000004190014","Bebidas","2027-10-06","CampoVerde",215.95,616
+"S096","Lentejas VerdeFinca 847","5000009735055","Electronica","2026-05-13","AguaPura",144.16,593
+"S004","Granola BioNatural 651","5000002309086","Carnes","2028-03-16","BioNatural",300.73,621
+"S089","Chicles ProteínaPro 414","5000004022666","Condimentos","2026-09-01","BuenSabor",92.11,762
+"S048","Brócoli AguaPura 818","5000000163453","Ropa","2028-12-19","VerdeFinca",104.37,813
+"S037","Queso fresco AlimentosGT 345","5000003385087","Lacteos","2026-06-06","NaturVida",89.36,411
+"S158","Café NutriPlus 966","5000009314242","Congelados","2028-08-24","Selecta",257.0,544
+"S035","Jugo de naranja Tradición 911","5000001027887","Conservas","2026-03-11","FrescoMar",385.52,213
+"S131","Nuggets de pollo BuenSabor 544","5000001349100","Higiene","2028-07-19","BioNatural",37.5,219
+"S157","Miel de abeja GourmetGT 438","5000006278254","Ropa","2024-03-28","SaborFino",138.96,626
+"S049","Queso cheddar FamiliaFeliz 780","5000008007006","Higiene","2027-09-05","Delicias",322.4,739
+"S069","Cebolla VerdeFinca 137","5000004687644","Ropa","2027-09-16","SaborFino",55.5,345
+"S005","Queso fresco MarcaGT 539","5000002384142","Verduras","2028-10-15","FrescoMar",71.27,247
+"S145","Papel aluminio ProteínaPro 873","5000009826243","Congelados","2027-02-14","GourmetGT",397.39,194
+"S149","Film transparente NaturVida 236","5000007507889","Panaderia","2026-09-19","MarcaGT",248.69,46
+"S060","Crema hidratante NutriPlus 718","5000007551122","Conservas","2026-07-04","NaturVida",100.51,371
+"S180","Arroz integral Delicias 934","5000004354276","Bebidas","2025-06-16","FrescoMar",49.27,285
+"S052","Papel higiénico GourmetGT 897","5000009769924","Panaderia","2028-09-26","SuperSabor",499.16,363
+"S036","Servilletas Nutrimax 782","5000009911397","Condimentos","2028-06-17","Delicias",94.23,556
+"S160","Barras de granola Delicias 903","5000008400342","Lacteos","2028-01-22","FamiliaFeliz",275.79,430
+"S034","Harina de trigo NutriPlus 518","5000008233242","Aceites","2025-11-02","DelCampo",383.5,119
+"S168","Croissant AguaPura 915","5000009687401","Conservas","2028-05-28","NutriPlus",392.13,650
+"S099","Bistec de res DelCampo 889","5000008416985","Carnes","2024-05-14","FamiliaFeliz",311.48,784
+"S199","Papel higiénico SuperSabor 845","5000002560045","Bebidas","2026-09-15","FrescoMar",152.47,483
+"S135","Avena GourmetGT 733","5000009173424","Aceites","2028-11-09","NaturVida",341.14,672
+"S099","Aceite de oliva BioNatural 196","5000006091354","Carnes","2024-07-29","BuenSabor",151.29,367
+"S032","Desodorante SaborFino 187","5000008776095","Condimentos","2025-03-21","Selecta",163.07,409
+"S161","Quinoa Tradición 292","5000005231720","Frutas","2028-10-27","Nutrimax",250.46,205
+"S174","Zanahoria FamiliaFeliz 342","5000009524115","Higiene","2028-04-09","AlimentosGT",19.39,609
+"S136","Aceite de oliva Delicias 113","5000007949053","Limpieza","2028-12-11","MarcaGT",215.26,608
+"S073","Sal de mesa AguaPura 490","5000008851795","Electronica","2025-01-08","MarcaGT",325.93,264
+"S049","Jugo de naranja SuperSabor 718","5000006174586","Higiene","2025-09-23","BioNatural",460.16,981
+"S119","Harina de trigo CampoVerde 312","5000008697984","Frutas","2024-09-04","NutriPlus",239.74,683
+"S036","Granola BuenSabor 566","5000000055732","Frutas","2026-02-09","GourmetGT",114.03,768
+"S049","Algodón FamiliaFeliz 939","5000003012623","Higiene","2028-10-06","ProteínaPro",333.49,193
+"S152","Tomate Selecta 834","5000009405872","Hogar","2025-05-11","FamiliaFeliz",204.36,650
+"S013","Queso fresco NutriPlus 392","5000001939025","Frutas","2027-12-08","Delicias",367.83,744
+"S073","Leche entera VerdeFinca 392","5000006446411","Ropa","2026-09-06","FamiliaFeliz",441.81,48
+"S030","Brócoli Tradición 871","5000006837796","Cereales","2027-09-15","SuperSabor",72.08,280
+"S108","Papel higiénico NaturVida 588","5000000210905","Snacks","2026-03-07","MarcaGT",297.36,391
+"S065","Aceite vegetal CampoVerde 454","5000004204434","Cereales","2024-05-03","FrescoMar",345.7,638
+"S185","Arroz blanco AguaPura 250","5000004635860","Frutas","2024-02-28","Delicias",133.26,931
+"S020","Pan integral CampoVerde 378","5000003764542","Frutas","2026-04-04","FrescoMar",135.78,483
+"S066","Quinoa AguaPura 307","5000001459407","Frutas","2027-03-30","BioNatural",360.75,745
+"S029","Quinoa FamiliaFeliz 683","5000009472754","Embutidos","2027-06-04","Nutrimax",386.55,909
+"S002","Manzana Tradición 172","5000004578476","Higiene","2028-06-05","Nutrimax",56.47,607
+"S110","Yogur natural GourmetGT 359","5000005797218","Cereales","2025-01-27","CampoVerde",190.31,867
+"S058","Pasta espagueti CampoVerde 719","5000001897946","Conservas","2024-09-25","Selecta",287.24,13
+"S017","Leche entera SuperSabor 794","5000002331594","Conservas","2027-11-29","Nutrimax",292.86,622
+"S149","Papel aluminio BuenSabor 985","5000009027669","Aceites","2025-11-12","GourmetGT",178.63,787
+"S070","Manzana BioNatural 312","5000000756836","Hogar","2024-07-01","SaborFino",80.14,86
+"S196","Sandía GourmetGT 544","5000006608528","Electronica","2028-09-18","NutriPlus",430.63,276
+"S111","Sal de mesa CampoVerde 336","5000007494216","Panaderia","2026-06-18","DelCampo",11.31,491
+"S006","Arroz blanco FrescoMar 958","5000003861323","Ropa","2024-12-24","BuenSabor",464.15,844
+"S097","Nuggets de pollo BuenSabor 188","5000002954230","Lacteos","2028-02-01","GourmetGT",177.09,905
+"S084","Avena Selecta 677","5000006125136","Verduras","2026-02-04","BioNatural",11.42,137
+"S031","Sandía SaborFino 616","5000008094441","Cereales","2027-01-08","BioNatural",98.44,276
+"S139","Espinaca VerdeFinca 458","5000002973905","Ropa","2026-03-01","AlimentosGT",5.7,45
+"S103","Brócoli Selecta 853","5000008092630","Cereales","2027-01-25","Delicias",299.23,332
+"S041","Nuggets de pollo VerdeFinca 224","5000008880322","Limpieza","2025-09-09","SaborFino",138.64,906
+"S122","Queso cheddar ProteínaPro 730","5000009118709","Carnes","2028-02-05","Nutrimax",273.21,834
+"S018","Pimienta AguaPura 888","5000008503782","Lacteos","2028-01-28","FrescoMar",268.26,333
+"S072","Mermelada fresa VerdeFinca 204","5000008482909","Conservas","2024-06-21","CampoVerde",183.81,710
+"S068","Esponja de cocina VerdeFinca 134","5000006933438","Electronica","2028-03-22","Selecta",27.42,445
+"S117","Pan blanco Delicias 959","5000007893572","Bebidas","2028-12-27","SaborFino",333.33,287
+"S177","Jugo de naranja Selecta 935","5000009161422","Panaderia","2026-02-20","CampoVerde",495.27,240
+"S176","Harina de trigo Delicias 698","5000009256043","Ropa","2024-07-25","Selecta",387.22,594
+"S047","Cebolla Nutrimax 290","5000006366909","Cereales","2028-05-11","Tradición",362.8,744
+"S071","Leche entera Selecta 155","5000004730965","Condimentos","2028-06-01","Tradición",59.56,319
+"S058","Papel higiénico BuenSabor 949","5000003665020","Frutas","2025-12-16","SaborFino",387.25,254
+"S183","Mermelada fresa MarcaGT 913","5000005372210","Snacks","2028-01-23","DelCampo",224.06,725
+"S198","Pasta espagueti Tradición 942","5000006822195","Panaderia","2025-12-18","DelCampo",498.8,84
+"S150","Chorizo GourmetGT 181","5000007534356","Condimentos","2028-03-15","NutriPlus",150.22,276
+"S036","Galletas SuperSabor 354","5000004971266","Limpieza","2026-03-23","BuenSabor",181.36,773
+"S048","Agua purificada GourmetGT 661","5000000394392","Snacks","2024-09-19","Tradición",411.39,23
+"S004","Pasta espagueti Tradición 435","5000001343641","Limpieza","2026-06-23","SuperSabor",24.7,559
+"S170","Chorizo FamiliaFeliz 296","5000009681146","Congelados","2028-04-23","NutriPlus",169.43,758
+"S008","Aceite vegetal GourmetGT 829","5000000301379","Ropa","2025-10-24","BuenSabor",452.75,557
+"S143","Avena AlimentosGT 190","5000005523410","Lacteos","2025-07-08","FamiliaFeliz",78.89,622
+"S168","Atún en lata FamiliaFeliz 116","5000000147209","Carnes","2025-10-27","GourmetGT",110.82,397
+"S096","Crema espesa DelCampo 278","5000001318850","Frutas","2026-10-25","Selecta",72.12,885
+"S165","Barras de granola Delicias 834","5000003195410","Carnes","2025-01-02","AguaPura",388.9,979
+"S071","Pollo entero CampoVerde 345","5000009092428","Aceites","2028-09-05","DelCampo",230.25,121
+"S076","Bolsas de basura NaturVida 340","5000003284457","Carnes","2027-06-02","SuperSabor",383.95,219
+"S027","Maní salado NutriPlus 611","5000004447262","Snacks","2028-09-19","MarcaGT",386.46,579
+"S168","Chocolate Delicias 167","5000008270623","Electronica","2025-03-04","MarcaGT",260.21,392
+"S162","Shampoo BuenSabor 851","5000009563196","Verduras","2028-12-07","NutriPlus",226.52,601
+"S183","Barras de granola GourmetGT 452","5000002193986","Electronica","2026-09-03","VerdeFinca",431.4,41
+"S133","Servilletas SaborFino 223","5000006451758","Frutas","2025-05-15","DelCampo",181.08,736
+"S154","Lentejas FrescoMar 281","5000003036315","Ropa","2025-12-23","AguaPura",362.47,975
+"S100","Papaya VerdeFinca 277","5000006544263","Frutas","2025-07-02","Selecta",46.66,410
+"S087","Sal de mesa BioNatural 440","5000005878993","Higiene","2026-09-08","CampoVerde",387.34,527
+"S145","Croissant CampoVerde 276","5000009391449","Higiene","2026-01-07","GourmetGT",123.72,780
+"S178","Té helado DelCampo 691","5000009283208","Embutidos","2027-01-28","ProteínaPro",486.8,104
+"S052","Detergente líquido AguaPura 322","5000008517901","Ropa","2026-09-05","FamiliaFeliz",100.75,622
+"S027","Naranja BioNatural 422","5000008482450","Limpieza","2026-05-07","NaturVida",166.14,387
+"S072","Atún en lata NaturVida 796","5000004616980","Bebidas","2024-12-26","SuperSabor",382.19,40
+"S069","Papel higiénico Selecta 145","5000002495361","Aceites","2028-09-19","FamiliaFeliz",115.28,559
+"S140","Lechuga NutriPlus 738","5000000763479","Snacks","2026-02-27","MarcaGT",464.27,103
+"S084","Aceite vegetal AlimentosGT 746","5000007132497","Higiene","2025-11-06","SaborFino",368.02,197
+"S154","Queso fresco Delicias 971","5000009547191","Snacks","2027-11-07","ProteínaPro",454.76,226
+"S131","Lentejas BuenSabor 629","5000007161947","Aceites","2024-07-14","DelCampo",211.63,973
+"S098","Pan blanco AlimentosGT 107","5000009545647","Aceites","2028-01-12","FamiliaFeliz",428.8,85
+"S193","Detergente líquido GourmetGT 990","5000002381232","Lacteos","2025-06-10","FamiliaFeliz",372.16,375
+"S087","Chicles AlimentosGT 237","5000005330195","Aceites","2027-07-14","BioNatural",464.51,467
+"S128","Mermelada fresa MarcaGT 250","5000000054239","Snacks","2027-04-06","SaborFino",99.98,562
+"S008","Piña GourmetGT 459","5000002943659","Carnes","2025-04-22","BioNatural",250.89,248
+"S004","Papas congeladas CampoVerde 870","5000009131245","Hogar","2026-02-04","GourmetGT",49.34,354
+"S105","Hilo dental Tradición 354","5000000228016","Electronica","2024-06-30","BuenSabor",5.83,798
+"S102","Queso fresco FrescoMar 193","5000000813144","Frutas","2024-06-18","Nutrimax",475.21,52
+"S012","Arroz blanco SaborFino 216","5000000707490","Hogar","2025-09-28","FamiliaFeliz",17.48,829
+"S139","Manzana SaborFino 567","5000004160772","Snacks","2026-01-07","Selecta",255.63,157
+"S036","Pizza familiar BioNatural 538","5000003624943","Higiene","2028-04-28","Nutrimax",195.6,36
+"S010"
+"S055","Mantequilla ProteínaPro 961","5000001766185","Condimentos","2024-08-11","CampoVerde",268.06,377
+"S059","Frijol negro SuperSabor 442","5000005103822","Limpieza","2024-03-02","FrescoMar",252.53,21
+"S132","Granola AlimentosGT 965","5000007973481","Lacteos","2025-05-25","DelCampo",374.04,1000
+"S085","Filete de tilapia Tradición 706","5000009803956","Cereales","2028-06-09","BioNatural",9.26,64
+"S115","Té helado VerdeFinca 917","5000005981374","Lacteos","2028-10-21","VerdeFinca",111.5,170
+"S020","Queso fresco BuenSabor 586","5000004333524","Lacteos","2024-01-27","DelCampo",388.37,661
+"S102","Shampoo MarcaGT 583","5000003817096","Hogar","2028-04-15","Selecta",6.43,327
+"S015","Refresco cola BioNatural 275","5000000292252","Snacks","2026-02-28","Tradición",249.19,513
+"S113","Pasta espagueti SaborFino 189","5000004324738","Bebidas","2027-03-06","Delicias",147.94,399
+"S163","Pan integral NutriPlus 438","5000000890436","Electronica","2024-04-20","MarcaGT",388.86,281
+"S053","Algodón Selecta 649","5000000854022","Snacks","2024-08-10","FrescoMar",482.76,174
+"S063","Chocolate AlimentosGT 227","5000002076009","Embutidos","2027-12-03","BioNatural",153.58,819
+"S052","Lentejas Nutrimax 957","5000004887190","Snacks","2027-02-16","AlimentosGT",363.44,19
+"S056","Chocolate MarcaGT 517","5000002105697","Panaderia","2026-01-25","FrescoMar",385.93,426
+"S024","Papa FamiliaFeliz 348","5000003492718","Limpieza","2024-04-07","NutriPlus",34.06,354
+"S096","Filete de tilapia SuperSabor 580","5000009434977","Conservas","2028-11-07","VerdeFinca",71.62,46
+"S032","Aceite vegetal MarcaGT 782","5000009416132","Aceites","2028-09-13","Tradición",495.85,205
+"S197","Tostadas AlimentosGT 751","5000002164425","Higiene","2024-01-30","ProteínaPro",29.88,955
+"S009","Margarina ProteínaPro 928","5000007696927","Panaderia","2025-08-07","SaborFino",95.91,154
+"S168","Mango MarcaGT 572","5000007039237","Panaderia","2024-11-10","NutriPlus",368.02,414
+"S063","Arroz integral MarcaGT 903","5000005217912","Carnes","2027-07-26","AlimentosGT",50.93,198
+"S200","Papas congeladas CampoVerde 599","5000001892271","Embutidos","2028-11-16","Delicias",346.31,100
+"S078","Desodorante NaturVida 213","5000007893232","Verduras","2025-02-08","BioNatural",454.26,85
+"S113","Mermelada fresa CampoVerde 570","5000007858785","Carnes","2024-03-22","NaturVida",213.05,662
+"S122","Chuleta de cerdo ProteínaPro 963","5000002243968","Lacteos","2024-08-14","DelCampo",415.44,649
+"S051","Tomate SaborFino 634","5000001196297","Snacks","2025-02-12","FamiliaFeliz",59.43,171
+"S058","Esponja de cocina Selecta 155","5000007028906","Conservas","2028-10-17","BuenSabor",487.67,145
+"S042","Queso fresco GourmetGT 525","5000002852136","Verduras","2026-07-29","BuenSabor",399.38,692
+"S062","Espinaca BioNatural 585","5000006424057","Cereales","2028-07-29","SaborFino",292.69,789
+"S034","Hilo dental CampoVerde 610","5000001729804","Condimentos","2027-04-04","SaborFino",192.53,416
+"S015","Banano Nutrimax 210","5000008545651","Panaderia","2028-06-11","Tradición",482.55,279
+"S167","Jugo de naranja AguaPura 932","5000005166549","Conservas","2027-03-01","BioNatural",254.12,349
+"S141","Yogur natural Delicias 903","5000003921268","Electronica","2027-06-07","BioNatural",113.51,377
+"S170","Papa AlimentosGT 121","5000000606598","Conservas","2027-02-25","DelCampo",263.62,521
+"S109","Film transparente GourmetGT 299","5000004668480","Lacteos","2025-12-17","BuenSabor",464.73,355
+"S042","Filete de tilapia NaturVida 612","5000002608420","Electronica","2027-09-05","GourmetGT",431.27,958
+"S173","Helado vainilla AguaPura 933","5000005203630","Carnes","2024-04-25","VerdeFinca",302.91,333
+"S132","Leche entera NaturVida 810","5000004707565","Cereales","2028-06-07","DelCampo",225.41,507
+"S133","Servilletas MarcaGT 275","5000000525386","Congelados","2025-04-28","MarcaGT",402.0,214
+"S135","Bolsas de basura NaturVida 403","5000006825001","Ropa","2028-07-09","Tradición",355.61,262
+"S159","Chocolate Selecta 875","5000000319405","Panaderia","2024-04-11","Nutrimax",177.17,586
+"S010","Margarina GourmetGT 314","5000002218631","Verduras","2028-10-14","SuperSabor",108.12,287
+"S122","Lechuga AguaPura 748","5000000638081","Cereales","2026-07-28","BioNatural",382.08,776
+"S010","Sal de mesa GourmetGT 976","5000001926676","Limpieza","2028-06-01","FrescoMar",494.73,554
+"S191","Bolsas de basura BuenSabor 441","5000008684981","Panaderia","2028-02-04","SuperSabor",111.62,265
+"S088","Papas congeladas CampoVerde 743","5000006583791","Panaderia","2026-09-30","AlimentosGT",67.81,495
+"S047","Refresco cola BuenSabor 575","5000002192320","Limpieza","2025-02-26","MarcaGT",132.27,464
+"S072","Naranja FamiliaFeliz 630","5000007794517","Verduras","2028-06-10","MarcaGT",234.36,880
+"S192","Jugo de naranja Nutrimax 302","5000008707061","Higiene","2024-11-07","SuperSabor",145.84,976
+"S081","Atún en lata SuperSabor 226","5000007889834","Embutidos","2028-01-10","Tradición",250.08,368
+"S115","Bolsas de basura Delicias 541","5000002936908","Carnes","2027-07-22","CampoVerde",495.51,975
+"S054","Pan blanco BuenSabor 673","5000004914637","Electronica","2024-12-19","NaturVida",250.93,634
+"S113","Jamón cocido FamiliaFeliz 230","5000009670237","Frutas","2025-05-24","FrescoMar",360.8,912
+"S155","Servilletas ProteínaPro 393","5000003271039","Conservas","2027-08-02","SaborFino",222.49,755
+"S169","Frijol negro MarcaGT 849","5000008940007","Hogar","2025-08-29","FrescoMar",132.08,505
+"S041","Chuleta de cerdo AlimentosGT 800","5000008221072","Cereales","2025-09-19","Selecta",343.59,620
+"S177","Pasta dental Tradición 869","5000006187487","Cereales","2024-01-21","FamiliaFeliz",447.57,556
+"S056","Bistec de res Selecta 827","5000001727653","Conservas","2025-11-10","NutriPlus",458.76,181
+"S149","Piña NaturVida 768","5000009861744","Aceites","2027-01-27","DelCampo",247.23,535
+"S038","Caramelos Delicias 215","5000002652680","Conservas","2026-07-05","Selecta",175.88,138
+"S079","Bolsas de basura Delicias 617","5000002690388","Hogar","2028-05-28","SaborFino",84.7,373
+"S144","Tostadas SuperSabor 233","5000008318079","Limpieza","2025-01-07","Delicias",171.72,828
+"S035","Helado vainilla BioNatural 927","5000008881772","Cereales","2028-10-02","Tradición",280.61,587
+"S139","Croissant FrescoMar 808","5000000784578","Panaderia","2024-01-27","MarcaGT",52.22,138
+"S048","Mango FamiliaFeliz 791","5000004301772","Cereales","2027-04-14","BuenSabor",4.58,398
+"S096","Pechuga de pollo AlimentosGT 910","5000001007083","Carnes","2026-04-13","SaborFino",190.74,348
+"S179","Granola ProteínaPro 935","5000002697383","Embutidos","2025-02-08","Delicias",258.44,288
+"S086","Mango Delicias 222","5000003550363","Snacks","2026-09-02","NaturVida",325.48,204
+"S087","Atún en lata SuperSabor 371","5000009585150","Hogar","2025-11-13","DelCampo",55.69,82
+"S138","Harina de trigo NutriPlus 378","5000009788715","Frutas","2028-11-29","ProteínaPro",484.99,497
+"S033","Jugo de naranja AlimentosGT 852","5000006459338","Verduras","2025-10-08","GourmetGT",474.44,675
+"S004","Pollo entero SaborFino 236","5000000924785","Electronica","2024-09-10","SaborFino",86.41,310
+"S043","Pasta dental ProteínaPro 651","5000006942949","Snacks","2024-06-12","GourmetGT",487.19,511
+"S046","Pollo entero BuenSabor 214","5000006775100","Snacks","2025-03-07","Tradición",71.19,506
+"S152","Brócoli BioNatural 617","5000008852584","Lacteos","2027-03-19","AlimentosGT",126.38,548
+"S107","Mix de nueces NutriPlus 589","5000003478890","Hogar","2025-08-08","Delicias",468.25,859
+"S007","Atún en lata VerdeFinca 522","5000002779451","Lacteos","2025-09-20","NaturVida",167.07,627
+"S018","Carne molida Delicias 997","5000004626308","Lacteos","2026-12-04","BioNatural",276.79,963
+"S112","Pimienta Selecta 127","5000008007744","Embutidos","2026-12-08","SaborFino",263.89,49
+"S062","Harina de trigo Tradición 660","5000008716077","Aceites","2026-09-11","Delicias",213.43,228
+"S200","Suavizante BuenSabor 524","5000005140362","Electronica","2027-09-21","BuenSabor",375.66,389
+"S196","Pan blanco AguaPura 319","5000005551545","Higiene","2028-05-19","AguaPura",257.27,572
+"S173","Esponja de cocina Nutrimax 498","5000000198245","Hogar","2028-09-24","CampoVerde",233.65,11
+"S121","Helado vainilla NaturVida 762","5000009407344","Lacteos","2026-02-21","SaborFino",59.2,822
+"S063","Frijol negro FamiliaFeliz 892","5000004352718","Lacteos","2025-07-18","Tradición",125.79,642
+"S004","Lechuga SaborFino 575","5000001575815","Ropa","2026-01-14","SuperSabor",429.19,254
+"S195","Chorizo BioNatural 846","5000002575557","Conservas","2028-08-01","FrescoMar",474.75,983
+"S092","Queso cheddar ProteínaPro 738","5000007836394","Higiene","2027-07-05","NaturVida",213.3,229
+"S180","Papel aluminio DelCampo 760","5000003865191","Panaderia","2025-01-04","FamiliaFeliz",222.95,760
+"S084","Aceite de oliva CampoVerde 940","5000002601747","Carnes","2028-03-24","Tradición",189.41,822
+"S182","Granola Nutrimax 372","5000002671661","Verduras","2025-10-31","ProteínaPro",494.69,563
+"S176","Banano CampoVerde 298","5000002552685","Bebidas","2026-01-03","MarcaGT",271.88,996
+"S068","Bistec de res VerdeFinca 458","5000001434620","Snacks","2026-10-13","Selecta",255.01,285
+"S196","Pechuga de pollo BuenSabor 157","5000003724151","Verduras","2028-10-16","BioNatural",96.81,782
+"S085","Tostadas VerdeFinca 229","5000006202397","Embutidos","2028-07-06","BioNatural",86.07,166
+"S112","Chuleta de cerdo AlimentosGT 982","5000005437692","Verduras","2026-01-31","SuperSabor",215.93,2
+"S193","Desodorante DelCampo 378","5000004595162","Congelados","2028-07-05","MarcaGT",246.67,555
+"S067","Jamón cocido DelCampo 669","5000007681638","Bebidas","2025-07-07","AguaPura",291.42,171
+"S079","Arroz integral NutriPlus 982","5000005248989","Ropa","2025-09-27","BuenSabor",61.18,313
+"S061","Chorizo MarcaGT 755","5000001853489","Snacks","2025-03-17","NaturVida",131.45,174
+"S032","Sal de mesa CampoVerde 242","5000007785411","Aceites","2027-06-30","CampoVerde",435.47,909
+"S011","Crema espesa NaturVida 834","5000008317812","Aceites","2026-11-21","FrescoMar",330.88,341
+"S152","Esponja de cocina FrescoMar 812","5000006369616","Ropa","2027-04-05","CampoVerde",290.5,3
+"S100","Crema espesa BuenSabor 504","5000000613239","Embutidos","2028-12-09","CampoVerde",485.55,312
+"S037","Avena Tradición 821","5000007261115","Aceites","2024-09-05","ProteínaPro",334.22,343
+"S052","Papel aluminio AlimentosGT 546","5000007339496","Hogar","2025-04-26","BuenSabor",424.44,387
+"S025","Mango BioNatural 872","5000006763730","Bebidas","2026-09-15","SaborFino",412.84,947
+"S044","Mantequilla AguaPura 743","5000008793896","Embutidos","2025-07-19","BuenSabor",402.68,827
+"S130","Pechuga de pollo Selecta 958","5000007565022","Embutidos","2024-07-24","BioNatural",457.38,327
+"S133","Pasta dental NutriPlus 539","5000001175271","Lacteos","2025-04-11","FrescoMar",477.26,288
+"S069","Manzana CampoVerde 316","5000002639668","Conservas","2026-05-13","Selecta",269.11,236
+"S106","Suavizante BioNatural 316","5000008615167","Conservas","2028-05-08","NaturVida",443.8,430
+"S130","Crema hidratante BuenSabor 127","5000001446751","Frutas","2028-03-08","AguaPura",286.22,226
+"S155","Chuleta de cerdo SuperSabor 390","5000003435428","Conservas","2028-08-06","VerdeFinca",227.44,745
+"S108","Pasta espagueti AlimentosGT 342","5000001594129","Lacteos","2025-04-18","CampoVerde",148.64,560
+"S078","Mango SuperSabor 768","5000003135851","Frutas","2028-06-17","ProteínaPro",68.91,664
+"S159","Margarina FamiliaFeliz 594","5000007206038","Higiene","2026-03-01","MarcaGT",233.53,745
+"S164","Pan integral BioNatural 598","5000004166754","Congelados","2024-11-16","SaborFino",111.73,2
+"S140","Sandía Nutrimax 151","5000009748560","Hogar","2025-07-22","AlimentosGT",421.77,123
+"S072","Pechuga de pollo NaturVida 383","5000008255506","Lacteos","2027-01-16","SuperSabor",184.43,654
+"S021","Quinoa NaturVida 275","5000004808222","Lacteos","2025-02-01","BuenSabor",483.09,903
+"S182","Té helado MarcaGT 706","5000009004132","Panaderia","2025-01-25","CampoVerde",77.57,98
+"S075","Manzana AlimentosGT 842","5000001832556","Embutidos","2026-08-16","GourmetGT",166.66,487
+"S032","Piña DelCampo 418","5000003854375","Higiene","2025-10-09","FrescoMar",268.44,170
+"S110","Pizza familiar SaborFino 758","5000003877911","Embutidos","2024-03-14","DelCampo",94.01,852
+"S005","Espinaca Tradición 558","5000002390040","Snacks","2027-04-12","FamiliaFeliz",326.51,642
+"S157","Leche descremada ProteínaPro 742","5000009883588","Limpieza","2025-04-23","AlimentosGT",239.72,350
+"S186","Miel de abeja BioNatural 436","5000002980578","Electronica","2027-12-28","DelCampo",64.07,86
+"S191","Avena Nutrimax 425","5000006505077","Bebidas","2026-04-10","Delicias",213.5,603
+"S013","Chuleta de cerdo CampoVerde 957","5000009355731","Embutidos","2024-11-22","FrescoMar",261.44,246
+"S143","Barras de granola NaturVida 941","5000003423190","Condimentos","2025-04-26","Nutrimax",162.3,474
+"S080","Jamón cocido AlimentosGT 424","5000003988716","Conservas","2025-08-03","SaborFino",143.81,583
+"S034","Margarina DelCampo 161","5000004053086","Lacteos","2025-02-07","BioNatural",263.04,703
+"S076","Detergente líquido SuperSabor 459","5000003066522","Congelados","2026-03-09","AguaPura",131.51,502
+"S108","Esponja de cocina FrescoMar 828","5000004465637","Carnes","2026-09-24","Selecta",102.52,848
+"S162","Jamón cocido SaborFino 834","5000005483150","Ropa","2026-11-07","Tradición",66.25,920
+"S064","Shampoo Selecta 105","5000003143457","Embutidos","2024-07-06","Nutrimax",455.73,640
+"S141","Film transparente ProteínaPro 819","5000003877187","Embutidos","2028-01-04","GourmetGT",159.91,77
+"S173","Papas fritas DelCampo 677","5000001194565","Conservas","2026-10-20","AguaPura",399.1,536
+"S089","Shampoo ProteínaPro 149","5000002583906","Aceites","2025-07-18","ProteínaPro",388.49,629
+"S022","Jugo de naranja AguaPura 456","5000001373264","Congelados","2024-08-06","VerdeFinca",375.91,769
+"S116","Agua purificada AguaPura 399","5000009023213","Snacks","2025-02-09","NutriPlus",475.51,141
+"S107","Helado vainilla Tradición 428","5000005873655","Verduras","2028-11-21","VerdeFinca",156.28,116
+"S150","Pasta dental NaturVida 302","5000007123116","Bebidas","2025-11-26","CampoVerde",334.61,120
+"S081","Naranja FamiliaFeliz 155","5000003925813","Cereales","2024-03-21","SaborFino",140.24,421
+"S163","Miel de abeja Nutrimax 149","5000009815520","Carnes","2028-08-28","BuenSabor",383.17,566
+"S082","Filete de tilapia NaturVida 941","5000007543105","Congelados","2028-07-20","BuenSabor",295.23,899
+"S038","Leche descremada Nutrimax 180","5000006906056","Limpieza","2025-08-31","AlimentosGT",232.57,562
+"S030","Tomate SuperSabor 820","5000007460445","Conservas","2027-05-17","DelCampo",383.6,86
+"S039","Chicles SaborFino 690","5000003325839","Hogar","2024-01-17","Delicias",11.84,585
+"S118","Desodorante AlimentosGT 741","5000003601329","Cereales","2024-07-21","VerdeFinca",321.73,808
+"S087","Harina de trigo VerdeFinca 531","5000007921648","Aceites","2024-11-11","AguaPura",307.26,632
+"S045","Mermelada fresa DelCampo 541","5000009761488","Higiene","2025-11-19","SuperSabor",332.33,267
+"S064","Crema hidratante Tradición 570","5000009679881","Conservas","2025-07-30","FamiliaFeliz",35.23,735
+"S162","Desodorante BioNatural 143","5000003993293","Limpieza","2028-06-27","FamiliaFeliz",454.47,428
+"S158","Papas fritas BioNatural 810","5000008791887","Panaderia","2024-01-12","FrescoMar",287.33,791
+"S110","Piña VerdeFinca 571","5000008490390","Conservas","2024-05-13","SaborFino",117.21,465
+"S091","Chuleta de cerdo ProteínaPro 469","5000008895088","Higiene","2025-12-10","NaturVida",50.05,64
+"S171","Arroz integral SuperSabor 474","5000005347642","Hogar","2028-12-18","AlimentosGT",189.43,890
+"S066","Maní salado Nutrimax 713","5000002100864","Condimentos","2024-11-22","BuenSabor",260.18,683
+"S196","Jamón cocido Selecta 975","5000003793215","Electronica","2027-11-23","SaborFino",469.51,794
+"S187","Lechuga CampoVerde 638","5000000102783","Verduras","2026-08-16","VerdeFinca",348.26,659
+"S168","Crema espesa Nutrimax 931","5000002139457","Snacks","2025-10-14","GourmetGT",400.58,522
+"S066","Pimienta CampoVerde 780","5000006592896","Cereales","2027-03-10","DelCampo",358.31,842
+"S143","Espinaca Tradición 584","5000000578284","Snacks","2027-11-16","Delicias",228.43,745
+"S038","Chorizo BioNatural 337","5000002526957","Conservas","2028-08-21","BioNatural",405.0,813
+"S025","Sandía NaturVida 530","5000007886833","Bebidas","2028-01-11","SaborFino",379.54,767
+"S024","Té helado Selecta 424","5000008376904","Condimentos","2024-06-26","BioNatural",196.13,596
+"S025","Sal de mesa Tradición 127","5000001830099","Condimentos","2025-10-27","SaborFino",88.47,399
+"S168","Carne molida SuperSabor 182","5000005318099","Hogar","2024-02-17","SuperSabor",71.93,69
+"S193","Jugo de naranja Selecta 845","5000000671487","Aceites","2028-09-08","FrescoMar",28.25,88
+"S032","Mantequilla DelCampo 198","5000007421940","Electronica","2027-09-09","SaborFino",122.73,549
+"S179","Papel higiénico AlimentosGT 288","5000009266578","Higiene","2025-08-01","AlimentosGT",448.08,214
+"S007","Cereal de maíz Delicias 246","5000002463885","Higiene","2027-05-17","Tradición",222.19,371
+"S125","Miel de abeja NutriPlus 254","5000004219936","Snacks","2025-07-28","FrescoMar",14.38,485
+"S171","Lentejas BuenSabor 509","5000006147523","Condimentos","2025-06-14","SaborFino",312.21,313
+"S026","Pizza familiar AlimentosGT 623","5000003082030","Lacteos","2028-09-30","BioNatural",84.89,153
+"S176","Pizza familiar AlimentosGT 662","5000007042707","Snacks","2024-10-25","DelCampo",297.85,651
+"S060","Maní salado BuenSabor 256","5000006157934","Condimentos","2024-10-08","AlimentosGT",118.75,554
+"S066","Bolsas de basura MarcaGT 486","5000005905677","Congelados","2027-07-29","Delicias",313.07,396
+"S115","Bolsas de basura Nutrimax 186","5000000263991","Higiene","2024-07-06","ProteínaPro",417.6,222
+"S106","Frijol negro GourmetGT 428","5000007287804","Hogar","2024-12-30","Delicias",24.12,990
+"S200","Pimienta SaborFino 281","5000003221852","Verduras","2025-07-27","DelCampo",214.24,336
+"S194","Pimienta AlimentosGT 507","5000007406034","Bebidas","2027-11-10","SuperSabor",61.95,707
+"S010","Mango Nutrimax 273","5000007912446","Conservas","2027-01-31","MarcaGT",163.44,426
+"S060","Mango VerdeFinca 437","5000000922662","Embutidos","2024-10-25","FrescoMar",32.24,99
+"S191","Pasta espagueti Nutrimax 133","5000008423180","Electronica","2025-09-14","MarcaGT",400.86,426
+"S016","Barras de granola BioNatural 334","5000003305561","Bebidas","2025-05-05","Nutrimax",77.44,314
+"S032","Caramelos DelCampo 274","5000001909701","Conservas","2028-02-11","SaborFino",121.44,385
+"S112","Maní salado Delicias 238","5000006461940","Panaderia","2027-06-01","Delicias",321.11,553
+"S011","Pechuga de pollo NaturVida 373","5000007842790","Cereales","2026-11-30","FrescoMar",380.39,373
+"S110","Granola GourmetGT 138","5000000936567","Hogar","2024-08-25","MarcaGT",213.25,338
+"S055","Pollo entero DelCampo 210","5000001384078","Limpieza","2025-12-21","GourmetGT",312.12,312
+"S027","Miel de abeja NutriPlus 209","5000004114794","Verduras","2027-01-15","Delicias",221.84,613
+"S094","Film transparente MarcaGT 491","5000009378370","Panaderia","2027-09-07","SaborFino",256.15,52
+"S187","Jabón de baño NutriPlus 750","5000000542176","Cereales","2028-02-15","NutriPlus",427.55,611
+"S191","Protector solar Tradición 213","5000004537463","Verduras","2025-11-08","Nutrimax",369.77,409
+"S161","Papel aluminio Nutrimax 767","5000000320045","Panaderia","2027-01-31","MarcaGT",312.93,922
+"S198","Jugo de naranja DelCampo 872","5000007202377","Cereales","2027-01-15","VerdeFinca",151.95,574
+"S064","Chuleta de cerdo Selecta 548","5000008669716","Limpieza","2027-10-14","Tradición",271.03,126
+"S020","","5000099999004","","","",0,0
+"S139","Atún en lata NaturVida 916","5000005767524","Congelados","2025-03-26","NaturVida",154.46,534
+"S183","Pasta dental BioNatural 568","5000001735853","Frutas","2024-11-29","ProteínaPro",218.01,472
+"S091","Miel de abeja Delicias 956","5000003980267","Congelados","2024-04-10","VerdeFinca",249.03,747
+"S076","Algodón SaborFino 774","5000003228692","Congelados","2026-05-22","CampoVerde",69.95,457
+"S039","Chorizo Nutrimax 474","5000009093361","Condimentos","2025-05-04","FrescoMar",23.53,364
+"S085","Cereal de maíz SuperSabor 489","5000001090827","Embutidos","2025-09-06","SuperSabor",359.47,787
+"S135","Naranja Selecta 890","5000007934257","Panaderia","2025-07-24","Delicias",362.63,154
+"S177","Pan integral AlimentosGT 308","5000009512984","Hogar","2025-05-04","MarcaGT",302.75,970
+"S011","Maní salado NaturVida 750","5000005918630","Condimentos","2027-11-15","AguaPura",39.39,319
+"S053","Piña NaturVida 922","5000001396704","Hogar","2026-03-23","NutriPlus",439.31,209
+"S149","Miel de abeja NaturVida 401","5000009852576","Condimentos","2025-02-04","BuenSabor",473.72,896
+"S058","Pollo entero AlimentosGT 260","5000007176405","Condimentos","2027-07-31","SaborFino",304.55,456
+"S148","Avena NaturVida 176","5000004536874","Condimentos","2028-10-01","CampoVerde",25.98,416
+"S187","Shampoo BioNatural 595","5000007587200","Higiene","2025-10-12","AguaPura",131.85,343
+"S025","Brócoli NaturVida 217","5000001304070","Higiene","2027-08-15","BuenSabor",72.69,280
+"S103","Cereal de maíz GourmetGT 258","5000000910909","Lacteos","2025-02-17","BioNatural",18.74,472
+"S053","Pasta dental Nutrimax 734","5000006249196","Condimentos","2027-03-05","BioNatural",101.66,975
+"S044","Piña NutriPlus 283","5000009804154","Aceites","2027-10-24","DelCampo",192.88,120
+"S199","Pasta espagueti Tradición 566","5000005023255","Snacks","2027-06-08","DelCampo",182.0,977
+"S050","Queso cheddar AguaPura 777","5000002026637","Frutas","2026-11-14","AguaPura",90.25,739
+"S111","Espinaca AlimentosGT 672","5000004182831","Carnes","2027-09-09","ProteínaPro",389.62,468
+"S045","Tomate NaturVida 568","5000005130080","Aceites","2025-03-10","NutriPlus",89.37,984
+"S174","Chorizo NaturVida 744","5000005132585","Verduras","2024-02-27","NaturVida",424.29,210
+"S093","Caramelos AguaPura 913","5000004236887","Congelados","2025-10-08","BioNatural",468.59,954
+"S170","Manzana AguaPura 194","5000007743370","Bebidas","2025-10-03","SuperSabor",275.35,260
+"S041","Jamón cocido BuenSabor 400","5000005743238","Higiene","2025-07-03","AguaPura",30.12,79
+"S074","Pasta dental GourmetGT 693","5000008983635","Limpieza","2024-10-10","FrescoMar",164.27,115
+"S084","Filete de tilapia VerdeFinca 635","5000005953851","Frutas","2027-07-13","NaturVida",350.7,629
+"S044","Leche entera NutriPlus 141","5000008692686","Higiene","2024-03-18","AguaPura",431.75,421
+"S132","Barras de granola FrescoMar 294","5000003436574","Snacks","2026-11-04","BioNatural",436.49,391
+"S023","Arroz blanco AlimentosGT 472","5000000829392","Condimentos","2026-05-04","DelCampo",66.21,914
+"S169","Pechuga de pollo Nutrimax 954","5000006384689","Embutidos","2024-02-20","NutriPlus",491.42,547
+"S147","Jamón cocido Nutrimax 925","5000000220782","Frutas","2024-03-10","SuperSabor",313.95,908
+"S028","Mix de nueces Delicias 338","5000006773134","Carnes","2026-05-03","DelCampo",63.73,691
+"S072","Pollo entero DelCampo 301","5000001637982","Electronica","2025-08-08","DelCampo",161.84,25
+"S072","Frijol negro Tradición 261","5000004244217","Condimentos","2028-09-15","SaborFino",300.0,21
+"S106","Pan integral DelCampo 353","5000004513786","Conservas","2028-09-10","Selecta",122.97,573
+"S154","Esponja de cocina AguaPura 529","5000003485347","Electronica","2025-10-03","AguaPura",215.26,850
+"S056","Pasta espagueti MarcaGT 494","5000003403623","Aceites","2028-11-30","VerdeFinca",282.17,567
+"S115","Jugo de naranja Selecta 147","5000005807947","Snacks","2024-08-02","BuenSabor",100.32,781
+"S198","Papa GourmetGT 250","5000002388753","Aceites","2027-03-09","Delicias",26.31,708
+"S016","Mango BuenSabor 125","5000006633323","Bebidas","2027-05-30","ProteínaPro",476.24,474
+"S030","Té helado BuenSabor 738","5000009260804","Cereales","2026-10-21","Selecta",120.04,858
+"S157","Papas congeladas Tradición 311","5000008148238","Conservas","2025-05-14","SuperSabor",415.32,494
+"S172","Queso fresco GourmetGT 659","5000002425260","Embutidos","2025-10-19","Selecta",47.05,881
+"S032","Té helado Delicias 626","5000006562861","Bebidas","2024-12-07","BuenSabor",27.42,297
+"S008","Cereal de maíz NutriPlus 575","5000008137945","Congelados","2028-05-30","NaturVida",137.86,359
+"S182","Film transparente Nutrimax 308","5000000030946","Ropa","2024-05-18","AguaPura",100.33,63
+"S092","Maní salado SuperSabor 290","5000009308657","Bebidas","2025-05-26","GourmetGT",441.41,781
+"S104","Maní salado FrescoMar 382","5000000189596","Condimentos","2024-06-29","Delicias",307.56,401
+"S134","Esponja de cocina DelCampo 664","5000003614171","Panaderia","2025-12-10","FamiliaFeliz",291.43,513
+"S075","Detergente líquido VerdeFinca 526","5000007453112","Conservas","2025-07-05","FamiliaFeliz",301.3,998
+"S062","Shampoo ProteínaPro 644","5000002180334","Hogar","2028-11-27","AguaPura",163.3,121
+"S199","Tostadas DelCampo 312","5000005205049","Bebidas","2026-08-10","BuenSabor",430.52,321
+"S120","Chuleta de cerdo Tradición 939","5000000954103","Electronica","2025-10-24","ProteínaPro",492.42,48
+"S078","Papa NutriPlus 923","5000004607615","Panaderia","2026-08-11","BioNatural",324.05,236
+"S099","Desodorante BuenSabor 583","5000002419196","Ropa","2028-07-22","SaborFino",211.64,751
+"S197","Esponja de cocina VerdeFinca 206","5000005281387","Condimentos","2028-11-06","Delicias",134.89,755
+"S002","Detergente líquido NaturVida 108","5000001407358","Embutidos","2024-11-10","NaturVida",495.51,211
+"S040","Aceite vegetal ProteínaPro 256","5000005647306","Condimentos","2024-08-07","Delicias",291.31,264
+"S128","Nuggets de pollo AlimentosGT 701","5000005836142","Condimentos","2026-01-04","FamiliaFeliz",144.0,253
+"S024","Mermelada fresa CampoVerde 989","5000006166478","Panaderia","2028-07-16","SaborFino",123.93,88
+"S099","Miel de abeja BuenSabor 250","5000000819358","Lacteos","2027-08-19","Tradición",495.77,939
+"S083","Espinaca MarcaGT 584","5000002398284","Electronica","2024-06-26","CampoVerde",482.65,947
+"S067","Mango Tradición 356","5000008288202","Hogar","2025-03-15","GourmetGT",485.15,173
+"S104","Croissant AlimentosGT 216","5000008340763","Snacks","2024-10-26","Delicias",360.93,533
+"S114","Papas congeladas AguaPura 973","5000003359972","Lacteos","2027-07-23","Tradición",131.56,205
+"S197","Esponja de cocina Delicias 873","5000005741719","Snacks","2024-04-16","GourmetGT",152.37,731
+"S179","Papel higiénico VerdeFinca 403","5000000394183","Panaderia","2024-12-15","Selecta",496.76,918
+"S106","Chorizo ProteínaPro 700","5000007467824","Carnes","2025-02-14","GourmetGT",207.83,451
+"S020","Maní salado FamiliaFeliz 895","5000006222319","Verduras","2025-03-12","FrescoMar",195.13,617
+"S162","Agua purificada SuperSabor 308","5000004479792","Embutidos","2025-02-08","ProteínaPro",232.2,31
+"S032","Hilo dental ProteínaPro 665","5000009358433","Congelados","2028-08-06","AlimentosGT",74.66,802
+"S132","Quinoa NaturVida 733","5000000699648","Cereales","2028-07-17","CampoVerde",284.1,968
+"S166","Mix de nueces CampoVerde 649","5000006053601","Conservas","2024-07-27","CampoVerde",256.33,24
+"S027","Té helado ProteínaPro 982","5000004034375","Frutas","2026-01-05","SaborFino",122.43,637
+"S013","Papaya SaborFino 495","5000007376656","Higiene","2026-10-07","FamiliaFeliz",437.13,889
+"S007","Chicles Selecta 521","5000008732145","Cereales","2027-07-05","GourmetGT",20.26,357
+"S039","Sandía AguaPura 687","5000005271020","Hogar","2026-04-11","GourmetGT",51.7,632
+"S138","Shampoo SaborFino 861","5000006323562","Higiene","2025-06-26","Nutrimax",349.28,935
+"S005","Filete de tilapia AguaPura 920","5000003361849","Carnes","2025-08-11","NaturVida",97.67,657
+"S053","Manzana AguaPura 322","5000008786953","Condimentos","2028-12-14","FamiliaFeliz",243.45,16
+"S160","Filete de tilapia MarcaGT 496","5000002446241","Cereales","2026-02-04","DelCampo",271.07,675
+"S003","Sal de mesa CampoVerde 309","5000003729022","Conservas","2028-12-25","GourmetGT",487.31,768
+"S141","Shampoo AguaPura 691","5000003012636","Snacks","2026-07-18","Selecta",275.71,390
+"S071","Chuleta de cerdo NutriPlus 782","5000009493219","Condimentos","2026-02-28","NutriPlus",457.58,75
+"S161","Leche descremada FamiliaFeliz 233","5000006953647","Lacteos","2028-06-16","Selecta",387.97,352
+"S042","Granola CampoVerde 269","5000003245534","Cereales","2028-12-02","Selecta",192.65,967
+"S109","Desodorante Delicias 434","5000009203355","Cereales","2026-09-22","FamiliaFeliz",200.74,405
+"S159","Jugo de naranja SaborFino 266","5000006278067","Condimentos","2026-12-03","DelCampo",146.8,625
+"S191","Banano SuperSabor 609","5000004416295","Ropa","2024-12-25","Tradición",45.55,493
+"S074","Brócoli NutriPlus 209","5000003894203","Electronica","2024-02-15","Selecta",199.1,352
+"S018","Refresco cola Delicias 395","5000008585550","Frutas","2025-04-09","MarcaGT",221.32,170
+"S175","Caramelos DelCampo 573","5000006740417","Conservas","2028-04-04","ProteínaPro",205.06,692
+"S111","Pasta espagueti AlimentosGT 717","5000009078702","Cereales","2028-10-04","AguaPura",117.98,912
+"S125","Jugo de naranja VerdeFinca 169","5000007331090","Ropa","2024-09-05","CampoVerde",248.03,46
+"S140","Barras de granola Tradición 480","5000006624748","Carnes","2026-01-16","BioNatural",158.86,379
+"S144","Mermelada fresa FamiliaFeliz 662","5000009223478","Conservas","2027-03-16","VerdeFinca",249.83,10
+"S066","Lentejas Delicias 350","5000003116959","Limpieza","2024-02-23","Tradición",167.57,551
+"S083","Mango FamiliaFeliz 805","5000004689150","Frutas","2026-07-23","AlimentosGT",65.83,319
+"S153","Arroz blanco CampoVerde 350","5000005427364","Snacks","2025-06-30","NutriPlus",376.95,61
+"S066","Pasta espagueti BioNatural 240","5000005999998","Panaderia","2026-02-13","AlimentosGT",3.81,383
+"S079","Avena NutriPlus 134","5000008622777","Limpieza","2027-12-12","CampoVerde",251.77,147
+"S182","Sal de mesa VerdeFinca 285","5000004492659","Conservas","2026-05-02","DelCampo",231.15,253
+"S194","Jabón de baño Delicias 449","5000005722711","Embutidos","2028-09-14","Tradición",83.9,710
+"S162","Pechuga de pollo SuperSabor 103","5000000891963","Electronica","2024-02-20","DelCampo",410.66,491
+"S077","Papel higiénico SaborFino 986","5000004986055","Frutas","2024-03-21","ProteínaPro",384.94,742
+"S139","Hilo dental AguaPura 631","5000000612290","Congelados","2028-08-03","Nutrimax",294.91,753
+"S119","Arroz blanco Selecta 710","5000006521793","Carnes","2028-01-14","VerdeFinca",375.88,249
+"S058","Chuleta de cerdo AlimentosGT 380","5000000593650","Limpieza","2025-11-01","Nutrimax",248.06,997
+"S178","Jabón de baño SaborFino 328","5000007559037","Conservas","2027-07-18","NaturVida",102.43,714
+"S067","Yogur natural Selecta 517","5000002020749","Limpieza","2025-06-11","NutriPlus",468.48,311
+"S161","Bolsas de basura AlimentosGT 607","5000003884613","Panaderia","2027-10-03","AguaPura",282.42,447
+"S096","Piña NutriPlus 479","5000002410099","Electronica","2026-07-17","AguaPura",124.13,928
+"S072","Queso cheddar CampoVerde 211","5000002064837","Ropa","2024-03-27","DelCampo",59.35,60
+"S191","Mermelada fresa Delicias 189","5000002244283","Condimentos","2025-04-11","Nutrimax",54.84,770
+"S004","Pan blanco FamiliaFeliz 502","5000008085374","Lacteos","2025-06-23","Delicias",259.68,76
+"S087","Cebolla BioNatural 182","5000004401051","Hogar","2026-10-02","BioNatural",209.21,630
+"S097","Té helado DelCampo 928","5000006481993","Carnes","2024-12-19","AlimentosGT",179.66,780
+"S012","Miel de abeja NutriPlus 749","5000000379204","Snacks","2026-05-16","Delicias",54.59,277
+"S076","Papel higiénico BuenSabor 588","5000007144777","Electronica","2027-06-25","NutriPlus",210.65,229
+"S061","Té helado Selecta 116","5000001869671","Hogar","2024-01-27","DelCampo",316.49,83
+"S068","Mix de nueces SuperSabor 633","5000003224655","Embutidos","2026-10-19","AlimentosGT",377.12,93
+"S090","Maní salado SuperSabor 748","5000003804349","Panaderia","2024-11-28","CampoVerde",285.61,418
+"S147","Chuleta de cerdo NutriPlus 247","5000007967860","Snacks","2027-02-23","Nutrimax",440.13,429
+"S042","Chocolate SuperSabor 641","5000007066863","Conservas","2025-10-11","Tradición",161.09,362
+"S146","Algodón Tradición 100","5000005653148","Ropa","2026-03-16","ProteínaPro",126.62,49
+"S130","Café MarcaGT 543","5000005309488","Panaderia","2026-11-07","CampoVerde",161.34,361
+"S125","Pollo entero MarcaGT 529","5000000033058","Carnes","2026-01-23","FamiliaFeliz",437.52,139
+"S151","Caramelos SuperSabor 879","5000002227051","Verduras","2026-10-10","FamiliaFeliz",312.88,326
+"S149","Papa NaturVida 388","5000001151850","Frutas","2027-10-29","FrescoMar",137.14,547
+"S107","Barras de granola BioNatural 884","5000005401718","Hogar","2028-07-10","GourmetGT",285.14,625
+"S047","Avena CampoVerde 901","5000003950284","Snacks","2027-11-16","SaborFino",125.83,126
+"S016","Atún en lata DelCampo 921","5000004030796","Frutas","2025-10-29","AlimentosGT",362.47,379
+"S063","Granola Nutrimax 368","5000009208644","Condimentos","2024-11-18","Tradición",305.27,564
+"S032","Detergente líquido FamiliaFeliz 398","5000001592887","Aceites","2026-11-24","AguaPura",453.26,677
+"S146","Mix de nueces SuperSabor 515","5000009445143","Aceites","2026-01-19","AlimentosGT",406.99,522
+"S016","Papas congeladas BioNatural 594","5000005213920","Condimentos","2026-12-14","AlimentosGT",374.41,920
+"S192","Lentejas Tradición 796","5000005542757","Conservas","2028-09-17","Tradición",54.45,981
+"S134","Papaya CampoVerde 256","5000008516660","Frutas","2024-03-31","VerdeFinca",361.98,832
+"S178","Jamón cocido AguaPura 713","5000003237457","Lacteos","2028-06-08","ProteínaPro",351.81,855
+"S104","Zanahoria MarcaGT 329","5000000067474","Condimentos","2027-11-18","NaturVida",392.65,700
+"S021","Atún en lata BioNatural 659","5000000216704","Bebidas","2026-10-20","FamiliaFeliz",263.19,46
+"S133","Granola DelCampo 847","5000005926611","Bebidas","2027-11-14","MarcaGT",461.33,225
+"S158","Sal de mesa AguaPura 136","5000006760666","Congelados","2025-08-17","GourmetGT",419.35,393
+"S187","Espinaca BuenSabor 168","5000002130597","Electronica","2027-08-16","GourmetGT",312.02,435
+"S071","Lentejas VerdeFinca 904","5000006977326","Hogar","2028-09-01","MarcaGT",45.74,741
+"S039","Té helado Delicias 579","5000004888946","Carnes","2026-11-04","CampoVerde",59.62,265
+"S177","Detergente líquido VerdeFinca 449","5000009144014","Cereales","2027-11-29","BuenSabor",288.72,287
+"S151","Harina de trigo Nutrimax 142","5000007856876","Electronica","2028-09-25","GourmetGT",354.08,555
+"S013","Café FamiliaFeliz 734","5000004755850","Bebidas","2028-10-08","NutriPlus",71.74,406
+"S029","Agua purificada AguaPura 460","5000006046799","Embutidos","2024-06-05","SaborFino",106.66,315
+"S110","Sandía VerdeFinca 933","5000009449249","Hogar","2025-09-05","Nutrimax",326.25,123
+"S073","Harina de trigo ProteínaPro 946","5000003893248","Cereales","2025-01-20","Delicias",134.04,146
+"S120","Quinoa SuperSabor 406","5000009892867","Lacteos","2024-07-30","AguaPura",324.97,994
+"S165","Queso cheddar BioNatural 312","5000004376433","Conservas","2027-12-26","FamiliaFeliz",310.38,722
+"S078","Yogur natural NutriPlus 891","5000001629838","Higiene","2027-07-10","BioNatural",445.04,721
+"S151","Tostadas NutriPlus 555","5000003921637","Embutidos","2025-09-05","VerdeFinca",421.6,346
+"S156","Pechuga de pollo FrescoMar 680","5000009500382","Ropa","2028-09-20","GourmetGT",89.93,327
+"S069","Naranja FamiliaFeliz 253","5000004554730","Cereales","2028-04-07","NaturVida",116.81,511
+"S168","Papa FrescoMar 531","5000004817494","Congelados","2026-03-17","AguaPura",296.27,630
+"S045","Papas congeladas DelCampo 638","5000008306672","Aceites","2028-08-29","AlimentosGT",316.57,710
+"S084","Queso cheddar FrescoMar 477","5000007158640","Limpieza","2027-05-19","AlimentosGT",249.18,535
+"S123","Tostadas SuperSabor 328","5000005551607","Panaderia","2025-08-02","FrescoMar",452.28,521
+"S179","Carne molida BuenSabor 239","5000002042982","Cereales","2028-02-10","ProteínaPro",79.49,499
+"S072","Brócoli MarcaGT 263","5000000470655","Higiene","2028-12-20","AguaPura",415.43,980
+"S185","Desodorante Nutrimax 260","5000004103532","Aceites","2026-04-07","BioNatural",86.98,495
+"S175","Pechuga de pollo AlimentosGT 245","5000003957602","Panaderia","2027-01-03","MarcaGT",246.81,619
+"S008","Lentejas BuenSabor 249","5000002598628","Electronica","2026-06-28","Delicias",10.22,461
+"S085","Yogur natural BioNatural 652","5000009634919","Bebidas","2027-06-22","NutriPlus",122.29,873
+"S038","Caramelos VerdeFinca 168","5000003215059","Higiene","2027-02-04","FamiliaFeliz",358.02,772
+"S065","Tostadas Tradición 739","5000003642641","Ropa","2028-09-18","FamiliaFeliz",256.14,153
+"S034","Arroz blanco NaturVida 290","5000008689783","Frutas","2028-03-04","CampoVerde",120.38,537
+"S093","Granola Nutrimax 626","5000008165327","Higiene","2025-06-20","MarcaGT",41.48,352
+"S087","Refresco cola BuenSabor 538","5000005144184","Frutas","2026-12-25","VerdeFinca",219.86,732
+"S160","Mix de nueces BioNatural 248","5000001533826","Conservas","2026-03-04","GourmetGT",456.54,231
+"S159","Margarina VerdeFinca 430","5000008910237","Conservas","2028-02-01","SuperSabor",482.53,844
+"S172","Té helado BuenSabor 926","5000005391793","Frutas","2024-11-26","NaturVida",223.42,267
+"S128","Nuggets de pollo CampoVerde 495","5000002706867","Verduras","2027-03-08","SaborFino",465.62,383
+"S097","Algodón NaturVida 353","5000006254208","Ropa","2028-09-09","NaturVida",89.17,204
+"S039","Miel de abeja CampoVerde 909","5000007174040","Conservas","2024-09-05","BuenSabor",416.29,612
+"S059","Queso fresco CampoVerde 352","5000009874454","Hogar","2027-11-16","AguaPura",311.45,724
+"S187","Aceite de oliva GourmetGT 357","5000000463841","Lacteos","2025-08-28","Delicias",412.52,586
+"S131","Leche entera Tradición 605","5000000566900","Ropa","2028-04-09","AlimentosGT",28.54,752
+"S116","Sal de mesa NaturVida 986","5000000021368","Snacks","2028-05-30","CampoVerde",302.77,178
+"S014","Bolsas de basura Tradición 470","5000000877500","Verduras","2024-08-29","BuenSabor",385.94,798
+"S180","Avena Selecta 873","5000002333438","Snacks","2028-05-06","DelCampo",410.42,62
+"S078","Bolsas de basura Tradición 239","5000005240911","Aceites","2026-09-09","BioNatural",420.19,559
+"S075","Papel aluminio VerdeFinca 264","5000000707318","Verduras","2025-09-14","ProteínaPro",367.86,640
+"S076","Maní salado NutriPlus 635","5000004115762","Ropa","2028-01-15","AlimentosGT",121.12,418
+"S158","Café NutriPlus 502","5000001219635","Ropa","2026-05-08","CampoVerde",20.11,671
+"S113","Pimienta DelCampo 263","5000005914103","Higiene","2027-07-25","NutriPlus",176.13,187
+"S062","Granola SaborFino 515","5000001202945","Hogar","2026-02-28","NaturVida",137.53,736
+"S100","Cebolla CampoVerde 101","5000001467382","Cereales","2028-05-08","FrescoMar",350.92,317
+"S150","Espinaca NutriPlus 915","5000008186869","Carnes","2026-03-31","FrescoMar",186.45,614
+"S072","Mango BioNatural 881","5000009268433","Higiene","2028-03-31","NutriPlus",17.67,592
+"S160","Pasta dental Nutrimax 311","5000007137046","Condimentos","2028-04-14","Selecta",53.1,424
+"S134","Cebolla AguaPura 105","5000008217799","Hogar","2026-10-07","NaturVida",423.96,434
+"S196","Film transparente FrescoMar 574","5000009291294","Carnes","2026-06-27","NutriPlus",200.76,552
+"S087","Tomate AlimentosGT 437","5000001007191","Panaderia","2028-03-08","SaborFino",29.68,246
+"S030","Solo algunos campos","5000099999005"
+"S043","Papaya FrescoMar 471","5000007289760","Limpieza","2027-11-13","AlimentosGT",73.71,728
+"S131","Naranja BioNatural 218","5000000152968","Lacteos","2028-10-29","MarcaGT",68.79,220
+"S143","Granola Delicias 987","5000005882261","Hogar","2024-09-03","SaborFino",42.51,180
+"S179","Papas fritas Delicias 795","5000001531622","Electronica","2027-10-03","CampoVerde",60.52,476
+"S075","Suavizante NaturVida 700","5000006735283","Condimentos","2025-01-03","BioNatural",357.39,72
+"S184","Leche entera SaborFino 523","5000004399257","Limpieza","2026-05-02","MarcaGT",197.79,712
+"S063","Piña SuperSabor 538","5000009531203","Embutidos","2024-06-28","VerdeFinca",326.23,122
+"S027","Crema espesa NutriPlus 448","5000001062272","Carnes","2027-09-17","DelCampo",223.26,12
+"S142","Algodón DelCampo 583","5000007278350","Embutidos","2024-10-25","AguaPura",13.7,683
+"S025","Mermelada fresa MarcaGT 434","5000000329861","Higiene","2024-10-16","GourmetGT",232.1,272
+"S199","Chicles AlimentosGT 839","5000007749394","Conservas","2027-04-14","SaborFino",190.76,936
+"S065","Queso cheddar FrescoMar 766","5000005157706","Carnes","2027-05-04","Delicias",317.7,910
+"S061","Chocolate Tradición 534","5000004067514","Electronica","2026-09-27","GourmetGT",94.86,167
+"S181","Arroz integral VerdeFinca 594","5000007200527","Embutidos","2024-08-31","Selecta",189.38,13
+"S047","Agua purificada AguaPura 274","5000009409073","Panaderia","2026-10-25","SaborFino",496.01,476
+"S163","Mango Selecta 660","5000000828608","Verduras","2025-11-08","NaturVida",247.92,766
+"S122","Helado vainilla FamiliaFeliz 133","5000003501976","Hogar","2028-08-30","FamiliaFeliz",30.28,711
+"S200","Mix de nueces ProteínaPro 315","5000003673649","Embutidos","2024-09-11","VerdeFinca",307.57,999
+"S044","Mango VerdeFinca 828","5000006460899","Limpieza","2027-08-10","BuenSabor",245.41,538
+"S189","Miel de abeja Nutrimax 398","5000002354873","Lacteos","2024-07-31","MarcaGT",260.94,416
+"S041","Avena GourmetGT 307","5000005864890","Verduras","2025-07-13","Delicias",203.39,12
+"S021","Barras de granola BuenSabor 318","5000006666214","Aceites","2026-03-15","NaturVida",295.07,5
+"S138","Suavizante NaturVida 151","5000009456710","Higiene","2028-11-22","NaturVida",249.09,644
+"S049","Té helado MarcaGT 353","5000007003473","Lacteos","2026-05-05","CampoVerde",223.46,753
+"S081","Pan blanco VerdeFinca 979","5000002812324","Carnes","2024-02-16","GourmetGT",275.5,773
+"S115","Lentejas NutriPlus 540","5000009548151","Aceites","2027-09-30","Tradición",411.42,378
+"S030","Papas fritas AguaPura 410","5000004865595","Ropa","2028-11-14","FrescoMar",487.85,587
+"S073","Brócoli CampoVerde 422","5000005142816","Electronica","2024-01-29","SaborFino",92.28,113
+"S010","Agua purificada GourmetGT 768","5000006320664","Conservas","2025-08-08","AguaPura",493.54,566
+"S168","Tostadas AguaPura 193","5000000934026","Cereales","2027-03-22","NaturVida",4.99,661
+"S068","Chuleta de cerdo CampoVerde 137","5000001225984","Conservas","2026-09-29","Tradición",163.84,21
+"S134","Leche entera FamiliaFeliz 220","5000008671626","Hogar","2028-08-25","SaborFino",228.55,458
+"S172","Crema hidratante SaborFino 111","5000000086839","Higiene","2024-09-07","Tradición",62.44,932
+"S132","Jugo de naranja MarcaGT 359","5000000405436","Embutidos","2028-05-02","BuenSabor",246.25,470
+"S155","Arroz integral NaturVida 235","5000004374934","Aceites","2028-07-11","Selecta",238.56,69
+"S152","Arroz blanco CampoVerde 781","5000005754616","Ropa","2026-09-16","ProteínaPro",171.73,660
+"S055","Jabón de baño SuperSabor 147","5000004813722","Carnes","2026-05-03","AguaPura",143.96,896
+"S178","Sandía AlimentosGT 674","5000007606489","Verduras","2026-03-19","ProteínaPro",62.98,546
+"S121","Espinaca MarcaGT 714","5000008465928","Hogar","2028-02-17","VerdeFinca",121.3,591
+"S174","Manzana NaturVida 718","5000002284820","Embutidos","2025-02-08","AlimentosGT",80.56,712
+"S150","Chuleta de cerdo AlimentosGT 823","5000005259668","Verduras","2027-08-07","VerdeFinca",217.79,50
+"S011","Chocolate NaturVida 140","5000008516151","Bebidas","2027-05-05","AlimentosGT",343.77,601
+"S074","Bistec de res NutriPlus 471","5000008252086","Ropa","2024-06-16","Delicias",46.95,370
+"S130","Mantequilla Tradición 516","5000006519167","Bebidas","2024-08-22","DelCampo",412.56,10
+"S131","Piña NaturVida 814","5000008373998","Condimentos","2028-07-19","GourmetGT",84.8,655
+"S084","Jugo de naranja ProteínaPro 153","5000007095893","Hogar","2025-07-27","SaborFino",156.83,573
+"S178","Mango MarcaGT 882","5000008930027","Embutidos","2028-12-21","VerdeFinca",277.19,285
+"S126","Zanahoria VerdeFinca 191","5000000599041","Limpieza","2027-11-05","Selecta",86.13,974
+"S118","Protector solar GourmetGT 533","5000000945930","Higiene","2025-05-13","Selecta",57.7,42
+"S058","Bistec de res FrescoMar 867","5000002478309","Embutidos","2025-07-10","FamiliaFeliz",233.02,775
+"S050","Piña AguaPura 103","5000007252464","Congelados","2025-06-12","CampoVerde",221.69,741
+"S131","Croissant NaturVida 129","5000004849917","Cereales","2027-11-11","MarcaGT",129.12,676
+"S075","Pizza familiar AlimentosGT 843","5000003453794","Carnes","2024-05-22","SuperSabor",263.13,166
+"S090","Papel higiénico AguaPura 534","5000005338938","Embutidos","2028-08-20","SuperSabor",272.99,778
+"S035","Yogur natural NutriPlus 841","5000000787848","Cereales","2024-05-02","AlimentosGT",188.91,275
+"S198","Galletas CampoVerde 780","5000003683148","Panaderia","2024-09-19","CampoVerde",182.84,714
+"S109","Papaya MarcaGT 427","5000002742764","Carnes","2025-02-18","AguaPura",186.36,943
+"S009","Yogur natural NutriPlus 919","5000005506882","Congelados","2027-03-07","ProteínaPro",319.68,865
+"S087","Papas fritas Nutrimax 715","5000002130089","Conservas","2027-09-09","CampoVerde",393.31,726
+"S056","Mix de nueces BioNatural 707","5000006134667","Hogar","2027-09-02","ProteínaPro",88.65,487
+"S180","Papel aluminio SaborFino 480","5000002033145","Condimentos","2027-05-08","CampoVerde",314.73,465
+"S133","Protector solar AguaPura 495","5000007223951","Cereales","2028-06-04","SaborFino",287.65,219
+"S196","Agua purificada SaborFino 858","5000004728356","Lacteos","2024-03-11","BioNatural",257.79,400
+"S180","Helado vainilla AlimentosGT 905","5000009216511","Congelados","2025-10-28","Selecta",177.51,350
+"S150","Atún en lata MarcaGT 734","5000008958287","Limpieza","2026-10-29","NaturVida",272.75,418
+"S035","Piña CampoVerde 158","5000004019619","Electronica","2025-05-14","BuenSabor",210.11,385
+"S169","Pimienta AguaPura 172","5000000690355","Aceites","2025-07-11","FamiliaFeliz",284.87,102
+"S077","Shampoo Nutrimax 145","5000004476618","Electronica","2028-06-21","SaborFino",223.45,411
+"S163","Frijol negro NutriPlus 786","5000005887810","Ropa","2026-10-25","DelCampo",186.28,551
+"S197","Croissant AlimentosGT 143","5000005603916","Higiene","2027-08-16","BuenSabor",435.66,594
+"S078","Avena Nutrimax 752","5000002253544","Congelados","2026-08-22","Tradición",136.26,25
+"S092","Tomate AlimentosGT 729","5000001654255","Limpieza","2024-08-30","AlimentosGT",272.6,221
+"S007","Naranja Selecta 976","5000009835415","Electronica","2026-06-26","NutriPlus",241.11,51
+"S080","Pan blanco BioNatural 694","5000002769455","Cereales","2025-01-22","AguaPura",490.21,467
+"S061","Papa Selecta 236","5000007798476","Bebidas","2026-04-23","BuenSabor",318.71,802
+"S046","Filete de tilapia FamiliaFeliz 420","5000009107944","Frutas","2028-12-19","MarcaGT",408.91,51
+"S017","Mix de nueces BuenSabor 446","5000008199544","Conservas","2026-04-10","NutriPlus",43.58,250
+"S148","Esponja de cocina ProteínaPro 532","5000008990222","Congelados","2027-06-30","BuenSabor",440.99,826
+"S052","Leche entera BuenSabor 269","5000008593622","Conservas","2025-11-12","AlimentosGT",210.26,688
+"S134","Papa Tradición 338","5000009581104","Embutidos","2024-12-31","Tradición",86.26,81
+"S093","Carne molida BuenSabor 645","5000002372070","Snacks","2026-11-07","FrescoMar",479.27,859
+"S001","Pasta dental BuenSabor 186","5000000151054","Limpieza","2026-12-25","Selecta",301.58,257
+"S151","Quinoa VerdeFinca 688","5000009751763","Carnes","2027-11-11","NutriPlus",209.69,514
+"S080","Queso fresco BuenSabor 694","5000004618195","Bebidas","2025-02-10","FrescoMar",87.45,824
+"S099","Galletas Delicias 205","5000001042000","Electronica","2027-01-04","Tradición",317.76,79
+"S114","Atún en lata SaborFino 714","5000003851017","Limpieza","2028-11-19","Delicias",390.1,225
+"S106","Chicles AlimentosGT 839","5000008914524","Condimentos","2026-08-09","Delicias",466.98,322
+"S119","Papas fritas BioNatural 947","5000004131673","Snacks","2024-01-14","BioNatural",103.96,900
+"S076","Hilo dental BuenSabor 409","5000001512813","Aceites","2027-09-24","ProteínaPro",76.23,984
+"S067","Tostadas NaturVida 991","5000004095474","Condimentos","2026-09-27","NutriPlus",317.57,301
+"S034","Lechuga BioNatural 527","5000007573967","Limpieza","2027-09-12","FrescoMar",426.01,699
+"S045","Avena Nutrimax 508","5000005446247","Verduras","2025-12-11","Delicias",467.05,127
+"S169","Crema hidratante SuperSabor 734","5000005356911","Frutas","2027-07-04","ProteínaPro",194.42,322
+"S075","Papas congeladas BuenSabor 667","5000006500183","Electronica","2027-05-08","SaborFino",207.43,43
+"S032","Pechuga de pollo SuperSabor 901","5000004906118","Hogar","2028-06-27","NutriPlus",6.87,217
+"S187","Tomate GourmetGT 667","5000005956012","Carnes","2026-11-13","Tradición",294.04,86
+"S119","Pollo entero VerdeFinca 530","5000008993926","Electronica","2024-11-02","VerdeFinca",16.66,4
+"S197","Zanahoria Selecta 774","5000002990938","Conservas","2024-04-05","VerdeFinca",340.72,802
+"S194","Café MarcaGT 806","5000001531531","Panaderia","2028-01-15","FamiliaFeliz",35.0,634
+"S141","Jamón cocido Delicias 787","5000005628074","Limpieza","2027-10-19","BioNatural",340.47,641
+"S125","Helado vainilla CampoVerde 778","5000003678239","Carnes","2025-08-21","CampoVerde",445.47,257
+"S001","Jugo de naranja Tradición 688","5000009051918","Aceites","2027-07-14","Selecta",137.58,566
+"S147","Bolsas de basura AguaPura 818","5000004357335","Hogar","2026-04-10","GourmetGT",40.44,464
+"S007","Sal de mesa GourmetGT 835","5000003521428","Lacteos","2027-03-21","AlimentosGT",451.49,487
+"S126","Frijol negro NaturVida 105","5000009645918","Snacks","2028-01-20","MarcaGT",398.99,620
+"S082","Mantequilla NaturVida 529","5000002431407","Verduras","2026-12-01","Tradición",157.28,198
+"S115","Servilletas AlimentosGT 536","5000005591867","Bebidas","2028-09-29","FrescoMar",247.92,771
+"S046","Chuleta de cerdo DelCampo 929","5000005621107","Conservas","2027-04-04","AguaPura",282.85,334
+"S113","Naranja GourmetGT 536","5000002461287","Frutas","2026-01-04","Nutrimax",24.15,644
+"S142","Leche descremada SuperSabor 510","5000007980647","Carnes","2026-08-21","NutriPlus",328.55,175
+"S042","Atún en lata NutriPlus 453","5000000716506","Conservas","2024-03-14","BioNatural",109.89,797
+"S118","Desodorante FamiliaFeliz 123","5000003648880","Panaderia","2024-08-31","Selecta",108.96,853
+"S048","Mango VerdeFinca 107","5000007523909","Electronica","2028-06-11","Delicias",299.21,677
+"S111","Cereal de maíz FamiliaFeliz 879","5000005171442","Embutidos","2025-05-03","SuperSabor",196.41,367
+"S135","Pasta espagueti Selecta 964","5000009899555","Congelados","2024-04-16","MarcaGT",201.31,553
+"S002","Té helado MarcaGT 497","5000001880781","Higiene","2024-10-03","BuenSabor",51.05,375
+"S149","Pasta espagueti CampoVerde 277","5000003563278","Lacteos","2025-06-05","DelCampo",410.45,938
+"S038","Arroz integral SaborFino 899","5000009572917","Condimentos","2025-05-12","BuenSabor",250.13,805
+"S199","Caramelos AguaPura 392","5000003296321","Cereales","2028-10-26","Nutrimax",457.96,183
+"S081","Detergente líquido ProteínaPro 975","5000006181840","Cereales","2027-08-30","Tradición",213.05,607
+"S053","Cereal de maíz NutriPlus 140","5000003698389","Snacks","2026-10-24","BioNatural",21.38,43
+"S067","Nuggets de pollo Nutrimax 610","5000000247971","Ropa","2024-10-20","FrescoMar",351.72,752
+"S054","Papaya DelCampo 252","5000001798383","Panaderia","2027-05-03","VerdeFinca",466.75,79
+"S028","Film transparente AguaPura 866","5000002484544","Ropa","2024-10-19","AlimentosGT",411.01,28
+"S148","Mix de nueces NutriPlus 769","5000001014176","Embutidos","2025-12-31","AguaPura",260.54,319
+"S110","Mermelada fresa Nutrimax 145","5000009196097","Aceites","2024-06-23","NutriPlus",344.72,184
+"S006","Algodón NutriPlus 858","5000003973620","Aceites","2028-10-24","ProteínaPro",162.82,30
+"S004","Cereal de maíz Selecta 821","5000000065245","Higiene","2024-11-12","Selecta",15.94,302
+"S103","Papaya Tradición 946","5000001883208","Frutas","2028-02-18","Delicias",55.65,567
+"S070","Quinoa NaturVida 468","5000000977209","Carnes","2025-09-01","AguaPura",257.61,349
+"S167","Papa Nutrimax 901","5000001294827","Frutas","2025-02-06","Nutrimax",462.51,277
+"S104","Sandía Tradición 355","5000005697728","Hogar","2024-06-15","AguaPura",171.4,801
+"S130","Sandía VerdeFinca 721","5000005552849","Panaderia","2026-09-12","GourmetGT",27.25,224
+"S163","Servilletas CampoVerde 348","5000004548430","Aceites","2027-08-25","Selecta",180.09,604
+"S116","Chuleta de cerdo DelCampo 666","5000005175772","Lacteos","2024-09-29","Nutrimax",5.73,16
+"S139","Quinoa FrescoMar 459","5000009783197","Carnes","2024-03-16","Selecta",6.88,97
+"S099","Tomate Tradición 644","5000009392599","Congelados","2024-10-20","AguaPura",446.29,310
+"S070","Mantequilla Tradición 426","5000002176793","Limpieza","2026-08-12","AlimentosGT",386.93,792
+"S053","Manzana SaborFino 361","5000001544542","Snacks","2028-07-27","NutriPlus",70.2,436
+"S166","Mix de nueces ProteínaPro 538","5000008683381","Snacks","2025-03-11","ProteínaPro",217.98,737
+"S138","Leche descremada GourmetGT 755","5000001985459","Panaderia","2027-07-06","SuperSabor",481.98,136
+"S070","Lechuga MarcaGT 291","5000002766575","Congelados","2024-08-14","ProteínaPro",291.44,496
+"S165","Atún en lata Selecta 225","5000009088330","Aceites","2024-08-20","Nutrimax",216.9,147
+"S118","Jamón cocido Selecta 841","5000001824437","Conservas","2026-05-12","NutriPlus",474.21,932
+"S092","Mermelada fresa Selecta 705","5000006213429","Panaderia","2025-10-15","SuperSabor",56.99,70
+"S123","Bistec de res NaturVida 549","5000007019121","Conservas","2024-03-16","NaturVida",374.78,284
+"S057","Crema espesa NaturVida 964","5000000510941","Bebidas","2026-07-16","DelCampo",157.78,395
+"S091","Refresco cola Nutrimax 114","5000001463832","Electronica","2024-09-09","NaturVida",34.13,995
+"S144","Sandía NutriPlus 454","5000008138537","Cereales","2028-01-20","NutriPlus",433.9,682
+"S032","Papaya Selecta 554","5000009743900","Hogar","2025-12-23","DelCampo",268.42,202
+"S180","Carne molida SaborFino 572","5000007225793","Snacks","2024-12-23","Delicias",346.39,668
+"S077","Algodón ProteínaPro 105","5000002022573","Snacks","2025-06-06","SuperSabor",487.35,56
+"S063","Té helado FamiliaFeliz 619","5000008028408","Ropa","2026-05-11","GourmetGT",404.11,781
+"S112","Margarina SaborFino 425","5000007906867","Carnes","2027-01-11","VerdeFinca",390.59,527
+"S198","Piña BuenSabor 634","5000001138499","Limpieza","2026-01-07","Delicias",368.09,741
+"S116","Refresco cola NutriPlus 964","5000003827991","Condimentos","2025-09-02","FrescoMar",477.09,148
+"S152","Nuggets de pollo Selecta 295","5000007039462","Conservas","2025-11-28","Nutrimax",387.13,911
+"S079","Mermelada fresa ProteínaPro 746","5000007685934","Condimentos","2026-12-23","DelCampo",160.01,414
+"S103","Carne molida MarcaGT 666","5000000805877","Carnes","2025-06-22","BioNatural",436.33,194
+"S049","Desodorante ProteínaPro 645","5000002283083","Carnes","2025-06-13","Delicias",144.84,974
+"S005","Pasta dental NaturVida 887","5000007997612","Carnes","2024-02-21","FamiliaFeliz",283.24,803
+"S115","Papa SuperSabor 557","5000009485684","Snacks","2026-10-15","AlimentosGT",318.67,740
+"S189","Mix de nueces CampoVerde 224","5000006926983","Embutidos","2027-01-10","BioNatural",211.77,978
+"S190","Algodón BioNatural 539","5000000502569","Lacteos","2025-10-24","ProteínaPro",48.93,838
+"S112","Cebolla FamiliaFeliz 309","5000004540490","Limpieza","2028-11-07","Delicias",102.9,50
+"S098","Frijol negro BuenSabor 435","5000007984252","Lacteos","2027-10-26","AguaPura",300.53,852
+"S080","Papas congeladas Delicias 754","5000007276147","Embutidos","2028-03-13","FamiliaFeliz",243.64,171
+"S070","Protector solar NaturVida 144","5000001116195","Condimentos","2025-10-29","BuenSabor",132.59,923
+"S036","Suavizante DelCampo 727","5000006671337","Snacks","2024-07-02","NutriPlus",141.59,780
+"S096","Refresco cola NaturVida 391","5000004585295","Conservas","2026-09-08","Delicias",345.55,704
+"S095","Manzana Tradición 960","5000006043633","Frutas","2028-08-01","SuperSabor",63.7,73
+"S080","Pan blanco FrescoMar 636","5000002471082","Electronica","2027-05-26","Delicias",112.56,883
+"S156","Filete de tilapia Selecta 833","5000008326762","Snacks","2024-09-13","FrescoMar",43.5,10
+"S004","Yogur natural SuperSabor 226","5000002292712","Condimentos","2025-01-04","SuperSabor",198.25,509
+"S074","Queso fresco CampoVerde 356","5000001787380","Lacteos","2026-06-29","FamiliaFeliz",356.88,487
+"S147","Crema espesa AguaPura 480","5000004961634","Embutidos","2025-07-22","CampoVerde",333.88,669
+"S046","Quinoa NaturVida 706","5000008019285","Condimentos","2024-05-20","AguaPura",15.97,290
+"S023","Margarina FrescoMar 876","5000000551025","Cereales","2027-12-27","AlimentosGT",47.88,196
+"S044","Mango Nutrimax 382","5000009666602","Snacks","2025-08-27","SuperSabor",128.64,592
+"S115","Piña Delicias 187","5000005455720","Aceites","2027-04-17","AguaPura",335.61,65
+"S197","Galletas FamiliaFeliz 759","5000001452470","Aceites","2025-04-20","ProteínaPro",443.58,292
+"S124","Queso fresco SaborFino 614","5000000656893","Higiene","2025-06-20","AguaPura",493.05,662
+"S123","Bistec de res BioNatural 968","5000002214143","Higiene","2024-06-09","AguaPura",132.23,338
+"S070","Papa FamiliaFeliz 663","5000004931718","Embutidos","2026-06-11","VerdeFinca",254.79,693
+"S002","Crema espesa SaborFino 228","5000008814020","Higiene","2024-10-25","AlimentosGT",368.94,279
+"S047","Mango BioNatural 412","5000004070006","Lacteos","2026-07-23","NutriPlus",444.23,830
+"S022","Frijol negro SuperSabor 523","5000006710646","Hogar","2026-12-30","FrescoMar",260.46,525
+"S132","Detergente líquido AguaPura 447","5000004508106","Hogar","2024-12-14","ProteínaPro",313.1,740
+"S134","Papa AlimentosGT 803","5000003319907","Hogar","2026-04-25","Nutrimax",171.09,605
+"S071","Queso cheddar SaborFino 781","5000006783633","Lacteos","2026-08-01","DelCampo",324.05,527
+"S198","Crema espesa FrescoMar 535","5000003184218","Lacteos","2024-12-03","VerdeFinca",165.58,983
+"S023","Té helado ProteínaPro 944","5000008641186","Congelados","2025-09-18","NaturVida",421.34,376
+"S141","Shampoo SuperSabor 719","5000003567236","Panaderia","2028-06-19","VerdeFinca",183.05,544
+"S185","Refresco cola FrescoMar 977","5000005378954","Hogar","2027-06-05","NaturVida",428.38,505
+"S088","Tostadas Nutrimax 753","5000007526027","Limpieza","2024-09-05","Nutrimax",141.48,249
+"S147","Croissant SuperSabor 348","5000009529805","Verduras","2025-06-15","BuenSabor",48.54,998
+"S100","Protector solar CampoVerde 602","5000009327630","Limpieza","2028-09-20","ProteínaPro",253.76,53
+"S110","Agua purificada BuenSabor 994","5000002519339","Electronica","2027-05-01","Tradición",168.13,185
+"S053","Hilo dental AguaPura 553","5000006525142","Cereales","2027-04-06","GourmetGT",73.85,795
+"S172","Croissant FrescoMar 409","5000006799439","Limpieza","2028-12-01","BioNatural",2.76,666
+PRODUCTO SIN FORMATO CORRECTO !!! @#$%^
+"S027","Banano ProteínaPro 720","5000003159529","Electronica","2026-01-09","NutriPlus",324.15,77
+"S056","Jamón cocido FrescoMar 996","5000002407884","Panaderia","2028-08-25","AguaPura",344.39,706
+"S121","Pasta dental FamiliaFeliz 562","5000009625747","Aceites","2024-11-25","Delicias",56.31,429
+"S047","Cebolla Nutrimax 967","5000008246317","Snacks","2028-06-02","FrescoMar",173.7,162
+"S147","Shampoo MarcaGT 687","5000006926398","Electronica","2024-07-09","Tradición",92.94,349
+"S021","Arroz integral MarcaGT 201","5000006917682","Condimentos","2028-04-29","GourmetGT",485.94,961
+"S115","Shampoo BuenSabor 675","5000004922302","Cereales","2028-10-02","NutriPlus",22.72,737
+"S062","Mermelada fresa MarcaGT 701","5000005916934","Conservas","2027-09-20","FamiliaFeliz",346.76,123
+"S199","Té helado AguaPura 897","5000009265742","Condimentos","2028-04-13","AlimentosGT",489.71,52
+"S087","Chicles Nutrimax 923","5000001048845","Verduras","2028-04-29","MarcaGT",168.03,193
+"S085","Chuleta de cerdo AlimentosGT 241","5000007053806","Ropa","2027-04-13","GourmetGT",392.91,780
+"S127","Pollo entero Tradición 459","5000000010161","Frutas","2028-07-25","SuperSabor",124.29,46
+"S017","Leche entera NaturVida 249","5000008043694","Bebidas","2026-03-23","SuperSabor",452.93,550
+"S176","Tomate NaturVida 444","5000002592439","Carnes","2027-05-01","SaborFino",181.35,188
+"S144","Papa Tradición 975","5000004845129","Frutas","2024-04-26","SuperSabor",451.42,742
+"S119","Refresco cola VerdeFinca 147","5000000172175","Higiene","2027-12-31","NaturVida",181.39,932
+"S058","Papaya ProteínaPro 174","5000000138096","Aceites","2025-11-24","FamiliaFeliz",185.16,609
+"S123","Harina de trigo NutriPlus 574","5000001165403","Limpieza","2026-10-26","VerdeFinca",376.49,52
+"S134","Cebolla Nutrimax 665","5000009616309","Congelados","2024-09-18","VerdeFinca",387.66,625
+"S106","Mermelada fresa DelCampo 748","5000009717303","Lacteos","2028-05-30","SaborFino",101.78,276
+"S083","Galletas CampoVerde 241","5000006876507","Electronica","2027-06-13","Tradición",331.2,970
+"S144","Crema hidratante BuenSabor 106","5000002961981","Carnes","2027-07-25","AlimentosGT",192.64,1
+"S041","Piña FrescoMar 765","5000007328506","Hogar","2026-09-18","DelCampo",44.51,480
+"S200","Harina de trigo FrescoMar 314","5000007182922","Lacteos","2028-12-31","SuperSabor",191.17,770
+"S053","Zanahoria Selecta 858","5000009011494","Electronica","2024-07-29","SuperSabor",272.69,391
+"S183","Sal de mesa NutriPlus 452","5000005069533","Lacteos","2028-07-23","Delicias",261.64,425
+"S129","Chocolate AguaPura 532","5000003897216","Congelados","2025-03-28","AguaPura",222.42,704
+"S087","Papel higiénico BuenSabor 229","5000005622250","Lacteos","2025-07-18","NaturVida",41.89,271
+"S135","Granola AlimentosGT 416","5000005943366","Carnes","2027-09-21","FrescoMar",222.86,410
+"S104","Granola DelCampo 136","5000000986679","Cereales","2028-02-03","GourmetGT",488.8,37
+"S096","Tomate VerdeFinca 834","5000004746653","Aceites","2028-08-15","Tradición",82.99,976
+"S017","Pechuga de pollo FrescoMar 553","5000008458848","Snacks","2027-06-23","SuperSabor",279.13,671
+"S132","Pasta espagueti Nutrimax 439","5000007898736","Limpieza","2025-12-18","SuperSabor",252.15,635
+"S095","Pasta dental MarcaGT 350","5000009741831","Aceites","2028-05-25","Delicias",97.94,525
+"S043","Leche descremada CampoVerde 117","5000000239429","Panaderia","2027-07-11","AlimentosGT",479.7,149
+"S195","Leche entera SaborFino 990","5000005379956","Electronica","2025-07-23","AguaPura",104.21,966
+"S069","Maní salado FrescoMar 903","5000008280119","Embutidos","2024-12-23","SaborFino",255.05,51
+"S168","Sandía AguaPura 637","5000003633710","Limpieza","2025-08-28","DelCampo",473.83,302
+"S169","Crema hidratante MarcaGT 548","5000003604796","Carnes","2025-03-09","Tradición",251.08,6
+"S165","Jabón de baño VerdeFinca 855","5000003083786","Verduras","2028-08-13","NaturVida",371.39,716
+"S067","Té helado AlimentosGT 860","5000001204842","Panaderia","2027-11-08","Nutrimax",138.51,844
+"S049","Protector solar SuperSabor 840","5000008289635","Panaderia","2028-05-11","Selecta",318.01,527
+"S129","Granola ProteínaPro 386","5000007290710","Carnes","2027-07-06","CampoVerde",120.35,124
+"S010","Jamón cocido FamiliaFeliz 512","5000004288830","Cereales","2024-03-10","BuenSabor",398.57,203
+"S153","Algodón AlimentosGT 164","5000008563244","Frutas","2024-04-08","NutriPlus",495.29,186
+"S133","Film transparente FamiliaFeliz 287","5000005004177","Conservas","2026-02-10","BioNatural",182.19,861
+"S113","Jamón cocido AlimentosGT 176","5000006393500","Congelados","2028-03-03","VerdeFinca",491.24,903
+"S073","Papel higiénico BioNatural 446","5000008923408","Embutidos","2025-09-24","MarcaGT",322.61,777
+"S171","Carne molida MarcaGT 788","5000007360307","Frutas","2024-10-20","NutriPlus",205.99,19
+"S183","Harina de trigo SaborFino 649","5000004253572","Congelados","2025-12-04","Delicias",465.38,795
+"S030","Arroz blanco Nutrimax 720","5000005586966","Lacteos","2028-02-17","BuenSabor",476.74,639
+"S086","Algodón MarcaGT 732","5000001058755","Cereales","2028-01-11","Nutrimax",72.43,387
+"S047","Tostadas GourmetGT 865","5000003519784","Ropa","2024-03-28","BioNatural",352.01,993
+"S010","Pasta dental Selecta 763","5000007440537","Cereales","2028-11-13","NaturVida",163.74,631
+"S171","Algodón FrescoMar 475","5000003810466","Electronica","2024-08-08","AguaPura",369.53,389
+"S095","Mantequilla NaturVida 546","5000001872023","Conservas","2025-05-22","NaturVida",470.61,132
+"S184","Atún en lata FrescoMar 467","5000002020044","Frutas","2024-10-31","ProteínaPro",69.82,649
+"S175","Brócoli SaborFino 596","5000007044736","Hogar","2027-11-12","AguaPura",326.06,190
+"S074","Harina de trigo AlimentosGT 157","5000003345756","Snacks","2028-10-11","FrescoMar",296.54,812
+"S117","Maní salado SuperSabor 734","5000006822097","Conservas","2028-03-09","Nutrimax",79.81,931
+"S062","Crema hidratante DelCampo 505","5000009319002","Conservas","2026-02-12","NutriPlus",170.88,417
+"S056","Leche entera BioNatural 327","5000007852591","Higiene","2025-03-22","Delicias",382.53,749
+"S166","Aceite vegetal CampoVerde 324","5000005162348","Verduras","2028-08-24","AguaPura",369.03,642
+"S063","Brócoli FrescoMar 202","5000007817094","Snacks","2027-11-30","ProteínaPro",198.43,458
+"S034","Jabón de baño GourmetGT 866","5000008636426","Cereales","2026-10-07","Selecta",329.82,55
+"S133","Chicles VerdeFinca 768","5000000370610","Panaderia","2027-01-06","NaturVida",155.89,815
+"S105","Jamón cocido SuperSabor 966","5000005058716","Carnes","2025-01-06","BioNatural",46.87,308
+"S089","Té helado FrescoMar 957","5000009609294","Bebidas","2027-04-04","FamiliaFeliz",229.59,696
+"S094","Shampoo BuenSabor 251","5000001894116","Embutidos","2024-11-14","NutriPlus",132.56,337
+"S194","Granola ProteínaPro 239","5000000460996","Hogar","2028-12-27","CampoVerde",240.65,232
+"S076","Blanqueador NaturVida 613","5000008069526","Aceites","2027-02-21","AlimentosGT",381.34,732
+"S161","Maní salado FrescoMar 325","5000007993040","Limpieza","2026-09-01","VerdeFinca",5.63,906
+"S063","Detergente líquido SaborFino 859","5000000874326","Embutidos","2024-09-06","NutriPlus",424.35,333
+"S053","Banano Delicias 234","5000001918859","Congelados","2024-05-08","NutriPlus",384.52,782
+"S066","Papas congeladas ProteínaPro 104","5000006340598","Hogar","2028-07-15","AguaPura",254.8,386
+"S009","Jabón de baño Tradición 387","5000001080980","Hogar","2027-04-25","Tradición",428.65,515
+"S104","Lechuga SaborFino 618","5000008932933","Cereales","2025-12-20","AlimentosGT",370.42,183
+"S184","Chicles BuenSabor 452","5000000923183","Cereales","2026-10-15","NutriPlus",432.77,908
+"S087","Suavizante BuenSabor 816","5000002933867","Verduras","2028-10-03","BuenSabor",366.39,965
+"S154","Esponja de cocina Tradición 652","5000008312154","Electronica","2028-08-18","BuenSabor",39.62,58
+"S063","Blanqueador VerdeFinca 435","5000005121216","Cereales","2024-01-13","SaborFino",35.82,787
+"S082","Mantequilla SaborFino 883","5000008067834","Lacteos","2025-01-25","Selecta",477.5,483
+"S152","Piña Delicias 500","5000003565223","Conservas","2025-12-12","AguaPura",435.54,937
+"S124","Nuggets de pollo CampoVerde 177","5000000458287","Higiene","2026-08-15","AguaPura",71.26,94
+"S109","Atún en lata BioNatural 512","5000006250527","Carnes","2028-01-07","CampoVerde",104.03,549
+"S171","Arroz integral AlimentosGT 593","5000001833092","Frutas","2027-02-09","Selecta",22.34,497
+"S149","Bolsas de basura Tradición 406","5000008070262","Ropa","2024-11-09","NaturVida",279.51,950
+"S199","Brócoli Delicias 842","5000008059045","Verduras","2024-09-17","DelCampo",150.17,682
+"S103","Quinoa AguaPura 799","5000005039476","Snacks","2026-06-07","MarcaGT",106.31,276
+"S123","Papas fritas SaborFino 285","5000003836484","Lacteos","2025-01-05","DelCampo",294.95,866
+"S137","Mantequilla SaborFino 938","5000003461677","Carnes","2026-02-12","SuperSabor",294.22,857
+"S094","Avena ProteínaPro 479","5000001536962","Aceites","2025-01-12","NaturVida",382.21,965
+"S169","Sandía CampoVerde 182","5000001974628","Bebidas","2025-01-05","Delicias",373.17,242
+"S139","Croissant AguaPura 473","5000006386257","Ropa","2024-04-07","GourmetGT",481.15,239
+"S199","Croissant Delicias 173","5000007431054","Cereales","2028-04-11","MarcaGT",147.66,740
+"S003","Piña GourmetGT 391","5000006756174","Limpieza","2026-09-03","VerdeFinca",24.32,549
+"S053","Pechuga de pollo Nutrimax 903","5000004628899","Carnes","2028-11-27","BuenSabor",482.55,375
+"S022","Servilletas VerdeFinca 220","5000009193870","Hogar","2027-08-28","NutriPlus",385.42,905
+"S154","Sandía NaturVida 769","5000001118740","Frutas","2025-08-06","DelCampo",8.25,13
+"S007","Avena CampoVerde 838","5000004647207","Bebidas","2024-08-19","VerdeFinca",191.76,555
+"S123","Bolsas de basura NaturVida 566","5000004822933","Ropa","2028-01-22","AlimentosGT",231.6,705
+"S024","Cebolla GourmetGT 285","5000003423669","Condimentos","2027-11-01","MarcaGT",324.43,413
+"S187","Caramelos SuperSabor 881","5000007621295","Electronica","2025-05-24","SuperSabor",420.01,675
+"S025","Frijol negro SuperSabor 222","5000007536226","Electronica","2028-06-26","SuperSabor",434.04,820
+"S085","Queso cheddar CampoVerde 423","5000005013353","Aceites","2025-03-09","AguaPura",307.64,205
+"S010","Café FamiliaFeliz 514","5000001481736","Frutas","2028-10-18","BuenSabor",332.38,322
+"S131","Brócoli FrescoMar 441","5000008225146","Carnes","2026-04-14","BuenSabor",449.45,854
+"S121","Mermelada fresa FrescoMar 451","5000003817732","Aceites","2026-07-16","Selecta",223.96,479
+"S145","Helado vainilla AlimentosGT 794","5000003845141","Conservas","2027-05-22","Selecta",72.34,597
+"S187","Bistec de res Delicias 713","5000004239771","Condimentos","2028-04-07","MarcaGT",136.22,346
+"S016","Sandía Selecta 609","5000002458220","Bebidas","2027-01-19","SaborFino",101.83,441
+"S138","Bistec de res AlimentosGT 986","5000008323945","Lacteos","2027-05-23","VerdeFinca",259.74,158
+"S011","Lechuga NaturVida 248","5000000148459","Frutas","2025-12-19","NaturVida",80.35,363
+"S123","Refresco cola VerdeFinca 471","5000003820091","Condimentos","2026-09-13","FrescoMar",207.06,296
+"S023","Jabón de baño BioNatural 180","5000008756902","Higiene","2025-08-18","SaborFino",494.55,14
+"S081","Mix de nueces CampoVerde 737","5000007495882","Snacks","2028-07-12","ProteínaPro",498.19,886
+"S104","Papa MarcaGT 197","5000005786088","Verduras","2027-10-08","BuenSabor",189.28,360
+"S150","Manzana SaborFino 315","5000004463546","Panaderia","2026-04-20","MarcaGT",430.12,214
+"S025","Chorizo ProteínaPro 701","5000002301803","Conservas","2028-02-28","MarcaGT",484.38,55
+"S184","Crema hidratante FamiliaFeliz 761","5000004300350","Panaderia","2026-10-16","FrescoMar",120.19,435
+"S197","Mango ProteínaPro 126","5000001719000","Ropa","2025-09-17","CampoVerde",392.62,174
+"S178","Carne molida VerdeFinca 625","5000007661479","Higiene","2027-01-07","DelCampo",170.27,102
+"S067","Nuggets de pollo SuperSabor 983","5000009793712","Hogar","2027-03-09","SuperSabor",52.89,675
+"S076","Servilletas BuenSabor 372","5000006990930","Embutidos","2026-05-19","SuperSabor",249.66,490
+"S144","Manzana NaturVida 758","5000007516262","Bebidas","2026-12-12","ProteínaPro",477.81,755
+"S130","Té helado SaborFino 196","5000005642076","Lacteos","2024-09-15","Tradición",323.78,947
+"S073","Jugo de naranja GourmetGT 415","5000000536940","Conservas","2024-06-12","NutriPlus",480.08,579
+"S050","Queso cheddar MarcaGT 108","5000000585997","Bebidas","2027-01-06","VerdeFinca",480.84,458
+"S041","Galletas AguaPura 256","5000004672882","Aceites","2027-06-11","BuenSabor",401.57,495
+"S070","Banano Nutrimax 743","5000000256790","Cereales","2024-08-19","AlimentosGT",350.23,925
+"S063","Pechuga de pollo BioNatural 118","5000003077024","Bebidas","2026-09-19","BuenSabor",41.36,147
+"S151","Brócoli AlimentosGT 279","5000001277571","Electronica","2024-04-06","DelCampo",44.89,487
+"S010","Pollo entero GourmetGT 115","5000003326845","Snacks","2024-08-10","BioNatural",142.54,688
+"S140","Atún en lata BioNatural 913","5000008882017","Bebidas","2024-07-02","MarcaGT",249.24,914
+"S111","Granola DelCampo 750","5000000182311","Frutas","2027-06-11","CampoVerde",156.94,750
+"S197","Aceite de oliva FrescoMar 482","5000006289469","Congelados","2025-02-08","BuenSabor",170.42,656
+"S165","Café NaturVida 301","5000008974535","Hogar","2028-05-19","FamiliaFeliz",233.78,536
+"S122","Chicles Selecta 984","5000002832153","Condimentos","2028-02-28","Delicias",422.81,791
+"S043","Queso fresco NaturVida 499","5000007777692","Electronica","2025-11-11","BuenSabor",16.51,717
+"S079","Blanqueador AlimentosGT 621","5000007285751","Higiene","2026-07-07","AlimentosGT",205.34,297
+"S180","Miel de abeja Nutrimax 374","5000003726657","Embutidos","2028-01-04","AlimentosGT",126.35,211
+"S065","Mix de nueces AlimentosGT 190","5000005672868","Condimentos","2027-10-25","CampoVerde",273.75,581
+"S160","Bistec de res NutriPlus 814","5000005195292","Bebidas","2028-11-10","SuperSabor",198.04,526
+"S002","Nuggets de pollo Tradición 372","5000007581029","Carnes","2025-07-21","NutriPlus",305.08,611
+"S018","Avena FrescoMar 850","5000004613077","Embutidos","2027-03-05","Tradición",183.98,462
+"S028","Detergente líquido AlimentosGT 264","5000005979713","Higiene","2024-04-21","FrescoMar",330.49,785
+"S159","Chocolate GourmetGT 714","5000005644868","Electronica","2024-04-25","FamiliaFeliz",321.69,24
+"S038","Cebolla SuperSabor 591","5000007589325","Hogar","2024-10-20","SuperSabor",477.27,529
+"S098","Queso fresco Tradición 650","5000007626082","Conservas","2025-05-21","AguaPura",118.09,653
+"S167","Café VerdeFinca 442","5000006408726","Lacteos","2025-11-25","GourmetGT",138.51,108
+"S008","Pasta dental SaborFino 359","5000006952722","Panaderia","2025-07-16","Nutrimax",24.76,821
+"S032","Pimienta DelCampo 669","5000002259995","Aceites","2027-08-20","BuenSabor",388.73,722
+"S150","Papa AlimentosGT 697","5000003778716","Condimentos","2025-08-25","SaborFino",130.01,714
+"S059","Sandía FamiliaFeliz 292","5000001564981","Aceites","2026-05-16","Nutrimax",420.25,984
+"S112","Mermelada fresa SuperSabor 754","5000006703528","Frutas","2024-01-07","AguaPura",450.78,604
+"S065","Miel de abeja ProteínaPro 204","5000001282093","Frutas","2027-12-06","Nutrimax",306.23,384
+"S074","Galletas CampoVerde 146","5000001601582","Congelados","2028-11-25","DelCampo",110.77,878
+"S106","Yogur natural SuperSabor 540","5000000300625","Conservas","2028-09-13","FamiliaFeliz",143.95,758
+"S099","Mango CampoVerde 622","5000007721122","Ropa","2025-06-12","Tradición",115.4,815
+"S193","Agua purificada FamiliaFeliz 631","5000007939617","Frutas","2025-09-20","AguaPura",67.49,938
+"S127","Granola VerdeFinca 769","5000005847262","Aceites","2027-11-23","DelCampo",105.09,58
+"S058","Brócoli Delicias 659","5000006225483","Condimentos","2026-10-02","BuenSabor",202.62,325
+"S124","Yogur natural Tradición 591","5000004433913","Verduras","2026-11-27","Selecta",31.6,311
+"S058","Tomate Selecta 961","5000001710151","Aceites","2027-05-12","ProteínaPro",60.75,713
+"S008","Queso fresco Tradición 855","5000009075537","Higiene","2026-10-12","NaturVida",61.17,409
+"S043","Chorizo NaturVida 680","5000005606880","Verduras","2027-05-03","NutriPlus",193.41,836
+"S160","Papel aluminio DelCampo 714","5000001183698","Electronica","2027-04-14","Tradición",48.32,23
+"S036","Shampoo NutriPlus 949","5000008807225","Aceites","2025-03-28","AlimentosGT",16.63,414
+"S181","Jabón de baño AlimentosGT 720","5000005728252","Higiene","2026-05-12","NutriPlus",185.52,607
+"S078","Papas fritas FamiliaFeliz 598","5000005251381","Congelados","2026-02-13","Tradición",5.57,256
+"S153","Café BioNatural 518","5000004441432","Carnes","2028-12-08","SaborFino",295.11,259
+"S112","Helado vainilla ProteínaPro 329","5000008793577","Hogar","2027-11-29","Selecta",174.5,124
+"S020","Zanahoria SaborFino 659","5000005464993","Cereales","2024-10-20","GourmetGT",491.42,898
+"S142","Sandía BuenSabor 506","5000004875008","Carnes","2026-11-03","CampoVerde",277.18,813
+"S108","Papas congeladas NaturVida 422","5000001299977","Limpieza","2025-03-27","GourmetGT",154.8,332
+"S040","Blanqueador Selecta 758","5000005297110","Verduras","2027-06-01","Nutrimax",100.16,568
+"S120","Agua purificada Tradición 810","5000000446423","Higiene","2025-12-23","CampoVerde",294.43,31
+"S048","Leche entera AguaPura 509","5000002349603","Verduras","2028-06-03","CampoVerde",134.74,795
+"S181","Cereal de maíz Selecta 311","5000001310633","Frutas","2026-11-21","Delicias",245.49,308
+"S193","Sal de mesa VerdeFinca 769","5000001526083","Hogar","2025-05-31","Nutrimax",141.71,68
+"S071","Granola AguaPura 164","5000000250483","Condimentos","2028-05-08","SaborFino",138.41,958
+"S020","Servilletas ProteínaPro 939","5000005933148","Snacks","2027-02-04","Tradición",317.34,720
+"S033","Papaya Selecta 459","5000007870586","Carnes","2028-04-13","NutriPlus",116.07,704
+"S183","Chuleta de cerdo ProteínaPro 526","5000007578498","Limpieza","2028-10-22","FamiliaFeliz",177.59,391
+"S032","Pollo entero MarcaGT 955","5000003574063","Panaderia","2026-01-11","DelCampo",194.45,580
+"S197","Jugo de naranja Delicias 959","5000003940593","Embutidos","2024-04-08","BioNatural",138.37,242
+"S074","Mango Nutrimax 977","5000008635540","Ropa","2024-11-10","MarcaGT",460.1,765
+"S018","Papas fritas MarcaGT 162","5000007038871","Ropa","2024-06-05","Delicias",108.55,804
+"S096","Mango SaborFino 310","5000001627552","Electronica","2028-10-09","GourmetGT",12.25,4
+"S150","Hilo dental BioNatural 677","5000000930008","Bebidas","2025-07-22","ProteínaPro",72.91,732
+"S033","Pizza familiar Tradición 197","5000007243405","Verduras","2026-12-29","Nutrimax",490.26,398
+"S004","Cebolla Selecta 740","5000008349982","Hogar","2024-10-26","NaturVida",429.02,369
+"S112","Sandía FamiliaFeliz 533","5000000732456","Snacks","2025-03-17","ProteínaPro",57.63,609
+"S157","Chocolate VerdeFinca 911","5000003582779","Congelados","2025-04-07","ProteínaPro",296.55,118
+"S197","Sandía NutriPlus 372","5000006122866","Bebidas","2024-02-06","AguaPura",173.68,952
+"S157","Arroz blanco BuenSabor 556","5000002617268","Snacks","2026-04-30","Selecta",332.15,9
+"S145","Yogur natural AlimentosGT 198","5000001890835","Electronica","2027-09-08","VerdeFinca",136.77,74
+"S164","Refresco cola MarcaGT 200","5000004043993","Carnes","2028-01-19","BioNatural",31.44,584
+"S027","Miel de abeja Tradición 564","5000006804936","Verduras","2026-08-23","FrescoMar",495.06,114
+"S182","Refresco cola Nutrimax 137","5000000804771","Limpieza","2025-12-20","Delicias",102.75,950
+"S040","Otro Duplicado","5000002324201","Snacks","2027-01-01","NaturVida",8.50,25
+"S110","Lentejas BioNatural 283","5000004310977","Conservas","2024-04-11","AlimentosGT",66.22,992
+"S189","Crema espesa SuperSabor 389","5000005038554","Panaderia","2027-12-18","CampoVerde",195.58,219
+"S139","Queso fresco Tradición 486","5000007265974","Congelados","2027-12-01","DelCampo",187.24,493
+"S069","Pizza familiar Tradición 600","5000002091278","Ropa","2028-12-31","AlimentosGT",346.81,661
+"S161","Papas fritas DelCampo 817","5000006476863","Congelados","2028-12-22","GourmetGT",295.46,223
+"S136","Brócoli VerdeFinca 912","5000002632828","Carnes","2028-06-02","FamiliaFeliz",307.86,672
+"S174","Lechuga NaturVida 221","5000005129789","Embutidos","2024-03-10","SuperSabor",302.5,426
+"S017","Harina de trigo SuperSabor 689","5000000271564","Bebidas","2028-06-21","AguaPura",110.19,75
+"S068","Cebolla GourmetGT 737","5000001042753","Carnes","2027-01-24","MarcaGT",135.82,542
+"S022","Pasta dental Selecta 370","5000006113353","Hogar","2027-05-02","Tradición",88.74,48
+"S126","Film transparente DelCampo 484","5000006969232","Embutidos","2024-04-11","SaborFino",59.46,555
+"S148","Harina de trigo Tradición 308","5000007742560","Electronica","2027-03-15","FamiliaFeliz",467.34,121
+"S110","Pan blanco MarcaGT 206","5000006171198","Frutas","2024-06-05","BioNatural",117.81,34
+"S038","Croissant CampoVerde 757","5000006284441","Cereales","2027-04-14","FamiliaFeliz",102.1,553
+"S085","Papa NutriPlus 557","5000000967507","Snacks","2024-03-28","CampoVerde",235.42,201
+"S037","Crema espesa BioNatural 277","5000004985521","Lacteos","2024-06-21","Delicias",490.78,241
+"S142","Arroz blanco Nutrimax 961","5000005882249","Congelados","2028-04-13","Delicias",396.84,743
+"S005","Tomate Delicias 860","5000002452746","Congelados","2028-12-26","Delicias",436.1,143
+"S130","Filete de tilapia GourmetGT 263","5000007143129","Limpieza","2025-07-26","Tradición",462.48,809
+"S186","Carne molida VerdeFinca 663","5000000886253","Limpieza","2025-08-04","ProteínaPro",175.76,641
+"S081","Protector solar AlimentosGT 697","5000006960234","Carnes","2027-11-03","GourmetGT",338.08,465
+"S111","Pan integral NutriPlus 127","5000003994049","Embutidos","2026-07-03","MarcaGT",7.51,638
+"S050","Papas fritas GourmetGT 347","5000006887055","Conservas","2028-04-24","BioNatural",144.83,673
+"S086","Pollo entero Nutrimax 256","5000000994393","Hogar","2027-08-19","NaturVida",265.33,349
+"S013","Pasta espagueti Selecta 316","5000009394458","Embutidos","2024-12-18","FrescoMar",178.8,32
+"S102","Pimienta MarcaGT 485","5000004365463","Higiene","2024-06-25","Nutrimax",463.11,499
+"S114","Caramelos FrescoMar 639","5000009825172","Panaderia","2026-11-07","NaturVida",70.55,569
+"S080","Pasta dental GourmetGT 805","5000009301325","Cereales","2027-11-07","GourmetGT",381.08,691
+"S200","Film transparente Nutrimax 306","5000008103219","Panaderia","2028-12-29","MarcaGT",479.31,76
+"S049","Esponja de cocina Tradición 121","5000005084523","Higiene","2025-02-25","BioNatural",126.69,494
+"S027","Esponja de cocina DelCampo 130","5000009042017","Conservas","2024-06-25","Delicias",256.86,147
+"S068","Tostadas Selecta 541","5000007968593","Limpieza","2028-03-03","FamiliaFeliz",331.74,796
+"S121","Barras de granola FamiliaFeliz 617","5000004737891","Ropa","2028-09-06","BuenSabor",399.88,216
+"S067","Mix de nueces AguaPura 276","5000005897316","Aceites","2024-06-02","BioNatural",335.66,808
+"S139","Chocolate CampoVerde 113","5000006059123","Frutas","2024-10-08","DelCampo",480.69,960
+"S129","Refresco cola SaborFino 779","5000003935387","Cereales","2027-01-16","GourmetGT",328.3,703
+"S099","Mermelada fresa SuperSabor 994","5000003542931","Limpieza","2028-03-31","VerdeFinca",330.22,702
+"S190","Café Selecta 608","5000001990653","Snacks","2028-03-18","MarcaGT",47.34,799
+"S094","Cereal de maíz FamiliaFeliz 338","5000004789896","Congelados","2024-04-06","FamiliaFeliz",388.61,711
+"S026","Caramelos BioNatural 812","5000000483917","Snacks","2028-06-21","CampoVerde",143.02,772
+"S128","Croissant Selecta 341","5000000796029","Electronica","2028-05-17","AlimentosGT",82.01,855
+"S163","Chocolate FrescoMar 943","5000002572790","Verduras","2026-04-28","Selecta",317.67,476
+"S036","Avena Delicias 212","5000006081026","Higiene","2028-11-27","AguaPura",222.23,802
+"S038","Cebolla BuenSabor 983","5000005111959","Electronica","2025-03-27","Tradición",472.75,569
+"S034","Papaya Tradición 205","5000009286147","Electronica","2028-10-18","NutriPlus",98.75,42
+"S113","Detergente líquido GourmetGT 863","5000000630011","Condimentos","2025-07-23","BuenSabor",166.34,289
+"S025","Barras de granola AguaPura 263","5000008244387","Snacks","2025-03-28","NutriPlus",53.5,223
+"S030","Té helado Delicias 656","5000003805875","Frutas","2028-02-04","SaborFino",242.72,53
+"S186","Papas fritas FrescoMar 762","5000005362074","Panaderia","2025-07-15","GourmetGT",378.86,829
+"S089","Helado vainilla Tradición 582","5000002180879","Limpieza","2024-12-17","Delicias",350.89,134
+"S114","Manzana ProteínaPro 407","5000001909824","Frutas","2024-07-01","Selecta",6.59,47
+"S163","Pizza familiar Tradición 865","5000003265388","Bebidas","2025-04-28","FamiliaFeliz",92.78,555
+"S091","Harina de trigo Nutrimax 185","5000004318194","Congelados","2024-06-09","NaturVida",467.03,260
+"S186","Banano CampoVerde 152","5000002462147","Panaderia","2025-07-20","NutriPlus",22.01,241
+"S099","Algodón SuperSabor 283","5000000448244","Cereales","2028-02-23","MarcaGT",97.53,457
+"S121","Café MarcaGT 510","5000005702319","Congelados","2025-12-22","VerdeFinca",496.6,474
+"S095","Mango NaturVida 869","5000004910256","Electronica","2025-05-28","AlimentosGT",140.78,636
+"S102","Leche descremada FrescoMar 357","5000004698263","Aceites","2028-04-26","Nutrimax",270.38,11
+"S197","Queso cheddar MarcaGT 573","5000005097448","Bebidas","2025-05-22","Tradición",437.47,823
+"S071","Shampoo FrescoMar 382","5000006815803","Hogar","2026-10-13","AlimentosGT",245.8,589
+"S179","Espinaca Nutrimax 119","5000009699563","Frutas","2026-10-21","Nutrimax",28.59,813
+"S022","Protector solar Delicias 770","5000004655518","Electronica","2026-02-05","AlimentosGT",395.76,852
+"S142","Pizza familiar Tradición 496","5000008754498","Condimentos","2026-06-13","MarcaGT",72.07,248
+"S158","Papel aluminio BuenSabor 251","5000003914739","Conservas","2028-09-08","ProteínaPro",201.3,744
+"S178","Papa NaturVida 925","5000000494660","Higiene","2027-07-24","Selecta",199.23,911
+"S052","Cereal de maíz ProteínaPro 248","5000002584147","Snacks","2026-12-10","GourmetGT",394.07,339
+"S096","Té helado AguaPura 989","5000003629887","Condimentos","2026-01-30","Delicias",353.64,128
+"S011","Detergente líquido AguaPura 539","5000004521267","Verduras","2025-02-09","Delicias",318.88,774
+"S067","Margarina BioNatural 998","5000008364324","Congelados","2025-11-04","MarcaGT",269.8,919
+"S054","Galletas FrescoMar 841","5000005271573","Bebidas","2025-09-16","AlimentosGT",302.2,699
+"S125","Lechuga MarcaGT 638","5000009795493","Aceites","2026-02-17","DelCampo",369.67,185
+"S095","Mermelada fresa Tradición 456","5000006415270","Frutas","2024-03-12","Tradición",64.06,707
+"S123","Agua purificada NutriPlus 155","5000004420707","Bebidas","2024-08-21","GourmetGT",317.94,298
+"S153","Desodorante VerdeFinca 822","5000007638686","Panaderia","2026-11-06","Nutrimax",292.65,337
+"S066","Chuleta de cerdo AlimentosGT 636","5000009776337","Frutas","2024-03-26","Delicias",235.91,695
+"S016","Papel aluminio GourmetGT 133","5000004251890","Ropa","2027-10-13","AguaPura",304.97,993
+"S016","Lechuga FrescoMar 584","5000006825594","Aceites","2026-09-18","FamiliaFeliz",7.51,840
+"S131","Margarina AlimentosGT 569","5000001948990","Aceites","2025-04-15","BioNatural",32.24,29
+"S009","Galletas Tradición 433","5000009351533","Hogar","2026-04-19","AguaPura",397.26,460
+"S124","Quinoa Tradición 886","5000000449702","Carnes","2028-02-06","GourmetGT",107.77,881
+"S090","Aceite de oliva MarcaGT 972","5000005155738","Conservas","2024-07-30","DelCampo",344.7,408
+"S082","Pechuga de pollo Delicias 730","5000005433908","Condimentos","2026-01-20","Selecta",316.32,95
+"S124","Cereal de maíz Nutrimax 152","5000007203789","Conservas","2024-12-01","Selecta",75.73,988
+"S150","Jabón de baño GourmetGT 847","5000000382291","Embutidos","2028-04-04","BuenSabor",256.8,747
+"S091","Sandía FamiliaFeliz 909","5000002686827","Limpieza","2027-10-22","AlimentosGT",421.65,916
+"S130","Protector solar ProteínaPro 308","5000006982162","Lacteos","2026-07-16","Delicias",88.0,335
+"S097","Filete de tilapia MarcaGT 700","5000008372314","Hogar","2026-04-22","MarcaGT",121.48,596
+"S073","Pimienta MarcaGT 561","5000000773656","Conservas","2025-02-17","FrescoMar",18.93,45
+"S016","Mix de nueces Nutrimax 498","5000000673773","Embutidos","2025-01-15","SaborFino",299.47,214
+"S165","Banano Selecta 992","5000009231326","Frutas","2027-12-19","Selecta",88.79,289
+"S112","Filete de tilapia Tradición 285","5000000343987","Hogar","2025-07-11","Tradición",490.57,446
+"S100","Cereal de maíz BuenSabor 793","5000001106752","Ropa","2027-02-02","DelCampo",70.85,958
+"S176","Zanahoria ProteínaPro 458","5000000666407","Snacks","2028-01-26","AlimentosGT",164.45,451
+"S199","Arroz integral Tradición 290","5000009373408","Hogar","2028-07-24","DelCampo",367.21,492
+"S091","Hilo dental Nutrimax 634","5000008340871","Verduras","2028-12-30","BuenSabor",436.53,590
+"S067","Jugo de naranja DelCampo 583","5000008297478","Snacks","2028-03-06","AguaPura",426.17,352
+"S120","Mermelada fresa GourmetGT 604","5000008486474","Embutidos","2024-06-15","GourmetGT",391.36,626
+"S031","Caramelos Nutrimax 328","5000009712116","Embutidos","2024-04-25","SaborFino",237.41,18
+"S150","Frijol negro CampoVerde 755","5000005826068","Conservas","2024-01-14","NaturVida",462.32,120
+"S011","Frijol negro NutriPlus 963","5000007840102","Embutidos","2028-12-23","NaturVida",194.87,752
+"S105","Carne molida Delicias 685","5000005988305","Condimentos","2026-01-14","NaturVida",84.25,745
+"S181","Atún en lata AguaPura 189","5000005263306","Panaderia","2027-07-05","Selecta",183.05,838
+"S039","Tomate BuenSabor 135","5000001493102","Frutas","2024-09-19","NutriPlus",390.59,879
+"S033","Refresco cola FamiliaFeliz 186","5000006844500","Cereales","2026-02-17","DelCampo",182.82,159
+"S162","Margarina BioNatural 577","5000008099661","Aceites","2026-07-25","ProteínaPro",88.28,553
+"S106","Té helado CampoVerde 809","5000000879347","Verduras","2027-02-03","Tradición",133.57,110
+"S082","Yogur natural DelCampo 916","5000006386566","Limpieza","2027-06-21","VerdeFinca",198.47,41
+"S101","Avena NaturVida 422","5000007849139","Condimentos","2027-02-06","ProteínaPro",65.75,743
+"S133","Queso cheddar ProteínaPro 752","5000004061974","Condimentos","2024-09-05","MarcaGT",435.22,659
+"S013","Margarina NaturVida 173","5000008736443","Higiene","2028-07-30","AguaPura",491.09,9
+"S035","Papel aluminio Delicias 949","5000001545449","Frutas","2025-11-25","FamiliaFeliz",101.45,870
+"S132","Café GourmetGT 408","5000007165283","Frutas","2025-06-12","BioNatural",132.11,255
+"S121","Aceite de oliva Tradición 867","5000005242847","Ropa","2028-05-16","FamiliaFeliz",473.15,186
+"S077","Piña FrescoMar 281","5000003734765","Hogar","2026-02-10","BioNatural",265.97,838
+"S019","Arroz integral Nutrimax 159","5000009766387","Lacteos","2024-08-26","Nutrimax",51.9,28
+"S144","Shampoo SaborFino 502","5000001604876","Congelados","2025-02-01","SaborFino",185.3,369
+"S114","Leche descremada NutriPlus 317","5000005286643","Conservas","2028-05-08","AguaPura",339.25,627
+"S200","Yogur natural BuenSabor 680","5000007805129","Carnes","2028-03-22","SuperSabor",166.12,613
+"S139","Shampoo Selecta 711","5000005227754","Embutidos","2028-07-09","AguaPura",324.92,663
+"S079","Helado vainilla AlimentosGT 489","5000005692059","Conservas","2027-10-17","DelCampo",158.82,177
+"S170","Pasta espagueti Nutrimax 717","5000009237060","Lacteos","2027-01-18","ProteínaPro",86.59,533
+"S033","Pan blanco NutriPlus 395","5000008878355","Panaderia","2024-06-08","FamiliaFeliz",41.7,304
+"S153","Mantequilla AlimentosGT 385","5000008496717","Carnes","2024-03-22","Delicias",178.37,377
+"S196","Suavizante SaborFino 792","5000003429726","Ropa","2025-08-21","CampoVerde",146.06,291
+"S026","Sal de mesa GourmetGT 962","5000003174417","Bebidas","2028-01-12","FrescoMar",74.77,996
+"S022","Papel aluminio Delicias 510","5000007264491","Congelados","2028-01-20","NutriPlus",33.41,492
+"S081","Cereal de maíz BioNatural 498","5000007349280","Panaderia","2026-05-14","GourmetGT",412.16,615
+"S174","Refresco cola ProteínaPro 352","5000005557816","Higiene","2024-09-07","AguaPura",384.04,491
+"S053","Crema hidratante FrescoMar 347","5000006267862","Congelados","2027-01-03","ProteínaPro",306.29,53
+"S179","Bistec de res NutriPlus 657","5000005637771","Snacks","2024-05-12","FamiliaFeliz",103.94,145
+"S112","Shampoo VerdeFinca 750","5000002043614","Limpieza","2025-09-16","SuperSabor",127.69,108
+"S111","Té helado Delicias 735","5000009713586","Lacteos","2026-11-19","VerdeFinca",375.6,151
+"S177","Pechuga de pollo FamiliaFeliz 704","5000008438019","Frutas","2028-04-18","BioNatural",364.28,314
+"S092","Quinoa AguaPura 772","5000003910242","Verduras","2025-04-27","BuenSabor",459.84,291
+"S089","Cebolla SuperSabor 171","5000008596476","Lacteos","2026-08-28","NutriPlus",179.68,479
+"S030","Cereal de maíz Delicias 476","5000002564801","Lacteos","2026-11-23","BuenSabor",334.61,795
+"S088","Servilletas NaturVida 810","5000000525394","Aceites","2024-08-22","NutriPlus",65.77,830
+"S033","Arroz integral AlimentosGT 810","5000004274826","Higiene","2024-02-22","BioNatural",316.44,534
+"S031","Mix de nueces Tradición 456","5000006032033","Frutas","2028-08-07","NaturVida",146.11,369
+"S052","Filete de tilapia NaturVida 173","5000000437471","Panaderia","2026-06-26","Nutrimax",417.16,632
+"S152","Bolsas de basura FrescoMar 339","5000006855416","Hogar","2024-10-19","SuperSabor",378.61,906
+"S019","Sandía AlimentosGT 480","5000006620790","Ropa","2026-07-21","SaborFino",155.64,142
+"S193","Protector solar Nutrimax 824","5000003186720","Congelados","2024-08-09","AlimentosGT",201.98,302
+"S060","Tostadas Delicias 886","5000004305884","Frutas","2027-05-09","AguaPura",273.73,506
+"S036","Pan blanco Delicias 267","5000006065573","Electronica","2025-05-21","ProteínaPro",437.57,830
+"S120","Leche entera CampoVerde 500","5000005985733","Lacteos","2026-08-28","AlimentosGT",333.87,801
+"S124","Zanahoria AguaPura 153","5000002906071","Carnes","2025-08-16","AguaPura",81.43,715
+"S104","Bistec de res Delicias 573","5000008195042","Bebidas","2027-02-06","AguaPura",133.45,541
+"S099","Harina de trigo Delicias 191","5000002949877","Frutas","2024-01-12","Delicias",39.79,271
+"S004","Bistec de res CampoVerde 740","5000001643156","Panaderia","2025-09-28","BuenSabor",362.67,419
+"S087","Sandía NaturVida 354","5000008408814","Carnes","2025-01-28","Tradición",463.04,1
+"S007","Papas fritas Selecta 673","5000007821803","Bebidas","2028-03-06","Nutrimax",232.1,276
+"S153","Mix de nueces CampoVerde 566","5000003149857","Hogar","2024-09-30","DelCampo",208.92,408
+"S004","Lentejas BioNatural 915","5000005927686","Verduras","2026-06-29","AguaPura",137.33,255
+"S070","Té helado FrescoMar 198","5000007962187","Carnes","2025-01-25","BioNatural",381.04,320
+"S021","Papas congeladas BioNatural 591","5000001574330","Ropa","2026-01-30","FrescoMar",348.67,171
+"S063","Papa Tradición 906","5000001507675","Limpieza","2028-11-01","FamiliaFeliz",312.91,693
+"S062","Pizza familiar MarcaGT 681","5000005782442","Panaderia","2024-10-31","Delicias",16.95,5
+"S100","Harina de trigo FrescoMar 924","5000004533015","Condimentos","2028-07-07","BioNatural",22.74,689
+"S124","Tostadas CampoVerde 235","5000009149480","Condimentos","2024-12-02","NutriPlus",301.62,312
+"S095","Quinoa NaturVida 332","5000007008931","Frutas","2024-04-22","Tradición",282.68,161
+"S083","Hilo dental BuenSabor 223","5000001380486","Snacks","2024-04-17","AlimentosGT",17.71,88
+"S062","Hilo dental NutriPlus 188","5000008391939","Cereales","2027-08-08","FamiliaFeliz",415.68,753
+"S037","Papel higiénico Nutrimax 223","5000009156378","Hogar","2025-12-15","AguaPura",288.93,289
+"S183","Bolsas de basura NaturVida 893","5000007416763","Conservas","2027-03-10","DelCampo",271.0,687
+"S107","Croissant Nutrimax 324","5000003008609","Verduras","2027-05-24","AlimentosGT",171.68,963
+"S083","Brócoli DelCampo 320","5000007086788","Electronica","2024-03-27","Selecta",9.59,296
+"S074","Papel higiénico MarcaGT 804","5000000174983","Snacks","2025-08-10","Selecta",129.84,775
+"S065","Caramelos DelCampo 217","5000003352487","Carnes","2026-02-20","SuperSabor",155.75,627
+"S137","Blanqueador Delicias 117","5000008260873","Congelados","2025-02-05","FrescoMar",429.81,359
+"S139","Pimienta FamiliaFeliz 277","5000006860268","Limpieza","2027-03-12","NaturVida",76.4,276
+"S170","Jabón de baño Tradición 121","5000000190439","Higiene","2027-03-22","VerdeFinca",183.84,465
+"S109","Jabón de baño NutriPlus 956","5000002470087","Ropa","2026-07-06","GourmetGT",3.69,413
+"S003","Miel de abeja Tradición 544","5000007867471","Panaderia","2024-09-08","Selecta",396.27,640
+"S079","Papaya AlimentosGT 760","5000006679549","Carnes","2024-11-29","AguaPura",411.21,298
+"S030","Pasta dental AguaPura 839","5000006646557","Congelados","2027-04-03","Delicias",121.58,929
+"S066","Leche entera BuenSabor 212","5000004390363","Snacks","2026-08-16","BioNatural",278.22,796
+"S180","Film transparente BuenSabor 203","5000006400346","Ropa","2028-01-16","Delicias",7.16,440
+"S191","Queso fresco BioNatural 244","5000005760033","Limpieza","2028-06-16","Nutrimax",227.51,61
+"S015","Servilletas ProteínaPro 812","5000007977554","Electronica","2025-02-04","NutriPlus",367.99,630
+"S034","Refresco cola SaborFino 613","5000008225643","Aceites","2025-03-03","NaturVida",376.45,592
+"S012","Chorizo AguaPura 738","5000006707125","Higiene","2028-04-22","DelCampo",143.14,598
+"S140","Maní salado Delicias 510","5000001097371","Condimentos","2027-12-19","FamiliaFeliz",431.27,52
+"S141","Mix de nueces GourmetGT 811","5000000750506","Snacks","2024-09-18","Selecta",84.38,662
+"S018","Papas fritas SuperSabor 433","5000009368228","Electronica","2028-02-24","Tradición",418.88,488
+"S128","Zanahoria NaturVida 187","5000007888235","Lacteos","2025-06-07","VerdeFinca",244.96,500
+"S173","Pasta dental SaborFino 881","5000000396967","Condimentos","2026-12-30","DelCampo",415.8,388
+"S074","Servilletas FamiliaFeliz 154","5000001327131","Condimentos","2028-06-15","AguaPura",11.62,899
+"S192","Jabón de baño AguaPura 967","5000004562827","Lacteos","2024-12-22","VerdeFinca",16.16,805
+"S188","Lechuga BuenSabor 565","5000005050636","Frutas","2026-12-29","CampoVerde",108.86,166
+"S038","Granola BioNatural 819","5000004682173","Condimentos","2027-09-22","BioNatural",471.71,325
+"S180","Papel aluminio CampoVerde 944","5000000776642","Condimentos","2026-01-31","SaborFino",155.35,546
+"S169","Hilo dental NaturVida 171","5000005497121","Limpieza","2026-05-05","AguaPura",204.84,483
+"S196","Barras de granola NutriPlus 791","5000005908886","Higiene","2025-03-14","Delicias",114.03,255
+"S108","Galletas GourmetGT 609","5000006656465","Condimentos","2025-01-12","AguaPura",130.47,292
+"S035","Pollo entero SuperSabor 512","5000000111162","Carnes","2024-12-24","BuenSabor",97.22,984
+"S057","Pasta dental AguaPura 485","5000003872481","Embutidos","2024-11-05","Delicias",333.14,869
+"S130","Detergente líquido ProteínaPro 761","5000005583715","Snacks","2024-01-17","VerdeFinca",136.32,365
+"S088","Galletas VerdeFinca 992","5000003722297","Congelados","2026-06-17","GourmetGT",164.08,395
+"S161","Film transparente FrescoMar 342","5000001001459","Embutidos","2028-10-30","Delicias",145.42,377
+"S050","Fecha Invalida","5000099999006","Limpieza","NO-ES-FECHA","Marca",12.0,50
+"S074","Atún en lata Selecta 551","5000003714879","Cereales","2026-11-22","ProteínaPro",306.74,137
+"S085","Pechuga de pollo MarcaGT 530","5000003729339","Bebidas","2024-10-13","NutriPlus",256.67,863
+"S144","Cebolla NaturVida 259","5000003523608","Bebidas","2024-12-06","NutriPlus",5.7,481
+"S110","Yogur natural BuenSabor 971","5000008605655","Lacteos","2024-11-01","Tradición",399.05,411
+"S160","Croissant DelCampo 547","5000003336428","Cereales","2028-03-27","SuperSabor",440.34,776
+"S083","Maní salado FrescoMar 363","5000007192035","Cereales","2026-02-07","BioNatural",15.19,28
+"S107","Sandía SuperSabor 656","5000005658135","Higiene","2024-10-07","SaborFino",287.25,953
+"S061","Queso fresco Selecta 616","5000009907806","Congelados","2025-06-09","DelCampo",414.76,216
+"S022","Pan integral BioNatural 798","5000005616922","Conservas","2027-11-21","AguaPura",76.3,567
+"S030","Papas congeladas AguaPura 357","5000001550897","Hogar","2027-08-28","Selecta",257.33,274
+"S005","Zanahoria AguaPura 334","5000008956477","Ropa","2026-11-30","NaturVida",292.73,332
+"S170","Mermelada fresa FamiliaFeliz 303","5000001253901","Carnes","2025-07-01","SuperSabor",318.98,564
+"S142","Chocolate NaturVida 832","5000004576012","Bebidas","2025-12-13","ProteínaPro",169.41,217
+"S085","Suavizante GourmetGT 999","5000003215954","Carnes","2027-08-14","SuperSabor",172.1,411
+"S176","Croissant Tradición 311","5000002083464","Frutas","2025-04-26","Selecta",234.65,290
+"S168","Papas congeladas GourmetGT 729","5000008800181","Hogar","2025-01-25","CampoVerde",15.44,690
+"S034","Pasta espagueti GourmetGT 244","5000004839576","Bebidas","2024-11-30","SaborFino",129.9,438
+"S018","Suavizante Nutrimax 386","5000009611995","Frutas","2028-10-04","CampoVerde",175.02,9
+"S007","Chocolate GourmetGT 337","5000000756119","Snacks","2024-06-21","SuperSabor",220.6,835
+"S099","Aceite vegetal SaborFino 933","5000005408585","Higiene","2025-04-05","Selecta",355.18,509
+"S120","Bolsas de basura SuperSabor 309","5000001764163","Panaderia","2027-07-11","Tradición",119.79,791
+"S157","Chicles SuperSabor 404","5000003704955","Embutidos","2026-07-20","GourmetGT",247.97,717
+"S044","Queso fresco MarcaGT 407","5000002479219","Congelados","2026-12-04","ProteínaPro",65.0,881
+"S146","Mango CampoVerde 816","5000005655190","Conservas","2024-12-05","SaborFino",62.46,363
+"S056","Shampoo BioNatural 879","5000004293642","Higiene","2025-11-26","AlimentosGT",323.9,170
+"S102","Desodorante BuenSabor 939","5000007104272","Limpieza","2026-09-13","AlimentosGT",175.17,468
+"S114","Filete de tilapia BuenSabor 390","5000002107478","Aceites","2028-07-13","ProteínaPro",144.57,797
+"S127","Jabón de baño NaturVida 520","5000000351313","Higiene","2024-11-18","AlimentosGT",325.15,661
+"S177","Espinaca Delicias 817","5000009047001","Ropa","2028-01-07","FrescoMar",209.04,406
+"S142","Agua purificada CampoVerde 404","5000000748352","Snacks","2028-02-25","GourmetGT",287.57,864
+"S092","Arroz blanco Delicias 318","5000001348651","Hogar","2027-07-04","Delicias",301.57,803
+"S109","Crema espesa Nutrimax 666","5000007236108","Limpieza","2026-03-08","Nutrimax",60.62,75
+"S085","Yogur natural Tradición 317","5000007714446","Limpieza","2024-07-17","GourmetGT",398.1,950
+"S159","Espinaca AguaPura 608","5000007148667","Frutas","2027-07-26","BuenSabor",457.31,71
+"S084","Refresco cola AguaPura 747","5000005938307","Aceites","2028-04-17","ProteínaPro",309.29,422
+"S191","Pechuga de pollo BioNatural 203","5000001416624","Verduras","2028-08-27","Delicias",79.83,354
+"S142","Manzana SaborFino 623","5000000303773","Panaderia","2027-06-01","Tradición",414.84,798
+"S179","Papas congeladas AlimentosGT 883","5000005032051","Electronica","2026-11-11","Delicias",38.26,125
+"S141","Carne molida Delicias 258","5000005531800","Carnes","2026-04-23","AguaPura",431.29,921
+"S043","Tomate NutriPlus 272","5000001565185","Bebidas","2024-03-14","Selecta",305.56,494
+"S060","Sal de mesa SaborFino 129","5000006471154","Lacteos","2026-12-16","DelCampo",214.83,219
+"S121","Pollo entero CampoVerde 814","5000000295356","Embutidos","2025-03-20","BioNatural",164.81,441
+"S077","Chorizo NutriPlus 773","5000000268741","Embutidos","2026-06-18","Selecta",321.65,883
+"S017","Leche descremada DelCampo 163","5000000310670","Carnes","2027-03-24","Tradición",356.82,969
+"S109","Refresco cola CampoVerde 846","5000002861982","Aceites","2027-01-07","ProteínaPro",380.11,212
+"S149","Té helado AlimentosGT 180","5000002160264","Verduras","2024-07-02","DelCampo",439.15,644
+"S056","Chicles Tradición 735","5000007476263","Electronica","2027-06-29","FamiliaFeliz",454.5,436
+"S010","Avena Tradición 249","5000007929581","Congelados","2025-12-03","AguaPura",310.55,146
+"S166","Mango MarcaGT 391","5000008332633","Conservas","2024-08-16","ProteínaPro",120.2,39
+"S015","Harina de trigo Delicias 698","5000001661832","Aceites","2025-09-07","FamiliaFeliz",315.27,765
+"S200","Atún en lata BuenSabor 528","5000007595925","Aceites","2025-05-02","GourmetGT",161.2,803
+"S019","Arroz blanco ProteínaPro 212","5000004787846","Snacks","2027-10-09","BuenSabor",403.67,882
+"S042","Mix de nueces FrescoMar 509","5000003446569","Limpieza","2028-01-01","CampoVerde",428.02,141
+"S055","Manzana CampoVerde 373","5000007369395","Panaderia","2028-06-19","CampoVerde",262.56,222
+"S109","Chocolate Tradición 485","5000003897433","Panaderia","2026-11-17","AlimentosGT",62.53,608
+"S073","Atún en lata BioNatural 485","5000006588549","Verduras","2025-09-29","FrescoMar",273.29,25
+"S119","Chuleta de cerdo FamiliaFeliz 856","5000009451445","Verduras","2025-06-11","GourmetGT",194.17,760
+"S090","Maní salado AlimentosGT 213","5000007483694","Bebidas","2025-07-22","BuenSabor",211.68,937
+"S068","Frijol negro Delicias 884","5000002854988","Conservas","2024-11-17","DelCampo",388.19,723
+"S177","Piña Nutrimax 781","5000006444311","Embutidos","2027-07-20","ProteínaPro",41.85,814
+"S025","Caramelos AlimentosGT 148","5000007208571","Panaderia","2024-01-09","BioNatural",5.18,104
+"S171","Croissant NutriPlus 686","5000008891569","Cereales","2027-09-25","NutriPlus",468.78,932
+"S016","Papa SuperSabor 703","5000001744131","Cereales","2028-07-06","AguaPura",499.79,328
+"S069","Helado vainilla Selecta 611","5000005595332","Higiene","2028-06-08","VerdeFinca",257.15,522
+"S103","Café AguaPura 955","5000005816172","Panaderia","2025-01-29","Selecta",467.8,430
+"S018","Agua purificada Nutrimax 713","5000005735632","Bebidas","2024-12-13","FamiliaFeliz",210.92,98
+"S075","Sal de mesa FrescoMar 640","5000000733217","Condimentos","2026-04-17","DelCampo",363.02,493
+"S008","Papel aluminio FamiliaFeliz 896","5000003560082","Embutidos","2026-11-10","FrescoMar",459.29,982
+"S017","Crema espesa Tradición 332","5000006685700","Carnes","2028-12-05","NaturVida",495.49,707
+"S111","Té helado Nutrimax 552","5000001626919","Ropa","2027-11-04","Nutrimax",185.65,296
+"S133","Bolsas de basura CampoVerde 517","5000000237335","Lacteos","2024-03-01","Nutrimax",379.16,832
+"S117","Mantequilla AlimentosGT 795","5000005063244","Frutas","2027-03-02","FamiliaFeliz",353.33,788
+"S159","Jugo de naranja FrescoMar 301","5000008869479","Frutas","2028-09-10","NutriPlus",291.22,176
+"S085","Pizza familiar BuenSabor 823","5000001965642","Snacks","2025-03-07","SaborFino",132.86,909
+"S069","Pechuga de pollo Tradición 693","5000008133767","Frutas","2025-07-26","GourmetGT",415.35,301
+"S175","Bolsas de basura AguaPura 164","5000004086612","Lacteos","2025-07-13","CampoVerde",496.7,650
+"S080","Papel higiénico NutriPlus 874","5000007851507","Conservas","2025-10-22","VerdeFinca",73.25,738
+"S139","Film transparente AguaPura 875","5000005667871","Limpieza","2026-08-27","FrescoMar",444.22,621
+"S077","Margarina BuenSabor 210","5000009522565","Congelados","2024-03-14","AguaPura",165.65,431
+"S093","Bolsas de basura AlimentosGT 844","5000006202292","Bebidas","2027-04-22","CampoVerde",295.03,350
+"S164","Mango SuperSabor 376","5000008381648","Aceites","2024-03-14","BioNatural",460.13,184
+"S094","Detergente líquido SaborFino 884","5000000516294","Frutas","2027-12-08","Nutrimax",104.75,274
+"S059","Crema hidratante ProteínaPro 753","5000008209367","Higiene","2028-03-25","ProteínaPro",253.65,650
+"S063","Lentejas Selecta 964","5000009740459","Panaderia","2026-01-02","MarcaGT",6.1,181
+"S067","Croissant Nutrimax 806","5000008156895","Cereales","2028-03-23","SuperSabor",332.75,663
+"S168","Banano BioNatural 973","5000005971609","Condimentos","2027-06-19","VerdeFinca",87.2,608
+"S167","Mango FamiliaFeliz 732","5000002116189","Bebidas","2027-12-21","FrescoMar",46.42,163
+"S008","Aceite vegetal BioNatural 770","5000007520774","Congelados","2026-07-13","ProteínaPro",198.86,272
+"S138","Piña BioNatural 415","5000007443278","Hogar","2024-03-15","Nutrimax",406.37,494
+"S153","Chocolate NaturVida 177","5000001159842","Carnes","2024-09-29","Tradición",56.19,853
+"S030","Croissant BioNatural 202","5000008918218","Bebidas","2027-06-07","CampoVerde",306.46,338
+"S164","Hilo dental GourmetGT 466","5000003656362","Aceites","2026-12-21","AlimentosGT",401.85,770
+"S116","Queso cheddar NaturVida 321","5000002243398","Limpieza","2027-12-08","CampoVerde",467.69,111
+"S104","Papas fritas AguaPura 337","5000006258588","Electronica","2026-05-31","FamiliaFeliz",280.01,177
+"S174","Leche entera BioNatural 844","5000005072980","Bebidas","2027-12-15","DelCampo",398.76,679
+"S006","Tostadas SuperSabor 768","5000002404084","Congelados","2028-07-17","FrescoMar",154.16,480
+"S066","Naranja NaturVida 269","5000005012821","Carnes","2028-11-07","Selecta",381.05,449
+"S192","Aceite de oliva NutriPlus 696","5000002237520","Ropa","2024-02-26","ProteínaPro",226.58,393
+"S045","Miel de abeja AlimentosGT 129","5000001985188","Cereales","2027-05-14","BioNatural",371.6,390
+"S132","Chocolate BuenSabor 520","5000009199042","Verduras","2024-11-17","DelCampo",388.48,668
+"S181","Pan blanco DelCampo 236","5000002938276","Hogar","2028-08-21","BioNatural",347.87,904
+"S096","Duplicado Final Explícito","5000002324201","Test","2026-01-01","Test",1.0,1

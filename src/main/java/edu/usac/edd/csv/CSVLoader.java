@@ -125,13 +125,23 @@ public class CSVLoader {
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(f), StandardCharsets.UTF_8))) {
             String line;
-            int lineNum = 0;
-            boolean firstLine = true;
+            int lineNum    = 0;
+            boolean headerFound = false;
             while ((line = br.readLine()) != null) {
                 lineNum++;
                 line = line.trim();
                 if (line.isEmpty()) continue;
-                if (firstLine) { firstLine = false; continue; } // saltar header
+
+
+                if (!headerFound) {
+                    boolean hasLetters = line.chars().anyMatch(Character::isLetter);
+                    if (!hasLetters) {
+                        log("Línea " + lineNum + " ignorada (no es header válido): " + line);
+                        continue;
+                    }
+                    headerFound = true;
+                    continue;
+                }
                 String[] fields = parseLine(line);
                 handler.accept(fields, lineNum);
             }

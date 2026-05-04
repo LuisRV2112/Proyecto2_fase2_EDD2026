@@ -1090,3 +1090,24 @@
 [2026-05-03T20:17:59.873595176] PRODUCTO linea 1857: duplicado o sucursal no existe: 020000084261
 [2026-05-03T20:17:59.875219063] PRODUCTO linea 1964: duplicado o sucursal no existe: 020000093393
 [2026-05-03T20:17:59.875760283] PRODUCTO linea 1999: duplicado o sucursal no existe: 020000017259
+[2026-05-03T21:21:36.712392772] Línea 1 ignorada (no es header válido): ,
+[2026-05-03T21:21:36.715575101] SUCURSAL linea 12: For input string: ""
+[2026-05-03T21:21:36.716046746] SUCURSAL linea 28: For input string: "abc"
+[2026-05-03T21:21:36.717682834] SUCURSAL linea 106: campos insuficientes
+[2026-05-03T21:21:36.718485441] SUCURSAL linea 157: campos insuficientes
+[2026-05-03T21:21:36.720314197] Línea 1 ignorada (no es header válido): ,
+[2026-05-03T21:21:36.720955122] CONEXION linea 22: For input string: "abc"
+[2026-05-03T21:21:36.721350327] CONEXION linea 53: campos insuficientes
+[2026-05-03T21:21:36.722436831] CONEXION linea 206: empty String
+[2026-05-03T21:21:36.723072705] CONEXION linea 307: campos insuficientes
+[2026-05-03T21:21:36.723643451] CONEXION linea 408: campos insuficientes
+[2026-05-03T21:21:36.725739852] Línea 1 ignorada (no es header válido): ,
+[2026-05-03T21:21:36.727102022] PRODUCTO linea 32: precio/stock no numérico
+[2026-05-03T21:21:36.729062811] PRODUCTO linea 154: precio/stock no numérico
+[2026-05-03T21:21:36.731828798] PRODUCTO linea 305: precio/stock no numérico
+[2026-05-03T21:21:36.734601523] PRODUCTO linea 506: duplicado o sucursal no existe: 5000099999003
+[2026-05-03T21:21:36.738718457] PRODUCTO linea 908: campos insuficientes
+[2026-05-03T21:21:36.740997067] PRODUCTO linea 1109: nombre/barcode vacíos
+[2026-05-03T21:21:36.742756234] PRODUCTO linea 1310: campos insuficientes
+[2026-05-03T21:21:36.744178536] PRODUCTO linea 1511: campos insuficientes
+[2026-05-03T21:21:36.747486642] PRODUCTO linea 2015: duplicado o sucursal no existe: 5000002324201

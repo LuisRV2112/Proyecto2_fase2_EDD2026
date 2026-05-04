@@ -1,0 +1,208 @@
+,
+"ID","Nombre","Ubicación","t_ingreso","t_traspaso","t_despacho"
+"S001","Central Ciudad de Guatemala 1","Ciudad de Guatemala",4,15,24
+"S002","Norte Quetzaltenango 2","Quetzaltenango",11,8,15
+"S003","Sur Escuintla 3","Escuintla",12,18,25
+"S004","Este Chiquimula 4","Chiquimula",14,20,22
+"S005","Oeste Huehuetenango 5","Huehuetenango",6,5,10
+"S006","Costa Retalhuleu 6","Retalhuleu",4,14,11
+"S007","Alta Cobán 7","Cobán",10,5,23
+"S008","Baja Zacapa 8","Zacapa",13,15,14
+"S009","Principal Jutiapa 9","Jutiapa",9,13,19
+,,,,,,
+"S010","Express Jalapa 10","Jalapa",8,17,24
+"S011","Premium Antigua Guatemala 11","Antigua Guatemala",13,7,18
+"S012","Plaza Mazatenango 12","Mazatenango",4,14,17
+"S013","Metro Chimaltenango 13","Chimaltenango",10,9,17
+"S014","Valle Puerto Barrios 14","Puerto Barrios",3,16,19
+"S015","Lago Flores 15","Flores",10,18,10
+"S016","Montaña San Marcos 16","San Marcos",9,20,11
+"S017","Capital Totonicapán 17","Totonicapán",9,20,20
+"S018","Colonial Sololá 18","Sololá",11,13,21
+"S019","Moderna El Progreso 19","El Progreso",12,20,24
+"S020","Clásica Santa Rosa 20","Santa Rosa",11,5,15
+"S021","Regional Izabal 21","Izabal",15,9,9
+"S022","Nacional Petén 22","Petén",14,8,21
+"S023","Local Sacatepéquez 23","Sacatepéquez",10,9,23
+"S024","Gran Baja Verapaz 24","Baja Verapaz",6,8,22
+"S999","Sucursal Error","GT",abc,10,8
+"S025","Mini Alta Verapaz 25","Alta Verapaz",13,20,25
+"S026","Central Ciudad de Guatemala 26","Ciudad de Guatemala",7,17,17
+"S027","Norte Quetzaltenango 27","Quetzaltenango",11,20,20
+"S028","Sur Escuintla 28","Escuintla",9,11,17
+"S029","Este Chiquimula 29","Chiquimula",7,5,9
+"S030","Oeste Huehuetenango 30","Huehuetenango",5,19,24
+"S031","Costa Retalhuleu 31","Retalhuleu",10,16,14
+"S032","Alta Cobán 32","Cobán",7,20,22
+"S033","Baja Zacapa 33","Zacapa",11,20,21
+"S034","Principal Jutiapa 34","Jutiapa",11,6,17
+"S035","Express Jalapa 35","Jalapa",8,19,11
+"S036","Premium Antigua Guatemala 36","Antigua Guatemala",10,13,22
+"S037","Plaza Mazatenango 37","Mazatenango",5,18,23
+"S038","Metro Chimaltenango 38","Chimaltenango",4,13,23
+"S039","Valle Puerto Barrios 39","Puerto Barrios",8,8,14
+"S040","Lago Flores 40","Flores",14,18,12
+"S041","Montaña San Marcos 41","San Marcos",10,5,10
+"S042","Capital Totonicapán 42","Totonicapán",3,19,25
+"S043","Colonial Sololá 43","Sololá",4,11,15
+"S044","Moderna El Progreso 44","El Progreso",4,6,25
+"S045","Clásica Santa Rosa 45","Santa Rosa",7,16,12
+"S046","Regional Izabal 46","Izabal",3,15,23
+"S047","Nacional Petén 47","Petén",14,9,25
+"S048","Local Sacatepéquez 48","Sacatepéquez",6,20,12
+"S049","Gran Baja Verapaz 49","Baja Verapaz",12,14,10
+
+"S050","Mini Alta Verapaz 50","Alta Verapaz",9,10,12
+"S051","Central Ciudad de Guatemala 51","Ciudad de Guatemala",15,14,24
+"S052","Norte Quetzaltenango 52","Quetzaltenango",9,17,12
+"S053","Sur Escuintla 53","Escuintla",11,11,20
+"S054","Este Chiquimula 54","Chiquimula",3,8,20
+"S055","Oeste Huehuetenango 55","Huehuetenango",4,6,19
+"S056","Costa Retalhuleu 56","Retalhuleu",13,16,8
+"S057","Alta Cobán 57","Cobán",3,20,18
+"S058","Baja Zacapa 58","Zacapa",13,14,22
+"S059","Principal Jutiapa 59","Jutiapa",8,8,23
+"S060","Express Jalapa 60","Jalapa",10,10,12
+"S061","Premium Antigua Guatemala 61","Antigua Guatemala",12,11,21
+"S062","Plaza Mazatenango 62","Mazatenango",12,15,22
+"S063","Metro Chimaltenango 63","Chimaltenango",12,12,10
+"S064","Valle Puerto Barrios 64","Puerto Barrios",11,17,9
+"S065","Lago Flores 65","Flores",6,10,9
+"S066","Montaña San Marcos 66","San Marcos",13,6,22
+"S067","Capital Totonicapán 67","Totonicapán",15,11,23
+"S068","Colonial Sololá 68","Sololá",14,5,12
+"S069","Moderna El Progreso 69","El Progreso",13,11,24
+"S070","Clásica Santa Rosa 70","Santa Rosa",5,10,13
+"S071","Regional Izabal 71","Izabal",9,13,21
+"S072","Nacional Petén 72","Petén",11,18,10
+"S073","Local Sacatepéquez 73","Sacatepéquez",9,14,13
+"S074","Gran Baja Verapaz 74","Baja Verapaz",8,10,16
+"S001","Duplicado intencional","GT",5,8,10
+"S075","Mini Alta Verapaz 75","Alta Verapaz",10,20,21
+"S076","Central Ciudad de Guatemala 76","Ciudad de Guatemala",7,19,13
+"S077","Norte Quetzaltenango 77","Quetzaltenango",8,20,22
+"S078","Sur Escuintla 78","Escuintla",4,13,11
+"S079","Este Chiquimula 79","Chiquimula",6,12,8
+"S080","Oeste Huehuetenango 80","Huehuetenango",4,19,18
+"S081","Costa Retalhuleu 81","Retalhuleu",9,10,8
+"S082","Alta Cobán 82","Cobán",8,10,19
+"S083","Baja Zacapa 83","Zacapa",11,11,11
+"S084","Principal Jutiapa 84","Jutiapa",12,13,25
+"S085","Express Jalapa 85","Jalapa",15,11,17
+"S086","Premium Antigua Guatemala 86","Antigua Guatemala",12,13,25
+"S087","Plaza Mazatenango 87","Mazatenango",5,8,16
+"S088","Metro Chimaltenango 88","Chimaltenango",4,18,13
+"S089","Valle Puerto Barrios 89","Puerto Barrios",4,6,19
+"S090","Lago Flores 90","Flores",14,10,11
+"S091","Montaña San Marcos 91","San Marcos",11,15,16
+"S092","Capital Totonicapán 92","Totonicapán",12,7,17
+"S093","Colonial Sololá 93","Sololá",8,10,16
+"S094","Moderna El Progreso 94","El Progreso",7,7,8
+"S095","Clásica Santa Rosa 95","Santa Rosa",9,13,21
+"S096","Regional Izabal 96","Izabal",3,6,11
+"S097","Nacional Petén 97","Petén",6,5,17
+"S098","Local Sacatepéquez 98","Sacatepéquez",4,8,25
+"S099","Gran Baja Verapaz 99","Baja Verapaz",12,16,18
+"S888"
+"S100","Mini Alta Verapaz 100","Alta Verapaz",15,19,9
+"S101","Central Ciudad de Guatemala 101","Ciudad de Guatemala",9,15,14
+"S102","Norte Quetzaltenango 102","Quetzaltenango",12,19,21
+"S103","Sur Escuintla 103","Escuintla",13,8,19
+"S104","Este Chiquimula 104","Chiquimula",11,13,20
+"S105","Oeste Huehuetenango 105","Huehuetenango",7,16,9
+"S106","Costa Retalhuleu 106","Retalhuleu",14,18,8
+"S107","Alta Cobán 107","Cobán",7,15,17
+"S108","Baja Zacapa 108","Zacapa",14,8,17
+"S109","Principal Jutiapa 109","Jutiapa",15,18,18
+"S110","Express Jalapa 110","Jalapa",12,5,25
+"S111","Premium Antigua Guatemala 111","Antigua Guatemala",8,11,25
+"S112","Plaza Mazatenango 112","Mazatenango",3,8,13
+"S113","Metro Chimaltenango 113","Chimaltenango",12,8,11
+"S114","Valle Puerto Barrios 114","Puerto Barrios",3,9,24
+"S115","Lago Flores 115","Flores",8,14,8
+"S116","Montaña San Marcos 116","San Marcos",9,9,19
+"S117","Capital Totonicapán 117","Totonicapán",9,17,20
+"S118","Colonial Sololá 118","Sololá",6,18,15
+"S119","Moderna El Progreso 119","El Progreso",15,9,13
+"S120","Clásica Santa Rosa 120","Santa Rosa",11,5,25
+"S121","Regional Izabal 121","Izabal",13,17,16
+"S122","Nacional Petén 122","Petén",15,9,15
+"S123","Local Sacatepéquez 123","Sacatepéquez",3,5,16
+"S124","Gran Baja Verapaz 124","Baja Verapaz",11,20,21
+"S125","Mini Alta Verapaz 125","Alta Verapaz",7,15,12
+"S126","Central Ciudad de Guatemala 126","Ciudad de Guatemala",13,7,13
+"S127","Norte Quetzaltenango 127","Quetzaltenango",11,6,24
+"S128","Sur Escuintla 128","Escuintla",7,15,24
+"S129","Este Chiquimula 129","Chiquimula",15,15,9
+"S130","Oeste Huehuetenango 130","Huehuetenango",13,5,15
+"S131","Costa Retalhuleu 131","Retalhuleu",10,6,15
+"S132","Alta Cobán 132","Cobán",13,9,20
+"S133","Baja Zacapa 133","Zacapa",14,16,15
+"S134","Principal Jutiapa 134","Jutiapa",11,13,18
+"S135","Express Jalapa 135","Jalapa",6,16,19
+"S136","Premium Antigua Guatemala 136","Antigua Guatemala",10,19,25
+"S137","Plaza Mazatenango 137","Mazatenango",15,20,17
+"S138","Metro Chimaltenango 138","Chimaltenango",6,10,21
+"S139","Valle Puerto Barrios 139","Puerto Barrios",5,20,8
+"S140","Lago Flores 140","Flores",8,18,9
+"S141","Montaña San Marcos 141","San Marcos",13,10,10
+"S142","Capital Totonicapán 142","Totonicapán",7,16,25
+"S143","Colonial Sololá 143","Sololá",14,13,12
+"S144","Moderna El Progreso 144","El Progreso",14,8,8
+"S145","Clásica Santa Rosa 145","Santa Rosa",11,11,17
+"S146","Regional Izabal 146","Izabal",12,6,20
+"S147","Nacional Petén 147","Petén",9,10,24
+"S148","Local Sacatepéquez 148","Sacatepéquez",4,7,12
+"S149","Gran Baja Verapaz 149","Baja Verapaz",14,17,18
+FILA CORRUPTA SIN FORMATO VALIDO
+"S150","Mini Alta Verapaz 150","Alta Verapaz",11,13,17
+"S151","Central Ciudad de Guatemala 151","Ciudad de Guatemala",3,11,13
+"S152","Norte Quetzaltenango 152","Quetzaltenango",7,14,25
+"S153","Sur Escuintla 153","Escuintla",7,16,12
+"S154","Este Chiquimula 154","Chiquimula",9,11,8
+"S155","Oeste Huehuetenango 155","Huehuetenango",12,20,21
+"S156","Costa Retalhuleu 156","Retalhuleu",8,10,24
+"S157","Alta Cobán 157","Cobán",3,10,18
+"S158","Baja Zacapa 158","Zacapa",11,9,13
+"S159","Principal Jutiapa 159","Jutiapa",3,8,24
+"S160","Express Jalapa 160","Jalapa",13,5,19
+"S161","Premium Antigua Guatemala 161","Antigua Guatemala",4,16,17
+"S162","Plaza Mazatenango 162","Mazatenango",6,9,15
+"S163","Metro Chimaltenango 163","Chimaltenango",5,8,18
+"S164","Valle Puerto Barrios 164","Puerto Barrios",10,8,10
+"S165","Lago Flores 165","Flores",9,13,17
+"S166","Montaña San Marcos 166","San Marcos",13,8,19
+"S167","Capital Totonicapán 167","Totonicapán",10,20,11
+"S168","Colonial Sololá 168","Sololá",11,12,19
+"S169","Moderna El Progreso 169","El Progreso",13,19,19
+"S170","Clásica Santa Rosa 170","Santa Rosa",4,7,10
+"S171","Regional Izabal 171","Izabal",15,20,17
+"S172","Nacional Petén 172","Petén",7,12,13
+"S173","Local Sacatepéquez 173","Sacatepéquez",8,18,24
+"S174","Gran Baja Verapaz 174","Baja Verapaz",11,15,18
+"S175","Mini Alta Verapaz 175","Alta Verapaz",14,20,20
+"S176","Central Ciudad de Guatemala 176","Ciudad de Guatemala",8,10,14
+"S177","Norte Quetzaltenango 177","Quetzaltenango",15,19,15
+"S178","Sur Escuintla 178","Escuintla",14,16,19
+"S179","Este Chiquimula 179","Chiquimula",9,17,14
+"S180","Oeste Huehuetenango 180","Huehuetenango",5,19,12
+"S181","Costa Retalhuleu 181","Retalhuleu",9,13,18
+"S182","Alta Cobán 182","Cobán",4,15,16
+"S183","Baja Zacapa 183","Zacapa",10,13,12
+"S184","Principal Jutiapa 184","Jutiapa",11,13,15
+"S185","Express Jalapa 185","Jalapa",8,9,25
+"S186","Premium Antigua Guatemala 186","Antigua Guatemala",15,8,16
+"S187","Plaza Mazatenango 187","Mazatenango",7,19,20
+"S188","Metro Chimaltenango 188","Chimaltenango",9,5,25
+"S189","Valle Puerto Barrios 189","Puerto Barrios",14,15,21
+"S190","Lago Flores 190","Flores",8,8,23
+"S191","Montaña San Marcos 191","San Marcos",13,11,21
+"S192","Capital Totonicapán 192","Totonicapán",8,15,9
+"S193","Colonial Sololá 193","Sololá",9,10,8
+"S194","Moderna El Progreso 194","El Progreso",7,13,12
+"S195","Clásica Santa Rosa 195","Santa Rosa",8,18,23
+"S196","Regional Izabal 196","Izabal",10,15,8
+"S197","Nacional Petén 197","Petén",3,12,11
+"S198","Local Sacatepéquez 198","Sacatepéquez",13,13,18
+"S199","Gran Baja Verapaz 199","Baja Verapaz",3,11,22
+"S200","Mini Alta Verapaz 200","Alta Verapaz",11,13,19
