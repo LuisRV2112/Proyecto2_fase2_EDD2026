@@ -1048,3 +1048,45 @@
 [2026-05-02T14:41:46.324721059] PRODUCTO linea 1049: duplicado o sucursal no existe: 0200000299816
 [2026-05-02T14:41:46.324749835] PRODUCTO linea 1050: duplicado o sucursal no existe: 0200000221316
 [2026-05-02T14:41:46.324777906] PRODUCTO linea 1051: duplicado o sucursal no existe: 0200000053767
+[2026-05-03T20:17:59.823834395] SUCURSAL linea 16: For input string: "abc"
+[2026-05-03T20:17:59.825407715] SUCURSAL linea 31: campos insuficientes
+[2026-05-03T20:17:59.831434602] CONEXION linea 41: For input string: "xyz"
+[2026-05-03T20:17:59.832017177] CONEXION linea 61: campos insuficientes
+[2026-05-03T20:17:59.842048226] PRODUCTO linea 11: duplicado o sucursal no existe: 020000055054
+[2026-05-03T20:17:59.842625526] PRODUCTO linea 26: precio/stock no numérico
+[2026-05-03T20:17:59.843985985] PRODUCTO linea 91: duplicado o sucursal no existe: 020000025139
+[2026-05-03T20:17:59.844398416] PRODUCTO linea 101: campos insuficientes
+[2026-05-03T20:17:59.845692308] PRODUCTO linea 153: duplicado o sucursal no existe: 020000025191
+[2026-05-03T20:17:59.846660158] PRODUCTO linea 200: duplicado o sucursal no existe: 020000047070
+[2026-05-03T20:17:59.847125460] PRODUCTO linea 224: duplicado o sucursal no existe: 020000014088
+[2026-05-03T20:17:59.847659623] PRODUCTO linea 251: precio/stock no numérico
+[2026-05-03T20:17:59.848300109] PRODUCTO linea 265: duplicado o sucursal no existe: 020000080504
+[2026-05-03T20:17:59.849104513] PRODUCTO linea 301: nombre/barcode vacíos
+[2026-05-03T20:17:59.850976448] PRODUCTO linea 401: duplicado o sucursal no existe: 020000029054
+[2026-05-03T20:17:59.853029492] PRODUCTO linea 503: duplicado o sucursal no existe: 020000090691
+[2026-05-03T20:17:59.853834405] PRODUCTO linea 530: duplicado o sucursal no existe: 020000070199
+[2026-05-03T20:17:59.854323970] PRODUCTO linea 555: duplicado o sucursal no existe: 020000090939
+[2026-05-03T20:17:59.854788210] PRODUCTO linea 579: duplicado o sucursal no existe: 020000057522
+[2026-05-03T20:17:59.855380570] PRODUCTO linea 594: duplicado o sucursal no existe: 020000019123
+[2026-05-03T20:17:59.856300739] PRODUCTO linea 670: duplicado o sucursal no existe: 020000067870
+[2026-05-03T20:17:59.858837828] PRODUCTO linea 837: duplicado o sucursal no existe: 020000069593
+[2026-05-03T20:17:59.861195188] PRODUCTO linea 1000: duplicado o sucursal no existe: 020000034928
+[2026-05-03T20:17:59.861958999] PRODUCTO linea 1034: duplicado o sucursal no existe: 020000027510
+[2026-05-03T20:17:59.863075116] PRODUCTO linea 1116: duplicado o sucursal no existe: 020000034368
+[2026-05-03T20:17:59.864322692] PRODUCTO linea 1209: duplicado o sucursal no existe: 020000056911
+[2026-05-03T20:17:59.864490669] PRODUCTO linea 1211: duplicado o sucursal no existe: 020000071732
+[2026-05-03T20:17:59.864654907] PRODUCTO linea 1217: duplicado o sucursal no existe: 020000060741
+[2026-05-03T20:17:59.865618699] PRODUCTO linea 1288: duplicado o sucursal no existe: 020000092578
+[2026-05-03T20:17:59.865773109] PRODUCTO linea 1292: duplicado o sucursal no existe: 020000063609
+[2026-05-03T20:17:59.866623342] PRODUCTO linea 1359: duplicado o sucursal no existe: 020000028325
+[2026-05-03T20:17:59.867188079] PRODUCTO linea 1400: duplicado o sucursal no existe: 020000018352
+[2026-05-03T20:17:59.867402596] PRODUCTO linea 1409: duplicado o sucursal no existe: 020000062575
+[2026-05-03T20:17:59.867724307] PRODUCTO linea 1431: duplicado o sucursal no existe: 020000093085
+[2026-05-03T20:17:59.868309524] PRODUCTO linea 1469: duplicado o sucursal no existe: 020000018913
+[2026-05-03T20:17:59.870140777] PRODUCTO linea 1605: duplicado o sucursal no existe: 020000034112
+[2026-05-03T20:17:59.870358519] PRODUCTO linea 1608: duplicado o sucursal no existe: 020000052160
+[2026-05-03T20:17:59.870764808] PRODUCTO linea 1635: duplicado o sucursal no existe: 020000089011
+[2026-05-03T20:17:59.871689322] PRODUCTO linea 1695: duplicado o sucursal no existe: 020000064386
+[2026-05-03T20:17:59.873595176] PRODUCTO linea 1857: duplicado o sucursal no existe: 020000084261
+[2026-05-03T20:17:59.875219063] PRODUCTO linea 1964: duplicado o sucursal no existe: 020000093393
+[2026-05-03T20:17:59.875760283] PRODUCTO linea 1999: duplicado o sucursal no existe: 020000017259
